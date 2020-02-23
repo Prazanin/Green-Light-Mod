@@ -1,0 +1,17 @@
+GAMEINIT
+  NATIONS
+    NATION_LABEL "E(Nation)C(Národ)"
+    NATION 0
+      NAME "E(Nature)C(Pøíroda)"
+      SYMBOL n
+    NATION 1
+      NAME "E(Americans)C(Amerièani)"
+      SYMBOL u
+    NATION 2
+      NAME "E(Arabians)C(Arabové)"
+      SYMBOL a
+    NATION 3
+      NAME "E(Russians)C(Rusové)"
+      SYMBOL r
+  END_OF_NATIONS
+END_OF_GAMEINIT

@@ -1,0 +1,511 @@
+export Simone, Miller, Esther, Edmonds, Pravar, AMSurvivors;
+export Bradford, Barnes, Sidorovich, Kolvich, Dvalishvili, Botnicov, Mortimer, Richford, General, Randall;
+export AvengerSquad, AvengerReserve, AvengerReserveCount;
+export KolvichSquad;
+
+export function CreatePersonas;
+var i, un;
+begin
+
+uc_side:=7;
+
+Simone=CreateCharacter('Simone');
+Miller=CreateCharacter('Miller');
+Pravar=CreateCharacter('Pravar');
+AMSurvivors=CreateCharacterSet('AM04_Survivors');
+
+AvengerSquad := Simone ^ Miller ^ Pravar ^ AMSurvivors;
+
+hc_name:='';
+hc_gallery := '';
+
+AvengerReserveCount := 16 - AvengerSquad;
+
+ for i = 1 to AvengerReserveCount do
+ begin
+   Case Rand(1,10) of
+   1..3:begin
+     PrepareSoldier(1,8);
+     AvengerReserve := AvengerReserve ^ CreateHuman;
+     end;
+   4..6:begin
+     PrepareMechanic(1,8);
+     AvengerReserve := AvengerReserve ^ CreateHuman;
+     end;
+   7..8:begin
+     PrepareScientist(1,8);
+     AvengerReserve := AvengerReserve ^ CreateHuman;
+     end;
+   9..10:begin
+     PrepareEngineer(1,8);
+     AvengerReserve := AvengerReserve ^ CreateHuman;
+     end;
+   end;
+ end;
+
+    for i in AvengerReserve do
+    begin
+      PlaceUnitXYR(AvengerReserve[i], 87, 94, 7, false);
+    end;
+
+    uc_side:=8;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_arabian;
+    hc_sex=sex_male;
+    hc_importance=40;
+    hc_skills=[9,4,8,3];
+    hc_attr=[15,10];
+    hc_name:='Giorgi Dvalishvili';
+    hc_gallery := 'ZieloneLaserki_Dvalishvili';
+    hc_face_number := 1;
+
+    Dvalishvili:=CreateHuman;
+
+    uc_side:=1;
+
+    Esther=CreateCharacter('Esther');
+    Edmonds=CreateCharacter('Edmonds');
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_american;
+    hc_importance=70;
+    PrepareSoldier(1,9);
+    hc_attr=[10,10];
+    hc_name:='Bradford';
+    hc_gallery := 'ZieloneLaserki_AddtFaces2';
+    hc_face_number := 3;
+
+    Bradford:=CreateHuman;
+
+    uc_nation:=nation_american;
+    hc_importance=70;
+    PrepareSoldier(1,8);
+    hc_attr=[11,10];
+    hc_name:='Mortimer';
+    hc_gallery := 'ZieloneLaserki_AddtFaces';
+    hc_face_number := 1;
+
+    Mortimer:=CreateHuman;
+
+    uc_nation:=nation_american;
+    hc_importance=80;
+    PrepareSoldier(1,9);
+    hc_attr=[11,10];
+    hc_name:='Richford';
+    hc_gallery := 'ZieloneLaserki_AddtFaces2';
+    hc_face_number := 2;
+
+    Richford:=CreateHuman;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_american;
+    hc_importance=90;
+    PrepareSoldier(1,10);
+    hc_attr=[10,10];
+    hc_name:='Barnes';
+    hc_gallery := 'ZieloneLaserki_Commanders';
+    hc_face_number := 2;
+
+    Barnes:=CreateHuman;
+
+    uc_side:=3;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_russian;
+    hc_importance=90;
+    PrepareSoldier(1,10);
+    hc_attr=[12,10];
+    hc_name:='Sidorovich';
+    hc_gallery := 'ZieloneLaserki_Heroes';
+    hc_face_number := 8;
+
+    Sidorovich:=CreateHuman;
+
+    uc_side:=6;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_russian;
+    hc_importance=90;
+    PrepareSoldier(1,10);
+    hc_attr=[12,10];
+    hc_name:='Kolvich';
+    hc_gallery := 'RusCamp_KolvichCoterie';
+    hc_face_number := 3;
+
+    Kolvich:=CreateHuman;
+
+    uc_side:=5;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_russian;
+    hc_importance=90;
+    PrepareSoldier(1,9);
+    hc_attr=[11,10];
+    hc_name:='Botnicov';
+    hc_gallery := 'ZieloneLaserki_RusCommanders';
+    hc_face_number := 1;
+
+    Botnicov:=CreateHuman;
+
+    uc_side:=4;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_american;
+    hc_importance=90;
+    PrepareSoldier(1,10);
+    hc_attr=[15,10];
+    hc_name:='General';
+    hc_gallery := 'ZieloneLaserki_AddtFaces2';
+    hc_face_number := 5;
+
+    General:=CreateHuman;
+
+    uc_side:=1;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_american;
+    hc_importance=90;
+    PrepareSoldier(1,10);
+    hc_attr=[11,10];
+    hc_name:='Randall';
+    hc_gallery := 'ZieloneLaserki_Commanders';
+    hc_face_number := 3;
+
+    Randall:=CreateHuman;
+
+    hc_name:='';
+    hc_gallery := '';
+
+end;
+
+export function Squad_Assembly;
+var Vehicles, i, p, x, veh, filter;
+begin
+
+     uc_side := 7;
+     Vehicles := LoadVariable('AM04_Vehicles', []);
+       x := 1;
+       i := 1;
+       p := 1;
+
+     if Vehicles > 0 then
+        while (i <= Vehicles) do
+            begin
+            vc_chassis := Vehicles[i];
+            vc_engine  := Vehicles[i+1];
+            vc_control := Vehicles[i+2];
+            vc_weapon  := Vehicles[i+3];
+
+            veh := CreateVehicle;
+            PlaceUnitXYR(veh, 52, 98, 1, false);
+            if GetControl(veh)=control_manual then
+              begin
+              PlaceHumanInUnit(AvengerSquad[x], veh);
+              x := x + 1;
+              end;
+            ComMoveXY(veh, 70,90);
+            wait(0$03);
+
+            p := p + 1;
+            i := i + 4;
+            end;
+     while x <= AvengerSquad do
+      begin
+       PlaceUnitXYR(AvengerSquad[x], 52, 98, 1, false);
+       ComMoveXY(AvengerSquad[x], 70,90);
+       x := x + 1;
+       wait(0$02);
+      end;
+end;
+
+
+export MC_attack_group, MC_attack_group2;
+export function RespawnAttackVehicle(area, side, vehCount, mehskill, nation, vehEngine, vehControl, RUWeapons, ARWeapons, AMWeapon, group);
+var i, j, un, veh, ruChassisTab, arChassisTab, amChassisTab, target1, target2;
+begin
+
+  amChassisTab = [];
+  arChassisTab = [];
+  ruChassisTab = [];
+
+  repeat
+
+  wait(0$01);
+
+  IF nation = 1 then
+  begin
+
+        uc_side = side;
+        uc_nation = nation;
+
+        vc_engine = vehengine;
+        vc_control = vehControl[Rand(1,vehControl)];
+        vc_weapon = AMWeapon[Rand(1, AMWeapon)];
+
+        for j = 1 to AMWeapon do
+        begin
+            IF AMWeapon[j] = 2 or AMWeapon[j] = 3 then
+            begin
+                amChassisTab = [1,2,3,4,5];
+                vc_chassis = amChassisTab[Rand(1,amChassisTab)];
+            end;
+
+            IF AMWeapon[j] = 4 or AMWeapon[j] = 5 or AMWeapon[j] = 9 or AMWeapon[j] = 11 or AMWeapon[j] = 7 then
+            begin
+                amChassisTab = [2,3,4,5];
+                vc_chassis = amChassisTab[Rand(1, amChassisTab)];
+            end;
+
+            IF AMWeapon[j] = 8 or AMWeapon[j] = 6 or AMWeapon[j] = 10 then
+            begin
+                amChassisTab = [4,5];
+                vc_chassis = amChassisTab[Rand(1, amChassisTab)];
+            end;
+
+        end;
+
+        veh = CreateVehicle;
+        PlaceUnitArea(veh, area, false);
+
+        IF vc_control = 1 then
+        begin
+
+            hc_gallery = '';
+            hc_name = '';
+            PrepareHuman(false, 3, mehskill);
+
+            un = CreateHuman;
+            PlaceHumanInUnit(un, veh);
+
+        end;
+
+        if group = 1 then
+        MC_attack_group = MC_attack_group ^ veh
+        else if group = 2 then
+        MC_attack_group2 = MC_attack_group2 ^ veh;
+        i = i + 1;
+
+    end;
+
+  IF nation = 2 then
+  begin
+
+        uc_side = side;
+        uc_nation = nation;
+
+        vc_engine = vehengine;
+        vc_control = vehControl[Rand(1,vehControl)];
+        vc_weapon = ARWeapons[Rand(1, ARWeapons)];
+
+        for j = 1 to ARWeapons do
+        begin
+
+            IF ARWeapons[j] = 24 or ARWeapons[j] = 22 or ARWeapons[j] = 23 or ARWeapons[j] = 30 then
+            begin
+                arChassisTab = [14];
+                vc_chassis = arChassisTab[Rand(1, arChassisTab)];
+            end;
+
+            IF ARWeapons[j] = 29 or ARWeapons[j] = 28 or ARWeapons[j] = 27 or ARWeapons[j] = 26 or ARWeapons[j] = 25 then
+            begin
+                arChassisTab = [14,16];
+                vc_chassis = arChassisTab[Rand(1, arChassisTab)];
+            end;
+
+            IF ARWeapons[j] = 72 or ARWeapons[j] = 71  or ARWeapons[j] = 73 then
+            begin
+                arChassisTab = [16];
+                vc_chassis = arChassisTab[Rand(1, arChassisTab)];
+            end;
+
+        end;
+
+        veh = CreateVehicle;
+        PlaceUnitArea(veh, area, false);
+
+        IF vc_control = 1 then
+        begin
+
+            hc_gallery = '';
+            hc_name = '';
+            PrepareHuman(false, 3, mehskill);
+
+            un = CreateHuman;
+            PlaceHumanInUnit(un, veh);
+
+        end;
+
+        if group = 1 then
+        MC_attack_group = MC_attack_group ^ veh
+        else if group = 2 then
+        MC_attack_group2 = MC_attack_group2 ^ veh;
+        i = i + 1;
+
+    end;
+
+
+  IF nation = 3 then
+  begin
+
+        uc_side = side;
+        uc_nation = nation;
+
+        vc_engine = vehengine;
+        vc_control = vehControl[Rand(1,vehControl)];
+        vc_weapon = RUWeapons[Rand(1, RUWeapons)];
+
+
+        for j = 1 to RuWeapons do
+        begin
+
+            IF RUWeapons[j] = 42 or RUWeapons[j] = 43 or RUWeapons[j] = 44 or RUWeapons[j] = 45 or RUWeapons[j] = 49 then
+            begin
+                ruChassisTab = [21, 22, 23, 24];
+                vc_chassis = ruChassisTab[Rand(1, ruChassisTab)];
+            end;
+
+            IF RUWeapons[j] = 46 or RUWeapons[j] = 47 then
+            begin
+                ruChassisTab = [23, 24];
+                vc_chassis = ruChassisTab[Rand(1, ruChassisTab)];
+            end;
+
+        end;
+
+
+        veh = CreateVehicle;
+        PlaceUnitArea(veh, area, false);
+
+        IF vc_control = 1 then
+        begin
+
+            hc_gallery = '';
+            hc_name = '';
+            PrepareHuman(false, 3, mehskill);
+
+            un = CreateHuman;
+            PlaceHumanInUnit(un, veh);
+
+        end;
+
+        if group = 1 then
+        MC_attack_group = MC_attack_group ^ veh
+        else if group = 2 then
+        MC_attack_group2 = MC_attack_group2 ^ veh;
+        i = i + 1;
+
+    end;
+
+  until i = vehCount;
+
+END;
+
+Export function RespawnAttackInfantry(side, nation, soldierCount, sniperCount, bazookCount, mortalCount, medicCount, skil, spawnArea, group);
+var i, j, un, damageUnit_list, enemyUnits, und;
+begin
+
+        for i = 1 to medicCount do
+        begin
+
+                uc_side = side;
+                uc_nation = nation;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(false, 4, skil);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, spawnArea, false);
+
+          if group = 1 then
+           MC_attack_group = MC_attack_group ^ un
+          else if group = 2 then
+           MC_attack_group2 = MC_attack_group2 ^ un;
+        end;
+
+
+       for i = 1 to soldierCount do
+        begin
+
+                uc_side = side;
+                uc_nation = nation;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(false, 1, skil);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, spawnArea, false);
+
+          if group = 1 then
+           MC_attack_group = MC_attack_group ^ un
+          else if group = 2 then
+           MC_attack_group2 = MC_attack_group2 ^ un;
+        end;
+
+        for i = 1 to sniperCount do
+        begin
+
+                uc_side = side;
+                uc_nation = nation;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(false, 5, skil);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, spawnArea, false);
+
+          if group = 1 then
+           MC_attack_group = MC_attack_group ^ un
+          else if group = 2 then
+           MC_attack_group2 = MC_attack_group2 ^ un;
+        end;
+
+        for i = 1 to bazookCount do
+        begin
+
+                uc_side = side;
+                uc_nation = nation;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(false, 9, skil);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, spawnArea, false);
+
+          if group = 1 then
+           MC_attack_group = MC_attack_group ^ un
+          else if group = 2 then
+           MC_attack_group2 = MC_attack_group2 ^ un;
+        end;
+
+        for i = 1 to mortalCount do
+        begin
+
+                uc_side = side;
+                uc_nation = nation;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(false, 8, skil);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, spawnArea, false);
+
+          if group = 1 then
+           MC_attack_group = MC_attack_group ^ un
+          else if group = 2 then
+           MC_attack_group2 = MC_attack_group2 ^ un;
+        end;
+END;

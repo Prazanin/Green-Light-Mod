@@ -1,0 +1,46 @@
+export SuperChassisContructed, AM7Losses;
+
+export function EndMission;
+VAR player_units,filter;
+begin
+  Wait(0$1);
+
+  player_units:=UnitFilter(player_units,[f_not,[f_or,[f_class,class_apeman_engineer],[f_class,class_apeman_soldier]]]);
+
+  if RUCourierEscaped then
+    AddMedal('Plans',1)
+  else
+    AddMedal('Plans',-1);
+
+  SaveVariable(RUCourierEscaped, 'AM05_CourierEscaped');
+
+  if SuperChassisContructed then
+    AddMedal('UberPanzer',1)
+  else
+    AddMedal('UberPanzer',-1);
+
+  SaveVariable(SuperChassisContructed, 'AM05_SuperChassisContructed');
+
+  if AM7Losses > 5 then
+    AddMedal('Losses',-1)
+  else
+    AddMedal('Losses',1);
+
+  SaveVariable(AM7Losses, 'AM05_SufferedLosses');
+
+  GiveMedals('Main');
+
+  RewardPeople(player_units);
+
+  SaveCharacters(Simone, 'Simone');
+  SaveCharacters(Miller, 'Miller');
+  SaveCharacters(Esther, 'Esther');
+  SaveCharacters(Edmonds, 'Edmonds');
+  SaveCharacters(Pravar, 'Pravar');
+  SaveCharacters(Mortimer, 'Mortimer');
+
+  SaveCharacters(player_units diff [Simone, Miller, Esther, Edmonds, Pravar, Mortimer],'AM05_Survivors');
+
+  YouWin;
+  exit;
+end;

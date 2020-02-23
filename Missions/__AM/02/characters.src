@@ -1,0 +1,138 @@
+export Sidor, Kolvich, RuComm;
+export AMSolders, AM2Solders;
+
+export function CreatePersonnel;
+begin
+
+    uc_side:=3;
+    hc_class=class_soldier;
+
+    uc_nation:=nation_russian;
+    hc_sex=sex_male;
+    hc_importance=110;
+    hc_skills=[8,5,7,6];
+    hc_attr=[12,10];
+    hc_name:='Sidorovich';
+    hc_gallery := 'ZieloneLaserki_Heroes';
+    hc_face_number := 8;
+
+    Sidor:=CreateHuman;
+
+    uc_nation:=nation_russian;
+    hc_sex=sex_male;
+    hc_importance=110;
+    hc_skills=[7,3,6,5];
+    hc_attr=[12,10];
+    hc_name:='Kolvich';
+    hc_gallery := 'RusCamp_KolvichCoterie';
+    hc_face_number := 2;
+
+    Kolvich:=CreateHuman;
+
+    uc_nation:=nation_russian;
+    hc_importance=30;
+    hc_sex=sex_male;
+    hc_skills=[2,2,4,3];
+    hc_attr=[11,10];
+    hc_name:='Bertrand Zhirinov';
+    hc_gallery := 'ZieloneLaserki_RusCommanders';
+    hc_face_number := 3;
+
+    RuComm:=CreateHuman;
+end;
+
+export function PrepareBattle();
+var i, mech1, mech2, mech3, mech4, mech5, un;
+begin
+       uc_nation = 1;
+       uc_side = 1;
+             PrepareMechanic(0, 5);
+             mech1= CreateHuman;
+             mech2= CreateHuman;
+             mech3= CreateHuman;
+             mech4= CreateHuman;
+             mech5= CreateHuman;
+             PlaceHumanInUnit(mech1,tnk1);
+             PlaceHumanInUnit(mech2,tnk2);
+             PlaceHumanInUnit(mech3,tnk3);
+             PlaceHumanInUnit(mech4,tnk4);
+             PlaceHumanInUnit(mech5,tnk5);
+
+          for i = 1 to 7 do
+        begin
+
+                uc_side = 1;
+                uc_nation = 1;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(sex_male, 1, 5);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, AmSols, false);
+                AMSolders = AMSolders ^ un;
+        end;
+          for i = 1 to 7 do
+        begin
+
+                uc_side = 1;
+                uc_nation = 1;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(sex_male, 1, 5);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, Am2Sols, false);
+                AM2Solders = AM2Solders ^ un;
+        end;
+          for i = 1 to 3 do
+        begin
+                uc_side = 1;
+                uc_nation = 1;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(sex_male, 1, 5);
+
+                un = CreateHuman;
+                PlaceHumanInUnit(un,ar1);
+        end;
+        PrepareHuman(sex_male, 1, 5);
+
+        un = CreateHuman;
+        PlaceHumanInUnit(un,tur1);
+
+        PrepareHuman(sex_male, 1, 5);
+
+        un = CreateHuman;
+        PlaceHumanInUnit(un,tur2);
+
+          for i = 1 to 11 do
+        begin
+
+                uc_side = 3;
+                uc_nation = 3;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(sex_male, 1, 10);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, RuSols, false);
+        end;
+
+          for i = 1 to 4 do
+        begin
+
+                uc_side = 3;
+                uc_nation = 3;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(sex_male, class_bazooker, 10);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, RuSols, false);
+        end;
+end;

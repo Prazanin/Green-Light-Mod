@@ -1,0 +1,65 @@
+[12,'Officer',       'Off','M','R',01,'sol',[0,0,0,0],[6,2,4,1],'Berezov'],
+[ 1,'Burlak',        'Bur','M','R',01,'mec',[1,1,3,0],[1,1,3,0],'Burlak'],
+[ 7,'Platonov',      'Pla','M','R',02,'sol',[4,2,3,0],[5,2,3,0],'Platonov'],
+[17,'Yashin',        'Yas','M','R',07,'sol',[8,5,5,4],[8,5,5,4],'Yashin'],
+[ 8,'Kurin',         'Kur','M','R',01,'sol',[4,3,2,1],[5,5,3,1],'Kurin'],
+[29,'Petrosyan',     'Pty','M','R',04,'sci',[1,1,2,3],[2,2,2,4],'Petrosyan'],//
+[18,'Vsevolod',      'Vse','M','R',06,'sol',[4,3,4,2],[4,3,4,2],'Vsevolod'],//
+[10,'Popov',         'Pop','M','R',03,'sol',[4,1,2,2],[5,1,4,2],'Cpt. Sergey I. Popov'],
+[ 3,'Belkov',        'Bel','M','R',01,'sol',[2,1,1,0],[2,1,1,0],'Belkov'],
+[ 2,'Belkov2',       'Bel','M','R',01,'sol',[1,0,1,0],[2,0,1,0],'Belkov2'],
+[16,'Kirilenkova',   'Kir','F','R',01,'sci',[0,1,1,2],[0,1,1,2],'Kirilenkova'],
+[ 5,'Gnyevko',       'Gny','M','R',01,'sol',[1,1,2,1],[2,2,2,1],'Gnyevko'],
+[ 2,'Gossudarov',    'Gos','M','R',11,'sci',[1,4,3,6],[3,5,7,8],'Gossudarov'],
+[ 4,'Pokryshkin',    'Pok','M','R',01,'sol',[3,1,1,0],[4,2,1,1],'Pokryshkin'],
+[15,'Stolypin',      'Sto','M','R',10,'sol',[4,3,4,2],[6,5,4,2],'Stolypin'],//
+[21,'Gladkov',       'Gla','M','R',12,'sol',[3,1,2,1],[7,6,5,4],'Gladkov'],
+[28,'Dolgov',        'Dol','M','R',05,'sci',[0,2,2,4],[2,3,2,5],'Dolgov'],//
+[23,'Kapitsova',     'Kap','F','R',08,'sci',[1,3,4,4],[1,4,5,6],'Kapitsova'],//
+[26,'Dietrich',      'Dtr','M','A',08,'sol',[4,1,3,2],[6,2,5,2],'Dietrich'],
+[19,'Gleb',          'Glb','M','R',05,'sol',[2,1,1,2],[4,1,2,2],'Gleb'],//
+[25,'Xavier',        'Xav','M','A',07,'sol',[4,3,3,1],[4,3,3,1],'Xavier'],
+[13,'Kuzmov',        'Kuz','M','R',04,'sol',[2,1,1,2],[2,1,1,2],'Kuzmov'],
+[24,'Heike',         'Hke','F','A',04,'sol',[3,1,1,1],[7,3,5,4],'Heike'],
+[ 6,'Kovalyuk',      'Kov','M','R',02,'mec',[1,1,1,1],[1,1,2,1],'Kovalyuk'],
+[-18,'Kurt',         'Krt','M','A',08,'sol',[4,2,3,1],[5,3,5,4],'Kurt'],
+[ 9,'Scholtze',      'Sch','M','R',03,'sci',[0,2,2,6],[0,2,2,6],'Scholtze'],//
+[14,'Gaydar',        'Gay','M','R',04,'sol',[2,1,1,1],[4,2,1,3],'Gaydar'],
+[30,'Karamazov',     'Kar','M','R',05,'eng',[0,0,0,0],[2,4,1,0],'Karamazov'],//
+[31,'Titov',         'Tit','M','R',05,'sol',[3,1,2,1],[5,3,4,1],'Titov'],//
+[32,'Morozov',       'Mor','M','R',01,'sol',[0,0,0,0],[0,0,0,0],'Morozov'],//
+[33,'Oblukov',       'Obl','M','R',08,'sol',[3,1,1,1],[6,1,1,2],'Oblukov'],//
+[34,'Kozlov',        'Koz','M','R',08,'eng',[2,3,4,4],[2,6,6,8],'Kozlov'],//
+[22,'Petrovova',     'Ptr','F','R',05,'sol',[3,2,3,0],[4,4,4,1],'Petrovova'],//
+[35,'Bystrov',       'Bys','M','R',13,'sci',[0,2,2,3],[2,5,6,8],'Bystrov'],
+[36,'Lipshchin',     'Lip','M','R',05,'sol',[3,2,1,0],[4,2,2,2],'Lipshchin'],//
+[11,'Grishko',       'Gri','M','R',03,'sol',[0,0,0,0],[3,2,2,2],'Grishko'],//
+[-24,'Stevens',      'Stv','M','U',05,'sci',[1,2,4,5],[1,2,4,5],'Stevens'],//
+[-5,'Macmillan',     'JMM','M','U',13,'sol',[2,0,0,0],[9,4,3,4],'Macmillan'],
+[-4,'Joan',          'Jon','F','U',09,'sci',[0,1,2,4],[5,3,5,8],'Joan'],
+[-13,'Gladstone',    'Gld','M','U',01,'sci',[0,3,1,3],[1,3,1,4],'Gladstone'],
+[41,'Furmanov',      'Fur','M','R',11,'sol',[2,1,1,1],[7,3,2,1],'Furmanov'],//
+[42,'Fadeev',        'Fad','M','R',12,'sol',[2,1,2,1],[8,5,3,2],'Fadeev'],
+[46,'Omar',          'Omr','M','A',05,'des',[4,4,4,4],[4,4,4,4],'Omar'],//
+[37,'Borodin',       'Bor','M','R',12,'sol',[3,2,1,1],[7,3,1,1],'Borodin'],//
+[38,'Tsaritsyn',     'Tsr','M','R',12,'sol',[2,1,2,4],[6,3,4,4],'Tsaritsyn'],//
+[39,'Davidov',       'Dav','M','R',12,'sol',[3,4,4,5],[6,5,5,7],'Davidov'],//
+[40,'Eisenstein',    'Eis','M','R',12,'sol',[5,1,1,0],[8,2,5,0],'Eisenstein'],//
+[43,'Bergkamp',      'Brg','M','A',14,'sol',[3,2,1,2],[8,5,7,6],'Bergkamp'],//
+[44,'Farmer',        'Frm','M','A',14,'sol',[4,1,2,1],[9,6,4,4],'Robert Farmer'],//
+[45,'Abdul',         'Abd','M','A',14,'sol',[5,6,5,5],[6,6,6,6],'Abdul'],//
+[-7,'Powell',        'Pow','M','U',15,'sol',[5,2,3,2],[10,5,8,8],'Powell'],//
+[-22,'Roth',         'Rot','M','U',15,'sol',[0,4,2,5],[4,8,6,10],'Roth'],//
+[-14,'Peterson',     'Pet','M','U',19,'sol',[1,3,3,4],[4,7,9,9],'Denis'],//
+[-9,'Bobby',         'Bob','M','U',19,'sol',[1,0,2,0],[8,5,3,3],'Bobby'],//
+[-15,'Brown',        'Brw','M','U',19,'sol',[3,1,1,0],[8,2,5,1],'Brown'],//
+[-25,'Connie',       'Con','F','U',19,'sol',[1,0,2,0],[5,6,8,5],'Connie'],//
+[-17,'Cornell',      'Cor','M','U',19,'sol',[3,0,1,0],[8,6,5,3],'Cornell'],//
+[-8,'Cyrus',         'Cyr','M','U',19,'sol',[1,0,0,0],[7,3,4,2],'Cyrus],//
+[-2,'Donaldson',     'Don','F','U',19,'sol',[3,1,1,0],[8,4,3,3],'Donaldson'],//
+[-12,'Frank',        'Frn','M','U',19,'sol',[2,1,1,1],[8,5,5,4],'Frank'],//
+[-20,'Gary',         'Gar','M','U',19,'sol',[2,0,1,0],[7,2,5,0],'Gary'],//
+[-3,'Lisa',          'Lis','F','U',19,'sol',[3,0,0,0],[9,2,6,1],'Lisa'],//
+[-21,'Simms',        'Sim','F','U',19,'sol',[0,0,1,3],[5,4,6,7],'Simms'],//
+[-16,'VanHouten',    'VHt','M','U',19,'sol',[2,2,1,1],[7,3,6,3],'VanHouten'],//
+[-1,'Yamoko',        'Yam','F','U',19,'sol',[2,0,0,1],[7,2,4,3],'Yamoko'],//

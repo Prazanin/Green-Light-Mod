@@ -1,0 +1,17 @@
+begin
+? type grass
+ ! rgb 124 84 112
+ ! sat 77
+ ! all 87
+new
+? type terrain
+ ! all 95
+new
+? type single_tree
+ ! rgb 124 84 112
+ ! sat 112
+ ! all 92
+new
+? type building
+ ! all 87
+end

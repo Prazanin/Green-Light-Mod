@@ -1,0 +1,56 @@
+export function ColumnaVozov(strona,pojazdy,x,y); // tworzy kolumnê wojsk jad¹cych do danej pozycji
+var i,veh,mech,soldat;
+begin
+     uc_nation= nation_russian;
+     uc_side=strona;
+     hc_name := '';
+     hc_gallery := '';
+  for i=1 to pojazdy do //pojazdy
+   begin
+     uc_direction=3;
+     vc_chassis:=ru_heavy_tracked;
+     vc_engine:=engine_combustion;
+     vc_weapon:=ru_heavy_gun;
+     vc_control:=control_computer;
+     veh:=CreateVehicle;
+     PlaceUnitXY(veh,86,3,false);
+     ComMoveXY(veh,x,y);
+     Wait(0$10);
+   end;
+end;
+
+export function ColumnaLudziow(strona,soldaty,x,y); // tworzy kolumnê wojsk jad¹cych do danej pozycji
+var i,veh,mech,soldat;
+begin
+     uc_nation= nation_russian;
+     uc_side=strona;
+     hc_name := '';
+     hc_gallery := '';
+  for i=1 to soldaty do //¿o³nierze
+   begin
+     PrepareSoldier(1, 5);
+     hc_attr=[10,10];
+     soldat= CreateHuman;
+     PlaceUnitXY(soldat,89,1,false);
+     ComMoveXY(soldat,x,y);
+     Wait(0$3);
+   end;
+end;
+
+export function ColumnaLudziow2(strona,soldaty,x,y); // tworzy kolumnê wojsk jad¹cych do danej pozycji
+var i,veh,mech,soldat;
+begin
+     uc_nation= nation_russian;
+     uc_side=strona;
+     hc_name := '';
+     hc_gallery := '';
+  for i=1 to soldaty do //¿o³nierze
+   begin
+     PrepareSoldier(1, 5);
+     hc_attr=[10,10];
+     soldat= CreateHuman;
+     PlaceUnitXY(soldat,90,1,false);
+     ComMoveXY(soldat,x,y);
+     Wait(0$3);
+   end;
+end;

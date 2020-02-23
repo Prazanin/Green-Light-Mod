@@ -1,0 +1,189 @@
+GAMEINIT
+  GROUNDS
+    GROUND_LABEL "E(Ground)C(Terén)"
+    GROUND 1
+      NAME "E(earth)C(hlína)"
+      DUMMY_COLOR 204060
+      ACTIONS
+        TEXTURE_FLAT
+          LOAD_FROM_FILE hr
+        TEXTURE_SLOPE 1
+          COPIES_OF_FLAT
+          APPLY_TO_SIDE 0 multiply_all 120 
+          APPLY_TO_SIDE 1 multiply_all 110
+          APPLY_TO_SIDE 2 multiply_all 90
+          APPLY_TO_SIDE 3 multiply_all 80 
+          APPLY_TO_SIDE 4 multiply_all 90
+          APPLY_TO_SIDE 5 multiply_all 110
+        TEXTURE_SLOPE 2
+          LOAD_FROM_FILES hs1
+          APPLY_TO_SLOPE multiply_rgb 105 110 115
+        TEXTURE_SLOPE 3
+          LOAD_FROM_FILES hs2
+          APPLY_TO_SLOPE multiply_rgb 110 120 140
+{        APPLY_TO_GROUND multiply_all 180}
+        APPLY_TO_GROUND multiply_rgb 200 190 190
+      END_OF_ACTIONS
+    GROUND 2
+      NAME "E(needles)C(jehlièí)"
+      DUMMY_COLOR 003070
+      ACTIONS
+        TEXTURE_FLAT
+          LOAD_FROM_FILE jehlici2
+        TEXTURE_SLOPE 1
+          COPIES_OF_FLAT
+          APPLY_TO_SIDE 0 multiply_all 120 
+          APPLY_TO_SIDE 1 multiply_all 110
+          APPLY_TO_SIDE 2 multiply_all 90
+          APPLY_TO_SIDE 3 multiply_all 80 
+          APPLY_TO_SIDE 4 multiply_all 90
+          APPLY_TO_SIDE 5 multiply_all 110
+        TEXTURE_SLOPE 2
+          LOAD_FROM_FILES sk
+          APPLY_TO_SLOPE multiply_all 90
+        TEXTURE_SLOPE 3
+          LOAD_FROM_FILES skh
+          APPLY_TO_SLOPE multiply_rgb 90 95 100
+        APPLY_TO_GROUND multiply_all 65
+      END_OF_ACTIONS
+    GROUND 3
+      NAME "E(don't enter)C(nevstupovat)"
+      DUMMY_COLOR 202020
+      ACTIONS
+        TEXTURE_FLAT
+          LOAD_FROM_FILE spaleniste
+        TEXTURE_SLOPE 1
+          COPIES_OF_FLAT
+          APPLY_TO_SIDE 0 multiply_all 120
+          APPLY_TO_SIDE 1 multiply_all 110
+          APPLY_TO_SIDE 2 multiply_all 90
+          APPLY_TO_SIDE 3 multiply_all 80
+          APPLY_TO_SIDE 4 multiply_all 90
+          APPLY_TO_SIDE 5 multiply_all 110
+      END_OF_ACTIONS
+    GROUND 4
+      NAME "E(dont'enter water)C(neprostupná voda)"
+      DUMMY_COLOR 906040
+      ACTIONS
+        TEXTURE_FLAT
+          LOAD_FROM_FILE podezdivka
+        TEXTURE_SLOPE 1
+          COPIES_OF_FLAT
+          APPLY_TO_SIDE 0 multiply_all 120
+          APPLY_TO_SIDE 1 multiply_all 110
+          APPLY_TO_SIDE 2 multiply_all 90
+          APPLY_TO_SIDE 3 multiply_all 80
+          APPLY_TO_SIDE 4 multiply_all 90
+          APPLY_TO_SIDE 5 multiply_all 110
+      END_OF_ACTIONS
+    GROUND 5
+      NAME "E(water)C(voda)"
+      DUMMY_COLOR C0504A
+      ACTIONS
+        TEXTURE_FLAT
+          LOAD_FROM_FILE voda-old
+        TEXTURE_SLOPE 1
+          COPIES_OF_FLAT
+        TEXTURE_SLOPE 2
+          COPIES_OF_FLAT
+        TEXTURE_SLOPE 3
+          COPIES_OF_FLAT
+      END_OF_ACTIONS
+    GROUND 6
+      NAME "E(don't enter rock)C(skála)"
+      DUMMY_COLOR 504040
+      ACTIONS
+        TEXTURE_FLAT
+          LOAD_FROM_FILE vapenec
+        TEXTURE_SLOPE 1
+          COPIES_OF_FLAT
+          APPLY_TO_SIDE 0 multiply_all 120
+          APPLY_TO_SIDE 1 multiply_all 110
+          APPLY_TO_SIDE 2 multiply_all 90
+          APPLY_TO_SIDE 3 multiply_all 80
+          APPLY_TO_SIDE 4 multiply_all 90
+          APPLY_TO_SIDE 5 multiply_all 110
+        TEXTURE_SLOPE 2
+          LOAD_FROM_FILES vapenec
+{          APPLY_TO_SLOPE multiply_rgb 105 110 115}
+        TEXTURE_SLOPE 3
+          LOAD_FROM_FILES skalisko
+{          APPLY_TO_SLOPE multiply_rgb 110 120 140}
+{        APPLY_TO_GROUND multiply_all 180}
+      END_OF_ACTIONS
+    GROUND 7
+      NAME "E(rock)C(kámen)"
+      DUMMY_COLOR 808080
+      ACTIONS
+        TEXTURE_FLAT
+          LOAD_FROM_FILE listi
+        TEXTURE_SLOPE 1
+          COPIES_OF_FLAT
+          APPLY_TO_SIDE 0 multiply_all 120
+          APPLY_TO_SIDE 1 multiply_all 110
+          APPLY_TO_SIDE 2 multiply_all 90
+          APPLY_TO_SIDE 3 multiply_all 80
+          APPLY_TO_SIDE 4 multiply_all 90
+          APPLY_TO_SIDE 5 multiply_all 110
+        TEXTURE_SLOPE 2
+          LOAD_FROM_FILES hs1
+{          APPLY_TO_SLOPE multiply_rgb 105 110 115}
+        TEXTURE_SLOPE 3
+          LOAD_FROM_FILES hs2
+{          APPLY_TO_SLOPE multiply_rgb 110 120 140}
+{        APPLY_TO_GROUND multiply_all 180}
+      END_OF_ACTIONS
+    GROUND 8
+      NAME "E(swamp)C(bažina)"
+      DUMMY_COLOR 003040
+      ACTIONS
+        TEXTURE_FLAT
+          LOAD_FROM_FILE bazina
+          APPLY_TO_FLAT multiply_rgb 60 60 40
+        TEXTURE_SLOPE 1
+          COPIES_OF_FLAT
+          APPLY_TO_SIDE 0 multiply_all 120
+          APPLY_TO_SIDE 1 multiply_all 110
+          APPLY_TO_SIDE 2 multiply_all 90
+          APPLY_TO_SIDE 3 multiply_all 80
+          APPLY_TO_SIDE 4 multiply_all 90
+          APPLY_TO_SIDE 5 multiply_all 110
+        TEXTURE_SLOPE 2
+          LOAD_FROM_FILES hs1
+{          APPLY_TO_SLOPE multiply_rgb 105 110 115}
+        TEXTURE_SLOPE 3
+          LOAD_FROM_FILES hs2
+{          APPLY_TO_SLOPE multiply_rgb 110 120 140}
+      END_OF_ACTIONS
+    GROUND 9
+      NAME "E(snee)C(sníh)"
+      DUMMY_COLOR F0F0F0
+    GROUND 10
+      NAME "E(road)C(cesta)"
+      DUMMY_COLOR 406080
+      ACTIONS
+        TEXTURE_FLAT
+          LOAD_FROM_FILE hr
+        TEXTURE_SLOPE 1
+          COPIES_OF_FLAT
+          APPLY_TO_SIDE 0 multiply_all 120 
+          APPLY_TO_SIDE 1 multiply_all 110
+          APPLY_TO_SIDE 2 multiply_all 90
+          APPLY_TO_SIDE 3 multiply_all 80 
+          APPLY_TO_SIDE 4 multiply_all 90
+          APPLY_TO_SIDE 5 multiply_all 110
+        TEXTURE_SLOPE 2
+          LOAD_FROM_FILES hs1
+          APPLY_TO_SLOPE multiply_rgb 105 110 115
+        TEXTURE_SLOPE 3
+          LOAD_FROM_FILES hs2
+          APPLY_TO_SLOPE multiply_rgb 110 120 140
+{        APPLY_TO_GROUND multiply_all 180}
+        APPLY_TO_GROUND multiply_rgb 200 190 190
+      END_OF_ACTIONS
+    GROUND 11
+      NAME "E(bank)C(bøeh)"
+      DUMMY_COLOR 00F0F0
+  END_OF_GROUNDS
+       {change_hue x, change_saturation x, change_brightness x}
+END_OF_GAMEINIT

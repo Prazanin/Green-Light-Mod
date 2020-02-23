@@ -1,0 +1,7 @@
+NATIONS_LABEL 
+nation
+národ
+
+BUILDING_US_WORKSHOP
+us-workshop
+americká dílna

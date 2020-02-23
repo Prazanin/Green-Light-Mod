@@ -1,0 +1,401 @@
+MOVE_COMMON
+FA001	1 2 A	{Go! Go! Go!}
+FA005	1 2 B	{Go! Go! Go!}
+FA002	1 3 A	{Move!}
+FA003	1 3 A	{Move out!}
+FA004	1 3 A	{Move on!}
+FA006	2 1 B	{Let's move it out!}
+FA011	1 1 B	{Let's go!}
+MA003	1 4 C	{Go! Go! Go!}
+MA011	1 4 D	{Go! Go! Go!}
+MA012	1 4 D	{Go! Go! Go!}
+MA013	1 4 E	{Go! Go! Go!}
+MA005	2 1 C	{Move that, move that, move!}
+MA009	1 4 C	{Move! Move! Move!}
+MA014	1 4 E	{Move!}
+MA015	1 4 E	{Move it!}
+MA010	1 4 D	{Move!}
+
+MOVE_GROUP
+FA007	1 1 B	{Let's move!}
+FA008	1 2 B	{Let's rock 'n roll, boys.}
+FA009	1 2 B	{Let's rock 'n roll.}
+FA010	1 1 B	{Go for it, boys.}
+MA001	4 1 C	{If I'm gonna behind you, I gonna stab you in the ass.}
+MA008	4 1 C	{We are talking about fragin people in the field?}
+
+MOVE_FORMATION
+MA002	1 1 C	{Stay in formation, boys.}
+MA004	1 1 C	{Don't lag behind.}
+MA006	3 1 C	{You want me to follow you?}
+MA007	4 1 C	{You're sergeant. How long do you think you are gonna stay that way?}
+
+COMBAT_COMMON
+FB001	1 2 A	{Blast them!}
+FB004	1 2 B	{Blast them!}
+FB003	1 1 B	{Kick them!}
+FB002	2 2 A	{Shoot those bastards!}
+FB005	2 2 B	{Shoot those bastards!}
+FB006	2 1 B	{Take aim!}
+FC005	1 1 B	{Light'em up, boys!}
+MB008	1 2 D	{Kill them.}
+MB009	1 4 D	{Kill that bastards.}
+MC005	1 4 D	{Kill them all!}
+MB014	1 4 E	{Shoot the bastards!}
+MD001	1 4 C	{Shoot!}
+MB010	1 3 D	{Blast them!}
+MB013	1 3 E	{Blast them!}
+MB012	1 3 E	{Kick them!}
+MD003	1 3	{Light'em up!}
+MB003	1 3 C	{Light'em up!}
+MC003	1 3 C	{Light'em up, boys!}
+MB005	2 1	{Safety is off.}
+MB006	0 0 C	{What's this? A grenade?}
+MB007	0 0 C	{This aren't blanks? ??}
+MC001	4 1 C	{Try to hit them in the belt. They've got grenades. Blow the couple of them, friends.}
+MB015	0 0 E	{Now is the winter of our discontent made glorious summer by this son of York.}
+
+COMBAT_SUBMACHINE
+FB007	2 1 B	{Center of mass! Center of mass!}
+FC003	1 2 B	{Eat lead!}
+FD002	1 2 A	{Eat lead!}
+MD002	3 1	{Don't be shy! Taxpayers are payin' for these bullets.}
+MC002	2 1 C	{Center of mass! Center of mass!}
+MB002	2 1 C	{Automatic fire!}
+MB004	1 2 C	{Fire!}
+MB011	1 2 E	{Fire!}
+
+COMBAT_BAZOOKA
+FD001	1 2 A	{Take that!}
+FD003	1 2 B	{Take that!}
+MD004	1 3	{Take this!}
+MD005	2 2	{And this!}
+MD006	2 2	{And some of this!}
+MD007	1 3	{Take this!}
+MD008	1 3	{Take this!}
+MD009	1 3	{Taste this!}
+MD010	2 1	{Eat this for breakfast!}
+
+COMBAT_SNIPER
+FC002	1 2 A	{See you on the other side.}
+FC001	1 2 A	{See you in hell.}
+FC004	1 2 B	{See you in hell.}
+MD011	1 1	{Come on, sweety!}
+MC004	1 2 D	{I'll see you in hell.}
+MC006	1 2 E	{Meet you in hell!}
+
+HIT
+FJ001	1 1 A	{sténání}
+FJ002	1 1 A	{}
+FJ003	1 1 A	{}
+FJ004	1 1 A	{}
+FJ005	1 1 A	{}
+FJ006	1 1 A	{}
+FJ007	1 1 B	{}
+FJ008	1 1 B	{}
+FJ009	1 1 B	{}
+FJ010	1 1 B	{}
+MJ001	1 1 	{}
+MJ002	1 1	{}
+MJ003	1 1	{}
+MJ004	1 1	{}
+MJ005	1 1	{}
+MJ006	1 1	{}
+MJ007	1 1	{}
+MJ008	1 1	{}
+MJ009	1 1	{}
+MJ010	1 1	{}
+MJ011	1 1	{}
+MJ012	1 1	{}
+MJ013	1 1	{}
+MJ015	1 1	{}
+
+HIT_50
+FK001	1 1 A	{I'm hit.}
+FK002	1 1 A	{It hurts.}
+FK003	1 1 A	{Ouch.}
+FK004	1 1 A	{I'm down.}
+MK001	3 1	{My eye! My eye!}
+MK002	3 1	{I got another arm.}
+MK003	4 1	{They shot me... in my... in my ass!}
+MK004	0 0	{I sure am bleedin' some ??}
+MK005	0 0	{They shot me in my book of ??}
+MK006	1 1	{Aw, that hurts!}
+MK007	2 1	{Little bit more of this, and I won't be able to be going on.}
+MK008	2 1	{I think I am a bit wounded.}
+MK009	2 1	{I think I wanna quit.}
+MK010	1 1	{I've been shot.}
+MK011	2 1	{Help me, I'm hurt! ??}
+MK012	1 2	{That hurts!}
+MK013	0 0	{Fuck, that hurts!}
+MK014	1 2	{It hurts.}
+
+HIT_75_COMMON
+FL001	1 2 A	{I don't think I'm gonna to make it.}
+FL006	1 2 B	{I don't think I'm gonna to make it.}
+FL003	1 2 A	{Medic.}
+FL009	1 2 B	{Medic!}
+FL004	1 2 B	{Get me out of here.}
+FL007	1 2 B	{Get me out of here.}
+FL005	1 1 B	{I'm close to the end.}
+FL008	1 1 B	{Someone help me.}
+ML004	3 2	{I sure will be missing Gerogia.}
+ML018	3 2	{I'll be back in Georgia soon.}
+ML005	1 2	{It's getting dark.}
+ML015	1 2	{Getting a bit dark out here.}
+ML007	3 1	{Yeah, this where the hero says his last good bye.}
+ML008	1 1	{I'm not sure I'm gonna be able to make it.}
+ML009	1 1	{I think I need a medic.}
+ML010	4 1	{Mummy!}
+ML011	1 1	{Get me out of here!}
+ML012	0 0	{Get me out of here! ?Z}
+ML016	1 1	{I'm cold.}
+ML019	1 1	{Those bastards really got me. I'm finished.}
+
+HIT_75_GROUP
+FL002	1 2 A	{Go on without me.}
+ML001	1 2	{Go on without me.}
+ML002	1 1	{Don't worry about me! I... I'll be fine.}
+ML003	2 1	{It's just a leg.}
+ML006	2 1	{Take this letter.}
+ML017	2 1	{Tell Sandy I love her.}
+ML013	1 2	{You guys carry on without me. I'm finished.}
+ML020	1 2	{You guys gotta move.}
+ML014	1 1	{Don't waste your time with me.}
+
+KILL_COMMON
+FM004	1 1 A	{We make them pay for this.}
+MM001	1 1	{You're gonna pay for this!}
+MM004	1 1	{You're gonna pay for this! ?Z}
+
+KILL_MALE
+FM001	2 2 A	{He's dead, Jim!}
+FM007	2 2 B	{He's dead, Jim!}
+FM002	1 2 A	{Oh, God, he is dead!}
+FM003	1 2 A	{Those bastards got him.}
+FM005	1 2 A	{They got him.}
+FM006	1 2 B	{He's gone.}
+MM002	1 2	{The bastards got him.}
+MM003	1 2	{Those bastards got him.}
+
+KILL_FEMALE
+
+KILL_LAST
+FN001	1 3 A	{They're dead!}
+FN002	1 3 A	{They're all dead!}
+FN005	1 3 B	{They're all dead, now!}
+FN003	3 2 A	{Now, I have to be the hero!}
+FN004	3 2 A	{It's my turn, now!}
+FN006	1 1 B	{I'm the only one left.}
+MN001	3 1	{Now, I've got to be hero.}
+MN002	3 1	{A man, there was one.}
+MN003	3 1	{Well, I guess, now I finally got to be a leader!}
+MN004	4 1	{Now, I have no choice but to walk Point.}
+MN005	4 1	{I wonder if anybody notice if I just go home.}
+MN006	1 3	{Dead, they are all dead!}
+MN007	1 3	{They are all dead!}
+MN008	1 3	{They are all dead!}
+
+WAIT
+MP001	2 1	{I... might be gotten shot at, here.}
+MP002	2 1	{Hey, these are real bullets!}
+MP003	1 1	{Sir...?}
+MP004	1 1	{What the hell are you thinking about?}
+MP005	3 1	{Those are mines!}
+MP006	1 1	{Will we get paid by the hour here?}
+MP007	1 1	{What are you waiting for?}
+
+ORDER_SELECT
+FQ001	1 3 A	{Ready.}
+FQ007	1 3 A	{Ready.}
+FQ011	1 3 B	{Ready.}
+FQ002	1 2 A	{Awaiting orders.}
+FQ008	1 2 A	{Awaiting orders.}
+FQ003	1 2 A	{No problem.}
+FQ012	1 2 B	{No problem.}
+FQ004	1 3 A	{Yes.}
+FQ005	1 3 A	{Yes.}
+FQ009	1 3 B	{Yes.}
+FQ006	1 2 A	{Okay.}
+FQ010	1 2 B	{Okay.}
+MQ001	1 1	{Yep.}
+MQ002	1 3	{Ready.}
+MQ012	1 3	{Ready.}
+MQ007	1 3	{Ready, sir.}
+MQ003	1 1	{Awaiting orders.}
+MQ004	1 1	{Ready to move.}
+MQ005	1 1	{Following you.}
+MQ006	1 3	{I'm ready, sir.}
+MQ008	1 2	{Yes, sir.}
+MQ010	1 2	{Yes.}
+
+ORDER_COMMON
+FR001	1 3 A	{Yes.}
+FR003	1 3 A	{Yes, sir.}
+FR007	1 3 B	{Yes, sir.}
+FR002	1 1 A	{No problem.}
+FR004	1 2 A	{That's affirmative.}
+FR008	1 2 B	{That's affirmative.}
+FR005	1 2 A	{Roger.}
+FR009	1 2 B	{Roger that, sir.}
+FR006	1 1 A	{Over and out.}
+MR010	1 3	{Yes, sir.}
+MR017	1 3	{Yes.}
+MR018	1 3	{Yes, sir.}
+MR007	1 3	{Sir, yes sir!}
+MQ009	1 2	{Affirmative.}
+MR022	1 2	{That's an affirmative.}
+MQ011	1 4	{Okay.}
+MR033	1 4	{Okay.}
+MR019	1 4	{O.K., sir.}
+MR025	1 4	{That's okay.}
+MQ013	1 3	{No problem.}
+MR021	1 3	{No problem, sir.}
+MR030	1 3	{No problem.}
+MR001	2 1	{Service with a smile.}
+MR002	2 1	{No sweat.}
+MR003	2 1	{Piece of cake.}
+MR004	2 1	{Got taken care of.}
+MR005	2 1	{Covered.}
+MR008	3 1	{Oh, great.}
+MR009	1 1	{Right.}
+MR011	1 1	{On the way.}
+MR006	1 3	{Move out.}
+MR012	1 3	{Movin'}
+MR016	1 3	{Movin'}
+MR013	1 2	{Let's go.}
+MR014	2 2	{After you.}
+MR015	2 2	{After you.}
+MR020	2 1	{Three bucks full, sir.}
+MR023	1 1	{You've got it.}
+MR024	1 1	{Will operate.}
+MR026	1 1	{Will do it.}
+MR027	1 1	{Roger.}
+MR028	1 1	{Over and out.}
+MR029	1 1	{Gottcha.}
+MR031	1 1	{Count on me.}
+MR032	1 1	{All clear.}
+MR034	1 1	{Don't worry.}
+MR035	2 1{We're already there.}
+
+ORDER_ATTACK
+FS001	1 2 A	{He's as good ad dead.}
+FS004	1 2 B	{He's as good ad dead.}
+FS002	1 1 A	{We'are going to get him.}
+FS003	1 1 B	{Let's get him.}
+MS001	2 1	{One dead bad guy, coming up.}
+MB001	2 1 C	{Let's go get us some bad guys.}
+MS002	1 1	{I'll see him.}
+MS003	1 2	{I'm gonna get the little bastard.}
+MS004	4 1	{Rape, kill, village burn, eat babies.}
+MS005	3 1	{Join the army, they said, meet the interesting people, travel ...and kill them all!}
+MS006	1 1	{We'll get him.}
+MS007	1 3	{He's as good ad dead.}
+MS009	1 3	{They're as good ad dead.}
+MS011	1 3	{He's as good ad dead.}
+MS008	2 1	{We're gonna kick their butt!}
+MS010	1 1	{We're gonna get him.}
+MS012	3 1	{Their ass is grass.}
+MS013	1 1	{They're finished.}
+
+ORDER_NEGATIVE
+FT001	1 1 A	{No can do, sir.}
+FT002	1 2 A	{Negative.}
+FT006	1 2 B	{Negative, sir.}
+FT003	1 1 A	{That's impossible.}
+FT004	1 1 B	{Negatory on that last.}
+FT005	1 1 B	{I am afraid, that's impossible, sir.}
+MT001	3 1	{Are you sure, you've been to OCS?}
+MT002	3 1	{Don't you think we should move to bushes or something?}
+MT003	3 1	{That's why they pay you the bigger salary, sir.}
+MT004	3 1	{I thought you were supposed to be leader.}
+MT005	3 1	{How long do you really wanna be a sergeant?}
+MT006	1 1	{No, sir.}
+MT007	1 1	{That's impossible.}
+MT008	1 1	{Afraid not.}
+MT009	1 1	{Can't complete.}
+MT010	3 1	{It's impossible, sir. We can't complete the mission.}
+MT011	1 2	{Negative.}
+MT012	1 2	{That's negative, sir.}
+
+FINISHED_COMMON
+FU001	1 3 A	{Mission completed.}
+FU002	1 3 A	{Mission accomplished.}
+FU005	1 3 B	{Mission accomplished.}
+FU003	1 1 A	{Task completed.}
+FU004	1 5 B	{Our work is finished here, sir.}
+FU006	1 1 B	{We got it.}
+MU001	1 2	{All done.}
+MU004	1 2	{All done.}
+MU002	2 1	{It looks like we are finished here, sir.}
+MU003	1 1	{What next.}
+MU005	1 3	{Mission accomplished.}
+MU007	1 3	{Mission accomplished.}
+MU012	1 3	{Mission accomplished.}
+MU006	1 1	{We've got it.}
+MU008	1 1	{That's all.}
+MU009	2 1	{It's all over. We are done.}
+MU010	1 1	{We are finished here.}
+MU011	2 1	{That looks like a good day wrapped up.}
+
+FINISHED_ATTACK
+FV001	1 2 A	{Tag 'em and bag 'em.}
+FV002	1 2 A	{Tag 'em and bag 'em.}
+FV003	1 1 A	{Saionara.}
+FV004	1 1 B	{That's a last of them.}
+FV005	1 1 B	{Hasta la vista, baby!}
+MV001	3 1	{I sure hope they manage to call for some more friends.}
+MV002	3 1	{That was fun.}
+MV003	1 1	{That's a last of them.}
+MV004	1 1	{They are all finished now.}
+MV005	1 1	{Tag 'em, bag 'em.}
+MV006	2 1	{How do we sort our guys from their guys?}
+MV007	1 1	{We got the bastards.}
+MV008	1 1	{They are not gonna get away now.}
+MV009	1 1	{We've got them all.}
+MV010	1 2	{Saionara, baby!}
+MV015	1 2	{Saionara.}
+MV011	1 2	{Enemy's eliminated.}
+MV012	1 2	{Hasta la vista, baby!}
+MV013	1 2	{Hasta la vista, baby!}
+MV014	1 2	{Enemy's eliminated.}
+
+FINISHED_VEHICLE
+FW001	1 1 A	{Where're we going?}
+FW002	1 2 A	{Vehicle ready.}
+FW005	1 2 B	{Vehicle ready.}
+FW003	1 1 A	{Awaiting orders.}
+FW004	3 2 A	{It won't start.}
+FW006	3 2 B	{It won't start.}
+FW007	1 1 B	{Up and running.}
+MW001	1 1	{Fueled up and ready to move.}
+MW002	1 1	{Rolling.}
+MW003	0 0	{??}
+MW004	1 1	{Ready to move.}
+MW005	1 1	{Vehicle ready.}
+MW006	3 2	{It won't start.}
+MW007	1 1	{Vehicle ready.}
+MW008	1 1	{Let's move.}
+MW009	3 2	{Damned, it won't start.}
+MW010	3 1	{Get he engine moving.}
+MW011	1 1	{Let's roll.}
+
+FINISHED_ENEMYVEHICLE
+FX001	1 2 A	{You are all mine.}
+FX004	1 2 B	{Now you are all mine.}
+FX002	1 2 A	{Where are the keys?}
+FX006	1 2 B	{Where are the keys?}
+FX003	1 2 A	{Enemy vehicle under control.}
+FX005	1 2 B	{Enemy vehicle under control.}
+MX001	3 1	{What kind of language is this, Chinese ...  funny looking letters.}
+MX002	3 1	{Anybody here read Russian?}
+MX003	3 1	{How the hell do you drive on this side of the road?}
+MX004	2 1	{Hey, does anybody know how to drive this thing?}
+MX005	1 2	{Whose got the keys?}
+MX006	1 1	{It's ours.}
+MX007	1 1	{Enemy vehicle now under control.}
+MX008	1 1	{Now you are mine.}
+MX009	1 2	{You got the keys?}
+MX010	1 1	{Let's get this baby started.}
+
+END

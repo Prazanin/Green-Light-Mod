@@ -1,0 +1,132 @@
+export Simone, Kathryn, Bradford, Mortimer;
+
+starting
+begin
+
+ingame_video=true;
+interface_hidden=true;
+
+CreatePersonnel;
+
+music_class:=5;
+
+SetBName(theta,'theta');
+PlaceUnitXYR(Bradford, 29, 28, 1, false);
+PlaceUnitXYR(RandSol, 35, 37, 0, false);
+PlaceUnitXYR(Mortimer, 43, 37, 2, false);
+ComTurnXY(Mortimer, 51, 41);
+
+PlaceUnitXY(Simone, 54, 10, false);
+PlaceUnitXY(Kathryn, 57, 13, false);
+
+PlaceUnitXY(Esther, 59, 3, false);
+PlaceUnitXY(Edmonds, 60, 4, false);
+
+CenterNowOnXY(41, 29);
+
+ComMoveXY(Simone, 44, 23);
+ComMoveXY(Kathryn, 48, 26);
+DWait(0$5);
+
+Say(Simone, 'D1-Simone-1');
+ComMoveXY(Simone, 39, 24);
+ComMoveXY(Kathryn, 40, 26);
+ComMoveXY(RandSol, 38, 27);
+ComMoveXY(Esther, 45, 32);
+ComMoveXY(Edmonds, 46, 32);
+AddComEnterUnit(Esther, lab1);
+AddComMoveXY(Edmonds, 27, 29);
+AddComTurnXY(Simone, 36, 23);
+AddComTurnXY(Kathryn, 36, 23);
+AddComTurnUnit(RandSol, Simone);
+DWait(0$5);
+
+Say(Simone, 'D1-Simone-2');
+Say(Kathryn, 'D1-Kathryn-1');
+AddComTurnUnit(Simone, RandSol);
+Say(RandSol, 'D1-Sol-1');
+ComMoveXY(Mortimer, 30, 29);
+ComMoveXY(Bradford, 29, 28);
+AddComTurnUnit(Bradford, Mortimer);
+AddComTurnUnit(Mortimer, Bradford);
+DWait(0$1);
+
+Say(Simone, 'D1-Simone-3');
+DWait(0$3);
+
+Say(Bradford, 'D1-Bradford-1');
+Say(Mortimer, 'D1-Sol-2');
+Say(Mortimer, 'D1-Sol-3');
+Say(Mortimer, 'D1-Sol-4');
+
+Say(Esther, 'D1-Esther-1');
+ComMoveXY(Esther, 27, 29);
+DWait(0$1);
+ComTurnUnit(Bradford, Esther);
+ComMoveXY(Simone, 31, 27);
+ComMoveXY(Kathryn, 32, 28);
+AddComTurnUnit(Simone, Bradford);
+AddComTurnUnit(Kathryn, Bradford);
+AddComTurnUnit(Esther, Bradford);
+Say(Esther, 'D1-Esther-2');
+if not IsDead(Edmonds) then
+  begin
+  Say(Edmonds, 'D1-Edmonds-1');
+  ComEnterUnit(Edmonds, lab1);
+  DWait(0$4);
+  ComMoveXY(Edmonds, 27, 27);
+  Say(Edmonds, 'D1-Edmonds-2');
+  end;
+Say(Bradford, 'D1-Bradford-2');
+Say(Esther, 'D1-Esther-3');
+ComTurnUnit(Bradford, Simone);
+Say(Bradford, 'D1-Bradford-3');
+Say(Bradford, 'D1-Bradford-4');
+Say(Bradford, 'D1-Bradford-5a');
+Say(Simone, 'D1-Simone-3a');
+Say(Bradford, 'D1-Bradford-5aa');
+Say(Simone, 'D1-Simone-3b');
+Say(Bradford, 'D1-Bradford-5b');
+Say(Simone, 'D1-Simone-4');
+ComEnterUnit(Bradford, lab1);
+DWait(0$1);
+ComTurnUnit(Simone, Kathryn);
+ComTurnUnit(Kathryn, Simone);
+Say(Simone, 'D1-Simone-5');
+Say(Kathryn, 'D1-Kathryn-2');
+ComMoveXY(Kathryn, 59, 3);
+ComMoveXY(Simone, 32, 30);
+ComMoveXY(Esther, 32, 31);
+ComMoveXY(Edmonds, 31, 30);
+AddComTurnUnit(Simone, Esther);
+AddComTurnUnit(Esther, Simone);
+AddComTurnUnit(Edmonds, Simone);
+DWait(0$4);
+Say(Simone, 'D1a-Simone-1');
+Say(Esther, 'D1a-Esther-1');
+Say(Edmonds, 'D1a-Edmonds-1');
+DWait(0$1);
+Say(Esther, 'D1a-Esther-2');
+Say(Simone, 'D1a-Simone-2');
+ComMoveXY(Simone, 59, 3);
+ComMoveXY(RandSol, 59, 3);
+ComMoveXY(Mortimer, 43, 39);
+ComEnterUnit(Esther, lab1);
+ComEnterUnit(Edmonds, lab1);
+DWait(0$5);
+music_class:=0;
+
+ingame_video=false;
+interface_hidden=false;
+changemap('01','%_cont');
+end;
+
+export ThetaBase;
+
+every 0$1 do
+begin
+ThetaBase:= FilterAllUnits([ [f_side, 1], [f_or, [f_type, unit_vehicle], [f_type, unit_building] ] ] ) diff lab1;
+SetLives(ThetaBase, 200);
+wait(0$1);
+enable;
+end;

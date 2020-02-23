@@ -1,0 +1,454 @@
+export AM_Sols, AM_Engineers, AM_Mechs, AM_Scientists;
+
+export function Prepare_AMBase;
+var i, un;
+begin
+
+for i=1 to 10 do
+begin
+   uc_side = 1;
+   uc_nation = 1;
+
+   hc_name = '';
+   hc_gallery = '';
+   PrepareHuman(false, 1, 9);
+
+   un = CreateHuman;
+   PlaceUnitArea(un, AMSoldiersSpawn, false);
+   AM_Sols=AM_Sols^un;
+end;
+
+for i=1 to 4 do
+begin
+   uc_side = 1;
+   uc_nation = 1;
+
+   hc_name = '';
+   hc_gallery = '';
+   PrepareHuman(sex_male, 2, 9);
+
+   un = CreateHuman;
+   PlaceUnitArea(un, AMEngsSpawn, false);
+   AM_Engineers=AM_Engineers^un;
+end;
+
+for i=1 to 6 do
+begin
+   uc_side = 1;
+   uc_nation = 1;
+
+   hc_name = '';
+   hc_gallery = '';
+   PrepareHuman(false, 3, 9);
+
+   un = CreateHuman;
+   PlaceUnitArea(un, AMMechsSpawn, false);
+   AM_Mechs=AM_Mechs^un;
+end;
+
+for i=1 to 4 do
+begin
+   uc_side = 1;
+   uc_nation = 1;
+
+   hc_name = '';
+   hc_gallery = '';
+   PrepareHuman(false, 4, 10);
+
+   un = CreateHuman;
+   PlaceUnitArea(un, AMScientistsSpawn, false);
+   AM_Scientists=AM_Scientists^un;
+end;
+
+end;
+
+
+
+export function Prepare_AMBase_LateVersion;
+var i, un;
+begin
+
+for i=1 to 10 do
+begin
+   uc_side = 1;
+   uc_nation = 1;
+
+   hc_name = '';
+   hc_gallery = '';
+   PrepareHuman(false, 1, 9);
+
+   un = CreateHuman;
+   PlaceUnitArea(un, AMSoldiersSpawn, false);
+   ComTurnXY(un,121,163);
+   AM_Sols=AM_Sols^un;
+end;
+
+for i=1 to 4 do
+begin
+   uc_side = 1;
+   uc_nation = 1;
+
+   hc_name = '';
+   hc_gallery = '';
+   PrepareHuman(sex_male, 2, 9);
+
+   un = CreateHuman;
+   PlaceUnitArea(un, AMEngsSpawn, false);
+   ComTurnXY(un,121,163);
+   AM_Engineers=AM_Engineers^un;
+end;
+
+for i=1 to 6 do
+begin
+   uc_side = 1;
+   uc_nation = 1;
+
+   hc_name = '';
+   hc_gallery = '';
+   PrepareHuman(false, 3, 9);
+
+   un = CreateHuman;
+   PlaceUnitArea(un, AMMechsSpawn, false);
+   ComTurnXY(un,121,163);
+   AM_Mechs=AM_Mechs^un;
+end;
+
+for i=1 to 4 do
+begin
+   uc_side = 1;
+   uc_nation = 1;
+
+   hc_name = '';
+   hc_gallery = '';
+   PrepareHuman(false, 4, 5);
+
+   un = CreateHuman;
+   PlaceUnitArea(un, AMScientistsSpawn, false);
+   ComTurnXY(un,121,163);
+   AM_Scientists=AM_Scientists^un;
+end;
+
+end;
+
+
+export function AlliedReinforcement; //Bradford gives us 2 bulldozers and 300 cans in 3 trucks
+var RVeh1, RVeh2, RVeh3, RVeh4, RVeh5;
+begin
+
+  hc_name:='';
+  hc_gallery := '';
+
+  uc_side:=7;
+  uc_nation:=nation_american;
+
+  vc_chassis := us_heavy_tracked;
+  vc_engine  := engine_siberite;
+  vc_control := control_computer;
+  vc_weapon  := us_bulldozer;
+  RVeh1 := CreateVehicle;
+
+  vc_chassis := us_medium_wheeled;
+  vc_control := control_computer;
+  vc_weapon  := us_crane;
+  RVeh2 := CreateVehicle;
+
+  vc_weapon  := us_cargo_bay;
+  RVeh3 := CreateVehicle;
+  RVeh4 := CreateVehicle;
+  RVeh5 := CreateVehicle;
+
+  AddCargo(RVeh3, mat_cans, 100);
+  AddCargo(RVeh4, mat_cans, 100);
+  AddCargo(RVeh5, mat_cans, 100);
+
+  PlaceUnitXYR(RVeh1, 53, 100, 1, false);
+  PlaceUnitXYR(RVeh2, 52, 97, 1, false);
+  PlaceUnitXYR(RVeh3, 46, 87, 1, false);
+  PlaceUnitXYR(RVeh4, 54, 95, 1, false);
+  PlaceUnitXYR(RVeh5, 56, 98, 1, false);
+
+end;
+
+
+//Function Garrison_Buildings
+//garrisons depots/warehouses, labs and workshops/factories of the specified side with proper personnel (min_pers to max_pers)
+//and armouries/barracks with specific ammount of soldiers (min_sols to max_sols + 0 to max_spec_class).
+Export Function Garrison_Buildings(side, nation, min_pers, max_pers, min_sols, max_sols, max_spec_class, lvl);
+var i,j,buildings,un_count,sol_count,spec_count,un,filter;
+begin
+buildings := FilterAllUnits([[f_side,side],[f_type,unit_building]]);
+
+Case nation of
+1:uc_nation= nation_american;
+2:uc_nation= nation_arabian;
+3:uc_nation= nation_russian;
+end;
+
+  for i=1 to buildings do
+   begin
+    if IsInUnit(buildings[i])=0 then
+       begin
+          uc_side=side;
+          if GetBType(buildings[i]) = b_armoury OR GetBType(buildings[i]) = b_barracks then
+            begin
+             sol_count=Rand(min_sols, max_sols);
+             for j=1 to sol_count do
+              begin
+               PrepareSoldier(0, lvl);
+               un= CreateHuman;
+               PlaceHumanInUnit(un, buildings[i]);
+             end;
+             if GetBType(buildings[i]) = b_barracks then
+              begin
+               spec_count=Rand(0, max_spec_class);
+               for j=1 to sol_count do
+                begin
+                 PrepareSoldier(0, lvl);
+                 Case nation of
+                 1:hc_class=class_sniper;
+                 2:hc_class=class_mortar;
+                 3:hc_class=class_bazooker;
+                 end;
+                 un= CreateHuman;
+                 PlaceHumanInUnit(un, buildings[i]);
+                end;
+              end;
+          end
+          else
+
+          un_count=Rand(min_pers, max_pers);
+          for j=1 to un_count do
+            begin
+            Case GetBType(buildings[i]) of
+             b_depot:PrepareEngineer(0, lvl);
+             b_warehouse:PrepareEngineer(0, lvl);
+             b_workshop:PrepareMechanic(0, lvl);
+             b_factory:PrepareMechanic(0, lvl);
+             b_lab:PrepareScientist(0, lvl);
+             b_lab_half:PrepareScientist(0, lvl);
+             b_lab_full:PrepareScientist(0, lvl);
+             end;
+            un= CreateHuman;
+            PlaceHumanInUnit(un, buildings[i]);
+            end;
+        end;
+   end;
+end;
+
+Export Function PlaceUnitInBunker(un, b);
+var dir;
+begin
+dir := GetDir(b);
+
+if dir < 3 then
+   dir := dir + 3
+    else
+      dir := dir - 3;
+
+SetDir(un, dir);
+PlaceHumanInUnit(un, b);
+End;
+
+Export Function Fill_Bunkers(side);
+var i,filter,un;
+begin
+filter := FilterAllUnits([[f_side,side], [f_nation,3],[f_btype, b_breastwork]]);
+for i = 1 to filter do
+    if IsInUnit(filter[i])=0 then
+       begin
+          uc_nation= nation_russian;
+          uc_side= side;
+          PrepareSoldier(1, Rand(RuSolMinLevel,RuSolMaxLevel));
+          un := CreateHuman;
+          PlaceUnitInBunker(un, filter[i]);
+        end;
+end;
+
+Export Function Fill_Turrets(side);
+var i,filter,un;
+begin
+uc_side := side;
+uc_nation := 3;
+
+for i in FilterAllUnits([[f_side, side], [f_btype, b_bunker], [f_empty]]) do
+begin
+PrepareSoldier(1, Rand(RuSolMinLevel,RuSolMaxLevel));
+PlaceHumanInUnit(CreateHuman, i);
+end;
+end;
+
+
+export Botnicov_Sols;
+export function Prepare_Escapees;
+var i, un;
+begin
+
+for i=1 to 7 do
+begin
+   uc_side = 5;
+   uc_nation = 3;
+
+   hc_name = '';
+   hc_gallery = '';
+   PrepareHuman(false, 1, 8);
+
+   un = CreateHuman;
+   PlaceUnitArea(un, BotnicovSoldiersSpawn, false);
+   Botnicov_Sols=Botnicov_Sols^un;
+end;
+
+for i=1 to 2 do
+begin
+   uc_side = 5;
+   uc_nation = 3;
+
+   hc_name = '';
+   hc_gallery = '';
+   PrepareHuman(false, 2, 8);
+
+   un = CreateHuman;
+   PlaceUnitArea(un, BotnicovSoldiersSpawn, false);
+   Botnicov_Sols=Botnicov_Sols^un;
+end;
+
+for i=1 to 3 do
+begin
+   uc_side = 5;
+   uc_nation = 3;
+
+   hc_name = '';
+   hc_gallery = '';
+   PrepareHuman(false, 4, 10);
+
+   un = CreateHuman;
+   PlaceUnitArea(un, BotnicovSoldiersSpawn, false);
+   Botnicov_Sols=Botnicov_Sols^un;
+end;
+
+  PlaceUnitArea(Botnicov, BotnicovSoldiersSpawn, false);
+  ComMoveXY(Botnicov_Sols, 245, 84);
+  ComMoveXY(Botnicov, 245, 84);
+end;
+
+export function Dialogue_Barnes_General;
+var i;
+begin
+  InGameOn;
+  CenterOnUnits(Barnes);
+  Wait(0$2);
+  SayRadio(General, 'D9b-Unknown-1');
+  Say(Barnes, 'D9b-Barnes-1');
+  SayRadio(General, 'D9b-Unknown-2');
+  Say(Barnes, 'D9b-Barnes-2');
+  SayRadio(General, 'D9b-Unknown-3');
+  Say(Barnes, 'D9b-Barnes-3');
+  SayRadio(General, 'D9b-Unknown-4');
+  Say(Barnes, 'D9b-Barnes-4');
+  SayRadio(General, 'D9b-Unknown-5');
+  Say(Barnes, 'D9b-Barnes-5');
+  SayRadio(General, 'D9b-Unknown-6');
+  Say(Barnes, 'D9b-Barnes-5a');
+  SayRadio(General, 'D9b-Unknown-6a');
+  Say(Barnes, 'D9b-Barnes-5b');
+  SayRadio(General, 'D9b-Unknown-7');
+  Say(Barnes, 'D9b-Barnes-6');
+  Say(Barnes, 'D9b-Barnes-7');
+  ComMoveXY( FilterAllUnits([f_side,1]), 50, 95);
+  DWait(0$5);
+  CenterOnXY(264, 105);
+  for i in FilterAllUnits([ [f_side,1], [f_type,unit_human] ]) do
+    RemoveUnit(i);
+  Say(Simone, 'D9b-Simone-1');
+  DWait(0$2);
+  Say(Simone, 'D9b-Simone-2');
+  DWait(0$2);
+  Say(Miller, 'D9b-Miller-1');
+  Say(Simone, 'D9b-Simone-3');
+  DWait(0$1);
+  InGameOff;
+  Say(Simone, 'D10-Simone-1');
+  Say(Miller, 'D10-Miller-1');
+  Say(Miller, 'D10-Miller-2');
+  Say(Simone, 'D10-Simone-2');
+  Say(Miller, 'D10-Miller-3');
+  ChangeMissionObjectives('M2');
+end;
+
+Export Function SaySex(unit, dialogM, dialogF);
+begin
+if not unit then
+   exit;
+
+Say(unit, [dialogM, dialogF][GetSex(unit)]);
+End;
+
+
+Export function Prepare_RU2;
+var i, un;
+begin
+
+    uc_side = 6;
+    uc_nation = 3;
+
+    for i = 1 to 24 do
+    begin
+
+        uc_side = 6;
+        uc_nation = 3;
+
+        hc_gallery = '';
+        hc_name = '';
+        PrepareHuman(false, 1, rand(RuSolMinLevel, RuSolMaxLevel));
+
+        un = CreateHuman;
+        PlaceUnitArea(un, RU2KolvichSpawn, false);
+        ComAgressiveMove(un, 88, 81);
+    end;
+
+    for i = 1 to 8 do
+    begin
+
+        uc_side = 6;
+        uc_nation = 3;
+
+        hc_gallery = '';
+        hc_name = '';
+        PrepareHuman(false, 2, rand(RuSolMinLevel, RuSolMaxLevel));
+
+        un = CreateHuman;
+        PlaceUnitArea(un, RU2KolvichSpawn, false);
+    end;
+
+    for i = 1 to 6 do
+    begin
+
+        uc_side = 6;
+        uc_nation = 3;
+
+        hc_gallery = '';
+        hc_name = '';
+        PrepareHuman(false, 3, rand(RuSolMinLevel, RuSolMaxLevel));
+
+        un = CreateHuman;
+        PlaceUnitArea(un, RU2KolvichSpawn, false);
+    end;
+
+    for i = 1 to 6 do
+    begin
+
+        uc_side = 6;
+        uc_nation = 3;
+
+        hc_gallery = '';
+        hc_name = '';
+        PrepareHuman(false, 4, rand(RuSolMinLevel, RuSolMaxLevel));
+
+        un = CreateHuman;
+        PlaceUnitArea(un, RU2KolvichSpawn, false);
+    end;
+
+mc_bases := Replace(mc_bases, 2, FilterAllUnits([[f_side, 6], [f_type, unit_human]]));
+
+MC_Start;
+
+end;

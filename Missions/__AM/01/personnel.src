@@ -1,0 +1,125 @@
+export Scout, Lea;
+
+export function CreatePersonnel;
+begin
+
+    uc_side:=7;
+    hc_class=class_mechanic;
+
+    uc_nation:=nation_american;
+    hc_sex=sex_female;
+    hc_importance=120;
+    hc_skills=[4,3,5,2];
+    hc_attr=[12,10];
+    hc_name:='Simone Gray';
+    hc_gallery := 'ZieloneLaserki_Heroines';
+    hc_face_number := 1;
+
+    Simone:=CreateHuman;
+
+    uc_nation:=nation_american;
+    hc_importance=110;
+    hc_sex=sex_female;
+    hc_skills=[2,2,4,3];
+    hc_attr=[11,10];
+    hc_name:='Kathryn Gray';
+    hc_gallery := 'ZieloneLaserki_Heroines';
+    hc_face_number := 2;
+
+    Kathryn:=CreateHuman;
+
+    uc_side:=1;
+    hc_sex=sex_male;
+
+    uc_nation:=nation_american;
+    hc_importance=70;
+    hc_skills=[5,4,7,3];
+    hc_attr=[10,10];
+    hc_name:='Lazarfeld';
+    hc_gallery := 'ZieloneLaserki_Heroes';
+    hc_face_number := 1;
+
+    Lazarfeld:=CreateHuman;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_american;
+    hc_importance=80;
+    PrepareSoldier(1,9);
+    hc_attr=[10,10];
+    hc_name:='Bradford';
+    hc_gallery := 'ZieloneLaserki_Commanders';
+    hc_face_number := 1;
+
+    Bradford:=CreateHuman;
+
+    uc_nation:=nation_american;
+    hc_importance=70;
+    PrepareSoldier(1,8);
+    hc_attr=[10,10];
+    hc_name:='Barnes';
+    hc_gallery := 'ZieloneLaserki_Commanders';
+    hc_face_number := 2;
+
+    Barnes:=CreateHuman;
+
+    uc_nation:=nation_american;
+    hc_importance=30;
+    PrepareEngineer(2,6);
+    hc_attr=[10,10];
+    hc_name:='Lea Harper';
+    hc_gallery := 'ZieloneLaserki_AddtFacesFemale';
+    hc_face_number := 1;
+
+    Lea:=CreateHuman;
+
+    uc_nation:=nation_american;
+    hc_importance=Rand(10,50);
+    PrepareSoldier(1,4);
+    hc_name:='';
+    hc_gallery := '';
+
+    Scout:=CreateHuman;
+
+end;
+
+export function PrepareTheta;
+var sol1, sol2, sol3, sol4, sol5, barr1, barr2, scit1, scit2;
+begin
+  PrepareSoldier(1,5);
+  sol1:=CreateHuman;
+  sol2:=CreateHuman;
+  sol3:=CreateHuman;
+  sol4:=CreateHuman;
+  sol5:=CreateHuman;
+
+  barr1:=CreateHuman;
+  barr2:=CreateHuman;
+
+  PrepareScientist(2,5);
+  scit1:=CreateHuman;
+  scit2:=CreateHuman;
+
+  PlaceUnitXY(sol1, 33, 37, false);
+  PlaceUnitXY(sol2, 34, 38, false);
+  PlaceUnitXY(sol3, 35, 39, false);
+  PlaceUnitXY(sol4, 36, 40, false);
+  PlaceUnitXY(sol5, 34, 36, false);
+
+  ComTurnXY(sol1, 32, 5);
+  ComTurnXY(sol2, 32, 5);
+  ComTurnXY(sol3, 32, 5);
+  ComTurnXY(sol4, 32, 5);
+
+  ComTurnXY(sol5, 35, 45);
+
+  PlaceUnitXY(barr1, 44, 16, false);
+  PlaceUnitXY(barr2, 40, 18, false);
+  ComTurnXY(barr1, 63, 15);
+  ComTurnXY(barr2, 71, 48);
+
+  PlaceUnitXY(scit1, 26, 24, false);
+  PlaceUnitXY(scit2, 27, 24, false);
+  ComTurnUnit(scit1, scit2);
+  ComTurnUnit(scit2, scit1);
+end;

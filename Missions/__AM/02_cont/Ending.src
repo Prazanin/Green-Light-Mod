@@ -1,0 +1,178 @@
+export personnel;
+export RU_OfficersAlive;
+export OffensiveTimeOut, OffensiveSuccessful;
+export AfterOffensive;
+export PrepareToEnd;
+export TanksBuilt;
+
+every 0$1 trigger FilterAllUnits([[f_side,7],[f_type, unit_vehicle],[f_weapon,us_double_laser]])>=10 do
+begin
+  TanksBuilt = true;
+end;
+
+every 0$1 trigger AfterOffensive do
+begin
+  Wait(AMOffensiveTime);
+  if not OffensiveSuccessful then
+  OffensiveTimeOut = true;
+end;
+
+every 0$1 trigger ( FilterAllUnits([[f_side,3], [f_btype, b_warehouse]]) <=1 AND RU_OfficersAlive <=1 ) AND NOT PrepareToEnd AND NOT OffensiveTimeOut do
+begin
+  OffensiveSuccessful = true;
+end;
+
+every 0$1 trigger OffensiveTimeOut OR OffensiveSuccessful do
+begin
+  SayRadio(Barnes,'D7-Barnes-1');
+  Say(Simone,'D7-Simone-1');
+  SayRadio(Barnes,'D7-Barnes-2');
+  if OffensiveTimeOut then
+  begin
+    Say(Simone,'D7-Simone-2a');
+    SayRadio(Barnes,'D7-Barnes-2a');
+  end
+  else Say(Simone,'D7-Simone-2');
+  SayRadio(Barnes,'D7-Barnes-3');
+  Say(Simone,'D7-Simone-3');
+  SayRadio(Barnes,'D7-Barnes-4');
+  Say(Simone,'D7-Simone-3a');
+  SayRadio(Barnes,'D7-Barnes-5');
+  Say(Simone,'D7-Simone-4');
+  SayRadio(Barnes,'D7-Barnes-6');
+  SayRadio(Barnes,'D7-Barnes-7');
+  if OffensiveTimeOut then SayRadio(Barnes,'D7-Barnes-7a');
+  Say(Simone,'D7-Simone-5');
+
+  if not IsDead(Edmonds) then ChangeMissionObjectives('M4')
+  else ChangeMissionObjectives('M4a');
+
+  SetAreaMapShow(End_Area, 1);
+  PrepareToEnd = true;
+end;
+
+Every 0$01 trigger PrepareToEnd and IsDead(Edmonds) do
+var filter, i, Vehicles, Units;
+begin
+enable;
+       If FilterUnitsInArea(End_Area,[[f_side, 7], [f_type, unit_vehicle], [f_control, Control_manual], [f_not, [f_empty]]]) >= 8 and IsInArea(Simone, End_Area) and IsInArea(Kathryn, End_Area) and IsInArea(Miller, End_Area) then
+       begin
+           wait(0$1);
+           Units = [];
+           Vehicles := [];
+
+           personnel=FilterAllUnits([[f_side,7],[f_type, unit_human],[f_ok]]);
+
+           filter := FilterUnitsInArea(End_Area,[[f_side, 7], [f_type, unit_vehicle]]);
+           for i = 1 to 8 do
+           begin
+                Vehicles := Vehicles ^ [GetChassis(filter[i]), GetEngine(filter[i]), GetControl(filter[i]), GetWeapon(filter[i])];
+                Units = Units ^ IsDrivenBy(filter[i]);
+           end;
+           Units = Units diff [Simone, Kathryn, Miller];
+           SaveCharacters(Units,'AM02_Survivors');
+           SaveCharacters(Simone,'Simone');
+           SaveCharacters(Kathryn,'Kathryn');
+           SaveCharacters(Miller,'Miller');
+           SaveVariable(Vehicles, 'AM02_Vehicles');
+
+    if OffensiveSuccessful then AddMedal('Bases',1)
+    else AddMedal('Bases',-1);
+    if TanksBuilt then AddMedal('Tanks',1)
+    else AddMedal('Tanks',-1);
+    if (RU3_BaterieMechs = 0 OR RU3_BaterieVehs = 0) AND NOT RU3BaterieTimeOut then AddMedal('Rockets',1)
+    else AddMedal('Rockets',-1);
+
+    GiveMedals('Main');
+
+    RewardPeople([Simone, Kathryn, Miller, Units]);
+    YouWin;
+end;
+end;
+
+Every 0$01 trigger PrepareToEnd and not IsDead(Edmonds) do
+var filter, i, Vehicles, Units;
+begin
+enable;
+       If FilterUnitsInArea(End_Area,[[f_side, 7], [f_type, unit_vehicle], [f_control, Control_manual], [f_not, [f_empty]]]) >= 8 and IsInArea(Simone, End_Area) and IsInArea(Kathryn, End_Area) and IsInArea(Miller, End_Area) and IsInArea(Edmonds, End_Area) then
+       begin
+           wait(0$1);
+           Units = [];
+           Vehicles := [];
+
+           personnel=FilterAllUnits([[f_side,7],[f_type, unit_human],[f_ok]]);
+
+           filter := FilterUnitsInArea(End_Area,[[f_side, 7], [f_type, unit_vehicle]]);
+           for i = 1 to 8 do
+           begin
+                Vehicles := Vehicles ^ [GetChassis(filter[i]), GetEngine(filter[i]), GetControl(filter[i]), GetWeapon(filter[i])];
+                Units = Units ^ IsDrivenBy(filter[i]);
+           end;
+           Units = Units diff [Simone, Kathryn, Miller, Edmonds];
+           SaveCharacters(Units,'AM02_Survivors');
+           SaveCharacters(Simone,'Simone');
+           SaveCharacters(Kathryn,'Kathryn');
+           SaveCharacters(Miller,'Miller');
+           SaveCharacters(Edmonds,'Edmonds');
+           SaveVariable(Vehicles, 'AM02_Vehicles');
+
+    if OffensiveSuccessful then AddMedal('Bases',1)
+    else AddMedal('Bases',-1);
+    if TanksBuilt then AddMedal('Tanks',1)
+    else AddMedal('Tanks',-1);
+    if (RU3_BaterieMechs = 0 OR RU3_BaterieVehs = 0) AND NOT RU3BaterieTimeOut then AddMedal('Rockets',1)
+    else AddMedal('Rockets',-1);
+
+    GiveMedals('Main');
+
+    RewardPeople([Simone, Kathryn, Miller, Edmonds, Units]);
+    YouWin;
+end;
+end;
+
+every 0$1 trigger EndTime = 0 do
+begin
+    InGameOn;
+    DialogueOn;
+    SayRadio(Barnes, 'D7a-Barnes-1');
+    TimeOutFirstWarning := true;
+    InGameOff;
+    DialogueOff;
+end;
+
+every 0$1 trigger EndTime2 = 0 do
+begin
+    InGameOn;
+    DialogueOn;
+    SayRadio(Barnes, 'D7b-Barnes-1');
+    InGameOff;
+    DialogueOff;
+    YouLost('TimeOut');
+end;
+
+// Czasoumilacz
+every 0$1 do
+begin
+enable;
+if not PrepareToEnd then
+begin
+
+Display_Strings := '';
+end;
+
+if PrepareToEnd and NOT TimeOutFirstWarning then
+begin
+
+EndTime:=EndTime-0$01;
+Display_Strings := ['#Am02-Timeout', EndTime];
+end;
+
+if PrepareToEnd and TimeOutFirstWarning then
+begin
+
+EndTime2:=EndTime2-0$01;
+Display_Strings := ['#Am02-TimeoutAdd', EndTime2];
+end;
+
+
+end;

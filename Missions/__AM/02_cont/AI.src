@@ -1,0 +1,121 @@
+export function AIEngageEnemy;
+var enemy,attacker;
+begin
+enemy = Filterallunits([f_side, 1]) ^ Filterallunits([f_side, 7]);
+  for attacker in attack_group do
+    ComAttackUnit(attacker,NearestUnitToUnit(enemy,attacker));
+end;
+
+every 0$1 do
+begin
+enable;
+AIEngageEnemy;
+end;
+
+
+every 0$1 trigger MissionStart do
+var Side1;
+begin
+
+Side1 := FilterAllUnits([f_side, 1]) diff Smithy;
+ComStop(Side1);
+
+mc_bases := Replace(mc_bases, 1, Side1);
+
+MC_Start;
+
+MC_SetUpgradeBuilding(1, b_depot);
+MC_SetUpgradeBuilding(1, b_workshop);
+MC_SetUpgradeBuilding(1, b_armoury);
+
+{
+  ComUpgrade(AM_Fab);
+  ComRepairBuilding(AM_Mechs,AM_Fab);
+  ComBuild(AM_Engineers, b_lab, 118, 159, 2);
+  ComEnterUnit(AM_Sols, AM_Armor);
+
+  AddComBuild(AM_Engineers, b_ext_gun, 136, 175, 5);
+  AddComBuild(AM_Engineers, b_ext_laser, 132, 174, 0);
+  AddComBuild(AM_Engineers, b_ext_rocket, 135, 171, 4);
+
+  AddComBuild(AM_Engineers, b_oil_power, 123, 172, 0);
+  AddComBuild(AM_Engineers, b_oil_power, 120, 169, 0);
+  AddComBuild(AM_Engineers, b_oil_power, 122, 168, 0);
+
+  AddComBuild(AM_Engineers, b_turret, 141, 155, 3);
+  AddComBuild(AM_Engineers, b_turret, 144, 158, 3);
+  AddComBuild(AM_Engineers, b_turret, 148, 166, 4);
+  AddComBuild(AM_Engineers, b_turret, 131, 149, 3);
+  AddComBuild(AM_Engineers, b_turret, 127, 147, 3);
+  AddComBuild(AM_Engineers, b_turret, 122, 142, 3);
+  AddComBuild(AM_Engineers, b_turret, 150, 172, 4);
+
+  AddComBuild(AM_Engineers, b_ext_computer, 128, 171, 1);
+  AddComBuild(AM_Engineers, b_ext_noncombat, 132, 167, 3);
+}
+end;
+
+every 0$1 trigger MissionStart do
+begin
+  wait(RU2MineSquadArrivalTime);
+  if FilterUnitsInArea(Mine_Area,[ [f_side, 7], [f_type, unit_building] ]) >= 1 OR FilterUnitsInArea(Mine_Area,[ [f_side, 7], [f_type, unit_human] ]) >= 4 then
+  begin
+    RU2_MineBase_FirstAttemptFailed = true;
+    RU2_Attack_Minebase;
+  end
+  else RU2_Assemble_MineBase;
+end;
+
+every 5$0 trigger RU2_MineBase_FirstAttemptFailed and NOT RU2_MineBase_SecondAttempt do
+begin
+  enable;
+    if FilterUnitsInArea(Mine_Area,[ [f_side, 7], [f_type, unit_building] ]) = 0 AND FilterUnitsInArea(Mine_Area,[ [f_side, 7], [f_type, unit_human] ]) <= 5 then
+    begin
+       RU2_Assemble_MineBase;
+       RU2_MineBase_SecondAttempt = true;
+       disable;
+    end;
+end;
+
+export function CustomInitMacro();
+begin
+
+MC_SetScanArea(1, AM1_Base_Area);
+MC_SetParkingArea(1, AM1_Base_Parking);
+
+MC_SetDepositsXY(1, [
+   [120, 151, 0],
+]);
+
+MC_SetAllowedTurretWeapons(1, [us_heavy_gun, us_rocket_launcher]);
+MC_SetCratesArea(1, AM1_Base_Crates);
+MC_SetTame(1, AM1_Base_Crates);
+MC_SetDefenderLimit(1, 5);
+
+MC_SetProduceList(1, [
+   [us_medium_tracked, engine_combustion, control_computer, us_double_gun],
+   [us_medium_tracked, engine_combustion, control_computer, us_double_gun],
+   [us_medium_tracked, engine_combustion, control_computer, us_rocket_launcher],
+   [us_heavy_tracked, engine_combustion, control_computer, us_heavy_gun],
+   [us_heavy_tracked, engine_combustion, control_computer, us_heavy_gun]
+]);
+
+MC_SetBuildingList(1, [
+            [b_lab, 118, 159, 2],
+            [b_lab, 136, 164, 5],
+            [b_oil_power, 123, 172, 0],
+            [b_oil_power, 120, 169, 0],
+            [b_oil_power, 122, 168, 0],
+            [b_turret, 141, 155, 3],
+            [b_turret, 144, 158, 3],
+            [b_turret, 148, 166, 4],
+            [b_turret, 131, 149, 3],
+            [b_turret, 127, 147, 3],
+            [b_turret, 122, 142, 3],
+            [b_turret, 150, 172, 4],
+]);
+
+MC_SetLabKind(1, [b_lab_weapon, b_lab_computer, b_lab_opto, b_lab_siberium]);
+MC_SetFactoryExtension(1, 131, 170, 5, [b_ext_computer, b_ext_track, b_ext_gun, b_ext_rocket, b_ext_noncombat]);
+
+end;

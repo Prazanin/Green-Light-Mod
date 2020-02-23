@@ -1,0 +1,304 @@
+export MissionStart;
+
+starting
+var nul;
+begin
+
+RandomizeAll;
+
+InGameOn;
+
+LoadVariables;
+InitiateConstants;
+PrepareDifficulty;
+
+KathrynOrderAttack := false;
+KathrynAttackStance := 2;
+KathrynLostControl := false;
+
+KathrynMood := 100;
+
+CreatePersonas;
+
+Garrison_Buildings(3);
+Garrison_Buildings(6);
+Assemble_Barracks(3);
+Assemble_Armories(3);
+Assemble_Armories(6);
+Fill_Bunkers(3);
+Fill_Bunkers(6);
+Fill_Turrets(3);
+Fill_Turrets(6);
+
+if Difficulty = 1 then
+ begin
+  RussianMobile(3, 3, 0, RU1Base1Area);
+  RussianMobile(3, 4, 1, RU1Base2Area);
+  RussianMobile(3, 3, 2, RU1Base3Area);
+  RussianMobile(6, 2, 0, RU2Base1Area);
+  RussianMobile(6, 3, 0, RU2Base2Area);
+ end
+ else if Difficulty = 2 then
+ begin
+  RussianMobile(3, 4, 0, RU1Base1Area);
+  RussianMobile(3, 3, 2, RU1Base2Area);
+  RussianMobile(3, 1, 4, RU1Base3Area);
+  RussianMobile(6, 3, 0, RU2Base1Area);
+  RussianMobile(6, 3, 1, RU2Base2Area);
+ end
+ else if Difficulty = 3 then
+ begin
+  RussianMobile(3, 4, 1, RU1Base1Area);
+  RussianMobile(3, 2, 3, RU1Base2Area);
+  RussianMobile(3, 0, 5, RU1Base3Area);
+  RussianMobile(6, 3, 1, RU2Base1Area);
+  RussianMobile(6, 3, 2, RU2Base2Area);
+end;
+
+Squad_Assembly;
+Kathryn_Squad_Assembly;
+
+CenterNowOnXY(179, 286);
+DWait(0$1);
+Say(Miller, 'D2-Miller-1');
+Say(Simone, 'D2-Simone-1');
+CenterOnXY(237, 281);
+DWait(0$1);
+SayRadio(Simone, 'D2-Simone-2');
+Say(Kathryn, 'D2-Kathryn-1');
+CenterOnXY(179, 286);
+DWait(0$1);
+Say(Simone, 'D2-Simone-3');
+DWait(0$1);
+
+nul=Query('QKathryn');
+
+ChangeMissionObjectives('M1');
+InGameOff;
+MissionStart := true;
+
+SaveForQuickRestart;
+HintSpec('Kathryn', 3);
+
+end;
+
+export ReachedBase;
+
+every 0$1 trigger not ReachedBase and FilterUnitsInArea(RU1MainBaseArea,[f_side, 7]) > 0 do
+var Speaker, filter, filter2;
+begin
+enable;
+
+if not FilterAllUnits([ [f_side, 3], [f_or, [f_btype, b_depot], [f_btype, b_warehouse]] ]) <= 1 and not FilterAllUnits([ [f_side, 6], [f_or, [f_btype, b_depot], [f_btype, b_warehouse]] ]) = 0 then
+ begin
+DialogueOn;
+interface_hidden := true;
+Say(Miller, 'D5-Miller-1');
+DialogueOff;
+CenterOnUnits(filter[1]);
+filter := FilterUnitsInArea(RU1MainBaseArea,[f_side, 7]);
+filter2 := FilterUnitsInArea(RU1MainBaseAreaStopUnits,[f_side, 7]);
+RemoveTasks(filter2);
+ComMoveXY(filter, ShiftX(GetX(filter[1]), 3, 8), ShiftY(GetY(filter[1]), 3, 8));
+Wait(0$5);
+interface_hidden := false;
+Wait(0$5);
+ end
+ else
+ begin
+InGameOn;
+ReachedBase := true;
+disable;
+
+if FilterAllUnits([[f_side, 4], [f_type, unit_human]]) > 9 then KathrynHalfForcesRemaining := true;
+
+ComMoveXY(FilterAllUnits([f_side, 4]), 150, 118);
+
+RemoveTasks(FilterAllUnits([f_side, 7]));
+Speaker:=FilterAllUnits([[f_side, 7],[f_or, [f_class, 1], [f_class,2], [f_class,3], [f_class,4], [f_class,5] ]]) diff [Miller, Pravar, Simone];
+
+RevealFogArea(7, RU1MainBaseDefenses);
+
+CenterOnXY(118, 43);
+Say(Simone, 'D6-Simone-1');
+CenterOnXY(69, 9);
+SaySex(Speaker[Rand(1, Speaker)], 'D6-Sol-1', 'D6-FemSol-1');
+
+PlaceUnitXYR(Micoyan, 101, 16, 2, false);
+PlaceSeeing(101, 16, 7, 9);
+
+CenterOnXY(101, 16);
+DWait(0$2);
+
+SayRadio(Micoyan, 'D7-Micoyan-1');
+SayRadio(Sidorovich, 'D7-Sidor-1');
+SayRadio(Micoyan, 'D7-Micoyan-2');
+
+DWait(0$2);
+SayRadio(Kathryn, 'D8-Kathryn-1');
+SayRadio(Sidorovich, 'D8-Sidor-1');
+Say(Simone, 'D8-Simone-1');
+Say(Miller, 'D8-Miller-1');
+Say(Simone, 'D8-Simone-2');
+RemoveSeeing(101, 16, 7);
+
+CenterOnUnits(Kathryn);
+CenterOnUnits(IsInUnit(Kathryn));
+SayRadio(Kathryn, 'D8-Kathryn-2');
+Say(Simone, 'D8-Simone-3');
+SayRadio(Kathryn, 'D8-Kathryn-3');
+ComAgressiveMove(KathrynSquad, 101, 20);
+Say(Simone, 'D8-Simone-4');
+CenterOnUnits(Kathryn);
+CenterOnUnits(IsInUnit(Kathryn));
+SayRadio(Kathryn, 'D8-Kathryn-4');
+DoNotAttack(3, Kathryn);
+CenterOnXY(121, 52);
+music_class := 5;
+Wait(0$15);
+Say(Kathryn, 'D8-Kathryn-5');
+SayRadio(Micoyan, 'D8a-Micoyan-1');
+Wait(0$10);
+Say(Kathryn, 'D8a-Kathryn-1');
+Wait(0$15);
+Say(Heisenberg, 'D8a-Heisenberg-1');
+NormalAttack(3, Kathryn);
+Say(Kathryn, 'D8a-Kathryn-1a');
+
+repeat
+Wait(0$1);
+until IsDying(Kathryn);
+
+ForceSay(Kathryn, 'D8a-Kathryn-2');
+Say(Simone, 'D8a-Simone-1');
+Wait(0$2);
+Say(Simone, 'D8a-Simone-2');
+Wait(0$5);
+
+CenterOnUnits(Simone);
+CenterOnUnits(IsInUnit(Simone));
+SaySex(Speaker[Rand(1, Speaker)], 'D8b-Sol-1', 'D8b-FemSol-1');
+Say(Simone, 'D8b-Simone-1');
+if IsOK(Pravar) then
+begin
+  Say(Pravar, 'D8b-Pravar-1');
+  Say(Simone, 'D8b-Simone-2');
+  Say(Pravar, 'D8b-Pravar-2');
+  Say(Pravar, 'D8b-Pravar-3');
+  Say(Simone, 'D8b-Simone-3');
+  Say(Miller, 'D8b-Miller-1');
+  Say(Miller, 'D8b-Miller-1a');
+  Say(Miller, 'D8b-Miller-2');
+end
+else
+begin
+  Say(Miller, 'D8b-Miller-2');
+  Say(Miller, 'D8b-Miller-1a');
+end;
+ChangeMissionObjectives('M2');
+SetSide(FilterAllUnits([f_side, 4]), 7);
+music_class := 0;
+InGameOff;
+end;
+end;
+
+every 0$1 trigger IsDead(behemot) do
+begin
+  Say(Simone, 'D9-Simone-1');
+  ChangeMissionObjectives('M2a');
+end;
+
+every 0$1 trigger IsDead(RUBase) AND FilterAllUnits([[f_side, 3],[f_type, unit_human]])=0 do
+begin
+  InGameOn;
+  SayRadio(Sidorovich, 'D9-Sidor-1');
+  Say(Simone, 'D9-Simone-1a');
+  DWait(0$2);
+  if not BradfordSecondCallout then
+  begin
+  SayRadio(Bradford, 'D9-Bradford-1');
+  Say(Simone, 'D9-Simone-2');
+  SayRadio(Bradford, 'D9-Bradford-2');
+  Say(Simone, 'D9-Simone-3');
+  SayRadio(Bradford, 'D9-Bradford-3');
+  end
+  else
+  begin
+  SayRadio(Bradford, 'D9-Bradford-1a');
+  Say(Simone, 'D9-Simone-2a');
+  SayRadio(Bradford, 'D9-Bradford-2a');
+  Say(Simone, 'D9-Simone-3a');
+  SayRadio(Bradford, 'D9-Bradford-3a');
+  end;
+
+  DWait(0$2);
+  Say(Simone, 'D9a-Simone-1');
+  Say(Miller, 'D9a-Miller-1');
+  Say(Simone, 'D9a-Simone-2');
+  Say(Miller, 'D9a-Miller-2');
+
+  EndMission;
+end;
+
+every 0$1 trigger MissionStart do
+begin
+ wait(5$0);
+  SayRadio(Bradford, 'D4-Bradford-1');
+  Say(Simone, 'D4-Simone-1');
+  SayRadio(Bradford, 'D4-Bradford-2');
+end;
+
+export BradfordFirstCallout, BradfordSecondCallout;
+
+every 0$1 trigger MissionStart do
+begin
+ wait(BradfordFirstThresholdTimer);
+ DialogueOn;
+ SayRadio(Bradford, 'D5-Bradford-1');
+ DialogueOff;
+ BradfordFirstCallout := true;
+end;
+
+every 0$1 trigger MissionStart do
+begin
+ wait(BradfordSecondThresholdTimer);
+ DialogueOn;
+ SayRadio(Bradford, 'D5-Bradford-2');
+ DialogueOff;
+ BradfordSecondCallout := true;
+ ChangeMissionObjectives('M2b');
+end;
+
+every 0$1 trigger MissionStart do
+begin
+ wait(BradfordTerminatesMissionTimer);
+ DialogueOn;
+ SayRadio(Bradford, 'D5-Bradford-3');
+ DialogueOff;
+ YouLost('LostCommand');
+end;
+
+every 0$1 trigger FilterAllUnits([[f_side, 7], [f_type, unit_human]]) < 8 do
+ YouLost('SimoneSquad');
+
+every 0$1 trigger FilterAllUnits([[f_side, 4], [f_type, unit_human]]) < 8 AND not ReachedBase do
+ YouLost('KathrynSquad');
+
+every 0$1 trigger See(7, bater1) do
+var nul;
+begin
+ DialogueOn;
+ CenterOnUnits(bater1);
+ Say(Miller, 'D5a-Miller-1');
+ nul=Query('QVehicles');
+ DialogueOff;
+end;
+
+every 0$1 trigger GetLives(bater1)=1000 do
+ SetSide(bater1, 7);
+
+every 0$1 trigger GetLives(bater2)=1000 do
+ SetSide(bater2, 7);
+
+every 0$1 trigger GetLives(bater3)=1000 do
+ SetSide(bater3, 7);

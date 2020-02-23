@@ -1,0 +1,81 @@
+every 0$1 do
+begin
+enable;
+if ReachedBase then
+begin
+
+Display_Strings := '';
+end;
+
+if KathrynMood >= 70 and NOT ReachedBase then
+begin
+Display_Strings := ['#Am04-KathrynMoodGood', 0];
+end;
+
+if KathrynMood >= 40 and KathrynMood < 70 and NOT ReachedBase then
+begin
+Display_Strings := ['#Am04-KathrynMoodAverage', 0];
+end;
+
+if KathrynMood >= 15 and KathrynMood < 40 and NOT ReachedBase then
+begin
+Display_Strings := ['#Am04-KathrynMoodBad', 0];
+end;
+
+if KathrynMood > 0 and KathrynMood < 15 and NOT ReachedBase then
+begin
+Display_Strings := ['#Am04-KathrynMoodVeryBad', 0];
+end;
+
+if KathrynMood = 0 and NOT ReachedBase then
+begin
+Display_Strings := ['#Am04-KathrynMoodLostControl', 0];
+end;
+
+end;
+
+every 0$1 trigger not ReachedBase and not KathrynLostControl do
+begin
+  wait(1$0);
+    if not KathrynOrderAttack then
+     KathrynMood := KathrynMood - KathrynMoodIdleDropCoeficent;
+  enable;
+end;
+
+every 0$1 trigger KathrynMood < 70 and not KathrynOrderAttack and not ReachedBase do
+ begin
+ wait(0$5);
+ SayRadio(Kathryn, 'DCommandIdle-Kathryn-1');
+ end;
+
+every 0$1 trigger KathrynMood < 40 and not KathrynOrderAttack and not ReachedBase do
+ begin
+ wait(0$5);
+ SayRadio(Kathryn, 'DCommandIdle-Kathryn-2');
+ end;
+
+every 0$1 trigger KathrynMood < 20 and not KathrynOrderAttack and not ReachedBase do
+ begin
+ wait(0$5);
+ SayRadio(Kathryn, 'DCommandIdle-Kathryn-3');
+ end;
+
+every 0$1 trigger KathrynMood = 0 and not ReachedBase do
+ begin
+ DialogueOn;
+ KathrynLostControl := true;
+ Case Rand(1,2) of
+ 1:SayRadio(Kathryn, 'DCommandIrritation-Kathryn-1');
+ 2:SayRadio(Kathryn, 'DCommandIrritation-Kathryn-2');
+ end;
+
+ Case Rand(1,2) of
+ 1:Say(Simone, 'DCommandIrritation-Simone-1');
+ 2:Say(Simone, 'DCommandIrritation-Simone-2');
+ end;
+
+ SayRadio(Kathryn, 'DCommandIrritation-Kathryn-3');
+ Say(Simone, 'DCommandIrritation-Simone-3');
+
+ DialogueOff;
+end;

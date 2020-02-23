@@ -1,0 +1,248 @@
+export MissionStart;
+export RussianAssault;
+export RU2_MineBase_FirstAttemptFailed, RU2_MineBase_SecondAttempt;
+export EndTime, EndTime2, TimeOutFirstWarning;
+
+starting
+begin
+
+RandomizeAll;
+
+InitMacro;
+
+PrepareDifficulty;
+PreparePlayerSquad;
+CreatePersonnel;
+CreateAlliedPersonnel;
+
+SetAggressivenessLevel(1);
+
+EndTime = 10$00;
+EndTime2 = 2$00;
+
+Garrison_Buildings(3);
+Assemble_Barracks(3);
+Assemble_Armories(3);
+Fill_Turrets(3);
+Fill_Bunkers(3);
+                                             
+PrepareNature(11, 6, 22, 14, 7, 0, 0, Animals_Area, 0);
+
+PlaceUnitXY(Smithy,125,160,false);
+ComTurnUnit(Smithy,Simone);
+
+InGameOn;
+
+CenterNowOnUnits(Sim_Veh);
+ComMoveXY([FilterAllUnits([f_side,7]) diff Simone],110,157);
+wait(0$1);
+ComMoveXY(Simone,120,160);
+wait(0$1);
+
+repeat
+  begin
+  CenterNowOnUnits(Sim_Veh);
+  wait(0$1);
+  end
+until IsInArea(Simone, AM_Base_Area);
+ComExitVehicle(Simone);
+wait(0$1);
+ComMoveXY(Simone,124,160);
+AddComTurnUnit(Simone,Smithy);
+wait(0$7);
+
+CenterNowOnUnits(Simone);
+Say(Simone,'D1-Simone-1');
+Say(Smithy,'D1-Smithy-1');
+Say(Simone,'D1-Simone-2');
+Say(Smithy,'D1-Smithy-2');
+Say(Simone,'D1-Simone-3');
+Say(Smithy,'D1-Smithy-3');
+Say(Simone,'D1-Simone-4');
+Say(Smithy,'D1-Smithy-4');
+ComEnterUnit(Simone, Sim_Veh);
+AddComMoveXY(FilterAllUnits([f_side,7]),149,195);
+wait(0$5);
+ChangeMissionObjectives('M1');
+
+ComEnterUnit(Smithy, AM_Depot);
+
+InGameOff;
+SetSide(MnBase, 7);
+MissionStart = true;
+
+SaveForQuickRestart;
+end;
+
+every 0$1 trigger MissionStart do
+begin
+  Wait(11$0);
+
+  Say(Simone,'D2a-Simone-1');
+  Say(Smithy,'D2a-Smithy-1');
+  Say(Simone,'D2a-Simone-2');
+  Say(Smithy,'D2a-Smithy-2');
+  Say(Smithy,'D2a-Smithy-3');
+  Say(Simone,'D2a-Simone-3');
+  Say(Smithy,'D2a-Smithy-4');
+  Say(Smithy,'D2a-Smithy-5');
+  Say(Smithy,'D2a-Smithy-6');
+
+end;
+
+every 0$1 trigger See(1,RU2_SibMine) do
+begin
+  Say(Simone,'D2-Simone-1a');
+end;
+
+every 0$1 trigger MissionStart do
+var Edmonds_Car;
+begin
+  Wait(17$0);
+
+  uc_side = 1;
+  uc_nation:=nation_american;
+
+  vc_chassis:=us_light_wheeled;
+  vc_engine:=engine_combustion;
+  vc_weapon:=us_machine_gun;
+  vc_control:=control_manual;
+  Edmonds_Car:=CreateVehicle;
+
+  PlaceHumanInUnit(Edmonds,Edmonds_Car);
+  PlaceUnitArea(Edmonds_Car,AM_Start,false);
+
+  ComMoveXY(Edmonds,159,207);
+  AddComExitVehicle(Edmonds);
+
+  Wait(0$20);
+
+  Say(Simone,'D3-Simone-1');
+  Say(Edmonds,'D3-Edmonds-1');
+  Say(Edmonds,'D3-Edmonds-2');
+  Say(Simone,'D3-Simone-2');
+  //Say(Edmonds,'D3-Edmonds-3');  // not dubbed
+
+  SetSide(Edmonds,7);
+  SetTech(tech_LasDouble,7,state_enabled);
+
+  ChangeMissionObjectives('M1a');
+
+  Wait(0$40);
+
+  Say(Simone,'D3a-Simone-1');
+  Say(Edmonds,'D3a-Edmonds-1');
+  Say(Simone,'D3a-Simone-2');
+  Say(Edmonds,'D3a-Edmonds-2');
+end;
+
+every 0$1 trigger MissionStart do
+begin
+  Wait(19$30);
+  PlaceUnitXYR(Stone,137,107,5,false);
+  ComMoveXY(Stone,128,162);
+ repeat
+  Wait(0$1);
+ until IsInArea(Stone, AM_Base_Area);
+  DialogueOn;
+  CenterOnUnits(Stone);
+  Say(Smithy, 'D4-Smithy-1');
+  DWait(0$1);
+  Say(Stone, 'D4-Stone-1');
+  Say(Smithy, 'D4-Smithy-2');
+  DWait(0$1);
+  Say(Simone, 'D4-Simone-1');
+  Say(Stone, 'D4-Stone-2');
+  Say(Simone, 'D4-Simone-2');
+  Say(Stone, 'D4-Stone-3');
+  Say(Simone, 'D4-Simone-3');
+  Say(Stone, 'D4-Stone-4');
+  Say(Simone, 'D4-Simone-4');
+  ChangeMissionObjectives('M1b');
+  SetSide(Stone, 7);
+
+  Say(Simone,'D4c-Simone-1');
+  SayRadio(Barnes,'D4c-Barnes-1');
+  Say(Simone,'D4c-Simone-2');
+  SayRadio(Barnes,'D4c-Barnes-2');
+  Say(Simone,'D4c-Simone-3');
+
+  DialogueOff;
+end;
+
+every 0$1 trigger MissionStart do
+var Squad;
+begin
+  Wait(21$0);
+  RussianAssault = true;
+
+  RussianFirstAssault;
+  Wait(0$30);
+  Squad := FilterAllUnits([[f_side, 7],[f_or, [f_class, 1], [f_class,2], [f_class,3], [f_class,4], [f_class,5] ]]) diff [Simone, Kathryn, Miller];
+  SaySex(Squad[Rand(1, Squad)],'D2b-Sol-1', 'D2b-FemSol-1');
+  Say(Simone,'D2b-Simone-1');
+  Wait(1$20);
+  DialogueOn;
+  SaySex(Squad[Rand(1, Squad)],'D2c-Sol-1', 'D2c-FemSol-1');
+  Say(Smithy,'D2c-Smithy-1');
+  Say(Simone,'D2c-Simone-1');
+  DialogueOff;
+  //Wait(2$20);
+  //Say(Smithy,'D4a-Smithy-1');  //no dubbing
+end;
+
+
+every 0$1 trigger MissionStart do
+begin
+  Wait(54$0);
+  RespawnAttackInfantry(8, 2, 4, 0, 0, 0, 0, 6, GU_Spawn_E);
+  Wait(0$15);
+  RespawnAttackVehicle(GU_Spawn_E, 8, 3, 5, 2, [1,2,3], 1, [], [25,26,27,28,72], []);
+  Wait(0$45);
+  RespawnAttackInfantry(8, 2, 3, 0, 0, 0, 0, 6, GU_Spawn_S);
+
+  Wait(5$25);
+  RespawnAttackInfantry(8, 2, 5, 0, 0, 2, 0, 6, GU_Spawn_E);
+  Wait(0$25);
+  RespawnAttackVehicle(GU_Spawn_E, 8, 2, 5, 2, [1,2,3], 1, [], [25,26,27,28,72], []);
+  Wait(0$10);
+  RespawnAttackInfantry(8, 2, 4, 0, 0, 1, 0, 6, GU_Spawn_S);
+  RespawnAttackVehicle(GU_Spawn_S, 8, 2, 5, 2, [1,2,3], 1, [], [25,26,27,28], []);
+end;
+
+every 0$1 trigger RusMainAttacks = 0 do
+begin
+  Wait(5$0);
+  SayRadio(Barnes,'D4b-Barnes-1');
+  Say(Simone,'D4b-Simone-1');
+  SayRadio(Barnes,'D4b-Barnes-2');
+  Say(Simone,'D4b-Simone-2');
+  SayRadio(Barnes,'D4b-Barnes-3');
+  Say(Simone,'D4b-Simone-3');
+  SayRadio(Barnes,'D4b-Barnes-4');
+  Say(Simone,'D4b-Simone-4');
+  SayRadio(Barnes,'D4b-Barnes-5');
+  Say(Simone,'D4b-Simone-5');
+
+  ChangeMissionObjectives('M3');
+
+  RU3_Baterie_Prepare;
+  AfterOffensive = true;
+end;
+
+every 0$1 trigger AfterOffensive do
+begin
+  wait(RU3RocketBatteryActivation);
+  if RU3_BaterieMechs > 0 AND RU3_BaterieVehs > 0 then
+  RU3BaterieMovement;
+end;
+
+every 0$1 trigger AfterOffensive and RU3BaterieTimeOut and ( See(7,RU3_BaterieVehs[1]) or See(7,RU3_BaterieVehs[2]) or See(7,RU3_BaterieVehs[3]) or See(7,RU3_BaterieVehs[4]) or See(7,RU3_BaterieVehs[5]) ) do
+begin
+  Say(Simone, 'D6-Simone-1a')
+end;
+
+every 0$1 trigger AfterOffensive and (RU3_BaterieMechs = 0 OR RU3_BaterieVehs = 0) AND NOT RU3BaterieTimeOut do
+begin
+  Say(Simone, 'D6-Simone-1');
+end;

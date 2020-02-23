@@ -1,0 +1,51 @@
+export function EndMission;
+VAR pom,pom1,i,all_people,drv,filter;
+begin
+  Wait(0$1);
+
+  saved_player_units:=UnitFilter(saved_player_units,[f_not,[f_or,[f_class,class_apeman_engineer],[f_class,class_apeman_soldier]]]);
+
+  if ConvoysEscaped = 0 then
+    AddMedal('Convoys',1)
+  else AddMedal('Convoys',-1);
+
+  SaveVariable(ConvoysEscaped, 'AM03_Convoys');
+
+  if EstherQuestCompleted then
+    AddMedal('Esther',1)
+  else if not EstherQuestCompleted and BioCollected = 3 then
+    AddMedal('Esther',-1)
+  else if not EstherQuestCompleted and BioCollected < 3 and BioLabSecured then
+    AddMedal('Esther',-2)
+  else
+    AddMedal('Esther',-3);
+
+  SaveVariable(EstherQuestCompleted, 'AM03_EstherResearch');
+
+  filter:=FilterAllUnits([[f_type,unit_building],[f_not,[f_or,[f_btype,b_oil_power],[f_btype,b_oil_mine],[f_btype,b_bunker]]]]);
+
+  if TeslaQuestCompleted then
+    AddMedal('Tesla',1)
+  else if not TeslaQuestCompleted AND GetTech(Tech_Tesla, 7)=state_researched then
+    AddMedal('Tesla',-1)
+  else
+    AddMedal('Tesla',-2);
+
+  SaveVariable(TeslaQuestCompleted, 'AM03_TeslaResearched');
+
+  GiveMedals('Main');
+
+  RewardPeople(saved_player_units);
+
+  SaveCharacters(Simone, 'Simone');
+  SaveCharacters(Kathryn, 'Kathryn');
+  SaveCharacters(Miller, 'Miller');
+  SaveCharacters(Esther, 'Esther');
+  SaveCharacters(Edmonds, 'Edmonds');
+  SaveCharacters(Pravar, 'Pravar');
+
+  SaveCharacters(saved_player_units diff [Simone, Kathryn, Miller, Esther, Edmonds, Pravar],'AM03_Survivors');
+
+  YouWin;
+  exit;
+end;

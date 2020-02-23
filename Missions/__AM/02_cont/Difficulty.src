@@ -1,0 +1,131 @@
+export RuSolMinLevel, RuSolMaxLevel;
+export RusEngReserve, RusRearAttacks, RusMainAttacks;
+export RU2MineSquadArrivalTime, AMOffensiveTime, RU3RocketBatteryActivation;
+
+Export function PrepareDifficulty;
+begin
+    if difficulty = 1 then
+    begin
+        RuSolMinLevel = 4;
+        RuSolMaxLevel = 5;
+
+        SetTech(tech_Tech1, 3, state_researched);
+        SetTech(tech_Weap1, 3, state_researched);
+        SetTech(tech_Comp1, 3, state_researched);
+
+        SetTech(tech_Tech1, 5, state_researched);
+        SetTech(tech_Weap1, 5, state_researched);
+
+        SetTech(tech_Tech1, 6, state_researched);
+        SetTech(tech_Weap1, 6, state_researched);
+        SetTech(tech_Comp1, 6, state_researched);
+
+        SetTech(tech_Tech1, 8, state_researched);
+        SetTech(tech_Weap1, 8, state_researched);
+        RusMainAttacks = 8;
+
+        ThresholdLvl2 := 6;
+        ThresholdLvl3 := 4;
+        ThresholdLvl4 := 2;
+        ThresholdLvl5 := 0;
+
+        RU2MineSquadArrivalTime = 20$0;
+        AMOffensiveTime = 90$00;
+        RU3RocketBatteryActivation = 30$00;
+    end;
+
+    if difficulty = 2 then
+    begin
+        RuSolMinLevel = 4;
+        RuSolMaxLevel = 6;
+
+        SetTech(tech_Tech1, 3, state_researched);
+        SetTech(tech_Tech2, 3, state_researched);
+        SetTech(tech_Weap1, 3, state_researched);
+        SetTech(tech_Weap2, 3, state_researched);
+        SetTech(tech_Comp1, 3, state_researched);
+        SetTech(tech_Comp2, 3, state_researched);
+        SetTech(tech_ST1, 3, state_researched);
+
+        SetTech(tech_Tech1, 5, state_researched);
+        SetTech(tech_Tech2, 5, state_researched);
+        SetTech(tech_Weap1, 5, state_researched);
+        SetTech(tech_Weap2, 5, state_researched);
+
+        SetTech(tech_Tech1, 6, state_researched);
+        SetTech(tech_Tech2, 6, state_researched);
+        SetTech(tech_Weap1, 6, state_researched);
+        SetTech(tech_Weap2, 6, state_researched);
+        SetTech(tech_Comp1, 6, state_researched);
+        SetTech(tech_Comp2, 6, state_researched);
+        SetTech(tech_ST1, 6, state_researched);
+
+        SetTech(tech_Tech1, 8, state_researched);
+        SetTech(tech_Tech2, 8, state_researched);
+        SetTech(tech_Weap1, 8, state_researched);
+        SetTech(tech_Weap2, 8, state_researched);
+        RusMainAttacks = 12;
+
+        ThresholdLvl2 := 10;
+        ThresholdLvl3 := 8;
+        ThresholdLvl4 := 6;
+        ThresholdLvl5 := 4;
+
+        RU2MineSquadArrivalTime = 15$0;
+        AMOffensiveTime = 80$00;
+        RU3RocketBatteryActivation = 25$00;
+    end;
+
+    if difficulty = 3 then
+    begin
+        RuSolMinLevel = 5;
+        RuSolMaxLevel = 7;
+
+        SetTech(tech_Tech1, 3, state_researched);
+        SetTech(tech_Weap1, 3, state_researched);
+        SetTech(tech_Comp1, 3, state_researched);
+        SetTech(tech_Tech2, 3, state_researched);
+        SetTech(tech_Weap2, 3, state_researched);
+        SetTech(tech_Comp2, 3, state_researched);
+        SetTech(tech_Tech3, 3, state_researched);
+        SetTech(tech_Comp3, 3, state_researched);
+        SetTech(tech_Weap3, 3, state_researched);
+        SetTech(tech_ST1, 3, state_researched);
+        SetTech(tech_ST2, 3, state_researched);
+
+        SetTech(tech_Tech1, 5, state_researched);
+        SetTech(tech_Weap1, 5, state_researched);
+        SetTech(tech_Tech2, 5, state_researched);
+        SetTech(tech_Weap2, 5, state_researched);
+        SetTech(tech_Tech3, 5, state_researched);
+        SetTech(tech_Weap3, 5, state_researched);
+
+        SetTech(tech_Tech1, 6, state_researched);
+        SetTech(tech_Weap1, 6, state_researched);
+        SetTech(tech_Comp1, 6, state_researched);
+        SetTech(tech_Tech2, 6, state_researched);
+        SetTech(tech_Weap2, 6, state_researched);
+        SetTech(tech_Comp2, 6, state_researched);
+        SetTech(tech_ST1, 6, state_researched);
+        SetTech(tech_ST2, 6, state_researched);
+
+        SetTech(tech_Tech1, 8, state_researched);
+        SetTech(tech_Tech2, 8, state_researched);
+        SetTech(tech_Tech3, 8, state_researched);
+        SetTech(tech_Weap1, 8, state_researched);
+        SetTech(tech_Weap2, 8, state_researched);
+        SetTech(tech_Weap3, 8, state_researched);
+        SetTech(tech_StimDrugs, 8, state_researched);
+
+        RusMainAttacks = 24;
+
+        ThresholdLvl2 := 20;
+        ThresholdLvl3 := 16;
+        ThresholdLvl4 := 12;
+        ThresholdLvl5 := 8;
+
+        RU2MineSquadArrivalTime = 10$0;
+        AMOffensiveTime = 75$00;
+        RU3RocketBatteryActivation = 20$00;
+    end;
+end;

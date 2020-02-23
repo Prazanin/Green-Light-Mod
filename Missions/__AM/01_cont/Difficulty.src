@@ -1,0 +1,48 @@
+export RuSolMinLevel, RuSolMaxLevel, RuWeaponArray;
+export RusEngReserve, RusRearAttacks, RusMainAttacks;
+
+Export function PrepareDifficulty;
+begin
+    if difficulty = 1 then
+    begin
+        RuSolMinLevel = 3;
+        RuSolMaxLevel = 4;
+        SetTech(tech_Weap1, 3, state_researched);
+        SetTech(tech_Comp1, 3, state_researched);
+        RusEngReserve = 3;
+        RusRearAttacks = 2;
+        RusMainAttacks = 3;
+        RuWeaponArray = [43, 44, 42];
+    end;
+
+    if difficulty = 2 then
+    begin
+        RuSolMinLevel = 4;
+        RuSolMaxLevel = 5;
+        SetTech(tech_Weap1, 3, state_researched);
+        SetTech(tech_Weap2, 3, state_researched);
+        SetTech(tech_Comp1, 3, state_researched);
+        SetTech(tech_Comp2, 3, state_researched);
+        SetTech(tech_ST1, 3, state_researched);
+        RusEngReserve = 6;
+        RusRearAttacks = 3;
+        RusMainAttacks = 5;
+        RuWeaponArray = [43, 44, 42, 45, 46];
+    end;
+
+    if difficulty = 3 then
+    begin
+        RuSolMinLevel = 5;
+        RuSolMaxLevel = 6;
+        SetTech(tech_Weap1, 3, state_researched);
+        SetTech(tech_Comp1, 3, state_researched);
+        SetTech(tech_Weap2, 3, state_researched);
+        SetTech(tech_Comp2, 3, state_researched);
+        SetTech(tech_ST1, 3, state_researched);
+        SetTech(tech_ST2, 3, state_researched);
+        RusEngReserve = 9;
+        RusRearAttacks = 5;
+        RusMainAttacks = 7;
+        RuWeaponArray = [43, 44, 45, 46];
+    end;
+end;

@@ -1,0 +1,67 @@
+Export function Prepare_RU2;
+var i, un;
+begin
+
+    uc_side = 6;
+    uc_nation = 3;
+
+    for i = 1 to 20 do
+    begin
+
+        uc_side = 6;
+        uc_nation = 3;
+
+        hc_gallery = '';
+        hc_name = '';
+        PrepareHuman(false, 1, rand(RuSolMinLevel, RuSolMaxLevel));
+
+        un = CreateHuman;
+        PlaceUnitArea(un, RU_SpawnZone_N, false);
+    end;
+
+    for i = 1 to 6 do
+    begin
+
+        uc_side = 6;
+        uc_nation = 3;
+
+        hc_gallery = '';
+        hc_name = '';
+        PrepareHuman(false, 2, rand(RuSolMinLevel, RuSolMaxLevel));
+
+        un = CreateHuman;
+        PlaceUnitArea(un, RU_SpawnZone_N, false);
+    end;
+
+    for i = 1 to 6 do
+    begin
+
+        uc_side = 6;
+        uc_nation = 3;
+
+        hc_gallery = '';
+        hc_name = '';
+        PrepareHuman(false, 3, rand(RuSolMinLevel, RuSolMaxLevel));
+
+        un = CreateHuman;
+        PlaceUnitArea(un, RU_SpawnZone_N, false);
+    end;
+
+    for i = 1 to 4 do
+    begin
+
+        uc_side = 6;
+        uc_nation = 3;
+
+        hc_gallery = '';
+        hc_name = '';
+        PrepareHuman(false, 4, rand(RuSolMinLevel, RuSolMaxLevel));
+
+        un = CreateHuman;
+        PlaceUnitArea(un, RU_SpawnZone_N, false);
+    end;
+
+mc_bases := Replace(mc_bases, 1, FilterAllUnits([[f_side, 6], [f_type, unit_human]]));
+
+MC_Start;
+end;

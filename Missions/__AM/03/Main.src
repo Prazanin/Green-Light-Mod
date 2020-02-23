@@ -1,0 +1,548 @@
+export AlliedSquadMet, OutpostCaptured, BioLabSecured;
+export LastStand, Evacuation;
+export Squad_Assembled;
+
+starting
+begin
+
+RandomizeAll;
+
+ingame_video=true;
+interface_hidden=true;
+
+InitiateConstants;
+PrepareDifficulty;
+
+Garrison_Enemy_Base;
+
+CreatePersonas;
+PlaceUnitXY(Pravar,121,85,false);
+PlaceUnitXY(Esther,121,88,false);
+PrepareEngineer(sex_male,8);
+AMEng:=CreateHuman;
+PrepareSoldier(sex_male,8);
+AMSolRand:=CreateHuman;
+PlaceUnitXY(AMEng,121,91,false);
+PlaceUnitXY(AMSolRand,119,85,false);
+AddCargo(truc1, mat_cans, 100);
+AddCargo(truc2, mat_cans, 50);
+AddCargo(truc2, mat_siberit, 50);
+CenterNowOnXY(48,86);
+
+SayRadio(Barnes, 'D1-Barnes-1');
+Say(Simone, 'D1-Simone-1');
+
+DWait(0$1);
+Say(Kathryn, 'D1-Kathryn-1');
+Say(Simone, 'D1-Simone-2');
+Say(Kathryn, 'D1-Kathryn-2');
+Say(Simone, 'D1-Simone-3');
+Say(Kathryn, 'D1-Kathryn-3');
+
+DWait(0$1);
+
+repeat
+ Wait(0$1);
+until Squad_Assembled;
+
+ChangeMissionObjectives('M1');
+
+ ingame_video=false;
+ interface_hidden=false;
+
+SaveForQuickRestart;
+
+end;
+
+every 0$1 do
+begin
+ Squad_Assembly;
+end;
+
+every 0$1 trigger NOT AlliedSquadMet AND FilterUnitsInArea(AM_MeetingPoint, [f_side, 7])>= 1 do
+begin
+
+AlliedSquadMet := true;
+
+ChangeSideFog(1, 7);
+
+InGameOn;
+CenterOnXY(121,86);
+Say(Pravar, 'D2-Sol-1');
+Say(Simone, 'D2-Simone-1');
+Say(Pravar, 'D2-Sol-2');
+Say(Simone, 'D2-Simone-2');
+
+SetSide([Pravar,Esther,AMEng,AMSolRand], 7);
+
+DWait(0$1);
+Say(Simone, 'D2a-Simone-1');
+Say(Esther, 'D2a-Esther-1');
+Say(Simone, 'D2a-Simone-2');
+Say(Esther, 'D2a-Esther-2');
+Say(Simone, 'D2a-Simone-3');
+Say(Simone, 'D2a-Simone-4');
+
+DWait(0$1);
+Say(Esther, 'D2a-Esther-3');
+
+  if not IsDead(Edmonds) then
+  begin
+    Say(Edmonds, 'D2a-Edmonds-1');
+    Say(Esther, 'D2a-Esther-4');
+    Say(Edmonds, 'D2a-Edmonds-2');
+    Say(Edmonds, 'D2a-Edmonds-3');
+    Say(Esther, 'D2a-Esther-5');
+    DWait(0$1);
+  end
+  else
+  begin
+    Say(Simone, 'D2a-Simone-5a');
+    Say(Esther, 'D2a-Esther-4a');
+    Say(Simone, 'D2a-Simone-6a');
+    Say(Esther, 'D2a-Esther-5a');
+    Say(Simone, 'D2a-Simone-7a');
+  end;
+
+Say(Simone, 'D2a-Simone-5');
+Say(Esther, 'D2a-Esther-6');
+Say(Esther, 'D2a-Esther-7');
+Say(Simone, 'D2a-Simone-6');
+Say(Esther, 'D2a-Esther-8');
+Say(Simone, 'D2a-Simone-7');
+
+DWait(0$1);
+
+InGameOff;
+ChangeMissionObjectives('M1a');
+
+end;
+
+every 0$1 trigger GetSide(GeoBase)=7 do
+begin
+  DialogueOn;
+  OutpostCaptured = true;
+  Say(Simone, 'D3-Simone-1');
+  SayRadio(Barnes, 'D3-Barnes-1');
+  Say(Simone, 'D3-Simone-2');
+  ChangeMissionObjectives('M1b');
+  DWait(0$1);
+  Say(Miller, 'D3-Miller-1');
+  Say(Simone, 'D3-Simone-3');
+  DialogueOff;
+
+  if not AlliedSquadMet then
+  begin
+    ComEnterUnit(Pravar, AMTank1);
+    ComEnterUnit(Esther, Truc1);
+    ComEnterUnit(AMEng, Truc2);
+    AddComMoveXY([Pravar,Esther,AMEng,AMSolRand],78,51);
+    wait(0$15);
+
+    InGameOn;
+    ChangeSideFog(1, 7);
+    CenterOnUnits(Pravar);
+    Say(Pravar, 'D2b-Sol-1');
+    Say(Simone, 'D2b-Simone-1');
+    Say(Pravar, 'D2b-Sol-2');
+    Say(Simone, 'D2b-Simone-2');
+
+    SetSide([Pravar,Esther,AMEng,AMSolRand,IsDrivenBy(Pravar),IsDrivenBy(Esther),IsDrivenBy(AMEng)], 7);
+
+    DWait(0$1);
+    Say(Simone, 'D2a-Simone-1');
+    Say(Esther, 'D2a-Esther-1');
+    Say(Simone, 'D2a-Simone-2');
+    Say(Esther, 'D2a-Esther-2');
+    Say(Simone, 'D2a-Simone-3');
+    Say(Simone, 'D2a-Simone-4');
+
+    DWait(0$1);
+    Say(Esther, 'D2a-Esther-3');
+
+    if not IsDead(Edmonds) then
+    begin
+      Say(Edmonds, 'D2a-Edmonds-1');
+      Say(Esther, 'D2a-Esther-4');
+      Say(Edmonds, 'D2a-Edmonds-2');
+      Say(Edmonds, 'D2a-Edmonds-3');
+      Say(Esther, 'D2a-Esther-5');
+      DWait(0$1);
+    end
+    else
+    begin
+      Say(Simone, 'D2a-Simone-5a');
+      Say(Esther, 'D2a-Esther-4a');
+      Say(Simone, 'D2a-Simone-6a');
+      Say(Esther, 'D2a-Esther-5a');
+      Say(Simone, 'D2a-Simone-7a');
+    end;
+
+    Say(Simone, 'D2a-Simone-5');
+    Say(Esther, 'D2a-Esther-6');
+    Say(Esther, 'D2a-Esther-7');
+    Say(Simone, 'D2a-Simone-6');
+    Say(Esther, 'D2a-Esther-8');
+    Say(Simone, 'D2a-Simone-7');
+
+    DWait(0$1);
+
+    InGameOff;
+    ChangeMissionObjectives('M1aa');
+  end;
+end;
+
+every 0$1 trigger OutpostCaptured do
+begin
+  Wait(2$25);
+  AlliedReinforcement;
+  CenterOnXY(47, 86);
+end;
+
+every 0$1 trigger GetSide(BioLab) = 7 do
+begin
+
+  BioLabSecured = true;
+
+  Say(Edmonds, 'D3c-Edmonds-1');
+  Say(Esther, 'D3c-Esther-1');
+  Say(Simone, 'D3c-Simone-1');
+  Say(Esther, 'D3c-Esther-2');
+  Say(Kathryn, 'D3c-Kathryn-1');
+  Say(Simone, 'D3c-Simone-2');
+  Say(Esther, 'D3c-Esther-3');
+  Say(Esther, 'D3c-Esther-4a');
+  Say(Esther, 'D3c-Esther-4b');
+  Say(Simone, 'D3c-Simone-3');
+  Say(Esther, 'D3c-Esther-5');
+  Say(Kathryn, 'D3c-Kathryn-2');
+
+  ChangeMissionObjectives('MEsther');
+
+  SetAreaMapShow(BioArea1Mark, 1);
+  SetAreaMapShow(BioArea2Mark, 1);
+  SetAreaMapShow(BioArea3Mark, 1);
+
+end;
+
+every 0$1 trigger OutpostCaptured do
+var LabSpeaker, Squad;
+begin
+  Wait(11$15);
+
+  DialogueOn;
+
+  if not IsDead(Edmonds) then
+  begin
+    Say(Edmonds, 'D4a-Edmonds-1');
+    Say(Simone, 'D4a-Simone-1');
+    Say(Edmonds, 'D4a-Edmonds-2');
+    Say(Edmonds, 'D4a-Edmonds-3');
+    Say(Kathryn, 'D4a-Kathryn-1');
+    Say(Simone, 'D4a-Simone-2');
+    Say(Edmonds, 'D4a-Edmonds-4');
+    Say(Edmonds, 'D4a-Edmonds-5');
+    Say(Kathryn, 'D4a-Kathryn-2');
+    Say(Edmonds, 'D4a-Edmonds-6');
+    Say(Simone, 'D4a-Simone-3');
+  end
+  else
+  begin
+    Squad := FilterAllUnits([f_side, 7]) diff [Simone, Kathryn, Esther, Miller];
+    LabSpeaker:=SortBySkill(Squad, 4);
+     SaySex(LabSpeaker[1], 'D4b-Sci-1', 'D4b-FemSci-1');
+     SaySex(LabSpeaker[1], 'D4b-Sci-2', 'D4b-FemSci-2');
+     Say(Simone, 'D4b-Simone-1');
+     SaySex(LabSpeaker[1], 'D4b-Sci-3', 'D4b-FemSci-3');
+     if GetSex(LabSpeaker[1]) = sex_male then
+      begin
+       Say(LabSpeaker[1], 'D4b-Sci-4');
+       Say(Simone, 'D4b-Simone-2');
+      end;
+     SaySex(LabSpeaker[1], 'D4b-Sci-5', 'D4b-FemSci-4');
+     Say(Simone, 'D4b-Simone-3');
+  end;
+
+  ChangeMissionObjectives('MTesla');
+  TeslaQuestStart = true;
+
+  DialogueOff;
+end;
+
+every 0$1 trigger OutpostCaptured do
+begin
+  Wait(27$00);
+  Say(Simone, 'D3a-Simone-1');
+  Say(Kathryn, 'D3a-Kathryn-1');
+  Say(Simone, 'D3a-Simone-2');
+  Say(Kathryn, 'D3a-Kathryn-2');
+  Say(Simone, 'D3a-Simone-3');
+  Say(Kathryn, 'D3a-Kathryn-3');
+  Say(Simone, 'D3a-Simone-4');
+  Say(Simone, 'D3a-Simone-5');
+  Say(Kathryn, 'D3a-Kathryn-4');
+  Say(Simone, 'D3a-Simone-6');
+  Say(Kathryn, 'D3a-Kathryn-5');
+  Say(Simone, 'D3a-Simone-7');
+  Say(Simone, 'D3a-Simone-8');
+  Say(Kathryn, 'D3a-Kathryn-6');
+  Say(Simone, 'D3a-Simone-9');
+  Say(Kathryn, 'D3a-Kathryn-7');
+  Say(Simone, 'D3a-Simone-10');
+  Say(Kathryn, 'D3a-Kathryn-8');
+  Say(Simone, 'D3a-Simone-11');
+  Say(Kathryn, 'D3a-Kathryn-9');
+end;
+
+every 0$1 trigger OutpostCaptured do
+var Vehs, Solds;
+begin
+
+  Wait(Rand(12$10, 15$00));
+  DialogueOn;
+  SayRadio(Barnes, 'D4-Barnes-1');
+  Say(Simone, 'D4-Simone-1');
+  DialogueOff;
+
+  Solds := [Rand(1,2), Rand(2,3), 3][Difficulty];
+  Vehs := [1, 2, 2][Difficulty];
+
+  Wait(Rand(1$0, 2$30));
+  PrepareConvoy(2, Solds, Vehs, 2, [25, 27], 1);
+
+  ComAgressiveMove(ConvoyGroup, 159, 86);
+  Wait(0$20);
+
+  ComAgressiveMove(ConvoyGroup, 120, 85);
+  Wait(0$20);
+
+  ComAgressiveMove(ConvoyGroup, 78, 84);
+  Wait(0$20);
+
+  ComAgressiveMove(ConvoyGroup, 46, 86);
+
+end;
+
+every 0$1 trigger OutpostCaptured do
+var Solds;
+begin
+
+  Wait(Rand(19$20, 22$00));
+  DialogueOn;
+  SayRadio(Barnes, 'D4-Barnes-2');
+  Say(Simone, 'D4-Simone-2');
+  DialogueOff;
+
+  Solds := [Rand(2,3), Rand(2,4), Rand(3,4)][Difficulty];
+
+  Wait(Rand(1$0, 2$30));
+  PrepareConvoy(1, Solds, 2, 3, [25, 27], 1);
+
+  ComAgressiveMove(ConvoyGroup, 105, 41);
+  Wait(0$25);
+
+  ComAgressiveMove(ConvoyGroup, 120, 85);
+  Wait(0$20);
+
+  ComAgressiveMove(ConvoyGroup, 78, 84);
+  Wait(0$20);
+
+  ComAgressiveMove(ConvoyGroup, 46, 86);
+
+end;
+
+every 0$1 trigger OutpostCaptured do
+var Solds, Vehs;
+begin
+
+  Wait(Rand(33$40, 36$00));
+  DialogueOn;
+  SayRadio(Barnes, 'D4-Barnes-3');
+  DialogueOff;
+
+  Solds := [Rand(2,3), Rand(2,4), Rand(3,5)][Difficulty];
+  Vehs := [Rand(1,2), 2, Rand(2,3)][Difficulty];
+
+  Wait(Rand(1$0, 2$30));
+  PrepareConvoy(2, Solds, Vehs, 3, [25, 27, 26], 1);
+
+  ComAgressiveMove(ConvoyGroup, 159, 86);
+  Wait(0$20);
+
+  PrepareConvoy(2, 0, 1, 2, [25, 27, 26], 1);
+
+  ComAgressiveMove(ConvoyGroup, 120, 85);
+  Wait(0$20);
+
+  ComAgressiveMove(ConvoyGroup, 78, 84);
+  Wait(0$20);
+
+  ComAgressiveMove(ConvoyGroup, 46, 86);
+
+end;
+
+every 0$1 trigger OutpostCaptured do
+var Solds, Vehs, Solds2, Vehs2;
+begin
+
+  Wait(Rand(45$00, 48$00));
+  DialogueOn;
+  SayRadio(Barnes, 'D4-Barnes-4');
+  DialogueOff;
+
+  Solds := [Rand(1,3), Rand(2,3), Rand(2,4)][Difficulty];
+  Vehs := [Rand(1,2), Rand(1,3), Rand(2,3)][Difficulty];
+
+  Solds2 := [Rand(2,3), Rand(2,4), Rand(3,5)][Difficulty];
+  Vehs2 := [1, 1, 2][Difficulty];
+
+  Wait(Rand(1$0, 2$30));
+  PrepareConvoy(1, Solds, Vehs, 3, [25, 27, 26, 28], 1);
+  PrepareConvoy(3, Solds2, Vehs2, 3, [25, 27, 26, 28], 2);
+
+
+  ComAgressiveMove(ConvoyGroup, 105, 41);
+  ComAgressiveMove(ConvoyGroup2, 137, 123);
+  Wait(0$25);
+
+  ComAgressiveMove(ConvoyGroup, 120, 85);
+  ComAgressiveMove(ConvoyGroup2, 120, 85);
+  Wait(0$20);
+
+  ComAgressiveMove(ConvoyGroup, 78, 84);
+  ComAgressiveMove(ConvoyGroup2, 78, 84);
+  Wait(0$20);
+
+  ComAgressiveMove(ConvoyGroup, 46, 86);
+  ComAgressiveMove(ConvoyGroup2, 46, 86);
+
+end;
+
+every 0$1 trigger OutpostCaptured do
+var Solds, Vehs;
+begin
+
+  Wait(Rand(61$30, 64$00));
+  DialogueOn;
+  SayRadio(Barnes, 'D4-Barnes-5');
+  DialogueOff;
+
+  Solds := [Rand(4,5), Rand(5,7), Rand(5,8)][Difficulty];
+  Vehs := [Rand(2,3), Rand(3,5), Rand(4,6)][Difficulty];
+
+  Wait(Rand(1$0, 2$30));
+  PrepareConvoy(3, Solds, Vehs, 0, [25, 27, 26, 28], 1);
+
+  ComAgressiveMove(ConvoyGroup, 137, 123);
+  Wait(0$25);
+
+  ComAgressiveMove(ConvoyGroup, 120, 85);
+  Wait(0$20);
+
+  ComAgressiveMove(ConvoyGroup, 78, 84);
+  Wait(0$20);
+
+  ComAgressiveMove(ConvoyGroup, 46, 86);
+
+end;
+
+every 0$1 trigger OutpostCaptured do
+begin
+
+  Wait(Rand(67$20, 68$40));
+  LastStand = true;
+  SayRadio(Loghain, 'D5-Loghain-1');
+  SayRadio(Barnes, 'D5-Barnes-1');
+  SayRadio(Loghain, 'D5-Loghain-2');
+  Wait(0$20);
+  SayRadio(Smithy, 'D5-Smithy-1');
+  SayRadio(Barnes, 'D5-Barnes-2');
+
+  Wait(Rand(1$0, 2$30));
+  SayRadio(Loghain, 'D5a-Loghain-1');
+  SayRadio(Barnes, 'D5a-Barnes-1');
+  SayRadio(Loghain, 'D5a-Loghain-2');
+
+  Wait(0$30);
+  SayRadio(Barnes, 'D6-Barnes-1');
+  Say(Simone, 'D6-Simone-1');
+  SayRadio(Barnes, 'D6-Barnes-2');
+  Say(Simone, 'D6-Simone-2');
+
+  Wait(0$5);
+  if Difficulty = 3 then SetMercenaryAggressivenessLevel(8)
+  else SetMercenaryAggressivenessLevel(5);
+  InGameOn;
+  CenterOnXY(78, 53);
+
+  SayRadio(Dvalishvili, 'D6-Dvali-1');
+  Say(Simone, 'D6-Simone-3');
+  SayRadio(Dvalishvili, 'D6-Dvali-2');
+
+  ChangeSideFog(8, 7);
+
+  CenterOnXY(90, 4);
+  GenerateVehicleAttack(8, 1, 3);
+
+  CenterOnXY(180, 85);
+  GenerateVehicleAttack(8, 2, 4);
+
+  CenterOnXY(148, 158);
+  GenerateVehicleAttack(8, 3, 4);
+
+  ChangeSideFog(8, 8);
+
+  CenterOnXY(78, 53);
+  DWait(0$1);
+
+  Say(Esther, 'D6-Esther-1');
+  SayRadio(Dvalishvili, 'D6-Dvali-3');
+
+  InGameOff;
+
+  RespawnAttackInfantry(8, 2, 8, 0, 0, 3, 0, ARSolSkill, SoldierSpawn);
+
+  Say(Simone, 'D6-Simone-4');
+  SayRadio(Barnes, 'D6-Barnes-3');
+  ChangeMissionObjectives('M2');
+
+  Wait(2$0);
+  GenerateVehicleAttack(8, 0, 9);
+  RespawnAttackInfantry(8, 2, 11, 0, 0, 2, 0, ARSolSkill, SoldierSpawn);
+
+  Wait(2$30);
+  RespawnAttackInfantry(8, 2, 7, 0, 0, 2, 0, ARSolSkill, SoldierSpawn);
+
+  GenerateVehicleAttack(8, 0, 10);
+  RespawnAttackInfantry(8, 2, 14, 0, 0, 4, 0, ARSolSkill, SoldierSpawn);
+
+  Wait(2$50);
+  InGameOn;
+  SayRadio(Barnes, 'D7-Barnes-1');
+  Say(Simone, 'D7-Simone-1');
+  SayRadio(Barnes, 'D7-Barnes-2');
+  Say(Simone, 'D7-Simone-2');
+  Say(Kathryn, 'D7-Kathryn-1');
+  Say(Simone, 'D7-Simone-3');
+  InGameOff;
+  LastStand = false;
+  Evacuation = true;
+
+  player_units = FilterAllUnits([[f_side, 7], [f_type, unit_human]]);
+
+  ChangeMissionObjectives('M3');
+  SetAreaMapShow(ExitArea, 1);
+  Say(Simone, 'D7-Simone-4');
+
+  RespawnAttackInfantry(8, 2, 5, 0, 0, 1, 0, ARSolSkill, SoldierSpawn);
+  GenerateVehicleAttack(8, 0, 4);
+
+end;
+
+every 0$1 do
+Begin
+wait(Rand(0$50, 1$20));
+CreateCratesArea(Rand(3, 5), CratesArea,true);
+enable;
+end;
+

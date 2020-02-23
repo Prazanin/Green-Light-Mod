@@ -1,0 +1,269 @@
+GAMEINIT
+  ENVIROMENTS
+    ENVIROMENT_LABEL "E(&Enviroment)C(&Prostøedí)"
+    ENVIROMENT_SYMBOL e
+
+    ENVIROMENT_SET 1 "Listnate stromy"
+    ENVIROMENT_SET 2 "Jehlicnate stromy"
+
+
+    ENVIROMENT_TYPE 1
+      NAME "E(list-dvoupatr-1-)C(list-dvoupatr-1-)"
+      SET 1
+      ZBUFFER
+      IDENT list-dvoupatr-1-
+      SYMBOL list-dvoupatr-1-
+      TYPE Single_tree
+      COUNT 1
+
+
+    ENVIROMENT_TYPE 2
+      NAME "E(list-dvoupatr-2-)C(list-dvoupatr-2-)"
+      SET 1
+      ZBUFFER
+      IDENT list-dvoupatr-2-
+      SYMBOL list-dvoupatr-2-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 3
+      NAME "E(list-dvoupatr-3-)C(list-dvoupatr-3-)"
+      SET 1
+      ZBUFFER
+      IDENT list-dvoupatr-3-
+      SYMBOL list-dvoupatr-3-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 4
+      NAME "E(list-dvoupatr-4-)C(list-dvoupatr-4-)"
+      SET 1
+      ZBUFFER
+      IDENT list-dvoupatr-4-
+      SYMBOL list-dvoupatr-4-
+      TYPE Single_tree
+      COUNT 1
+
+
+    ENVIROMENT_TYPE 5
+      NAME "E(list-dvoupatr-5-)C(list-dvoupatr-5-)"
+      SET 1
+      ZBUFFER
+      IDENT list-dvoupatr-5-
+      SYMBOL list-dvoupatr-5-
+      TYPE Single_tree
+      COUNT 1
+
+
+    ENVIROMENT_TYPE 6
+      NAME "E(list-dvoupatr-6-)C(list-dvoupatr-6-)"
+      SET 1
+      ZBUFFER
+      IDENT list-dvoupatr-6-
+      SYMBOL list-dvoupatr-6-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 7
+      NAME "E(list-jerab-1-)C(list-jerab-1-)"
+      SET 1
+      ZBUFFER
+      IDENT list-jerab-1-
+      SYMBOL list-jerab-1-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 8
+      NAME "E(list-jerab-2-)C(list-jerab-2-)"
+      SET 1
+      ZBUFFER
+      IDENT list-jerab-2-
+      SYMBOL list-jerab-2-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 9
+      NAME "E(list-jerab-3-)C(list-jerab-3-)"
+      SET 1
+      ZBUFFER
+      IDENT list-jerab-3-
+      SYMBOL list-jerab-3-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 10
+      NAME "E(list-jerab-4-)C(list-jerab-4-)"
+      SET 1
+      ZBUFFER
+      IDENT list-jerab-4-
+      SYMBOL list-jerab-4-
+      TYPE Single_tree
+      COUNT 1
+
+
+    ENVIROMENT_TYPE 11
+      NAME "E(list-jerab-5-)C(list-jerab-5-)"
+      SET 1
+      ZBUFFER
+      IDENT list-jerab-5-
+      SYMBOL list-jerab-5-
+      TYPE Single_tree
+      COUNT 1
+
+
+    ENVIROMENT_TYPE 12
+      NAME "E(list-jerab-6-)C(list-jerab-6-)"
+      SET 1
+      ZBUFFER
+      IDENT list-jerab-6-
+      SYMBOL list-jerab-6-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 13
+      NAME "E(list-jerab-7-)C(list-jerab-7-)"
+      SET 1
+      ZBUFFER
+      IDENT list-jerab-7-
+      SYMBOL list-jerab-7-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 14
+      NAME "E(list-jerab-8-)C(list-jerab-8-)"
+      SET 1
+      ZBUFFER
+      IDENT list-jerab-8-
+      SYMBOL list-jerab-8-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 15
+      NAME "E(list-jerab-9-)C(list-jerab-9-)"
+      SET 1
+      ZBUFFER
+      IDENT list-jerab-9-
+      SYMBOL list-jerab-9-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 16
+      NAME "E(list-platan-1-)C(list-platan-1-)"
+      SET 1
+      ZBUFFER
+      IDENT list-platan-1-
+      SYMBOL list-platan-1-
+      TYPE Single_tree
+      COUNT 1
+
+
+    ENVIROMENT_TYPE 17
+      NAME "E(list-platan-2-)C(list-platan-2-)"
+      SET 1
+      ZBUFFER
+      IDENT list-platan-2-
+      SYMBOL list-platan-2-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 18
+      NAME "E(list-platan-3-)C(list-platan-3-)"
+      SET 1
+      ZBUFFER
+      IDENT list-platan-3-
+      SYMBOL list-platan-3-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 19
+      NAME "E(list-platan-4-)C(list-platan-4-)"
+      SET 1
+      ZBUFFER
+      IDENT list-platan-4-
+      SYMBOL list-platan-4-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 20
+      NAME "E(list-platan-4-)C(list-platan-4-)"
+      SET 1
+      ZBUFFER
+      IDENT list-platan-4-
+      SYMBOL list-platan-4-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 21
+      NAME "E(list-platan-5-)C(list-platan-5-)"
+      SET 1
+      ZBUFFER
+      IDENT list-platan-5-
+      SYMBOL list-platan-5-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 22
+      NAME "E(list-platan-6-)C(list-platan-6-)"
+      SET 1
+      ZBUFFER
+      IDENT list-platan-6-
+      SYMBOL list-platan-6-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 23
+      NAME "E(list-platan-7-)C(list-platan-7-)"
+      SET 1
+      ZBUFFER
+      IDENT list-platan-7-
+      SYMBOL list-platan-7-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 24
+      NAME "E(list-platan-8-)C(list-platan-8-)"
+      SET 1
+      ZBUFFER
+      IDENT list-platan-8-
+      SYMBOL list-platan-8-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 25
+      NAME "E(list-platan-9-)C(list-platan-9-)"
+      SET 1
+      ZBUFFER
+      IDENT list-platan-9-
+      SYMBOL list-platan-9-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 26
+      NAME "E(list-mocal-koreny-1-)C(list-mocal-koreny-1-)"
+      SET 1
+      ZBUFFER
+      IDENT list-mocal-koreny-1-
+      SYMBOL list-mocal-koreny-1-
+      TYPE Single_tree
+      COUNT 1
+
+    ENVIROMENT_TYPE 27
+      NAME "E(list-vrba-1-)C(list-vrba-1-)"
+      SET 1
+      ZBUFFER
+      IDENT list-vrba-1-
+      SYMBOL list-vrba-1-
+      TYPE Single_tree
+      COUNT 1
+    ENVIROMENT_TYPE 28
+      NAME "E(list-vrba-2-)C(list-vrba-2-)"
+      SET 1
+      ZBUFFER
+      IDENT list-vrba-2-
+      SYMBOL list-vrba-2-
+      TYPE Single_tree
+      COUNT 1
+
+
+  END_OF_ENVIROMENTS
+END_OF_GAMEINIT

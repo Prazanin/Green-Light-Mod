@@ -1,0 +1,87 @@
+
+starting
+begin
+ingame_video=true;
+interface_hidden=true;
+
+CreatePersonnel;
+PrepareBattle();
+
+CenterOnXY(41,25);
+music_class:=1;
+music_nat:=2;
+
+SetAttitude(3,1,att_enemy,true);
+CenterOnXY(41,25);
+ComAgressiveMove(AMSolders,42,24);
+ComAgressiveMove([tnk1,tnk2],42,24);
+Wait(0$10);
+MineExplosion(30, 31, 1);
+Wait(0$15);
+CenterOnUnits(tnk3);
+ComAgressiveMove(AM2Solders,42,24);
+ComAgressiveMove([tnk3,tnk4,tnk5],42,24);
+ComAgressiveMove(FilterAllUnits([f_side, 3]),57,64);
+Wait(0$5);
+CenterOnXY(54,50);
+Wait(0$5);
+MineExplosion(54, 42, 0);
+SetLives(depo, 245);
+Wait(0$10);
+ComAgressiveMove(FilterAllUnits([f_side, 3]),43,81);
+PlaceUnitXY(RuComm,28,3,false);
+PlaceUnitXY(Kolvich,19,2,false);
+PlaceUnitXY(Sidor,26,2,false);
+
+ComMoveXY(Sidor,48,37);
+ComMoveXY(Kolvich,48,37);
+
+AddComTurnUnit(Kolvich,Sidor);
+AddComTurnUnit(Sidor,Kolvich);
+Wait(0$15);
+CenterOnXY(41,25);
+music_class:=0;
+music_nat:=1;
+Say(Sidor,'D1-Sidor-1');
+Say(Kolvich,'D1-Kolvich-1');
+Say(Sidor,'D1-Sidor-2');
+ComMoveXY(RuComm,48,36);
+AddComTurnUnit(RuComm,Sidor);
+Say(Kolvich,'D1-Kolvich-2');
+Wait(0$5);
+AddComTurnUnit(Sidor,RuComm);
+Say(RuComm,'D1a-RuOff1-1');
+Say(Sidor,'D1a-Sidor-1');
+Say(RuComm,'D1a-RuOff1-2');
+Say(Sidor,'D1a-Sidor-2');
+Say(RuComm,'D1a-RuOff1-3');
+Say(Sidor,'D1a-Sidor-3');
+Say(RuComm,'D1a-RuOff1-4');
+Say(Sidor,'D1a-Sidor-4');
+ComMoveXY(RuComm,27,2);
+Wait(0$2);
+AddComTurnUnit(Sidor,Kolvich);
+Say(Sidor,'D1b-Sidor-1');
+Say(Kolvich,'D1b-Kolvich-1');
+Wait(0$2);
+
+ingame_video=false;
+interface_hidden=false;
+
+changemap('02','%_cont');
+end;
+
+{every 0$1 do
+begin
+ColumnaVozov(3,30,86,98);
+end;
+
+every 0$1 do
+begin
+ColumnaLudziow(3,40,89,98);
+end;
+
+every 0$2 do
+begin
+ColumnaLudziow2(3,50,90,98);
+end;}

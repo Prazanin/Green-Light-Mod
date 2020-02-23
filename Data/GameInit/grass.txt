@@ -1,0 +1,58 @@
+GAMEINIT
+  GRASS
+    GRASS_TYPE 1
+      NAME "E(Normal Grass)C(Normální tráva)"
+      UNTRAMPLED 8
+        Thomas2a Thomas2b Thomas1a Thomas1b Thomas3a Thomas3b Thomas4a Thomas4b {tr1 tr2 tr3 tr4 tr5 tr6 tr7 tr8}
+      TRAMPLED 4
+        Th1sa Th1sb Th2sa Th2sb {Thomas1sa Thomas1sb tr1s tr2s}
+    GRASS_TYPE 2
+      NAME "E(Grass with Flowers)C(Tráva s kytièkami)"
+      UNTRAMPLED 8
+        Th1ka Th1kb Th2ka Th2kb Th3ka Th3kb Th4ka Th4kb {trk3 trk4 trk5 trk6 trk7 trk8}
+      TRAMPLED 4
+        Th1sa Th1sb Th2sa Th2sb {trk3s trk4s}
+    GRASS_TYPE 3
+      NAME "E(keriky)C(keriky)"
+      UNTRAMPLED 4
+        Jen001 Jen002 Jen005 Jen006
+      TRAMPLED 4
+        Jen005s Jen006s Jen001s Jen002s
+    GRASS_TYPE 4
+      NAME "E(smrcky)C(smrcky)"
+      UNTRAMPLED 2
+        Jen007 Jen008
+      TRAMPLED 2
+        Jen007s Jen008s
+    GRASS_TYPE 5
+      NAME "E(rakos)C(rakos)"
+      UNTRAMPLED 4
+        JenRakos1 JenRakos2 JenRakos3 JenRakos4
+      TRAMPLED 2
+        JenRakos1s JenRakos2s
+    GRASS_TYPE 6
+      NAME "E(flowers)C(kvitko)"
+      UNTRAMPLED 2
+        JenKvitko1 JenKvitko2
+      TRAMPLED 2
+        JenKvitko1s JenKvitko2s
+    GRASS_TYPE 7
+      NAME "E(vres)C(vres)"
+      UNTRAMPLED 4
+        JenVres JenVres2 JenVresN JenVresN2
+      TRAMPLED 2
+        JenVress JenVress2
+    GRASS_TYPE 8
+      NAME "E(jitrocel)C(jitrocel)"
+      UNTRAMPLED 2
+        JenJitrocel1 JenJitrocel2
+      TRAMPLED 2
+        JenJitrocel1s JenJitrocel2s
+    GRASS_TYPE 9
+      NAME "E(sand)C(pisek)"
+      UNTRAMPLED 2
+        JenPisek1 JenPisek2
+      TRAMPLED 2
+        JenPisek1 JenPisek2
+  END_OF_GRASS
+END_OF_GAMEINIT

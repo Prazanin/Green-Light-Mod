@@ -1,0 +1,257 @@
+on UnitDestroyed(un) do
+begin
+  if un=Simone then
+   begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Simone');
+        ExclusiveOff;
+        exit;
+   end
+  else if un=Miller then
+   begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Miller');
+        ExclusiveOff;
+        exit;
+   end
+  else if un=Esther then
+   begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Esther');
+        ExclusiveOff;
+        exit;
+   end
+  else if un=Bradford and NOT BradfordAssault then
+   begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Bradford');
+        ExclusiveOff;
+        exit;
+   end
+  else if un=Barnes then
+   begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Barnes');
+        ExclusiveOff;
+        exit;
+   end
+  else if un=RU_Courier then
+   begin
+     RU_Courier_Dead := true;
+     Say(Miller, 'D8b-Miller-1');
+   end;
+
+MCE_UnitDestroyed(un);
+end;
+
+on UnitGoesToRed(un) do
+begin
+  if un = Bradford then
+   begin
+     DoNotAttack(3, Bradford);
+     ForceSay(Bradford, 'D5a-Bradford-3');
+   end;
+  if un = Richford then
+   begin
+     DoNotAttack(3, Richford);
+     ForceSay(Richford, 'D5a-Richford-2');
+   end;
+  if un = CourierVeh then
+   begin
+     ComMoveXY(RU_Courier, 123, 3);
+   end;
+  if un = Sidorovich then
+   begin
+     ForceSay(Sidorovich, 'D9a-Sidor-1');
+     Say(Simone, 'D9a-Simone-1');
+   end;
+  if un = Dvalishvili then
+   begin
+     DialogueOn;
+     Say(Dvalishvili, 'D11a-Dvali-1');
+     DialogueOff;
+   end;
+
+  if un = ustinov1 then
+   begin
+     SetSide(ustinov1, 7);
+     SetLives(ustinov1, 400);
+     Say(Sidorovich, 'D9-Sidor-1');
+   end;
+  if un = ustinov2 then
+   begin
+     SetSide(ustinov2, 7);
+     SetLives(ustinov2, 400);
+   end;
+end;
+
+On Contact(s1, s2) do
+begin
+  if (s1 = 7 and s2 = 5) or (s2 = 5 and s1 = 7) then
+  begin
+   Say(Botnicov, '9a-Botnicov-1a');
+   SetAttitude(5, 7, att_enemy, true);
+   BotnicovSpared := false;
+   BotnicovAntagonized := true;
+   ComAgressiveMove(Botnicov_Sols, 257, 108);
+   ComAgressiveMove(Botnicov, 257, 108);
+  end;
+
+  if (s1 = 7 and s2 = 1) or (s2 = 1 and s1 = 7) then
+  begin
+   if IsOK(Bradford) then
+   Say(Bradford, 'DFriendlyFire-Bradford-1')
+   else
+   Say(Barnes, 'DFriendlyFire-Barnes-1');
+  end;
+end;
+
+export AMLab, AMFactoryExt;
+on BuildingComplete(building) do
+var AM_Breastworks;
+begin
+  if GetSide(building) = 7 and GetBType(building) = b_depot and not Base_DepotBuilt then
+    Base_DepotBuilt := true;
+
+  if GetSide(building) = 7 and GetBType(building) = b_workshop and not Base_WorkshopBuilt then
+    Base_WorkshopBuilt := true;
+
+  if GetSide(building) = 7 and GetBType(building) = b_lab and not Base_LabBuilt then
+    Base_LabBuilt := true;
+
+  if GetBType(building)=b_lab and GetSide(building)=1 then
+     begin
+      AMLab := building;
+      ComMoveXY(AM_Scientists[1], 65, 71);
+      ComMoveXY(AM_Scientists[2], 103, 95);
+      AddComEnterUnit(AM_Scientists,building);
+      ComResearch(building,tech_Tech1);
+      AddComResearch(building,tech_Tech2);
+      AddComUpgradeLab(building,b_lab_weapon);
+      AddComResearch(building,tech_AdvMet);
+      AddComResearch(building,tech_Rocket);
+      AddComResearch(building,tech_Weap1);
+      AddComUpgradeLab(building,b_lab_computer);
+      AddComResearch(building,tech_AdvAI);
+      AddComResearch(building,tech_Comp1);
+      AddComResearch(building,tech_Weap2);
+      AddComResearch(building,tech_Comp2);
+      AddComResearch(building,tech_Tech3);
+      AddComResearch(building,tech_Weap3);
+      AddComResearch(building,tech_Comp3);
+     end;
+
+  if GetBType(building)=b_workshop and GetSide(building)=1 then
+     begin
+      AM_Factory := building;
+      AddComEnterUnit(AM_Mechs,building);
+      Wait(0$20);
+      ComUpgrade(building);
+      Wait(5$00);
+      Construct_Vehicles;
+     end;
+
+  if GetBType(building)=b_armoury and GetSide(building)=1 then
+     begin
+      ComEnterUnit([AM_Sols[1],AM_Sols[2],AM_Sols[3],AM_Sols[4],AM_Sols[5],AM_Sols[6]], building);
+     end;
+
+  if GetBType(building)=b_breastwork and GetSide(building)=1 then
+     begin
+      AM_Breastworks = AM_Breastworks + 1;
+      Case AM_Breastworks of
+      3: ComEnterUnit(AM_Sols[7], building);
+      4: ComEnterUnit(AM_Sols[8], building);
+      end;
+     end;
+
+  if (GetBType(building)=b_ext_computer or GetBType(building)=b_ext_gun or GetBType(building)=b_ext_laser or GetBType(building)=b_ext_track or GetBType(building)=b_ext_rocket) and GetSide(building)=1 then
+     begin
+      AMFactoryExt = AMFactoryExt ^ building;
+     end;
+
+MCE_BuildingComplete(building);
+end;
+
+export AMVehiclesBuilt;
+
+on VehicleConstructed(vehicle, factory) do
+begin
+  if GetSide(vehicle) = 1 then
+  begin
+   AMVehiclesBuilt := AMVehiclesBuilt + 1;
+    Case AMVehiclesBuilt mod 3 of
+    0:begin
+      AM_SquadOne := AM_SquadOne ^ vehicle;
+      ComMoveXY(vehicle, 94, 68);
+      end;
+    1:begin
+      AM_SquadTwo := AM_SquadTwo ^ vehicle;
+      ComMoveXY(vehicle, 110, 79);
+      end;
+    2:begin
+      AM_SquadThree := AM_SquadThree ^ vehicle;
+      ComMoveXY(vehicle, 120, 101);
+      end;
+    end;
+  end;
+
+MCE_VehicleConstructed(vehicle, factory);
+end;
+
+
+On BuildingStarted(building, builder) do
+begin
+MCE_BuildingStarted(building, builder);
+End;
+
+On UpgradeComplete(building) do
+begin
+MCE_UpgradeComplete(building);
+End;
+
+On ResearchComplete(tech, lab) do
+begin
+MCE_ResearchComplete(tech, lab);
+End;
+
+On CrateSpawn(id, x, y, amount, mode) do
+begin
+MCE_CrateSpawn(id, x, y, amount, mode);
+End;
+
+On VehicleCaptured(new, old, side, capturing_unit) do
+begin
+MCE_VehicleCaptured(new, old, side, capturing_unit);
+End;
+
+On BuildingCaptured(building, side, capturning_unit) do
+begin
+MCE_BuildingCaptured(building, side, capturning_unit);
+End;
+
+On EnterBuilding(building, unit) do
+begin
+MCE_EnterBuilding(building, unit);
+End;
+
+On LeaveBuilding(building, unit) do
+begin
+MCE_LeaveBuilding(building, unit);
+End;
+
+On EvacuateVehicle(driver, abandoned_vehicle, unknown1, unknown2) do
+begin
+
+MCE_EvacuateVehicle(driver, abandoned_vehicle, unknown1, unknown2);
+End;
+
+On ApemanTamed(ape, sci) do
+begin
+MCE_ApemanTamed(ape, sci);
+End;

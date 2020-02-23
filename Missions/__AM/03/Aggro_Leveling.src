@@ -1,0 +1,30 @@
+export ThresholdLvl2,
+       ThresholdLvl3,
+       ThresholdLvl4,
+       ThresholdLvl5,
+       ThresholdLvl6,
+       ThresholdLvl7,
+       ThresholdLvl8;
+
+export MercsKilled;
+
+every 0$1 trigger MercsKilled >= ThresholdLvl2 AND Difficulty < 3 AND NOT LastStand do
+  SetMercenaryAggressivenessLevel(2);
+
+every 0$1 trigger MercsKilled >= ThresholdLvl3 AND NOT LastStand do
+  SetMercenaryAggressivenessLevel(3);
+
+every 0$1 trigger MercsKilled >= ThresholdLvl4 AND NOT LastStand do
+  SetMercenaryAggressivenessLevel(4);
+
+every 0$1 trigger MercsKilled >= ThresholdLvl5 AND NOT LastStand do
+  SetMercenaryAggressivenessLevel(5);
+
+every 0$1 trigger MercsKilled >= ThresholdLvl6 AND Difficulty = 3 AND NOT LastStand do
+  SetMercenaryAggressivenessLevel(6);
+
+every 0$1 trigger MercsKilled >= ThresholdLvl7 AND Difficulty = 3 AND NOT LastStand do
+  SetMercenaryAggressivenessLevel(7);
+
+every 0$1 trigger MercsKilled >= ThresholdLvl8 AND Difficulty = 3 AND NOT LastStand do
+  SetMercenaryAggressivenessLevel(8);

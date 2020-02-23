@@ -1,0 +1,1276 @@
+// export Simone , Kathryn , Barnes , Bradford , Lazarfeld ; starting begin IngameOn ;
+   0: CALL_OW 8
+// CreatePersonnel ;
+   4: CALL 1244 0 0
+// PrepareTheta ;
+   8: CALL 1857 0 0
+// SetBName ( theta , theta ) ;
+  12: LD_INT 1
+  14: PPUSH
+  15: LD_STRING theta
+  17: PPUSH
+  18: CALL_OW 500
+// PlaceHumanInUnit ( Barnes , lab1 ) ;
+  22: LD_EXP 3
+  26: PPUSH
+  27: LD_INT 6
+  29: PPUSH
+  30: CALL_OW 52
+// PlaceHumanInUnit ( Bradford , lab1 ) ;
+  34: LD_EXP 4
+  38: PPUSH
+  39: LD_INT 6
+  41: PPUSH
+  42: CALL_OW 52
+// PlaceHumanInUnit ( Lazarfeld , factor1 ) ;
+  46: LD_EXP 5
+  50: PPUSH
+  51: LD_INT 5
+  53: PPUSH
+  54: CALL_OW 52
+// PlaceHumanInUnit ( Scout , scoutcar ) ;
+  58: LD_EXP 6
+  62: PPUSH
+  63: LD_INT 177
+  65: PPUSH
+  66: CALL_OW 52
+// PlaceUnitXY ( Simone , 39 , 34 , false ) ;
+  70: LD_EXP 1
+  74: PPUSH
+  75: LD_INT 39
+  77: PPUSH
+  78: LD_INT 34
+  80: PPUSH
+  81: LD_INT 0
+  83: PPUSH
+  84: CALL_OW 48
+// PlaceUnitXY ( Kathryn , 43 , 38 , false ) ;
+  88: LD_EXP 2
+  92: PPUSH
+  93: LD_INT 43
+  95: PPUSH
+  96: LD_INT 38
+  98: PPUSH
+  99: LD_INT 0
+ 101: PPUSH
+ 102: CALL_OW 48
+// PlaceUnitXY ( Lea , 37 , 24 , false ) ;
+ 106: LD_EXP 7
+ 110: PPUSH
+ 111: LD_INT 37
+ 113: PPUSH
+ 114: LD_INT 24
+ 116: PPUSH
+ 117: LD_INT 0
+ 119: PPUSH
+ 120: CALL_OW 48
+// CenterNowOnXY ( 41 , 29 ) ;
+ 124: LD_INT 41
+ 126: PPUSH
+ 127: LD_INT 29
+ 129: PPUSH
+ 130: CALL_OW 86
+// ComMoveXY ( Simone , 38 , 31 ) ;
+ 134: LD_EXP 1
+ 138: PPUSH
+ 139: LD_INT 38
+ 141: PPUSH
+ 142: LD_INT 31
+ 144: PPUSH
+ 145: CALL_OW 111
+// ComMoveXY ( Lea , 38 , 30 ) ;
+ 149: LD_EXP 7
+ 153: PPUSH
+ 154: LD_INT 38
+ 156: PPUSH
+ 157: LD_INT 30
+ 159: PPUSH
+ 160: CALL_OW 111
+// AddComTurnUnit ( Simone , Lea ) ;
+ 164: LD_EXP 1
+ 168: PPUSH
+ 169: LD_EXP 7
+ 173: PPUSH
+ 174: CALL_OW 179
+// AddComTurnUnit ( Lea , Simone ) ;
+ 178: LD_EXP 7
+ 182: PPUSH
+ 183: LD_EXP 1
+ 187: PPUSH
+ 188: CALL_OW 179
+// DWait ( 0 0$3 ) ;
+ 192: LD_INT 105
+ 194: PPUSH
+ 195: CALL_OW 68
+// ComEnterUnit ( sci1 , lab1 ) ;
+ 199: LD_INT 192
+ 201: PPUSH
+ 202: LD_INT 6
+ 204: PPUSH
+ 205: CALL_OW 120
+// Say ( Simone , DXA1-Simone-1 ) ;
+ 209: LD_EXP 1
+ 213: PPUSH
+ 214: LD_STRING DXA1-Simone-1
+ 216: PPUSH
+ 217: CALL_OW 88
+// Say ( Lea , DXA1-Lea-1 ) ;
+ 221: LD_EXP 7
+ 225: PPUSH
+ 226: LD_STRING DXA1-Lea-1
+ 228: PPUSH
+ 229: CALL_OW 88
+// Say ( Simone , DXA1-Simone-2 ) ;
+ 233: LD_EXP 1
+ 237: PPUSH
+ 238: LD_STRING DXA1-Simone-2
+ 240: PPUSH
+ 241: CALL_OW 88
+// Say ( Lea , DXA1-Lea-2 ) ;
+ 245: LD_EXP 7
+ 249: PPUSH
+ 250: LD_STRING DXA1-Lea-2
+ 252: PPUSH
+ 253: CALL_OW 88
+// Say ( Simone , DXA1-Simone-3 ) ;
+ 257: LD_EXP 1
+ 261: PPUSH
+ 262: LD_STRING DXA1-Simone-3
+ 264: PPUSH
+ 265: CALL_OW 88
+// Say ( Lea , DXA1-Lea-3 ) ;
+ 269: LD_EXP 7
+ 273: PPUSH
+ 274: LD_STRING DXA1-Lea-3
+ 276: PPUSH
+ 277: CALL_OW 88
+// Say ( Simone , DXA1-Simone-4 ) ;
+ 281: LD_EXP 1
+ 285: PPUSH
+ 286: LD_STRING DXA1-Simone-4
+ 288: PPUSH
+ 289: CALL_OW 88
+// ComMoveXY ( Simone , 43 , 38 ) ;
+ 293: LD_EXP 1
+ 297: PPUSH
+ 298: LD_INT 43
+ 300: PPUSH
+ 301: LD_INT 38
+ 303: PPUSH
+ 304: CALL_OW 111
+// ComEnterUnit ( Lea , theta ) ;
+ 308: LD_EXP 7
+ 312: PPUSH
+ 313: LD_INT 1
+ 315: PPUSH
+ 316: CALL_OW 120
+// SetLives ( [ t3 , t4 , t5 ] , 510 ) ;
+ 320: LD_INT 183
+ 322: PUSH
+ 323: LD_INT 186
+ 325: PUSH
+ 326: LD_INT 187
+ 328: PUSH
+ 329: EMPTY
+ 330: LIST
+ 331: LIST
+ 332: LIST
+ 333: PPUSH
+ 334: LD_INT 510
+ 336: PPUSH
+ 337: CALL_OW 234
+// DWait ( 0 0$2 ) ;
+ 341: LD_INT 70
+ 343: PPUSH
+ 344: CALL_OW 68
+// Say ( Kathryn , DX1-Kathryn-1 ) ;
+ 348: LD_EXP 2
+ 352: PPUSH
+ 353: LD_STRING DX1-Kathryn-1
+ 355: PPUSH
+ 356: CALL_OW 88
+// Say ( Simone , DX1-Simone-1 ) ;
+ 360: LD_EXP 1
+ 364: PPUSH
+ 365: LD_STRING DX1-Simone-1
+ 367: PPUSH
+ 368: CALL_OW 88
+// Say ( Kathryn , DX1-Kathryn-2 ) ;
+ 372: LD_EXP 2
+ 376: PPUSH
+ 377: LD_STRING DX1-Kathryn-2
+ 379: PPUSH
+ 380: CALL_OW 88
+// ComMoveXY ( Simone , 43 , 38 ) ;
+ 384: LD_EXP 1
+ 388: PPUSH
+ 389: LD_INT 43
+ 391: PPUSH
+ 392: LD_INT 38
+ 394: PPUSH
+ 395: CALL_OW 111
+// AddComTurnUnit ( Simone , Kathryn ) ;
+ 399: LD_EXP 1
+ 403: PPUSH
+ 404: LD_EXP 2
+ 408: PPUSH
+ 409: CALL_OW 179
+// Say ( Simone , DX1-Simone-2 ) ;
+ 413: LD_EXP 1
+ 417: PPUSH
+ 418: LD_STRING DX1-Simone-2
+ 420: PPUSH
+ 421: CALL_OW 88
+// AddComTurnUnit ( Kathryn , Simone ) ;
+ 425: LD_EXP 2
+ 429: PPUSH
+ 430: LD_EXP 1
+ 434: PPUSH
+ 435: CALL_OW 179
+// Say ( Kathryn , DX1-Kathryn-3 ) ;
+ 439: LD_EXP 2
+ 443: PPUSH
+ 444: LD_STRING DX1-Kathryn-3
+ 446: PPUSH
+ 447: CALL_OW 88
+// Say ( Simone , DX1-Simone-3 ) ;
+ 451: LD_EXP 1
+ 455: PPUSH
+ 456: LD_STRING DX1-Simone-3
+ 458: PPUSH
+ 459: CALL_OW 88
+// Wait ( 0 0$3 ) ;
+ 463: LD_INT 105
+ 465: PPUSH
+ 466: CALL_OW 67
+// Say ( Kathryn , DX1-Kathryn-4 ) ;
+ 470: LD_EXP 2
+ 474: PPUSH
+ 475: LD_STRING DX1-Kathryn-4
+ 477: PPUSH
+ 478: CALL_OW 88
+// Say ( Simone , DX1-Simone-4 ) ;
+ 482: LD_EXP 1
+ 486: PPUSH
+ 487: LD_STRING DX1-Simone-4
+ 489: PPUSH
+ 490: CALL_OW 88
+// Say ( Kathryn , DX1-Kathryn-5 ) ;
+ 494: LD_EXP 2
+ 498: PPUSH
+ 499: LD_STRING DX1-Kathryn-5
+ 501: PPUSH
+ 502: CALL_OW 88
+// Say ( Simone , DX1-Simone-5 ) ;
+ 506: LD_EXP 1
+ 510: PPUSH
+ 511: LD_STRING DX1-Simone-5
+ 513: PPUSH
+ 514: CALL_OW 88
+// DWait ( 0 0$1 ) ;
+ 518: LD_INT 35
+ 520: PPUSH
+ 521: CALL_OW 68
+// Say ( Simone , DX1-Simone-6 ) ;
+ 525: LD_EXP 1
+ 529: PPUSH
+ 530: LD_STRING DX1-Simone-6
+ 532: PPUSH
+ 533: CALL_OW 88
+// Say ( Kathryn , DX1-Kathryn-6 ) ;
+ 537: LD_EXP 2
+ 541: PPUSH
+ 542: LD_STRING DX1-Kathryn-6
+ 544: PPUSH
+ 545: CALL_OW 88
+// ComMoveXY ( Kathryn , 42 , 33 ) ;
+ 549: LD_EXP 2
+ 553: PPUSH
+ 554: LD_INT 42
+ 556: PPUSH
+ 557: LD_INT 33
+ 559: PPUSH
+ 560: CALL_OW 111
+// DWait ( 0 0$2 ) ;
+ 564: LD_INT 70
+ 566: PPUSH
+ 567: CALL_OW 68
+// Say ( Simone , DX1-Simone-7 ) ;
+ 571: LD_EXP 1
+ 575: PPUSH
+ 576: LD_STRING DX1-Simone-7
+ 578: PPUSH
+ 579: CALL_OW 88
+// DWait ( 0 0$2 ) ;
+ 583: LD_INT 70
+ 585: PPUSH
+ 586: CALL_OW 68
+// ComMoveXY ( Barnes , 35 , 26 ) ;
+ 590: LD_EXP 3
+ 594: PPUSH
+ 595: LD_INT 35
+ 597: PPUSH
+ 598: LD_INT 26
+ 600: PPUSH
+ 601: CALL_OW 111
+// ComMoveXY ( Bradford , 35 , 27 ) ;
+ 605: LD_EXP 4
+ 609: PPUSH
+ 610: LD_INT 35
+ 612: PPUSH
+ 613: LD_INT 27
+ 615: PPUSH
+ 616: CALL_OW 111
+// AddComTurnUnit ( Barnes , Bradford ) ;
+ 620: LD_EXP 3
+ 624: PPUSH
+ 625: LD_EXP 4
+ 629: PPUSH
+ 630: CALL_OW 179
+// AddComTurnUnit ( Bradford , Barnes ) ;
+ 634: LD_EXP 4
+ 638: PPUSH
+ 639: LD_EXP 3
+ 643: PPUSH
+ 644: CALL_OW 179
+// DWait ( 0 0$1 ) ;
+ 648: LD_INT 35
+ 650: PPUSH
+ 651: CALL_OW 68
+// Say ( Bradford , DX1-Off-1 ) ;
+ 655: LD_EXP 4
+ 659: PPUSH
+ 660: LD_STRING DX1-Off-1
+ 662: PPUSH
+ 663: CALL_OW 88
+// Say ( Barnes , DX1-Bar-1 ) ;
+ 667: LD_EXP 3
+ 671: PPUSH
+ 672: LD_STRING DX1-Bar-1
+ 674: PPUSH
+ 675: CALL_OW 88
+// Say ( Bradford , DX1-Off-2 ) ;
+ 679: LD_EXP 4
+ 683: PPUSH
+ 684: LD_STRING DX1-Off-2
+ 686: PPUSH
+ 687: CALL_OW 88
+// Say ( Barnes , DX1-Bar-2 ) ;
+ 691: LD_EXP 3
+ 695: PPUSH
+ 696: LD_STRING DX1-Bar-2
+ 698: PPUSH
+ 699: CALL_OW 88
+// Say ( Bradford , DX1-Off-2a ) ;
+ 703: LD_EXP 4
+ 707: PPUSH
+ 708: LD_STRING DX1-Off-2a
+ 710: PPUSH
+ 711: CALL_OW 88
+// Say ( Barnes , DX1-Bar-2a ) ;
+ 715: LD_EXP 3
+ 719: PPUSH
+ 720: LD_STRING DX1-Bar-2a
+ 722: PPUSH
+ 723: CALL_OW 88
+// Say ( Bradford , DX1-Off-3 ) ;
+ 727: LD_EXP 4
+ 731: PPUSH
+ 732: LD_STRING DX1-Off-3
+ 734: PPUSH
+ 735: CALL_OW 88
+// Say ( Barnes , DX1-Bar-2b ) ;
+ 739: LD_EXP 3
+ 743: PPUSH
+ 744: LD_STRING DX1-Bar-2b
+ 746: PPUSH
+ 747: CALL_OW 88
+// Say ( Bradford , DX1-Off-4 ) ;
+ 751: LD_EXP 4
+ 755: PPUSH
+ 756: LD_STRING DX1-Off-4
+ 758: PPUSH
+ 759: CALL_OW 88
+// Say ( Barnes , DX1-Bar-3 ) ;
+ 763: LD_EXP 3
+ 767: PPUSH
+ 768: LD_STRING DX1-Bar-3
+ 770: PPUSH
+ 771: CALL_OW 88
+// ComEnterUnit ( Bradford , theta ) ;
+ 775: LD_EXP 4
+ 779: PPUSH
+ 780: LD_INT 1
+ 782: PPUSH
+ 783: CALL_OW 120
+// DWait ( 0 0$1 ) ;
+ 787: LD_INT 35
+ 789: PPUSH
+ 790: CALL_OW 68
+// ComTurnXY ( Barnes , 47 , 33 ) ;
+ 794: LD_EXP 3
+ 798: PPUSH
+ 799: LD_INT 47
+ 801: PPUSH
+ 802: LD_INT 33
+ 804: PPUSH
+ 805: CALL_OW 118
+// Say ( Barnes , DX1-Bar-4 ) ;
+ 809: LD_EXP 3
+ 813: PPUSH
+ 814: LD_STRING DX1-Bar-4
+ 816: PPUSH
+ 817: CALL_OW 88
+// ComMoveXY ( Barnes , 39 , 26 ) ;
+ 821: LD_EXP 3
+ 825: PPUSH
+ 826: LD_INT 39
+ 828: PPUSH
+ 829: LD_INT 26
+ 831: PPUSH
+ 832: CALL_OW 111
+// ComMoveXY ( Lazarfeld , 40 , 33 ) ;
+ 836: LD_EXP 5
+ 840: PPUSH
+ 841: LD_INT 40
+ 843: PPUSH
+ 844: LD_INT 33
+ 846: PPUSH
+ 847: CALL_OW 111
+// ComMoveXY ( Simone , 41 , 32 ) ;
+ 851: LD_EXP 1
+ 855: PPUSH
+ 856: LD_INT 41
+ 858: PPUSH
+ 859: LD_INT 32
+ 861: PPUSH
+ 862: CALL_OW 111
+// ComMoveXY ( Kathryn , 42 , 31 ) ;
+ 866: LD_EXP 2
+ 870: PPUSH
+ 871: LD_INT 42
+ 873: PPUSH
+ 874: LD_INT 31
+ 876: PPUSH
+ 877: CALL_OW 111
+// ComMoveXY ( Mech1 , 43 , 30 ) ;
+ 881: LD_INT 189
+ 883: PPUSH
+ 884: LD_INT 43
+ 886: PPUSH
+ 887: LD_INT 30
+ 889: PPUSH
+ 890: CALL_OW 111
+// ComMoveXY ( Mech2 , 44 , 29 ) ;
+ 894: LD_INT 190
+ 896: PPUSH
+ 897: LD_INT 44
+ 899: PPUSH
+ 900: LD_INT 29
+ 902: PPUSH
+ 903: CALL_OW 111
+// ComMoveXY ( Mech3 , 45 , 28 ) ;
+ 907: LD_INT 191
+ 909: PPUSH
+ 910: LD_INT 45
+ 912: PPUSH
+ 913: LD_INT 28
+ 915: PPUSH
+ 916: CALL_OW 111
+// AddComTurnUnit ( Barnes , Kathryn ) ;
+ 920: LD_EXP 3
+ 924: PPUSH
+ 925: LD_EXP 2
+ 929: PPUSH
+ 930: CALL_OW 179
+// AddComTurnUnit ( [ Lazarfeld , Simone , Kathryn , Mech1 , Mech2 , Mech3 ] , Barnes ) ;
+ 934: LD_EXP 5
+ 938: PUSH
+ 939: LD_EXP 1
+ 943: PUSH
+ 944: LD_EXP 2
+ 948: PUSH
+ 949: LD_INT 189
+ 951: PUSH
+ 952: LD_INT 190
+ 954: PUSH
+ 955: LD_INT 191
+ 957: PUSH
+ 958: EMPTY
+ 959: LIST
+ 960: LIST
+ 961: LIST
+ 962: LIST
+ 963: LIST
+ 964: LIST
+ 965: PPUSH
+ 966: LD_EXP 3
+ 970: PPUSH
+ 971: CALL_OW 179
+// DWait ( 0 0$5 ) ;
+ 975: LD_INT 175
+ 977: PPUSH
+ 978: CALL_OW 68
+// Say ( Barnes , DX1-Bar-5 ) ;
+ 982: LD_EXP 3
+ 986: PPUSH
+ 987: LD_STRING DX1-Bar-5
+ 989: PPUSH
+ 990: CALL_OW 88
+// ComMoveXY ( scout , 38 , 20 ) ;
+ 994: LD_EXP 6
+ 998: PPUSH
+ 999: LD_INT 38
+1001: PPUSH
+1002: LD_INT 20
+1004: PPUSH
+1005: CALL_OW 111
+// AddComExitVehicle ( scout ) ;
+1009: LD_EXP 6
+1013: PPUSH
+1014: CALL_OW 181
+// AddComMoveXY ( scout , 39 , 25 ) ;
+1018: LD_EXP 6
+1022: PPUSH
+1023: LD_INT 39
+1025: PPUSH
+1026: LD_INT 25
+1028: PPUSH
+1029: CALL_OW 171
+// AddComTurnUnit ( scout , Barnes ) ;
+1033: LD_EXP 6
+1037: PPUSH
+1038: LD_EXP 3
+1042: PPUSH
+1043: CALL_OW 179
+// Say ( Barnes , DX1-Bar-6 ) ;
+1047: LD_EXP 3
+1051: PPUSH
+1052: LD_STRING DX1-Bar-6
+1054: PPUSH
+1055: CALL_OW 88
+// Say ( Scout , DX1-Sol-1 ) ;
+1059: LD_EXP 6
+1063: PPUSH
+1064: LD_STRING DX1-Sol-1
+1066: PPUSH
+1067: CALL_OW 88
+// Say ( Barnes , DX1-Bar-7 ) ;
+1071: LD_EXP 3
+1075: PPUSH
+1076: LD_STRING DX1-Bar-7
+1078: PPUSH
+1079: CALL_OW 88
+// ComEnterUnit ( Simone , t1 ) ;
+1083: LD_EXP 1
+1087: PPUSH
+1088: LD_INT 181
+1090: PPUSH
+1091: CALL_OW 120
+// ComEnterUnit ( Kathryn , t2 ) ;
+1095: LD_EXP 2
+1099: PPUSH
+1100: LD_INT 182
+1102: PPUSH
+1103: CALL_OW 120
+// ComEnterUnit ( Mech1 , t3 ) ;
+1107: LD_INT 189
+1109: PPUSH
+1110: LD_INT 183
+1112: PPUSH
+1113: CALL_OW 120
+// ComEnterUnit ( Mech2 , t4 ) ;
+1117: LD_INT 190
+1119: PPUSH
+1120: LD_INT 186
+1122: PPUSH
+1123: CALL_OW 120
+// ComEnterUnit ( Mech3 , t5 ) ;
+1127: LD_INT 191
+1129: PPUSH
+1130: LD_INT 187
+1132: PPUSH
+1133: CALL_OW 120
+// ComEnterUnit ( Lazarfeld , tlz ) ;
+1137: LD_EXP 5
+1141: PPUSH
+1142: LD_INT 188
+1144: PPUSH
+1145: CALL_OW 120
+// ComEnterUnit ( Barnes , theta ) ;
+1149: LD_EXP 3
+1153: PPUSH
+1154: LD_INT 1
+1156: PPUSH
+1157: CALL_OW 120
+// ComEnterUnit ( scout , theta ) ;
+1161: LD_EXP 6
+1165: PPUSH
+1166: LD_INT 1
+1168: PPUSH
+1169: CALL_OW 120
+// DWait ( 0 0$7 ) ;
+1173: LD_INT 245
+1175: PPUSH
+1176: CALL_OW 68
+// AddComMoveXY ( [ Simone , Kathryn , Mech1 , Mech2 , Mech3 , Lazarfeld ] , 59 , 1 ) ;
+1180: LD_EXP 1
+1184: PUSH
+1185: LD_EXP 2
+1189: PUSH
+1190: LD_INT 189
+1192: PUSH
+1193: LD_INT 190
+1195: PUSH
+1196: LD_INT 191
+1198: PUSH
+1199: LD_EXP 5
+1203: PUSH
+1204: EMPTY
+1205: LIST
+1206: LIST
+1207: LIST
+1208: LIST
+1209: LIST
+1210: LIST
+1211: PPUSH
+1212: LD_INT 59
+1214: PPUSH
+1215: LD_INT 1
+1217: PPUSH
+1218: CALL_OW 171
+// DWait ( 0 0$10 ) ;
+1222: LD_INT 350
+1224: PPUSH
+1225: CALL_OW 68
+// IngameOff ;
+1229: CALL_OW 9
+// changemap ( 01 , %_cont ) ;
+1233: LD_STRING 01
+1235: PPUSH
+1236: LD_STRING %_cont
+1238: PPUSH
+1239: CALL_OW 340
+// end ; end_of_file
+1243: END
+// export Scout , Lea ; export function CreatePersonnel ; begin
+1244: LD_INT 0
+1246: PPUSH
+// uc_side := 7 ;
+1247: LD_ADDR_OWVAR 20
+1251: PUSH
+1252: LD_INT 7
+1254: ST_TO_ADDR
+// hc_class = class_mechanic ;
+1255: LD_ADDR_OWVAR 28
+1259: PUSH
+1260: LD_INT 3
+1262: ST_TO_ADDR
+// uc_nation := nation_american ;
+1263: LD_ADDR_OWVAR 21
+1267: PUSH
+1268: LD_INT 1
+1270: ST_TO_ADDR
+// hc_sex = sex_female ;
+1271: LD_ADDR_OWVAR 27
+1275: PUSH
+1276: LD_INT 2
+1278: ST_TO_ADDR
+// hc_importance = 120 ;
+1279: LD_ADDR_OWVAR 32
+1283: PUSH
+1284: LD_INT 120
+1286: ST_TO_ADDR
+// hc_skills = [ 4 , 3 , 5 , 2 ] ;
+1287: LD_ADDR_OWVAR 31
+1291: PUSH
+1292: LD_INT 4
+1294: PUSH
+1295: LD_INT 3
+1297: PUSH
+1298: LD_INT 5
+1300: PUSH
+1301: LD_INT 2
+1303: PUSH
+1304: EMPTY
+1305: LIST
+1306: LIST
+1307: LIST
+1308: LIST
+1309: ST_TO_ADDR
+// hc_attr = [ 12 , 10 ] ;
+1310: LD_ADDR_OWVAR 29
+1314: PUSH
+1315: LD_INT 12
+1317: PUSH
+1318: LD_INT 10
+1320: PUSH
+1321: EMPTY
+1322: LIST
+1323: LIST
+1324: ST_TO_ADDR
+// hc_name := Simone Gray ;
+1325: LD_ADDR_OWVAR 26
+1329: PUSH
+1330: LD_STRING Simone Gray
+1332: ST_TO_ADDR
+// hc_gallery := ZieloneLaserki_Heroines ;
+1333: LD_ADDR_OWVAR 33
+1337: PUSH
+1338: LD_STRING ZieloneLaserki_Heroines
+1340: ST_TO_ADDR
+// hc_face_number := 1 ;
+1341: LD_ADDR_OWVAR 34
+1345: PUSH
+1346: LD_INT 1
+1348: ST_TO_ADDR
+// Simone := CreateHuman ;
+1349: LD_ADDR_EXP 1
+1353: PUSH
+1354: CALL_OW 44
+1358: ST_TO_ADDR
+// uc_nation := nation_american ;
+1359: LD_ADDR_OWVAR 21
+1363: PUSH
+1364: LD_INT 1
+1366: ST_TO_ADDR
+// hc_importance = 110 ;
+1367: LD_ADDR_OWVAR 32
+1371: PUSH
+1372: LD_INT 110
+1374: ST_TO_ADDR
+// hc_sex = sex_female ;
+1375: LD_ADDR_OWVAR 27
+1379: PUSH
+1380: LD_INT 2
+1382: ST_TO_ADDR
+// hc_skills = [ 2 , 2 , 4 , 3 ] ;
+1383: LD_ADDR_OWVAR 31
+1387: PUSH
+1388: LD_INT 2
+1390: PUSH
+1391: LD_INT 2
+1393: PUSH
+1394: LD_INT 4
+1396: PUSH
+1397: LD_INT 3
+1399: PUSH
+1400: EMPTY
+1401: LIST
+1402: LIST
+1403: LIST
+1404: LIST
+1405: ST_TO_ADDR
+// hc_attr = [ 11 , 10 ] ;
+1406: LD_ADDR_OWVAR 29
+1410: PUSH
+1411: LD_INT 11
+1413: PUSH
+1414: LD_INT 10
+1416: PUSH
+1417: EMPTY
+1418: LIST
+1419: LIST
+1420: ST_TO_ADDR
+// hc_name := Kathryn Gray ;
+1421: LD_ADDR_OWVAR 26
+1425: PUSH
+1426: LD_STRING Kathryn Gray
+1428: ST_TO_ADDR
+// hc_gallery := ZieloneLaserki_Heroines ;
+1429: LD_ADDR_OWVAR 33
+1433: PUSH
+1434: LD_STRING ZieloneLaserki_Heroines
+1436: ST_TO_ADDR
+// hc_face_number := 2 ;
+1437: LD_ADDR_OWVAR 34
+1441: PUSH
+1442: LD_INT 2
+1444: ST_TO_ADDR
+// Kathryn := CreateHuman ;
+1445: LD_ADDR_EXP 2
+1449: PUSH
+1450: CALL_OW 44
+1454: ST_TO_ADDR
+// uc_side := 1 ;
+1455: LD_ADDR_OWVAR 20
+1459: PUSH
+1460: LD_INT 1
+1462: ST_TO_ADDR
+// hc_sex = sex_male ;
+1463: LD_ADDR_OWVAR 27
+1467: PUSH
+1468: LD_INT 1
+1470: ST_TO_ADDR
+// uc_nation := nation_american ;
+1471: LD_ADDR_OWVAR 21
+1475: PUSH
+1476: LD_INT 1
+1478: ST_TO_ADDR
+// hc_importance = 70 ;
+1479: LD_ADDR_OWVAR 32
+1483: PUSH
+1484: LD_INT 70
+1486: ST_TO_ADDR
+// hc_skills = [ 5 , 4 , 7 , 3 ] ;
+1487: LD_ADDR_OWVAR 31
+1491: PUSH
+1492: LD_INT 5
+1494: PUSH
+1495: LD_INT 4
+1497: PUSH
+1498: LD_INT 7
+1500: PUSH
+1501: LD_INT 3
+1503: PUSH
+1504: EMPTY
+1505: LIST
+1506: LIST
+1507: LIST
+1508: LIST
+1509: ST_TO_ADDR
+// hc_attr = [ 10 , 10 ] ;
+1510: LD_ADDR_OWVAR 29
+1514: PUSH
+1515: LD_INT 10
+1517: PUSH
+1518: LD_INT 10
+1520: PUSH
+1521: EMPTY
+1522: LIST
+1523: LIST
+1524: ST_TO_ADDR
+// hc_name := Lazarfeld ;
+1525: LD_ADDR_OWVAR 26
+1529: PUSH
+1530: LD_STRING Lazarfeld
+1532: ST_TO_ADDR
+// hc_gallery := ZieloneLaserki_Heroes ;
+1533: LD_ADDR_OWVAR 33
+1537: PUSH
+1538: LD_STRING ZieloneLaserki_Heroes
+1540: ST_TO_ADDR
+// hc_face_number := 1 ;
+1541: LD_ADDR_OWVAR 34
+1545: PUSH
+1546: LD_INT 1
+1548: ST_TO_ADDR
+// Lazarfeld := CreateHuman ;
+1549: LD_ADDR_EXP 5
+1553: PUSH
+1554: CALL_OW 44
+1558: ST_TO_ADDR
+// hc_class = class_soldier ;
+1559: LD_ADDR_OWVAR 28
+1563: PUSH
+1564: LD_INT 1
+1566: ST_TO_ADDR
+// uc_nation := nation_american ;
+1567: LD_ADDR_OWVAR 21
+1571: PUSH
+1572: LD_INT 1
+1574: ST_TO_ADDR
+// hc_importance = 80 ;
+1575: LD_ADDR_OWVAR 32
+1579: PUSH
+1580: LD_INT 80
+1582: ST_TO_ADDR
+// PrepareSoldier ( 1 , 9 ) ;
+1583: LD_INT 1
+1585: PPUSH
+1586: LD_INT 9
+1588: PPUSH
+1589: CALL_OW 381
+// hc_attr = [ 10 , 10 ] ;
+1593: LD_ADDR_OWVAR 29
+1597: PUSH
+1598: LD_INT 10
+1600: PUSH
+1601: LD_INT 10
+1603: PUSH
+1604: EMPTY
+1605: LIST
+1606: LIST
+1607: ST_TO_ADDR
+// hc_name := Bradford ;
+1608: LD_ADDR_OWVAR 26
+1612: PUSH
+1613: LD_STRING Bradford
+1615: ST_TO_ADDR
+// hc_gallery := ZieloneLaserki_Commanders ;
+1616: LD_ADDR_OWVAR 33
+1620: PUSH
+1621: LD_STRING ZieloneLaserki_Commanders
+1623: ST_TO_ADDR
+// hc_face_number := 1 ;
+1624: LD_ADDR_OWVAR 34
+1628: PUSH
+1629: LD_INT 1
+1631: ST_TO_ADDR
+// Bradford := CreateHuman ;
+1632: LD_ADDR_EXP 4
+1636: PUSH
+1637: CALL_OW 44
+1641: ST_TO_ADDR
+// uc_nation := nation_american ;
+1642: LD_ADDR_OWVAR 21
+1646: PUSH
+1647: LD_INT 1
+1649: ST_TO_ADDR
+// hc_importance = 70 ;
+1650: LD_ADDR_OWVAR 32
+1654: PUSH
+1655: LD_INT 70
+1657: ST_TO_ADDR
+// PrepareSoldier ( 1 , 8 ) ;
+1658: LD_INT 1
+1660: PPUSH
+1661: LD_INT 8
+1663: PPUSH
+1664: CALL_OW 381
+// hc_attr = [ 10 , 10 ] ;
+1668: LD_ADDR_OWVAR 29
+1672: PUSH
+1673: LD_INT 10
+1675: PUSH
+1676: LD_INT 10
+1678: PUSH
+1679: EMPTY
+1680: LIST
+1681: LIST
+1682: ST_TO_ADDR
+// hc_name := Barnes ;
+1683: LD_ADDR_OWVAR 26
+1687: PUSH
+1688: LD_STRING Barnes
+1690: ST_TO_ADDR
+// hc_gallery := ZieloneLaserki_Commanders ;
+1691: LD_ADDR_OWVAR 33
+1695: PUSH
+1696: LD_STRING ZieloneLaserki_Commanders
+1698: ST_TO_ADDR
+// hc_face_number := 2 ;
+1699: LD_ADDR_OWVAR 34
+1703: PUSH
+1704: LD_INT 2
+1706: ST_TO_ADDR
+// Barnes := CreateHuman ;
+1707: LD_ADDR_EXP 3
+1711: PUSH
+1712: CALL_OW 44
+1716: ST_TO_ADDR
+// uc_nation := nation_american ;
+1717: LD_ADDR_OWVAR 21
+1721: PUSH
+1722: LD_INT 1
+1724: ST_TO_ADDR
+// hc_importance = 30 ;
+1725: LD_ADDR_OWVAR 32
+1729: PUSH
+1730: LD_INT 30
+1732: ST_TO_ADDR
+// PrepareEngineer ( 2 , 6 ) ;
+1733: LD_INT 2
+1735: PPUSH
+1736: LD_INT 6
+1738: PPUSH
+1739: CALL_OW 382
+// hc_attr = [ 10 , 10 ] ;
+1743: LD_ADDR_OWVAR 29
+1747: PUSH
+1748: LD_INT 10
+1750: PUSH
+1751: LD_INT 10
+1753: PUSH
+1754: EMPTY
+1755: LIST
+1756: LIST
+1757: ST_TO_ADDR
+// hc_name := Lea Harper ;
+1758: LD_ADDR_OWVAR 26
+1762: PUSH
+1763: LD_STRING Lea Harper
+1765: ST_TO_ADDR
+// hc_gallery := ZieloneLaserki_AddtFacesFemale ;
+1766: LD_ADDR_OWVAR 33
+1770: PUSH
+1771: LD_STRING ZieloneLaserki_AddtFacesFemale
+1773: ST_TO_ADDR
+// hc_face_number := 1 ;
+1774: LD_ADDR_OWVAR 34
+1778: PUSH
+1779: LD_INT 1
+1781: ST_TO_ADDR
+// Lea := CreateHuman ;
+1782: LD_ADDR_EXP 7
+1786: PUSH
+1787: CALL_OW 44
+1791: ST_TO_ADDR
+// uc_nation := nation_american ;
+1792: LD_ADDR_OWVAR 21
+1796: PUSH
+1797: LD_INT 1
+1799: ST_TO_ADDR
+// hc_importance = Rand ( 10 , 50 ) ;
+1800: LD_ADDR_OWVAR 32
+1804: PUSH
+1805: LD_INT 10
+1807: PPUSH
+1808: LD_INT 50
+1810: PPUSH
+1811: CALL_OW 12
+1815: ST_TO_ADDR
+// PrepareSoldier ( 1 , 4 ) ;
+1816: LD_INT 1
+1818: PPUSH
+1819: LD_INT 4
+1821: PPUSH
+1822: CALL_OW 381
+// hc_name :=  ;
+1826: LD_ADDR_OWVAR 26
+1830: PUSH
+1831: LD_STRING 
+1833: ST_TO_ADDR
+// hc_gallery :=  ;
+1834: LD_ADDR_OWVAR 33
+1838: PUSH
+1839: LD_STRING 
+1841: ST_TO_ADDR
+// Scout := CreateHuman ;
+1842: LD_ADDR_EXP 6
+1846: PUSH
+1847: CALL_OW 44
+1851: ST_TO_ADDR
+// end ;
+1852: LD_VAR 0 1
+1856: RET
+// export function PrepareTheta ; var sol1 , sol2 , sol3 , sol4 , sol5 , barr1 , barr2 , scit1 , scit2 ; begin
+1857: LD_INT 0
+1859: PPUSH
+1860: PPUSH
+1861: PPUSH
+1862: PPUSH
+1863: PPUSH
+1864: PPUSH
+1865: PPUSH
+1866: PPUSH
+1867: PPUSH
+1868: PPUSH
+// PrepareSoldier ( 1 , 5 ) ;
+1869: LD_INT 1
+1871: PPUSH
+1872: LD_INT 5
+1874: PPUSH
+1875: CALL_OW 381
+// sol1 := CreateHuman ;
+1879: LD_ADDR_VAR 0 2
+1883: PUSH
+1884: CALL_OW 44
+1888: ST_TO_ADDR
+// sol2 := CreateHuman ;
+1889: LD_ADDR_VAR 0 3
+1893: PUSH
+1894: CALL_OW 44
+1898: ST_TO_ADDR
+// sol3 := CreateHuman ;
+1899: LD_ADDR_VAR 0 4
+1903: PUSH
+1904: CALL_OW 44
+1908: ST_TO_ADDR
+// sol4 := CreateHuman ;
+1909: LD_ADDR_VAR 0 5
+1913: PUSH
+1914: CALL_OW 44
+1918: ST_TO_ADDR
+// sol5 := CreateHuman ;
+1919: LD_ADDR_VAR 0 6
+1923: PUSH
+1924: CALL_OW 44
+1928: ST_TO_ADDR
+// barr1 := CreateHuman ;
+1929: LD_ADDR_VAR 0 7
+1933: PUSH
+1934: CALL_OW 44
+1938: ST_TO_ADDR
+// barr2 := CreateHuman ;
+1939: LD_ADDR_VAR 0 8
+1943: PUSH
+1944: CALL_OW 44
+1948: ST_TO_ADDR
+// PrepareScientist ( 2 , 5 ) ;
+1949: LD_INT 2
+1951: PPUSH
+1952: LD_INT 5
+1954: PPUSH
+1955: CALL_OW 384
+// scit1 := CreateHuman ;
+1959: LD_ADDR_VAR 0 9
+1963: PUSH
+1964: CALL_OW 44
+1968: ST_TO_ADDR
+// scit2 := CreateHuman ;
+1969: LD_ADDR_VAR 0 10
+1973: PUSH
+1974: CALL_OW 44
+1978: ST_TO_ADDR
+// PlaceUnitXY ( sol1 , 33 , 37 , false ) ;
+1979: LD_VAR 0 2
+1983: PPUSH
+1984: LD_INT 33
+1986: PPUSH
+1987: LD_INT 37
+1989: PPUSH
+1990: LD_INT 0
+1992: PPUSH
+1993: CALL_OW 48
+// PlaceUnitXY ( sol2 , 34 , 38 , false ) ;
+1997: LD_VAR 0 3
+2001: PPUSH
+2002: LD_INT 34
+2004: PPUSH
+2005: LD_INT 38
+2007: PPUSH
+2008: LD_INT 0
+2010: PPUSH
+2011: CALL_OW 48
+// PlaceUnitXY ( sol3 , 35 , 39 , false ) ;
+2015: LD_VAR 0 4
+2019: PPUSH
+2020: LD_INT 35
+2022: PPUSH
+2023: LD_INT 39
+2025: PPUSH
+2026: LD_INT 0
+2028: PPUSH
+2029: CALL_OW 48
+// PlaceUnitXY ( sol4 , 36 , 40 , false ) ;
+2033: LD_VAR 0 5
+2037: PPUSH
+2038: LD_INT 36
+2040: PPUSH
+2041: LD_INT 40
+2043: PPUSH
+2044: LD_INT 0
+2046: PPUSH
+2047: CALL_OW 48
+// PlaceUnitXY ( sol5 , 34 , 36 , false ) ;
+2051: LD_VAR 0 6
+2055: PPUSH
+2056: LD_INT 34
+2058: PPUSH
+2059: LD_INT 36
+2061: PPUSH
+2062: LD_INT 0
+2064: PPUSH
+2065: CALL_OW 48
+// ComTurnXY ( sol1 , 32 , 5 ) ;
+2069: LD_VAR 0 2
+2073: PPUSH
+2074: LD_INT 32
+2076: PPUSH
+2077: LD_INT 5
+2079: PPUSH
+2080: CALL_OW 118
+// ComTurnXY ( sol2 , 32 , 5 ) ;
+2084: LD_VAR 0 3
+2088: PPUSH
+2089: LD_INT 32
+2091: PPUSH
+2092: LD_INT 5
+2094: PPUSH
+2095: CALL_OW 118
+// ComTurnXY ( sol3 , 32 , 5 ) ;
+2099: LD_VAR 0 4
+2103: PPUSH
+2104: LD_INT 32
+2106: PPUSH
+2107: LD_INT 5
+2109: PPUSH
+2110: CALL_OW 118
+// ComTurnXY ( sol4 , 32 , 5 ) ;
+2114: LD_VAR 0 5
+2118: PPUSH
+2119: LD_INT 32
+2121: PPUSH
+2122: LD_INT 5
+2124: PPUSH
+2125: CALL_OW 118
+// ComTurnXY ( sol5 , 35 , 45 ) ;
+2129: LD_VAR 0 6
+2133: PPUSH
+2134: LD_INT 35
+2136: PPUSH
+2137: LD_INT 45
+2139: PPUSH
+2140: CALL_OW 118
+// PlaceUnitXY ( barr1 , 44 , 16 , false ) ;
+2144: LD_VAR 0 7
+2148: PPUSH
+2149: LD_INT 44
+2151: PPUSH
+2152: LD_INT 16
+2154: PPUSH
+2155: LD_INT 0
+2157: PPUSH
+2158: CALL_OW 48
+// PlaceUnitXY ( barr2 , 40 , 18 , false ) ;
+2162: LD_VAR 0 8
+2166: PPUSH
+2167: LD_INT 40
+2169: PPUSH
+2170: LD_INT 18
+2172: PPUSH
+2173: LD_INT 0
+2175: PPUSH
+2176: CALL_OW 48
+// ComTurnXY ( barr1 , 63 , 15 ) ;
+2180: LD_VAR 0 7
+2184: PPUSH
+2185: LD_INT 63
+2187: PPUSH
+2188: LD_INT 15
+2190: PPUSH
+2191: CALL_OW 118
+// ComTurnXY ( barr2 , 71 , 48 ) ;
+2195: LD_VAR 0 8
+2199: PPUSH
+2200: LD_INT 71
+2202: PPUSH
+2203: LD_INT 48
+2205: PPUSH
+2206: CALL_OW 118
+// PlaceUnitXY ( scit1 , 26 , 24 , false ) ;
+2210: LD_VAR 0 9
+2214: PPUSH
+2215: LD_INT 26
+2217: PPUSH
+2218: LD_INT 24
+2220: PPUSH
+2221: LD_INT 0
+2223: PPUSH
+2224: CALL_OW 48
+// PlaceUnitXY ( scit2 , 27 , 24 , false ) ;
+2228: LD_VAR 0 10
+2232: PPUSH
+2233: LD_INT 27
+2235: PPUSH
+2236: LD_INT 24
+2238: PPUSH
+2239: LD_INT 0
+2241: PPUSH
+2242: CALL_OW 48
+// ComTurnUnit ( scit1 , scit2 ) ;
+2246: LD_VAR 0 9
+2250: PPUSH
+2251: LD_VAR 0 10
+2255: PPUSH
+2256: CALL_OW 119
+// ComTurnUnit ( scit2 , scit1 ) ;
+2260: LD_VAR 0 10
+2264: PPUSH
+2265: LD_VAR 0 9
+2269: PPUSH
+2270: CALL_OW 119
+// end ;
+2274: LD_VAR 0 1
+2278: RET

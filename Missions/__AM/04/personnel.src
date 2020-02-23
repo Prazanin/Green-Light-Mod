@@ -1,0 +1,47 @@
+export RandSol, Esther, Edmonds;
+
+export function CreatePersonnel;
+begin
+
+    uc_side:=7;
+
+    Simone:=CreateCharacter('Simone');
+    Kathryn:=CreateCharacter('Kathryn');
+
+    uc_side:=1;
+    Esther:=CreateCharacter('Esther');
+    Edmonds:=CreateCharacter('Edmonds');
+
+    uc_side:=1;
+    hc_sex=sex_male;
+
+    hc_class=class_soldier;
+    uc_nation:=nation_american;
+    hc_importance=80;
+    PrepareSoldier(1,9);
+    hc_attr=[10,10];
+    hc_name:='Bradford';
+    hc_gallery := 'ZieloneLaserki_AddtFaces2';
+    hc_face_number := 3;
+
+    Bradford:=CreateHuman;
+
+    uc_nation:=nation_american;
+    hc_importance=Rand(10,50);
+    PrepareSoldier(1,7);
+    hc_name:='Bernie Hernandez';
+    hc_gallery := 'ZieloneLaserki_AddtFaces';
+    hc_face_number := 5;
+
+    RandSol:=CreateHuman;
+
+    uc_nation:=nation_american;
+    hc_importance=Rand(10,70);
+    PrepareSoldier(1,7);
+    hc_name:='Mortimer';
+    hc_gallery := 'ZieloneLaserki_AddtFaces';
+    hc_face_number := 1;
+
+    Mortimer:=CreateHuman;
+
+end;

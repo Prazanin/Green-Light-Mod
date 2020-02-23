@@ -1,0 +1,47 @@
+on UnitDestroyed(un) do
+begin
+  if un=Simone then
+   begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Simone');
+        ExclusiveOff;
+        exit;
+   end
+  else if un=Kathryn and not ReachedBase then
+   begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Kathryn');
+        ExclusiveOff;
+        exit;
+   end
+  else if un=Miller then
+   begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Miller');
+        ExclusiveOff;
+        exit;
+   end
+end;
+
+on EvacuateVehicle(driver, abandoned_vehicle, unknown1, unknown2) do
+begin
+  if GetSide(driver)=4 and not ReachedBase then
+   begin
+      ComRepairVehicle(driver, abandoned_vehicle);
+      AddComEnterUnit(driver, abandoned_vehicle);
+   end;
+end;
+
+on LeaveVehicle(vehicle, driver) do
+begin
+  if GetSide(driver)=4 and not ReachedBase then
+   begin
+     //repeat
+      ComRepairVehicle(driver, vehicle);
+     //until GetLives(vehicle) >= 1000;
+      AddComEnterUnit(driver, vehicle);
+   end;
+end;

@@ -1,0 +1,58 @@
+veh25_fun.gma   1 1 vyb01  
+veh17a.gma      1 1 vyb02  
+veh15e.gma      1 1 vyb03
+veh22_11_a.gma  1 1 vyb04
+veh23.gma       1 1 vyb01  
+veh20a_u.gma    1 1 vyb02  
+
+
+
+{
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  TENTO KONFIGURAK SE UZ NEPOUZIVA!!!,
+  VSE JE V EXCELOVSKE TABULCE 
+  R:\Texty\GameInit\explosions.xls
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+}
+
+
+{
+veh15d_1.gma  1 1 vyb01
+veh16d.gma    1 1 vyb02
+veh17a_u.gma  1 1 vyb03
+veh15e_1.gma  1 1 vyb04
+veh1.gma      1 1 vyb05
+veh11.gma     1 1 vyb06
+veh13.gma     1 1 vyb07
+}
+
+dopad.gma     2 1 baz01
+dopad2.gma    2 1 baz02
+zblunk.gma    3 1 baz_zblunk
+dopadM.gma    4 1 minomet
+zblunk.gma    5 1 min-zblunk
+vvvzum.gma    6 1 materializace
+
+
+ { siberiova_svine.gma 7 3 siberBomb}
+
+big1.gma      8 1 budova
+
+END
+
+{
+  filename typ rychlost ( bez mezer )
+  typ   1-vybuch auta
+        2-bazuka
+        3-bazuka-voda
+        4-minomet
+        5-minomet-voda
+        6-materializace
+        7-siber svine
+        8-budova 
+  rychlost  1 norm
+            2 2xpomaleji
+            3 3xpomaleji 
+            atd 
+            pouze cela cisla! 
+}

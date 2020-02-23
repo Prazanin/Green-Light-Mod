@@ -1,0 +1,182 @@
+export Simone, Kathryn, Miller, Edmonds, AMSurvivors, AvengerSquad;
+export Pravar, Esther, Dvalishvili, Barnes, Loghain, Smithy;
+export AMEng, AMSolRand;
+
+export function CreatePersonas;
+begin
+
+uc_side:=7;
+
+Simone=CreateCharacter('Simone');
+Kathryn=CreateCharacter('Kathryn');
+Miller=CreateCharacter('Miller');
+Edmonds=CreateCharacter('Edmonds');
+AMSurvivors=CreateCharacterSet('AM02_Survivors');
+
+AvengerSquad := Simone ^ Kathryn ^ Miller ^ Edmonds ^ AMSurvivors;
+
+    uc_side:=1;
+    hc_class=class_soldier;
+
+    uc_nation:=nation_american;
+    hc_sex=sex_male;
+    hc_importance=70;
+    hc_skills=[7,5,5,3];
+    hc_attr=[10,10];
+    hc_name:='Pravar Mervesh';
+    hc_gallery := 'ZieloneLaserki_Commanders';
+    hc_face_number := 5;
+
+    Pravar:=CreateHuman;
+
+    hc_class=class_scientistic;
+
+    uc_nation:=nation_american;
+    hc_sex=sex_female;
+    hc_importance=105;
+    hc_skills=[6,4,5,9];
+    hc_attr=[11,10];
+    hc_name:='Esther Corrigan';
+    hc_gallery := 'ZieloneLaserki_Esther';
+    hc_face_number := 2;
+
+    Esther:=CreateHuman;
+
+    uc_side:=8;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_arabian;
+    hc_sex=sex_male;
+    hc_importance=40;
+    hc_skills=[9,4,8,3];
+    hc_attr=[15,10];
+    hc_name:='Giorgi Dvalishvili';
+    hc_gallery := 'ZieloneLaserki_Dvalishvili';
+    hc_face_number := 1;
+
+    Dvalishvili:=CreateHuman;
+
+    uc_side:=1;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_american;
+    hc_importance=70;
+    PrepareSoldier(1,8);
+    hc_attr=[10,10];
+    hc_name:='Barnes';
+    hc_gallery := 'ZieloneLaserki_Commanders';
+    hc_face_number := 2;
+
+    Barnes:=CreateHuman;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_american;
+    hc_importance=70;
+    PrepareSoldier(1,8);
+    hc_attr=[10,10];
+    hc_name:='Loghain';
+    hc_gallery := 'ZieloneLaserki_Heroes';
+    hc_face_number := 6;
+
+    Loghain:=CreateHuman;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_american;
+    hc_importance=70;
+    PrepareSoldier(1,8);
+    hc_attr=[10,10];
+    hc_name:='Smithy';
+    hc_gallery := 'us_old';
+    hc_face_number := 20;
+
+    Smithy:=CreateHuman;
+
+    hc_name:='';
+    hc_gallery := '';
+
+end;
+
+export function Squad_Assembly;
+var Vehicles, i, p, x, veh, filter;
+begin
+
+     uc_side := 7;
+     Vehicles := LoadVariable('AM02_Vehicles', []);
+       x := 1;
+       i := 1;
+       p := 1;
+
+     if Vehicles > 0 then
+        while (i <= Vehicles) do
+            begin
+            vc_chassis := Vehicles[i];
+            vc_engine  := Vehicles[i+1];
+            vc_control := Vehicles[i+2];
+            vc_weapon  := Vehicles[i+3];
+
+            veh := CreateVehicle;
+            PlaceUnitXYR(veh, 46, 86, 1, false);
+            PlaceHumanInUnit(AvengerSquad[x], veh);
+            ComMoveXY(veh, 58,85);
+            wait(0$03);
+
+            p := p + 1;
+            i := i + 4;
+            x := x + 1;
+            end;
+
+     Squad_Assembled := true;
+end;
+
+export function AlliedReinforcement;
+var ReinfMech1, ReinfMech2, RVeh1, RVeh2, RVeh3, RVeh4;
+begin
+
+  hc_name:='';
+  hc_gallery := '';
+
+  uc_side:=7;
+  uc_nation:=nation_american;
+
+  PrepareMechanic(sex_male, 8);
+  ReinfMech1:=CreateHuman;
+  PrepareMechanic(sex_female, 8);
+  ReinfMech2:=CreateHuman;
+
+  vc_chassis := us_medium_tracked;
+  vc_engine  := engine_siberite;
+  vc_control := control_manual;
+  vc_weapon  := us_double_gun;
+  RVeh1 := CreateVehicle;
+
+  vc_weapon  := us_gatling_gun;
+  RVeh2 := CreateVehicle;
+
+  vc_chassis := us_medium_wheeled;
+  vc_control := control_computer;
+  vc_weapon  := us_cargo_bay;
+  RVeh3 := CreateVehicle;
+  RVeh4 := CreateVehicle;
+
+  AddCargo(RVeh3, mat_cans, 100);
+  AddCargo(RVeh4, mat_oil, 60);
+  AddCargo(RVeh4, mat_siberit, 40);
+
+  PlaceHumanInUnit(ReinfMech1, RVeh1);
+  PlaceHumanInUnit(ReinfMech2, RVeh2);
+
+  PlaceUnitXYR(RVeh1, 46, 86, 1, false);
+  PlaceUnitXYR(RVeh2, 50, 86, 1, false);
+  PlaceUnitXYR(RVeh3, 46, 82, 1, false);
+  PlaceUnitXYR(RVeh4, 49, 89, 1, false);
+
+  Case Rand(1,2) of
+  1:Say(ReinfMech1, 'D3-Sol-1');
+  2:Say(ReinfMech2, 'D3-FemSol-1');
+  end;
+
+end;

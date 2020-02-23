@@ -1,0 +1,160 @@
+on UnitDestroyed(un) do
+  begin
+    if un=Simone then
+      begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Simone');
+        ExclusiveOff;
+        exit;
+      end
+    else if un=Kathryn then
+      begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Kathryn');
+        ExclusiveOff;
+        exit;
+      end
+    else if un=Miller then
+      begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Miller');
+        ExclusiveOff;
+        exit;
+      end
+    else if un=base1 or un=base2 then
+      begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Bases');
+        ExclusiveOff;
+        exit;
+      end;
+
+MCE_UnitDestroyed(un);
+end;
+
+on UnitGoesToRed(un) do
+ begin
+   if un = baracksdestr then
+    begin
+      ComEnterUnit(UnitsInside(un), AMWesternArmor);
+    end;
+ end;
+
+every 0$1 trigger LaserTanks < 2 and game_start do
+begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Vehicles');
+        ExclusiveOff;
+end;
+
+On BuildingStarted(building, builder) do
+begin
+MCE_BuildingStarted(building, builder);
+End;
+
+On UpgradeComplete(building) do
+begin
+MCE_UpgradeComplete(building);
+End;
+
+On BuildingComplete(building) do
+var i, un;
+begin
+ if GetBType(building)=b_armoury and GetSide(building)=1 then
+   begin
+     AMWesternArmor=building;
+     for i = 1 to 2 do
+        begin
+
+                uc_side = 1;
+                uc_nation = 1;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(sex_male, 1, 6);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, AM_SpawnZone_W, false);
+                ComEnterUnit(un,building);
+        end;
+    end
+
+else if (GetSide(building)=6) AND (GetBType(building)=b_depot) then
+  begin
+     SetResourceType(GetBase(building), mat_cans, 500);
+     SetResourceType(GetBase(building), mat_oil, 100);
+     SetResourceType(GetBase(building), mat_siberit, 50);
+  end;
+
+MCE_BuildingComplete(building);
+End;
+
+On ResearchComplete(tech, lab) do
+begin
+MCE_ResearchComplete(tech, lab);
+End;
+
+On CrateSpawn(id, x, y, amount, mode) do
+begin
+MCE_CrateSpawn(id, x, y, amount, mode);
+End;
+
+On VehicleConstructed(vehicle, factory) do
+begin
+MCE_VehicleConstructed(vehicle, factory);
+End;
+
+On VehicleCaptured(new, old, side, capturing_unit) do
+begin
+MCE_VehicleCaptured(new, old, side, capturing_unit);
+End;
+
+On BuildingCaptured(building, side, capturning_unit) do
+begin
+MCE_BuildingCaptured(building, side, capturning_unit);
+End;
+
+On EnterBuilding(building, unit) do
+begin
+MCE_EnterBuilding(building, unit);
+End;
+
+On LeaveBuilding(building, unit) do
+begin
+// code here
+
+// MC_Event
+MCE_LeaveBuilding(building, unit);
+End;
+
+On EvacuateVehicle(driver, abandoned_vehicle, unknown1, unknown2) do
+begin
+// code here
+
+// MC_Event
+MCE_EvacuateVehicle(driver, abandoned_vehicle, unknown1, unknown2);
+End;
+
+On ApemanTamed(ape, sci) do
+begin
+MCE_ApemanTamed(ape, sci);
+End;
+
+On Contact(side1, side2) do
+begin
+  if (side1 = 7 and side2 = 1) or (side1 = 1 and side2 = 7) then
+  begin
+   ExclusiveOn;
+   DialogueOn;
+   Say(Barnes, 'DFriendlyFire-Barnes-1');
+   DialogueOff;
+   YouLost('FriendlyFire');
+   ExclusiveOff;
+   exit;
+  end;
+end;

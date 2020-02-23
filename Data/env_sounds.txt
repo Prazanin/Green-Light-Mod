@@ -1,0 +1,39 @@
+MAP Am05cont
+  PER_10_SEC 20
+
+  SWAMP 25
+    1 Frog1
+    2 Frog2
+    3 cvrcek2
+    2 cikad1
+    2 cikad2
+   -1
+
+  TREE 100
+    4 Bird0
+    5 Bird1
+    15 Bird2
+    15 Bird3
+    15 Bird4
+    15 Bird5
+    15 Bird6
+    15 Bird7
+    15 Bird8
+    15 Bird9
+    5 Bird10
+    1 les1
+    1 les2
+   -1
+
+  WATER 10
+    2 voda
+   -1
+
+  GRASS 5
+    1 cvrcek
+    1 cvrcek3
+    1 trava1
+    1 cikad1
+    1 cikad2
+    1 cikad6
+   -1

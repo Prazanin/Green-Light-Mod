@@ -1,0 +1,176 @@
+export AM_SquadOne, AM_SquadTwo, AM_SquadThree;
+
+every 0$1 trigger MissionStart do
+begin
+  Wait(1$0);
+
+  ComBuild(AM_Engineers, b_oil_mine, 63, 69, 0);
+  AddComBuild(AM_Engineers, b_siberite_mine, 104, 96, 0);
+
+  AddComBuild(AM_Engineers, b_oil_power, 90, 97, 0);
+  AddComBuild(AM_Engineers, b_oil_power, 90, 94, 0);
+  AddComBuild(AM_Engineers, b_oil_power, 83, 96, 0);
+
+  AddComBuild(AM_Engineers, b_ext_gun, 80, 78, 0);
+  AddComBuild(AM_Engineers, b_ext_rocket, 76, 71, 2);
+  AddComBuild(AM_Engineers, b_ext_computer, 79, 71, 3);
+  AddComBuild(AM_Engineers, b_ext_track, 83, 75, 4);
+  AddComBuild(AM_Engineers, b_ext_laser, 76, 73, 1);
+end;
+
+export AM_Factory;
+export function Construct_Vehicles;
+var i;
+begin
+
+AddResourceType(GetBase(AMBase), mat_oil, 500);
+
+  for i = 1 to 5 do
+   begin
+     AddResourceType(GetBase(AMBase), mat_cans, 100);
+     AddComConstruct(AM_Factory, us_medium_tracked, engine_combustion, control_computer, us_double_gun);
+   end;
+
+  for i = 1 to 4 do
+   begin
+     AddResourceType(GetBase(AMBase), mat_cans, 100);
+     AddComConstruct(AM_Factory, us_medium_tracked, engine_combustion, control_computer, us_rocket_launcher);
+   end;
+
+  for i = 1 to 7 do
+   begin
+     AddResourceType(GetBase(AMBase), mat_cans, 100);
+     AddComConstruct(AM_Factory, us_heavy_tracked, engine_combustion, control_computer, us_heavy_gun);
+   end;
+
+  for i = 1 to 4 do
+   begin
+     AddResourceType(GetBase(AMBase), mat_cans, 100);
+     AddComConstruct(AM_Factory, us_medium_tracked, engine_combustion, control_computer, us_laser);
+   end;
+
+  AddComConstruct(AM_Factory, us_medium_tracked, engine_combustion, control_manual, us_laser);
+  AddComConstruct(AM_Factory, us_medium_tracked, engine_combustion, control_manual, us_laser);
+  AddComConstruct(AM_Factory, us_heavy_tracked, engine_combustion, control_manual, us_heavy_gun);
+  AddComConstruct(AM_Factory, us_heavy_tracked, engine_combustion, control_manual, us_heavy_gun);
+  AddComConstruct(AM_Factory, us_medium_tracked, engine_combustion, control_manual, us_rocket_launcher);
+  AddComConstruct(AM_Factory, us_medium_tracked, engine_combustion, control_manual, us_rocket_launcher);
+
+end;
+
+
+
+export function CustomInitMacro();
+begin
+//Ustinov Fortress
+MC_SetScanArea(1, RU_Ustinov_Area);
+MC_SetParkingArea(1, RU_Ustinov_Parking);
+
+MC_SetDepositsXY(1, [
+   [266,  105, 1],
+]);
+
+MC_SetAllowedTurretWeapons(1, [ru_gatling_gun, ru_heavy_gun, ru_rocket_launcher, ru_laser, ru_rocket, ru_rocket_battery, ru_radar]);
+MC_SetCratesArea(1, RU_Ustinov_Crates);
+MC_SetTame(1, RU_Ustinov_Crates);
+MC_SetDefenderLimit(1, 9);
+
+MC_SetProduceList(1, [
+   [ru_medium_tracked, engine_combustion, control_computer, ru_gatling_gun],
+   [ru_medium_tracked, engine_combustion, control_computer, ru_gun],
+   [ru_medium_tracked, engine_combustion, control_computer, ru_rocket_launcher],
+   [ru_heavy_tracked, engine_combustion, control_computer, ru_rocket_launcher],
+   [ru_heavy_tracked, engine_combustion, control_computer, ru_gatling_gun],
+   [ru_heavy_tracked, engine_combustion, control_computer, ru_heavy_gun]
+]);
+
+MC_SetBuildingList(1, [
+            [b_depot, 36, 29, 2],
+            [b_armoury, 51, 45, 5],
+            [b_armoury, 33, 45, 0],
+            [b_lab, 38, 16, 1],
+            [b_lab, 46, 27, 5],
+            [b_workshop, 24, 34, 1],
+            [b_oil_mine, 22, 7, 1],
+            [b_siberite_mine, 7, 6, 1],
+            [b_siberite_power, 15, 24, 1],
+            [b_siberite_power, 20, 26, 2],
+            [b_siberite_power, 26, 27, 5],
+            [b_bunker, 27, 42, 0],
+            [b_bunker, 42, 47, 5],
+            [b_bunker, 49, 48, 5],
+            [b_bunker, 53, 43, 5],
+            [b_bunker, 54, 39, 4],
+            [b_bunker, 55, 36, 5],
+            [b_bunker, 53, 31, 4],
+]);
+
+MC_SetLabKind(1, [b_lab_weapon, b_lab_computer, b_lab_spacetime, b_lab_siberium]);
+MC_SetFactoryExtension(1, 24, 34, 1, [b_ext_computer, b_ext_track, b_ext_gun, b_ext_rocket, b_ext_siberium]);
+
+//Kolvich Coterie
+MC_SetScanArea(2, RU2_Kolvich_Area);
+MC_SetParkingArea(2, RU2_Kolvich_Parking);
+
+MC_SetDepositsXY(2, [
+   [63,  69, 0],
+   [104, 96, 1],
+   [105,  155, 0],
+   [126, 151, 1],
+]);
+
+MC_SetAllowedTurretWeapons(2, [ru_gatling_gun, ru_heavy_gun, ru_rocket_launcher, ru_rocket, ru_rocket_battery, ru_flame_thrower]);
+MC_SetCratesArea(2, RU2_Kolvich_CratesApes);
+MC_SetTame(2, RU2_Kolvich_CratesApes);
+MC_SetDefenderLimit(2, 10);
+
+MC_SetProduceList(2, [
+   [ru_medium_tracked, engine_combustion, control_computer, ru_gatling_gun],
+   [ru_medium_tracked, engine_combustion, control_computer, ru_gun],
+   [ru_medium_tracked, engine_combustion, control_computer, ru_rocket_launcher],
+   [ru_heavy_tracked, engine_combustion, control_computer, ru_rocket_launcher],
+   [ru_heavy_tracked, engine_combustion, control_computer, ru_gatling_gun],
+   [ru_medium_tracked, engine_combustion, control_computer, ru_gun],
+   [ru_medium_tracked, engine_combustion, control_computer, ru_rocket_launcher],
+   [ru_heavy_tracked, engine_combustion, control_computer, ru_rocket_launcher],
+   [ru_heavy_tracked, engine_combustion, control_computer, ru_gatling_gun],
+   [ru_heavy_tracked, engine_combustion, control_computer, ru_heavy_gun]
+]);
+
+MC_SetBuildingList(2, [
+            [b_depot, 90, 88, 5],
+            [b_armoury, 102, 85, 4],
+            [b_armoury, 100, 103, 4],
+            [b_lab, 70, 90, 0],
+            [b_lab, 46, 27, 5],
+            [b_workshop, 24, 34, 1],
+            [b_oil_mine, 63, 69, 1],
+            [b_siberite_mine, 104, 96, 1],
+            [b_siberite_power, 72, 79, 1],
+            [b_bunker, 93, 70, 4],
+            [b_bunker, 98, 80, 4],
+            [b_bunker, 106, 89, 4],
+            [b_bunker, 108, 102, 5],
+            [b_bunker, 80, 99, 0],
+]);
+
+MC_SetLabKind(2, [b_lab_weapon, b_lab_computer, b_lab_spacetime, b_lab_siberium]);
+MC_SetFactoryExtension(2, 80, 75, 2, [b_ext_computer, b_ext_track, b_ext_gun, b_ext_rocket, b_ext_siberium]);
+end;
+
+every 5$0 trigger KolvichAttacks do
+begin
+enable;
+ Case Rand(1, 3) of
+  1:begin
+  RespawnAttackVehicle(RU2_Kolvich_ArmySpawn, 6, Rand(5,8), RuSolMaxLevel, 3, engine_siberite, [1, 3], [], [46, 43, 44, 47, 45, 74, 75, 76], [], 1);
+  RespawnAttackInfantry(6, 3, Rand(6,8), 0, Rand(1,3), 0, 2, RuSolMaxLevel, RU2_Kolvich_ArmySpawn, 1);
+  Attack([0, MC_attack_group, [ [146, 86], [219, 83], [256, 101] ], [0, 1, 0, 1, 1, 0, 0, 0, 1, 1] ]);
+  end;
+  2:begin
+  RespawnAttackVehicle(DvaliSpawn_N, 6, Rand(5,8), RuSolMaxLevel, 3, engine_siberite, [1, 3], [], [46, 43, 44, 47, 45, 74, 75, 76], [], 1);
+  RespawnAttackInfantry(6, 3, Rand(6,8), 0, Rand(1,3), 0, 2, RuSolMaxLevel, DvaliSpawn_N, 1);
+  Attack([0, MC_attack_group, [ [181, 21], [226, 72], [225, 103] ], [0, 1, 0, 1, 1, 0, 0, 0, 1, 1] ]);
+  end;
+ end;
+end;

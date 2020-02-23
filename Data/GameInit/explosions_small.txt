@@ -1,0 +1,70 @@
+GAMEINIT
+  EXPLOSIONS
+
+   NAME veh1.gma
+   SPEED  1 
+   SOUND vyb01
+   TYPE  2  1 8
+
+   NAME veh2.gma
+   SPEED  1 
+   SOUND vyb02
+   TYPE  1  1
+
+   NAME veh3.gma
+   SPEED  1 
+   SOUND vyb03
+   TYPE  1  1
+
+   NAME veh4.gma
+   SPEED  1 
+   SOUND vyb04
+   TYPE  1  1
+
+   NAME veh5.gma
+   SPEED  1 
+   SOUND vyb01
+   TYPE  1  1
+
+   NAME veh6.gma
+   SPEED  1 
+   SOUND vyb02
+   TYPE  1  1
+
+   NAME baz1.gma
+   SPEED  1 
+   SOUND baz01
+   TYPE  1  2
+
+   NAME baz2.gma
+   SPEED  1 
+   SOUND baz02
+   TYPE  1  2
+
+   NAME water.gma
+   SPEED  1 
+   SOUND baz_zblunk
+   TYPE  2  3 5
+
+   NAME min1.gma
+   SPEED  1 
+   SOUND minomet
+   TYPE  1  4
+
+   NAME mat.gma
+   SPEED  1 
+   SOUND materializace
+   TYPE  1  6
+
+   NAME build.gma
+   SPEED  1 
+   SOUND budova
+   TYPE  1  8
+
+   NAME lapser.gma
+   SPEED  1 
+   SOUND xxx
+   TYPE  1  9
+
+  END_OF_EXPLOSIONS
+END_OF_GAMEINIT

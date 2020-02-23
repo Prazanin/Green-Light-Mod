@@ -1,0 +1,46 @@
+// nejaka verze z pocitace THOMAS
+begin
+new
+ ! all 150
+end
+
+{
+STRUKTURA
+
+begin
+ ? podminka
+ ? ...
+ ! prikaz
+ ! ...
+new
+ ? podminka
+ ? ...
+ ! prikaz
+ ! ...
+new
+ ...
+end
+
+
+PODMINKY
+
+? type [terrain| grass| tree| single_tree| boulder| human| vehicle| building]
+? crown
+? trunk
+? inident <string>
+
+PRIKAZY
+
+! all <k:integer>
+    vynasobi vsechny slozky k procenty
+! rgb <kr:integer> <kg:integer> <kb:integer>
+    vynasobi kazdou slozku prislusnym koeficientem (v procentech)
+! sat <k:integer>
+    vynasobi saturaci k procenty
+! hue <c:integer>
+    posune hue o c stupnu
+! add <k:integer> <col:hexa>
+    zprumeruje vazene kazdou slozku s barvou col (zadanou hexa ve tvaru BBGGRR), vaha col ve vysledku je k procent
+! contr <k:integer>
+    kontrast se nasobi procenty  
+}

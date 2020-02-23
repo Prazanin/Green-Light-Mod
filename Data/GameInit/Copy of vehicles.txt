@@ -1,0 +1,472 @@
+GAMEINIT
+  VEHICLES
+    VEHICLE_LABEL "E(&Vehicle)C(&Vozidlo)"
+    SPEED_LABEL "E(Speed)C(Rychlost)"
+
+    WHEELS_AND_TRACKS
+      WHEEL 1  1 wh-a-ltrike-small      {prostredni cislo, smer toceni}
+      WHEEL 2 -1 wh-u-medium {wh-a-ltrike-big}
+
+      SPEC  3  1 wh-u-morphling
+      HOVER 4  1 wh-a-hovercraft-bottom
+      HOVER 5  1 wh-a-hovercraft-back
+      WHEEL 6  1 wh-u-medium
+      TRACK 7  1 wh-r-track
+      TRACK 8  1 wh-r-behemot
+      TRACK 9  1 wh-u-track-heavy	
+      WHEEL 10 1 wh-a-cylinder
+      TRACK 11 1 wh-a-track
+    END_OF_WHEELS_AND_TRACKS
+
+    CHASSIS
+      CHASSIS_LABEL "Chassis"
+      CHASSIS_TYPE 1
+        NAME "E(Light Trike)C(Lehká tøíkolka)"
+        NATION Arabian
+        SYMBOL a-lw
+
+        WHEELS 3   1 2 2 
+
+        MOVEMENT_TYPE Wheeled
+        VEHICLE_TYPE Combined
+        UNIT_SIZE 7
+
+        TRAMPLE Trike 1 2  0 1
+
+        WEIGHT Light
+        DEFEND 20
+        PROTECTION 65
+        SPEED 20
+        PRODUCED_IN workshop .
+
+      CHASSIS_TYPE 2
+        NAME "E(Medium Trike)C(Stredni tøíkolka)"
+        NATION Arabian
+        SYMBOL a-mw
+
+        WHEELS 4   1 2 1 2
+
+        MOVEMENT_TYPE Wheeled
+        VEHICLE_TYPE Combined
+        UNIT_SIZE 7
+
+        TRAMPLE Trike 1 2  0 1
+
+        WEIGHT Light
+        DEFEND 20
+        PROTECTION 65
+        SPEED 20
+        PRODUCED_IN workshop .
+
+
+      CHASSIS_TYPE 3
+        NAME "E(Heavy Trike)C(Tezka tøíkolka)"
+        NATION Arabian
+        SYMBOL a-ht
+
+        WHEELS 3   10 11 11
+
+        MOVEMENT_TYPE Wheeled
+        VEHICLE_TYPE Combined
+        UNIT_SIZE 7
+
+        TRAMPLE Trike 1 2  0 1
+
+        WEIGHT Light
+        DEFEND 20
+        PROTECTION 65
+        SPEED 20
+        PRODUCED_IN workshop .
+ 
+ 
+{     CHASSIS_TYPE 2
+        NAME "E(Hovercraft)C(Vznášedlo)"
+        NATION Arabian
+        SYMBOL v-a-hovercraft
+
+        WHEELS 4   4 5 4 5
+
+        MOVEMENT_TYPE Hover
+        VEHICLE_TYPE Combined
+        UNIT_SIZE 7
+
+        TRAMPLE Hover 1 5  0 1
+
+        WEIGHT Medium
+        DEFEND 25
+        PROTECTION 65
+        SPEED 17
+        PRODUCED_IN workshop .
+}
+
+{      CHASSIS_TYPE 3
+        NAME "E(Mastodont)C(Mastodont)"
+        NATION Natural
+        SYMBOL a-mastodont
+
+        MOVEMENT_TYPE Foot
+        VEHICLE_TYPE Animal
+        UNIT_SIZE 7
+
+        TRAMPLE Mastodont 3 1  0 1
+
+        DEFEND 30
+        PROTECTION 50
+        SPEED 7
+        WEIGHT Heavy
+}
+      CHASSIS_TYPE 4
+        NAME "E(Morphling)C(Morfující vozidlo)"
+        NATION American
+        SYMBOL u-morphlink
+
+        WHEELS 4   3 3 3 3
+
+        MOVEMENT_TYPE Special_Tracks
+        VEHICLE_TYPE Combined
+        UNIT_SIZE 10
+
+        TRAMPLE Big 2 3  0 2
+
+        DEFEND 40
+        PROTECTION 90
+        SPEED 13
+        WEIGHT Medium
+        PRODUCED_IN factory .
+
+      CHASSIS_TYPE 5
+        NAME "E(Wheeled medium)C(Støední kolový)"
+        NATION American
+        SYMBOL u-mediumw
+
+        MOVEMENT_TYPE Wheeled
+        VEHICLE_TYPE Combined
+        UNIT_SIZE 7
+
+        TRAMPLE Small 2 3  0 2
+
+        WHEELS 4   6 6 6 6
+
+        DEFEND 40
+        PROTECTION 90
+        SPEED 12
+        WEIGHT Medium
+        PRODUCED_IN factory .
+
+{      CHASSIS_TYPE 6
+        NAME "E(Behemoth)C(Behemoth)"
+        NATION Russian
+        SYMBOL v-r-behemot
+
+        WHEELS 4   8 8 8 8
+
+        MOVEMENT_TYPE Hover
+        VEHICLE_TYPE Behemoth
+        UNIT_SIZE 7
+
+        TRAMPLE Behemoth 6 5  0 4
+
+        DEFEND 200
+        PROTECTION 100
+        SPEED 3
+        WEIGHT Medium
+        PRODUCED_IN factory .
+}
+
+{      CHASSIS_TYPE 7
+        NAME "E(Desert Rider)C(Pouštní jezdec)"
+        NATION Arabian
+        SYMBOL "*3"
+
+        MOVEMENT_TYPE Foot
+        VEHICLE_TYPE Animal
+        UNIT_SIZE 7
+        RIDER_SYMBOL "a-m-princ-ms"
+
+        TRAMPLE Mastodont 3 1  0 1
+
+        DEFEND 30
+        PROTECTION 50
+        SPEED 7
+        WEIGHT Heavy
+}
+      CHASSIS_TYPE 8
+        NAME "E(Wheeled light)C(Lehký kolový)"
+        NATION American
+        SYMBOL u-lw
+
+        MOVEMENT_TYPE Wheeled
+        VEHICLE_TYPE Combined
+        UNIT_SIZE 7
+
+        WHEELS 4   6 6 6 6
+
+        TRAMPLE Small 1 2  0 1
+
+        DEFEND 25
+        PROTECTION 65
+        SPEED 18
+
+        WEIGHT Medium
+        PRODUCED_IN factory .
+
+{      CHASSIS_TYPE 9
+        NAME "E(Light Tank)C(Lehky tank)"
+        NATION Russian
+        SYMBOL v-r-lighttank
+
+        MOVEMENT_TYPE Tracked
+        VEHICLE_TYPE Combined
+        UNIT_SIZE 10
+
+        TRAMPLE Big 2 3  0 3
+
+        WHEELS 2   7 7
+
+        DEFEND 100
+        PROTECTION 100
+        SPEED 8
+        WEIGHT Medium
+        PRODUCED_IN factory .
+}
+
+      CHASSIS_TYPE 10
+        NAME "E(Tracked heavy)C(Tezky pasovy)"
+        NATION American
+        SYMBOL u-heavy
+
+        MOVEMENT_TYPE Tracked
+        VEHICLE_TYPE Combined
+        UNIT_SIZE 7
+
+        TRAMPLE Small 2 3  0 2
+
+        WHEELS 2   9 9
+
+        DEFEND 40
+        PROTECTION 90
+        SPEED 12
+        WEIGHT Medium
+        PRODUCED_IN factory .
+{
+      CHASSIS_TYPE 11
+        NAME "E(Tracked medium)C(Støední pasovy)"
+        NATION American
+        SYMBOL u-mediumt
+
+        MOVEMENT_TYPE Tracked
+        VEHICLE_TYPE Combined
+        UNIT_SIZE 7
+
+        TRAMPLE Small 2 3  0 2
+
+        WHEELS 2  9 9 
+
+        DEFEND 40
+        PROTECTION 90
+        SPEED 12
+        WEIGHT Medium
+        PRODUCED_IN factory .
+}
+    END_OF_CHASSIS
+
+    CONTROLS
+      CONTROL_LABEL "E(Control)C(Øízení)"
+      CONTROL_TYPE 1
+        NAME "E(Manual control)C(Ruèní øízení)"
+        SYMBOL man
+        CHASSIS ++++
+        PRODUCED_IN workshop .
+      CONTROL_TYPE 2
+        NAME "E(Remote control)C(Dálkové øízení)"
+        SYMBOL rem
+        CHASSIS ++++
+        PRODUCED_IN factory radar_addon .
+        UPGRADE_REQUIRES remote_control .
+      CONTROL_TYPE 3
+        NAME "E(Computer control)C(Poèítaèové øízení)"
+        SYMBOL comp
+        CHASSIS ++++
+        PRODUCED_IN factory computer_addon .
+        UPGRADE_REQUIRES computer_control .
+    END_OF_CONTROLS
+
+    ENGINES
+      ENGINE_LABEL "E(Engine)C(Motor)"
+      ENGINE_TYPE 1
+        NAME "E(Combustion engine)C(Spalovací motor)"
+        SYMBOL comb
+        CHASSIS ++++
+        PRODUCED_IN workshop .
+      ENGINE_TYPE 2
+        NAME "E(Solar engine)C(Sluneèní motor)"
+        SYMBOL solar
+        CHASSIS +++-
+        PRODUCED_IN factory solar_addon .
+      ENGINE_TYPE 3
+        NAME "E(Siberium engine)C(Siberiový motor)"
+        SYMBOL siber
+        CHASSIS -+++
+        PRODUCED_IN factory siberium_addon .
+        UPGRADE_REQUIRES siberium_engine .
+    END_OF_ENGINES
+
+    WEAPONS
+      WEAPON_LABEL "E(Weapon)C(Zbraò)"
+{      FIRE_SYMBOL 1 "exp_MG"
+      FIRE_SYMBOL 2 "exp_gun"
+      FIRE_SYMBOL 3 "exp_rock" }
+{      FIRE_SYMBOL 1 "vystrel-kulomet"}
+      FIRE_SYMBOL 1 "strelbaA"
+      FIRE_SYMBOL 2 "strelbaB"
+      FIRE_SYMBOL 3 "strelbaT"
+      FIRE_SYMBOL 4 "strelbaZ"
+      FIRE_SYMBOL 5 "strelbaM"
+
+      WEAPON_TYPE 1
+        NAME "E(No weapon)C(Žádná zbraò)"
+        SYMBOL ""
+        WEIGHT Light
+
+
+      WEAPON_TYPE 2
+        NAME "E(US Light Gun)C(US lehky)"
+        SYMBOL w-u-lightgun
+        WEIGHT Light
+        ATTACK
+          MINMAX_RANGE 1 9
+          DAMAGE 15 5 3
+          FREQUENCY 20 30
+          EFF 30 10 6
+          ANIM 1 1 2
+        END_OF_ATTACK
+        PRODUCED_IN workshop .
+        ROTATE_TYPE Free
+
+      WEAPON_TYPE 3
+        NAME "E(US Machine Gun)C(US kulomet)"
+        SYMBOL w-u-kulomet
+        WEIGHT Light
+        ATTACK
+          MINMAX_RANGE 1 9
+          DAMAGE 15 5 3
+          FREQUENCY 20 30
+          EFF 30 10 6
+          ANIM 1 1 2
+        END_OF_ATTACK
+        PRODUCED_IN workshop .
+        ROTATE_TYPE Free
+
+      WEAPON_TYPE 4
+        NAME "E(US Double Gun)C(US dvojite delo)"
+        SYMBOL w-u-double
+        WEIGHT Medium
+        ATTACK
+          MINMAX_RANGE 5 11
+          DAMAGE 150 185 200
+          FREQUENCY 1 74
+          EFF 10 25 28
+          ANIM 2 2 3
+        END_OF_ATTACK
+        PRODUCED_IN workshop .
+        ROTATE_TYPE Free
+
+      WEAPON_TYPE 5
+        NAME "E(US Heavy Gun)C(US Tezke delo)"
+        SYMBOL w-u-heavy
+        WEIGHT Heavy
+        ATTACK
+          MINMAX_RANGE 1 9
+          DAMAGE 100 200 300
+          FREQUENCY 1 29
+          EFF 33 67 100
+          ANIM 1 1 2
+        END_OF_ATTACK
+        PRODUCED_IN workshop .
+        ROTATE_TYPE Limited
+
+
+{
+      WEAPON_TYPE 2
+        NAME "E(Arabian machine gun)C(Arabské dvojèe)"
+        SYMBOL w-a-kulomet
+        WEIGHT Light
+        ATTACK
+          MINMAX_RANGE 1 9
+          DAMAGE 15 5 3
+          FREQUENCY 20 30
+          EFF 30 10 6
+          ANIM 2 1 2
+        END_OF_ATTACK
+        PRODUCED_IN workshop .
+        ROTATE_TYPE Free
+
+ }
+{     WEAPON_TYPE 3
+        NAME "E(Arabian Gatling Gun)C(Arabský rotaèák)"
+        SYMBOL w-a-rotacak
+        WEIGHT Medium
+        ATTACK
+          MINMAX_RANGE 1 9
+          DAMAGE 15 5 3
+          FREQUENCY 20 30
+          EFF 30 10 6
+          ANIM 1 1 2
+        END_OF_ATTACK
+        PRODUCED_IN workshop .
+        ROTATE_TYPE Limited
+
+ }
+{     WEAPON_TYPE 4
+        NAME "E(Russian Gun Tower)C(Ruská dìlová vìž)"
+        SYMBOL w-r-dvoudelo
+        WEIGHT Heavy
+        ATTACK
+          MINMAX_RANGE 1 9
+          DAMAGE 100 200 300
+          FREQUENCY 1 29
+          EFF 33 67 100
+          ANIM 2 2 3
+        END_OF_ATTACK
+        PRODUCED_IN workshop .
+        ROTATE_TYPE Free
+}
+
+
+{
+      WEAPON_TYPE 10
+        NAME "E(Behemoth)C(Behemoth)"
+        SYMBOL w-r-behemot
+        WEIGHT Heavy
+        ATTACK
+          MINMAX_RANGE 1 9
+          DAMAGE 100 200 300
+          FREQUENCY 1 29
+          EFF 33 67 100
+          ANIM 1 1 2
+        END_OF_ATTACK
+        PRODUCED_IN workshop .
+        ROTATE_TYPE Limited
+}
+
+{      WEAPON_TYPE 11
+        NAME "E(US Triple machine gun)C(US Trojitý kulomet)"
+        SYMBOL w-u-triple
+        WEIGHT Light
+        ATTACK
+          MINMAX_RANGE 1 9
+          DAMAGE 15 5 3
+          FREQUENCY 20 30
+          EFF 30 10 6
+          ANIM 3 1 2
+        END_OF_ATTACK
+        PRODUCED_IN workshop .
+        ROTATE_TYPE Free
+}
+
+
+
+    END_OF_WEAPONS
+
+  END_OF_VEHICLES
+END_OF_GAMEINIT

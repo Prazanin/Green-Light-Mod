@@ -1,0 +1,7 @@
+every 0$1 trigger OutpostCaptured do
+Begin
+wait(Rand(1$0, 1$30));
+CreateCratesArea(Rand(2, 5), CratesArea,true);
+
+enable;
+end;

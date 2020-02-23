@@ -1,0 +1,9 @@
+begin
+? ident wall
+ ! rgb 200 200 200
+ ! sat 31
+new
+? type grass
+ ! sat 52
+ ! rgb 112 98 98
+end

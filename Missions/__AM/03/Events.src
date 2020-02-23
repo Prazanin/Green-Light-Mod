@@ -1,0 +1,71 @@
+on ArtifactUsed(side, button, paramaraj1, paramaraj2) do
+var i;
+begin
+  if side = 7 and button = art_use_power then
+  begin
+    for i in LabTechTesla do
+      if IsSelected(i) then
+        ComResearch(i, Tech_Tesla)
+  end
+end;
+
+on UnitDestroyed(un) do
+begin
+  if GetSide(un) = 8 and GetType(un) = unit_human then
+     MercsKilled = MercsKilled + 1
+
+  else if un=Simone then
+   begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Simone');
+        ExclusiveOff;
+        exit;
+   end
+  else if un=Kathryn then
+   begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Kathryn');
+        ExclusiveOff;
+        exit;
+   end
+  else if un=Miller then
+   begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Miller');
+        ExclusiveOff;
+        exit;
+   end
+  else if un=Esther then
+   begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Esther');
+        ExclusiveOff;
+        exit;
+   end
+  else if un=GeoBase and not Evacuation then
+   begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Base');
+        ExclusiveOff;
+        exit;
+   end
+end;
+
+On Contact(side1, side2) do
+begin
+  if (side1 = 7 and side2 = 1) or (side1 = 1 and side2 = 7) then
+  begin
+   ExclusiveOn;
+   DialogueOn;
+   Say(Barnes, 'DFriendlyFire-Barnes-1');
+   DialogueOff;
+   YouLost('FriendlyFire');
+   ExclusiveOff;
+   exit;
+  end;
+end;

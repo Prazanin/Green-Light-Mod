@@ -1,0 +1,305 @@
+Export Function PrepareLaserTanks;
+var i, xy;
+begin
+xy := [ [116,135, 0], [121, 135, 0], [49, 93, 1],
+        [126, 135, 0], [54, 98, 1], [59, 104, 1] ];
+
+uc_nation := 1;
+
+for i = 1 to 6 do
+    begin
+    if i < 4 then
+       uc_side := 7
+    else
+       uc_side := 1;
+
+    PrepareVehicle(us_morphling, engine_siberite, control_manual, us_double_laser, 100);
+
+    // ts, tk, tlz, t1, t2, t3;
+    case i of
+         1: ts := CreateVehicle;
+         2: tk := CreateVehicle;
+         3: t1 := CreateVehicle;
+         4: tlz := CreateVehicle;
+         5: t2 := CreateVehicle;
+         6: t3 := CreateVehicle;
+    end;
+
+    end;
+
+for i in [ts, tk, tlz, t1, t2, t3] do
+    begin
+    PlaceUnitXY(i, xy[1][1], xy[1][2], false);
+    SetDir(i, xy[1][3]);
+
+    xy := Delete(xy, 1);
+    end;
+End;
+
+Export function HealUnitInBase(side, healArea, baseArea, build);
+var sci_list, sci_listOutside,  i, j, damageUnits, unitsToHeal, tmp, rnd;
+begin
+
+  sci_list = FilterAllUnits([[f_side, side], [f_class, 4], [f_lives, 251]]);
+  sci_listOutside = FilterUnitsInArea(baseArea, [[f_side, side], [f_class, 4], [f_ok]]);
+  damageUnits = FilterUnitsInArea(baseArea, [[f_side, side], [f_type, unit_human], [f_not, [f_class, 3]], [f_not, [f_lives, 750]]]);
+  unitsToHeal = FilterUnitsInArea(healArea,[[f_side, side], [f_type, unit_human], [f_not, [f_class, 3]], [f_not, [f_lives, 1000]]]);
+
+  if not damageUnits and not sci_listOutside and not unitsToHeal then exit;
+
+  if damageUnits > 0 and sci_list > 0 then
+    for i in damageUnits do ComMoveToArea(i, healArea);
+
+  if unitsToHeal > 0 and sci_list > 0 then
+  begin
+    for i in sci_list do
+    begin
+
+      ComExitBuilding(i);
+
+      for j in unitsToHeal do AddComHeal(i, j);
+    end;
+  end;
+
+  if damageUnits = 0 and unitsToHeal = 0 and sci_listOutside > 0 then
+      for i in sci_listOutside do
+      begin
+          tmp = FilterAllUnits([[f_side, side], [f_type, unit_building], [f_btype, b_lab_full]]);
+          rnd = rand(1, tmp);
+          ComEnterUnit(i, tmp[rnd]);
+      end;
+
+END;
+
+Export function RepairBuilding(side, building);
+var buildings_list, i,engineerOkInside, engineerOkOutside, j;
+begin
+
+  engineerOkInside = UnitsInside(building);
+  engineerOkOutside = FilterAllUnits([[f_side, side], [f_class, 2], [f_lives, 1000], [f_not, [f_inside]]]);
+  buildings_list = FilterAllUnits([[[f_side, side], [f_type, unit_building], [f_not, [f_lives, 1000]]]]) diff baracksdestr;
+
+  if not buildings_list and not engineerOkOutside then exit;
+
+  if buildings_list > 0 and engineerOkInside then
+     for i in FilterAllUnits([[f_side, side], [f_class, 2]]) do ComExitBuilding(i);
+
+  if buildings_list > 0  and engineerOkOutside > 0 then
+  begin
+
+    for i in engineerOkOutside do
+      for j in buildings_list do
+          ComRepairBuilding(i, j[1]);
+
+  end;
+
+  if buildings_list = 0 and engineerOkOutside > 0 then
+      for i in engineerOkOutside do ComEnterUnit(i, building);
+END;
+
+{Export Function IntBazooka(list); // by Serpent, usage of special ammo by RU bazookers
+var ta, c, i, side, filter;
+begin
+if not list then
+    exit;
+
+    side := GetSide(list[1]);
+    list := UnitFilter(list, [f_class, class_bazooker]);
+    filter := FilterAllUnits([[f_enemy, Side], [f_not, [f_type, unit_building]]]);
+
+    c := Rand(1, 3);
+
+        for i = 1 to list do
+        for ta in filter do
+            begin
+
+            if GetDistUnits(list[i], ta) <= 15 then
+                begin
+                    Case c of
+                    1: begin
+                        ComTimeShift(list[i], GetX(ta), GetY(ta));
+                    end;
+                    2: begin
+                        ComSpaceShift(list[i], GetX(ta) + Rand(-1,1), GetY(ta) + Rand(-1,1));
+                    end;
+                    3:  ComAttackUnit(list[i], ta);
+                    end;
+
+                end;
+            end;
+
+End;}
+
+Export Function IntBazooka(side, targetSide, targetSide2);
+var ta, c, i, list, filter;
+begin
+
+    list   := FilterAllUnits([[f_side, side], [f_class, class_bazooker]]);
+    filter := FilterAllUnits([[f_side, targetSide], [f_not, [f_type, unit_building]]]);
+    filter := filter ^ FilterAllUnits([[f_side, targetSide2], [f_not, [f_type, unit_building]]]);
+
+    c := Rand(1, 3);
+
+        for i = 1 to list do
+        for ta in filter do
+            begin
+
+            if GetDistUnits(list[i], ta) <= 15 then
+                begin
+                    Case c of
+                    1: ComTimeShift(list[i], GetX(ta), GetY(ta));
+                    2: ComSpaceShift(list[i], GetX(ta) + Rand(-1,1), GetY(ta) + Rand(-1,1));
+                    3: ComAttackUnit(list[i], ta);
+                    end;
+
+                end;
+            end;
+
+End;
+
+Export function BuildingVehicleAndAttackEnemy(side, fabric, vehCount, targetSide, weaponTab, engine, control, chassis);
+var i, j, randWeapon, lastIndex, weaponTabTemp, temp, target1, target2;
+begin
+
+     IF FilterAllUnits([[f_side, side], [f_type, unit_vehicle]]) <= vehCount then
+        for i = 1 to vehCount do
+        begin
+            randWeapon = weaponTab[Rand(1, weaponTab)];
+            if randWeapon = 46 then AddComConstruct(fabric, 24, engine, 3, randWeapon)
+            else AddComConstruct(fabric, chassis, engine, 3, randWeapon);
+        end;
+
+        repeat
+                wait(0$1);;
+        until FilterAllUnits([[f_side, side], [f_type, unit_vehicle], [f_lives, 250]]) >= vehCount;
+
+    IF FilterAllUnits([[f_side, side], [f_type, unit_vehicle], [f_lives, 250]]) >= vehCount then
+    begin
+
+        repeat begin
+        wait(0$1);
+
+        if FilterAllUnits([[f_side, side], [f_type, unit_vehicle], [f_lives, 651]]) > 0 then
+        begin
+
+                for i in FilterAllUnits([[f_side, side], [f_type, unit_vehicle], [f_lives, 651]]) do
+                begin
+
+                target1 := NearestUnitToUnit(FilterAllUnits([f_side, targetSide]), i);
+                target2 := NearestUnitToUnit(FilterAllUnits([[[f_side, targetSide], [f_or,[f_occupied], [f_type, unit_human], [f_type, unit_vehicle]]]]), i);
+
+                        If GetDistUnits(i, target1)+8 < GetDistUnits(i, target2) then
+                        begin
+                                ComAttackUnit(i, target1);
+                        end
+                        else
+                        begin
+                                ComAttackUnit(i, target2);
+                        end;
+                end;
+
+        end;
+
+        end until FilterAllUnits([[f_side, side], [f_type, unit_vehicle]]) = 0 or FilterAllUnits([[f_side, targetSide]]) = 0;
+
+    end;
+END;
+
+Export Function ReinforcementArrival();
+var i, un, mech, veh;
+begin
+       uc_side=1;
+       uc_nation = 1;
+           for i=1 to 3 do //pojazdy ciê¿kie
+            begin
+             PrepareMechanic(0, 5);
+             mech= CreateHuman;
+             vc_chassis:=us_heavy_tracked;
+             vc_engine:=engine_siberite;
+             vc_weapon:=us_double_gun;
+             vc_control:=control_manual;
+             veh:=CreateVehicle;
+             PlaceHumanInUnit(mech,veh);
+             PlaceUnitXYR(veh,126,134,5,false);
+             ComAgressiveMove(veh, 128, 98);
+             wait(0$2);
+             end;
+          for i = 1 to 2 do
+        begin
+
+                uc_side = 1;
+                uc_nation = 1;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(sex_male, 1, 5);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, AM_SpawnZone_S, false);
+                ComAgressiveMove(un, 128, 98);
+        end;
+
+           for i=1 to 2 do //pojazdy ciê¿kie
+            begin
+             PrepareMechanic(0, 5);
+             mech= CreateHuman;
+             vc_chassis:=us_heavy_tracked;
+             vc_engine:=engine_siberite;
+             vc_weapon:=us_double_gun;
+             vc_control:=control_manual;
+             veh:=CreateVehicle;
+             PlaceHumanInUnit(mech,veh);
+             PlaceUnitXYR(veh,51,95,1,false);
+             ComAgressiveMove(veh, 75, 80);
+             wait(0$2);
+             end;
+
+       for i = 1 to 3 do
+        begin
+
+                uc_side = 1;
+                uc_nation = 1;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(sex_male, 1, 5);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, AM_SpawnZone_W, false);
+                ComAgressiveMove(un, 75, 80);
+        end;
+        PlaceUnitArea(Miller, AM_SpawnZone_W, false);
+        ComAgressiveMove(Miller, 75, 80);
+end;
+
+Export Function SaySex(unit, dialogM, dialogF);
+begin
+if not unit then
+   exit;
+
+Say(unit, [dialogM, dialogF][GetSex(unit)]);
+End;
+
+Export Function SayRadioSex(unit, dialogM, dialogF);
+begin
+if not unit then
+   exit;
+
+SayRadio(unit, [dialogM, dialogF][GetSex(unit)]);
+End;
+
+
+every 0$1 trigger MissionBegin do
+Begin
+wait(Rand(1$0, 1$30));
+CreateCratesArea(Rand(2, 5), CratesArea,true);
+
+case Rand(1,2) of
+1:begin
+wait(Rand(0$15, 0$30));
+CreateCratesArea(Rand(2, 5), CratesArea,true);
+end;
+end;
+
+enable;
+end;

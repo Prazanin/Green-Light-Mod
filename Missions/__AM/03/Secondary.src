@@ -1,0 +1,151 @@
+export BioCollected;
+export BioXCollected, BioYCollected, BioZCollected;
+export BioXVisited, BioYVisited, BioZVisited;
+export EstherQuestCompleted, TeslaQuestStart, TeslaQuestCompleted;
+
+every 0$1 trigger BioLabSecured AND NOT BioXCollected AND NOT BioXVisited AND IsInArea(Esther, BioArea1) do
+begin
+enable;
+  if GetClass(Esther)=4 then
+    begin
+    BioXVisited := true;
+    SetSide(Esther, 1);
+    SetAreaMapShow(BioArea1Mark, 0);
+    Say(Esther, 'D3d-Esther-1');
+    ComMoveXY(Esther, 25, 22);
+    Wait(0$8);
+    ComMoveXY(Esther, 26, 28);
+    Wait(0$8);
+    ComMoveXY(Esther, 23, 24);
+    Wait(0$8);
+    BioCollected:=BioCollected + 1;
+    BioXCollected = true;
+    ChangeMissionObjectives('MEstherX');
+    ReturnEsther;
+    end
+  else if GetClass(Esther)=1 then
+    begin
+    BioXVisited := true;
+    Say(Esther, 'D3d-Esther-2b');
+    Wait(0$20);
+    BioXVisited := false;
+    end
+  else
+    begin
+    BioXVisited := true;
+    Say(Esther, 'D3d-Esther-2a');
+    Wait(0$20);
+    BioXVisited := false;
+    end;
+end;
+
+every 0$1 trigger BioLabSecured AND NOT BioYCollected AND NOT BioYVisited AND IsInArea(Esther, BioArea2) do
+begin
+enable;
+  if GetClass(Esther)=4 then
+    begin
+    BioYVisited := true;
+    SetSide(Esther, 1);
+    SetAreaMapShow(BioArea2Mark, 0);
+    Say(Esther, 'D3d-Esther-2');
+    ComMoveXY(Esther, 126, 115);
+    Wait(0$12);
+    ComMoveXY(Esther, 125, 120);
+    Wait(0$8);
+    ComMoveXY(Esther, 129, 121);
+    Wait(0$8);
+    BioCollected:=BioCollected + 1;
+    BioYCollected = true;
+    ChangeMissionObjectives('MEstherY');
+    ReturnEsther;
+    end
+  else if GetClass(Esther)=1 then
+    begin
+    BioYVisited := true;
+    Say(Esther, 'D3d-Esther-2b');
+    Wait(0$20);
+    BioYVisited := false;
+    end
+  else
+    begin
+    BioYVisited := true;
+    Say(Esther, 'D3d-Esther-2a');
+    Wait(0$20);
+    BioYVisited := false;
+    end;
+end;
+
+every 0$1 trigger BioLabSecured AND NOT BioZCollected AND NOT BioZVisited AND IsInArea(Esther, BioArea3) do
+begin
+enable;
+  if GetClass(Esther)=4 then
+    begin
+    BioZVisited := true;
+    SetSide(Esther, 1);
+    SetAreaMapShow(BioArea3Mark, 0);
+    Say(Esther, 'D3d-Esther-3');
+    ComMoveXY(Esther, 201, 133);
+    Wait(0$8);
+    ComMoveXY(Esther, 204, 140);
+    Wait(0$12);
+    ComMoveXY(Esther, 200, 138);
+    Wait(0$8);
+    BioCollected:=BioCollected + 1;
+    BioZCollected = true;
+    ChangeMissionObjectives('MEstherZ');
+    ReturnEsther;
+    end
+  else if GetClass(Esther)=1 then
+    begin
+    BioZVisited := true;
+    Say(Esther, 'D3d-Esther-2b');
+    Wait(0$20);
+    BioZVisited := false;
+    end
+  else
+    begin
+    BioZVisited := true;
+    Say(Esther, 'D3d-Esther-2a');
+    Wait(0$20);
+    BioZVisited := false;
+    end;
+end;
+
+every 0$1 trigger GetTech(Tech_Bio1, 7)=state_researched do
+  Say(Esther, 'D3f-Esther-1');
+
+every 0$1 trigger GetTech(Tech_Bio2, 7)=state_researched do
+  Say(Esther, 'D3f-Esther-2');
+
+every 0$1 trigger GetTech(Tech_Bio3, 7)=state_researched do
+begin
+  ChangeMissionObjectives('MEstherFinished');
+  EstherQuestCompleted := true;
+  Say(Esther, 'D3f-Esther-3');
+  Say(Simone, 'D3f-Simone-1');
+end;
+
+export LabTechTesla;
+
+every 0$1 trigger TeslaQuestStart and  not TeslaQuestCompleted do
+var i;
+begin
+enable;
+  LabTechTesla:=FilterAllUnits( [f_and, [f_side, 7], [f_btype, b_lab_full], [f_nation, 1]] );
+  if not GetTech(Tech_Tesla, 7)=state_researched AND GetTech(Tech_Tech3, 7)=state_researched then
+    for i in LabTechTesla do
+      SetArtifactUse( GetSide(i), art_use_power, art_instant, i)
+  else if not GetTech(Tech_Tesla, 7)=state_researched AND not GetTech(Tech_Tech3, 7)=state_researched then
+    for i in LabTechTesla do
+      SetArtifactUse( GetSide(i), art_use_power, art_gray, i)
+  else
+    for i in LabTechTesla do
+      SetArtifactUse( GetSide(i), art_use_power, art_no, i);
+end;
+
+every 0$1 trigger GetTech(Tech_Tesla, 7)=state_researched AND FilterAllUnits( [f_and, [f_side, 7], [f_weapon, us_tesla_coil]] ) >= 1 do
+begin
+  TeslaQuestCompleted = true;
+  ChangeMissionObjectives('MTeslaOut');
+  Say(Simone, 'D4c-Simone-1');
+end;

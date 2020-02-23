@@ -1,0 +1,649 @@
+export attack_group;
+export RusHarassSquad;
+export RU2_DemoTeam, RU3_Baterie, RU3_BaterieVehs, RU3_BaterieMechs;
+export RU3BaterieTimeOut;
+
+export function RespawnAttackVehicle(area, side, vehCount, mehskill, nation, vehEngine, vehControl, RUWeapons, ARWeapons, AMWeapon);
+var i, j, un, veh, ruChassisTab, arChassisTab, amChassisTab, target1, target2, RUWeaponChosen;
+begin
+
+  amChassisTab = [];
+  arChassisTab = [];
+  ruChassisTab = [];
+
+  repeat
+
+  wait(0$01);
+
+  IF nation = 1 then
+  begin
+
+        uc_side = side;
+        uc_nation = nation;
+
+        vc_engine = vehengine;
+        vc_control = vehControl[Rand(1,vehControl)];
+        vc_weapon = AMWeapon[Rand(1, AMWeapon)];
+
+        for j = 1 to AMWeapon do
+        begin
+            IF AMWeapon[j] = 2 or AMWeapon[j] = 3 then
+            begin
+                amChassisTab = [1,2,3,4,5];
+                vc_chassis = amChassisTab[Rand(1,amChassisTab)];
+            end;
+
+            IF AMWeapon[j] = 4 or AMWeapon[j] = 5 or AMWeapon[j] = 9 or AMWeapon[j] = 11 or AMWeapon[j] = 7 then
+            begin
+                amChassisTab = [2,3,4,5];
+                vc_chassis = amChassisTab[Rand(1, amChassisTab)];
+            end;
+
+            IF AMWeapon[j] = 8 or AMWeapon[j] = 6 or AMWeapon[j] = 10 then
+            begin
+                amChassisTab = [4,5];
+                vc_chassis = amChassisTab[Rand(1, amChassisTab)];
+            end;
+
+        end;
+
+        veh = CreateVehicle;
+        PlaceUnitArea(veh, area, false);
+
+        IF vc_control = 1 then
+        begin
+
+            hc_gallery = '';
+            hc_name = '';
+            PrepareHuman(false, 3, mehskill);
+
+            un = CreateHuman;
+            PlaceHumanInUnit(un, veh);
+
+        end;
+
+        attack_group = attack_group ^ veh;
+        i = i + 1;
+
+    end;
+
+  IF nation = 2 then
+  begin
+
+        uc_side = side;
+        uc_nation = nation;
+
+        vc_engine = vehengine;
+        vc_control = vehControl[Rand(1,vehControl)];
+        vc_weapon = ARWeapons[Rand(1, ARWeapons)];
+
+        for j = 1 to ARWeapons do
+        begin
+
+            IF ARWeapons[j] = 24 or ARWeapons[j] = 22 or ARWeapons[j] = 23 or ARWeapons[j] = 30 then
+            begin
+                arChassisTab = [14];
+                vc_chassis = arChassisTab[Rand(1, arChassisTab)];
+            end;
+
+            IF ARWeapons[j] = 29 or ARWeapons[j] = 28 or ARWeapons[j] = 27 or ARWeapons[j] = 26 or ARWeapons[j] = 25 then
+            begin
+                arChassisTab = [14,16];
+                vc_chassis = arChassisTab[Rand(1, arChassisTab)];
+            end;
+
+            IF ARWeapons[j] = 72 then
+            begin
+                arChassisTab = [16];
+                vc_chassis = arChassisTab[Rand(1, arChassisTab)];
+            end;
+
+        end;
+
+        veh = CreateVehicle;
+        PlaceUnitArea(veh, area, false);
+
+        IF vc_control = 1 then
+        begin
+
+            hc_gallery = '';
+            hc_name = '';
+            PrepareHuman(false, 3, mehskill);
+
+            un = CreateHuman;
+            PlaceHumanInUnit(un, veh);
+
+        end;
+
+        attack_group = attack_group ^ veh;
+        i = i + 1;
+
+    end;
+
+
+  IF nation = 3 then
+  begin
+
+        uc_side = side;
+        uc_nation = nation;
+
+        vc_engine = vehengine;
+        vc_control = vehControl[Rand(1,vehControl)];
+        RUWeaponChosen := RUWeapons[Rand(1, RUWeapons)];
+        vc_weapon = RUWeaponChosen;
+
+
+            IF RUWeaponChosen = 42 or RUWeaponChosen = 43 or RUWeaponChosen = 44 or RUWeaponChosen = 45 or RUWeaponChosen = 49 or RUWeaponChosen = 75 or RUWeaponChosen = 76 then
+            begin
+                ruChassisTab = [21, 22, 23, 24];
+                vc_chassis = ruChassisTab[Rand(1, ruChassisTab)];
+            end;
+
+            IF RUWeaponChosen = 46 or RUWeaponChosen = 47 then
+            begin
+                ruChassisTab = [23, 24];
+                vc_chassis = ruChassisTab[Rand(1, ruChassisTab)];
+            end;
+
+        veh = CreateVehicle;
+        PlaceUnitArea(veh, area, false);
+
+        IF vc_control = 1 then
+        begin
+
+            hc_gallery = '';
+            hc_name = '';
+            PrepareHuman(false, 3, mehskill);
+
+            un = CreateHuman;
+            PlaceHumanInUnit(un, veh);
+
+        end;
+
+        attack_group = attack_group ^ veh;
+        i = i + 1;
+
+    end;
+
+  until i = vehCount;
+
+END;
+
+Export function RespawnAttackInfantry(side, nation, soldierCount, sniperCount, bazookCount, mortalCount, medicCount, skil, spawnArea);
+var i, j,  un, damageUnit_list, enemyUnits, und;
+begin
+
+        for i = 1 to medicCount do
+        begin
+
+                uc_side = side;
+                uc_nation = nation;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(false, 4, skil);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, spawnArea, false);
+        end;
+
+
+       for i = 1 to soldierCount do
+        begin
+
+                uc_side = side;
+                uc_nation = nation;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(false, 1, skil);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, spawnArea, false);
+                attack_group = attack_group ^ un;
+        end;
+
+        for i = 1 to sniperCount do
+        begin
+
+                uc_side = side;
+                uc_nation = nation;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(false, 5, skil);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, spawnArea, false);
+                attack_group = attack_group ^ un;
+        end;
+
+        for i = 1 to bazookCount do
+        begin
+
+                uc_side = side;
+                uc_nation = nation;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(false, 9, skil);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, spawnArea, false);
+                attack_group = attack_group ^ un;
+        end;
+
+        for i = 1 to mortalCount do
+        begin
+
+                uc_side = side;
+                uc_nation = nation;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(false, 8, skil);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, spawnArea, false);
+                attack_group = attack_group ^ un;
+        end;
+END;
+
+Export Function Garrison_Buildings(side); //garrisons every building of the side with proper personnel
+var i,j,l,laby,zbrojnie,warsztaty,fabryki,sklad,ilu_ludzi,ludz,filter;
+begin
+laby := FilterAllUnits([[f_side,side],[f_btype,b_lab]]);
+laby := laby^FilterAllUnits([[f_side,side],[f_btype,b_lab_half]]);
+laby := laby^FilterAllUnits([[f_side,side],[f_btype,b_lab_full]]);
+warsztaty := FilterAllUnits([[f_side,side],[f_btype,b_workshop]]);
+fabryki := FilterAllUnits([[f_side,side],[f_btype,b_factory]]);
+sklad := FilterAllUnits([[f_side,side],[f_btype,b_depot]]);
+sklad := sklad^FilterAllUnits([[f_side,side],[f_btype,b_warehouse]]);
+
+Case side of
+1:uc_nation= nation_american;
+3:uc_nation= nation_russian;
+end;
+  for i=1 to laby do //labs
+   begin
+    if IsInUnit(laby[i])=0 then
+       begin
+          uc_side=side;
+          ilu_ludzi=Rand(2,4);
+          for j=1 to ilu_ludzi do
+            begin
+            PrepareScientist(0, 4);
+            ludz= CreateHuman;
+              PlaceHumanInUnit(ludz, laby[i]);
+          ilu_ludzi=Rand(2,4);
+            end;
+        end;
+   end;
+  for i=1 to fabryki do //factories
+   begin
+    if IsInUnit(fabryki[i])=0 then
+       begin
+          uc_side=side;
+          ilu_ludzi=Rand(2,4);
+          for j=1 to ilu_ludzi do
+            begin
+            PrepareMechanic(0, 4);
+            ludz= CreateHuman;
+              PlaceHumanInUnit(ludz, fabryki[i]);
+          ilu_ludzi=Rand(2,4);
+            end;
+        end;
+   end;
+  for i=1 to warsztaty do //workshops
+   begin
+    if IsInUnit(warsztaty[i])=0 then
+       begin
+          uc_side=side;
+          ilu_ludzi=Rand(2,4);
+          for j=1 to ilu_ludzi do
+            begin
+            PrepareMechanic(0, 4);
+            ludz= CreateHuman;
+              PlaceHumanInUnit(ludz, warsztaty[i]);
+          ilu_ludzi=Rand(2,4);
+            end;
+        end;
+   end;
+  for i=1 to sklad do //depot/warehouse
+   begin
+    if IsInUnit(sklad[i])=0 then
+       begin
+          uc_side=side;
+          ilu_ludzi=Rand(2,3);
+          for j=1 to ilu_ludzi do
+            begin
+            PrepareEngineer(0, 4);
+            ludz= CreateHuman;
+              PlaceHumanInUnit(ludz, sklad[i]);
+            end;
+        end;
+   end;
+end;
+
+Export Function Assemble_Barracks(side); //2 soldiers, 2 bazooka (only RU)
+var i,j,barrack,soldat,filter;
+begin
+Case side of
+1:uc_nation= nation_american;
+3:uc_nation= nation_russian;
+end;
+barrack := FilterAllUnits([[f_side,side],[f_btype, b_barracks]]);
+  for i=1 to barrack do
+   begin
+    if IsInUnit(barrack[i])=0 then
+       begin
+          uc_side=side;
+          for j=1 to 2 do
+            begin
+              PrepareSoldier(0, 5);
+              soldat := CreateHuman;
+              PlaceHumanInUnit(soldat, barrack[i]);
+            end;
+            if side=3 then
+          for j=1 to 2 do
+            begin
+              PrepareSoldier(0, 5);
+              hc_class=class_bazooker;
+              soldat := CreateHuman;
+              PlaceHumanInUnit(soldat, barrack[i]);
+            end;
+        end;
+   end;
+end;
+
+Export Function Assemble_Armories(side); //3 soldiers
+var i,j,barrack,soldat,filter;
+begin
+Case side of
+1:uc_nation= nation_american;
+3:uc_nation= nation_russian;
+end;
+barrack := FilterAllUnits([[f_side,side],[f_btype, b_armoury]]);
+  for i=1 to barrack do
+   begin
+    if IsInUnit(barrack[i])=0 then
+       begin
+          uc_side=side;
+          for j=1 to 3 do
+            begin
+              PrepareSoldier(0, 5);
+              soldat := CreateHuman;
+              PlaceHumanInUnit(soldat, barrack[i]);
+            end;
+        end;
+   end;
+end;
+
+Export Function PlaceUnitInBunker(un, b);
+var dir;
+begin
+dir := GetDir(b);
+
+if dir < 3 then
+   dir := dir + 3
+    else
+      dir := dir - 3;
+
+SetDir(un, dir);
+PlaceHumanInUnit(un, b);
+End;
+
+Export Function Fill_Bunkers(side);
+var i,filter,un;
+begin
+filter := FilterAllUnits([[f_side,side], [f_nation,3],[f_btype, b_breastwork]]);
+for i = 1 to filter do
+    if IsInUnit(filter[i])=0 then
+       begin
+          uc_nation= nation_russian;
+          uc_side= side;
+          PrepareSoldier(1, RuSolMaxLevel);
+          un := CreateHuman;
+          PlaceUnitInBunker(un, filter[i]);
+        end;
+end;
+
+Export Function Fill_Turrets(side);
+var i,filter,un;
+begin
+uc_side := side;
+uc_nation := 3;
+
+for i in FilterAllUnits([[f_side, side], [f_btype, b_bunker], [f_empty]]) do
+begin
+PrepareSoldier(1, RuSolMaxLevel);
+PlaceHumanInUnit(CreateHuman, i);
+end;
+end;
+
+Export Function SaySex(unit, dialogM, dialogF);
+begin
+if not unit then
+   exit;
+
+Say(unit, [dialogM, dialogF][GetSex(unit)]);
+End;
+
+Export Function RussianFirstAssault; // first Russian attack, used for scouting enemy defences
+var i,filter,un,veh;
+begin
+          uc_nation= nation_russian;
+          uc_side= 3;
+           for i=1 to 8 do
+            begin
+             vc_chassis:=ru_medium_wheeled;
+             vc_engine:=engine_siberite;
+             vc_weapon:=ru_gun;
+             vc_control:=control_computer;
+             veh:=CreateVehicle;
+
+             PlaceUnitArea(veh,RU_Spawn_N,false);
+             RusHarassSquad = RusHarassSquad ^ veh;
+             end;
+
+             ComMoveXY(RusHarassSquad,135,144);
+             AddComMoveXY(RusHarassSquad,158,176);
+             AddComMoveXY(RusHarassSquad,169,189);
+             AddComMoveXY(RusHarassSquad,176,225);
+             AddComMoveXY(RusHarassSquad,169,88);
+end;
+
+export RU2_Sols, RU2_Medics, RU2_Engs;
+
+export function RU2_Assemble_MineBase;
+var i, un;
+begin
+    uc_side = 6;
+    uc_nation = 3;
+
+    for i = 1 to 14 do
+    begin
+
+        uc_side = 6;
+        uc_nation = 3;
+
+        hc_gallery = '';
+        hc_name = '';
+        PrepareHuman(false, 1, rand(RuSolMinLevel, RuSolMaxLevel));
+
+        un = CreateHuman;
+        PlaceUnitArea(un, RU_Spawn_N, false);
+        RU2_Sols = RU2_Sols ^ un;
+    end;
+
+    for i = 1 to 4 do
+    begin
+
+        uc_side = 6;
+        uc_nation = 3;
+
+        hc_gallery = '';
+        hc_name = '';
+        PrepareHuman(false, 2, rand(RuSolMinLevel, RuSolMaxLevel));
+
+        un = CreateHuman;
+        PlaceUnitArea(un, RU_Spawn_N, false);
+        RU2_Engs = RU2_Engs ^ un;
+    end;
+
+    for i = 1 to 2 do
+    begin
+
+        uc_side = 6;
+        uc_nation = 3;
+
+        hc_gallery = '';
+        hc_name = '';
+        PrepareHuman(false, 4, rand(RuSolMinLevel, RuSolMaxLevel));
+
+        un = CreateHuman;
+        PlaceUnitArea(un, RU_Spawn_N, false);
+        RU2_Medics = RU2_Medics ^ un;
+    end;
+
+    ComAgressiveMove(RU2_Sols, 38, 35);
+    ComAgressiveMove(RU2_Medics, 38, 35);
+
+    ComBuild(RU2_Engs, b_depot, 32, 30, 2);
+    AddComBuild(RU2_Engs, b_siberite_mine, 39, 38, 0);
+    AddComBuild(RU2_Engs, b_armoury, 37, 45, 0);
+    AddComBuild(RU2_Engs, b_breastwork, 33, 46, 0);
+    AddComBuild(RU2_Engs, b_breastwork, 44, 46, 5);
+    AddComBuild(RU2_Engs, b_armoury, 39, 14, 4);
+    AddComBuild(RU2_Engs, b_breastwork, 34, 7, 4);
+    AddComBuild(RU2_Engs, b_breastwork, 39, 18, 4);
+    AddComMoveXY(RU2_Engs, 35, 39);
+end;
+
+export function RU2_Attack_Minebase;
+var i, un, veh, DemoTeam_Enemy, attacker;
+begin
+    uc_side = 6;
+    uc_nation = 3;
+
+    for i = 1 to 8 do
+    begin
+
+        uc_side = 6;
+        uc_nation = 3;
+
+        hc_gallery = '';
+        hc_name = '';
+        PrepareHuman(false, 1, rand(RuSolMinLevel, RuSolMaxLevel));
+
+        un = CreateHuman;
+        PlaceUnitArea(un, RU_Spawn_N, false);
+        RU2_DemoTeam = RU2_DemoTeam ^ un;
+    end;
+
+    for i = 1 to 2 do
+    begin
+
+         vc_chassis:=ru_medium_tracked;
+         vc_engine:=engine_siberite;
+         vc_weapon:=ru_gun;
+         vc_control:=control_computer;
+         veh:=CreateVehicle;
+
+         PlaceUnitArea(veh,RU_Spawn_N,false);
+        RU2_DemoTeam = RU2_DemoTeam ^ veh;
+    end;
+
+    for i = 1 to 2 do
+    begin
+
+         vc_chassis:=ru_medium_tracked;
+         vc_engine:=engine_siberite;
+         vc_weapon:=ru_gatling_gun;
+         vc_control:=control_computer;
+         veh:=CreateVehicle;
+
+         PlaceUnitArea(veh,RU_Spawn_N,false);
+        RU2_DemoTeam = RU2_DemoTeam ^ veh;
+    end;
+
+Attack([0, RU2_DemoTeam, [ [78, 10], [20, 16] ], [0, 1, 0, 1, 0, 0, 0, 0, 1, 1] ]);
+end;
+
+
+export function RU3_Baterie_Prepare;
+var i, un, veh;
+begin
+    uc_side = 5;
+    uc_nation = 3;
+
+    for i = 1 to 5 do
+    begin
+
+         vc_chassis:=ru_heavy_tracked;
+         vc_engine:=engine_siberite;
+         vc_weapon:=ru_rocket;
+         vc_control:=control_manual;
+         veh:=CreateVehicle;
+
+        RU3_Baterie = RU3_Baterie ^ veh;
+        RU3_BaterieVehs = RU3_BaterieVehs ^ veh;
+    end;
+
+    PlaceUnitXYR(RU3_BaterieVehs[1],275,234,0,false);
+    PlaceUnitXYR(RU3_BaterieVehs[2],280,237,0,false);
+    PlaceUnitXYR(RU3_BaterieVehs[3],283,235,0,false);
+    PlaceUnitXYR(RU3_BaterieVehs[4],282,231,0,false);
+    PlaceUnitXYR(RU3_BaterieVehs[5],279,229,0,false);
+
+    for i = 1 to 9 do
+    begin
+
+        uc_side = 5;
+        uc_nation = 3;
+
+        hc_gallery = '';
+        hc_name = '';
+        PrepareHuman(false, 1, rand(RuSolMinLevel, RuSolMaxLevel));
+
+        un = CreateHuman;
+        PlaceUnitArea(un, RU3_Spawn, false);
+        RU3_Baterie = RU3_Baterie ^ un;
+    end;
+
+    for i = 1 to 5 do
+    begin
+
+        uc_side = 5;
+        uc_nation = 3;
+
+        hc_gallery = '';
+        hc_name = '';
+        PrepareHuman(false, 3, rand(RuSolMinLevel, RuSolMaxLevel));
+
+        un = CreateHuman;
+        PlaceUnitArea(un, RU3_Spawn, false);
+        RU3_Baterie = RU3_Baterie ^ un;
+        RU3_BaterieMechs = RU3_BaterieMechs ^ un;
+    end;
+
+end;
+
+export Function RU3BaterieMovement;
+var Baterie_Enemy, attacker;
+begin
+ComEnterUnit(RU3_BaterieMechs[1],RU3_BaterieVehs[1]);
+ComEnterUnit(RU3_BaterieMechs[2],RU3_BaterieVehs[2]);
+ComEnterUnit(RU3_BaterieMechs[3],RU3_BaterieVehs[3]);
+ComEnterUnit(RU3_BaterieMechs[4],RU3_BaterieVehs[4]);
+ComEnterUnit(RU3_BaterieMechs[5],RU3_BaterieVehs[5]);
+wait(0$15);
+
+  if RU3_BaterieMechs > 0 AND RU3_BaterieVehs > 0 then
+  begin
+  RU3BaterieTimeOut = true;
+
+  Attack([0, RU3_Baterie, [ [204, 209], [162, 205] ], [0, 1, 0, 1, 0, 0, 0, 0, 1, 1] ]);
+  end;
+
+end;

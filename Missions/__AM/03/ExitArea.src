@@ -1,0 +1,126 @@
+export EscMercs, ConvoysEscaped;
+
+every 0$0.8 do // Units destroying in ExitArea
+var qqq,i,un,my_filter;
+begin
+  ConvoyGroupBoth = ConvoyGroup ^ ConvoyGroup2;
+
+  for un in ConvoyGroupBoth do
+  begin
+   if IsInArea(un, ExitArea) then
+   begin
+    if GetType(un)=unit_vehicle then
+    begin
+      RemoveUnit(IsDrivenBy(un));
+      RemoveUnit(un);
+    end
+    else
+    begin
+      RemoveUnit(un);
+    end;
+    EscMercs = EscMercs + 1;
+   end;
+  end;
+
+  enable;
+end;
+
+every 0$1 trigger EscMercs > 3 do
+begin
+  Case ConvoysEscaped of
+  0: begin
+       SayRadio(Barnes, 'D4d-Barnes-1');
+       Wait(1$0);
+       ConvoysEscaped = 1;
+       EscMercs = 0;
+     end;
+  1: begin
+       SayRadio(Barnes, 'D4d-Barnes-2');
+       Wait(1$0);
+       ConvoysEscaped = 2;
+       EscMercs = 0;
+     end;
+  2: begin
+       ConvoysEscaped = 3;
+       DialogueOn;
+       SayRadio(Barnes, 'D4d-Barnes-3');
+       Wait(0$1);
+       DialogueOff;
+       YouLost('TooManyConvoys');
+     end;
+  end;
+  enable;
+end;
+
+export player_units,
+       saved_player_units,
+       Simone_saved,
+       Kathryn_saved,
+       Miller_saved,
+       Esther_saved;
+
+every 0$0.8 do // Units destroying in ExitArea
+var qqq,i,un,my_filter;
+begin
+
+  if Evacuation then
+    my_filter:=FilterUnitsInArea(ExitArea,[[f_side,7],[f_not,[f_or,[f_class,class_apeman_engineer],[f_class,class_apeman_soldier]]]]);
+
+  if my_filter+0>0 then
+    for un in my_filter do
+    begin
+
+      if un=Simone Or (IsDrivenBy(un)=Simone) then
+      begin
+        Simone_saved:=true;
+      end;
+
+      if un=Kathryn Or (IsDrivenBy(un)=Kathryn) then
+      begin
+        Kathryn_saved:=true;
+      end;
+
+      if un=Miller Or (IsDrivenBy(un)=Miller) then
+      begin
+        Miller_saved:=true;
+      end;
+
+      if un=Esther Or (IsDrivenBy(un)=Esther) then
+      begin
+        Esther_saved:=true;
+      end;
+
+      if Evacuation then
+      begin
+        if GetType(un)=unit_vehicle AND GetSide(IsDrivenBy(un))=7 AND NOT GetNation(IsDrivenBy(un))=nation_nature then
+          saved_player_units:=saved_player_units union IsDrivenBy(un)
+        else
+          if GetSide(un)=7 AND NOT GetNation(un)=nation_nature then
+            saved_player_units:=saved_player_units union un;
+      end;
+    end;
+
+  for un in player_units do
+    if IsDead(un) then player_units:=player_units diff un;
+
+  for un in my_filter do
+  begin
+    if GetType(un)=unit_vehicle then
+    begin
+      player_units:=player_units diff (IsDrivenBy(un));
+      RemoveUnit(IsDrivenBy(un));
+      RemoveUnit(un);
+    end
+    else
+    begin
+      player_units:=player_units diff un;
+      RemoveUnit(un);
+    end;
+  end;
+
+  if Simone_saved And Kathryn_saved And Miller_saved And Esther_saved And player_units=0 then
+    EndMission;
+
+  enable;
+
+end;

@@ -1,0 +1,362 @@
+export Simone, Kathryn, Miller, Pravar, AMSurvivors;
+export Bradford, Bernie, Sidorovich, Micoyan, Dvalishvili, Heisenberg;
+export AvengerSquad, AvengerReserve, AvengerMechs, AvengerNonMechs;
+export KathrynSquad, KathrynMechs;
+
+export function CreatePersonas;
+var i, un;
+begin
+
+uc_side:=7;
+
+Simone=CreateCharacter('Simone');
+Miller=CreateCharacter('Miller');
+Pravar=CreateCharacter('Pravar');
+AMSurvivors=CreateCharacterSet('AM03_Survivors');
+
+AvengerSquad := Simone ^ Miller ^ Pravar ^ AMSurvivors;
+
+ for i in AvengerSquad do
+ begin
+   if GetSkill(i, skill_scientistic) > 5 then
+     SetClass(i, class_scientistic);
+   if GetSkill(i, skill_mechanical) > 5 then
+     SetClass(i, class_mechanic);
+   if GetClass(i) = class_engineer then
+     SetClass(i, class_soldier);
+ end;
+
+ SetClass(Simone, class_mechanic);
+ SetClass(Miller, class_soldier);
+
+PrepareScientist(1,10);
+AvengerSquad := AvengerSquad ^ CreateHuman;
+
+uc_nation:=nation_american;
+hc_importance=Rand(10,50);
+PrepareSoldier(1,9);
+hc_name:='Bernie Hernandez';
+hc_gallery := 'ZieloneLaserki_AddtFaces';
+hc_face_number := 5;
+
+Bernie:=CreateHuman;
+AvengerSquad := AvengerSquad ^ Bernie;
+
+hc_name:='';
+hc_gallery := '';
+
+AvengerReserve := 16 - AvengerSquad;
+
+ for i = 1 to AvengerReserve do
+ begin
+   Case Rand(1,10) of
+   1..5:begin
+     PrepareSoldier(1,8);
+     AvengerSquad := AvengerSquad ^ CreateHuman;
+     end;
+   6..8:begin
+     PrepareMechanic(1,8);
+     AvengerSquad := AvengerSquad ^ CreateHuman;
+     end;
+   9..10:begin
+     PrepareScientist(1,8);
+     AvengerSquad := AvengerSquad ^ CreateHuman;
+     end;
+   end;
+ end;
+
+ for i in AvengerSquad do
+ begin
+   if GetClass(i) = class_mechanic then
+     AvengerMechs := AvengerMechs ^ i
+   else AvengerNonMechs := AvengerNonMechs ^ i;
+ end;
+
+uc_side:=4;
+Kathryn=CreateCharacter('Kathryn');
+SetClass(Kathryn, class_mechanic);
+KathrynSquad := Kathryn;
+KathrynMechs := Kathryn;
+
+ for i = 1 to 8 do
+ begin
+     PrepareSoldier(1,7);
+     KathrynSquad := KathrynSquad ^ CreateHuman;
+ end;
+
+ for i = 1 to 11 do
+ begin
+     PrepareMechanic(1,7);
+     KathrynMechs := KathrynMechs ^ CreateHuman;
+ end;
+
+ for i = 1 to 4 do
+ begin
+     PrepareScientist(1,7);
+     KathrynSquad := KathrynSquad ^ CreateHuman;
+ end;
+
+    uc_side:=8;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_arabian;
+    hc_sex=sex_male;
+    hc_importance=40;
+    hc_skills=[9,4,8,3];
+    hc_attr=[15,10];
+    hc_name:='Giorgi Dvalishvili';
+    hc_gallery := 'ZieloneLaserki_Dvalishvili';
+    hc_face_number := 1;
+
+    Dvalishvili:=CreateHuman;
+
+    uc_side:=1;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_american;
+    hc_importance=70;
+    PrepareSoldier(1,8);
+    hc_attr=[10,10];
+    hc_name:='Bradford';
+    hc_gallery := 'ZieloneLaserki_AddtFaces2';
+    hc_face_number := 3;
+
+    Bradford:=CreateHuman;
+
+    uc_side:=4;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_american;
+    hc_importance=70;
+    PrepareSoldier(1,8);
+    hc_attr=[10,10];
+    hc_name:='';
+    hc_gallery := 'ZieloneLaserki_AddtFaces';
+    hc_face_number := 6;
+
+    Heisenberg:=CreateHuman;
+
+    uc_side:=3;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_russian;
+    hc_importance=70;
+    PrepareSoldier(1,8);
+    hc_attr=[10,10];
+    hc_name:='Micoyan';
+    hc_gallery := 'ZieloneLaserki_RusCommanders';
+    hc_face_number := 4;
+
+    Micoyan:=CreateHuman;
+
+    hc_class=class_soldier;
+
+    uc_nation:=nation_russian;
+    hc_importance=70;
+    PrepareSoldier(1,8);
+    hc_attr=[10,10];
+    hc_name:='Sidorovich';
+    hc_gallery := 'ZieloneLaserki_Heroes';
+    hc_face_number := 8;
+
+    Sidorovich:=CreateHuman;
+
+    hc_name:='';
+    hc_gallery := '';
+
+end;
+
+export function Squad_Assembly;
+var i, x, y, veh, filter;
+begin
+     x := 1;
+     y := 1;
+     uc_side := 7;
+     uc_nation := 1;
+
+           for i=1 to 4 do //morphed heavy gun
+            begin
+             vc_chassis:=us_morphling;
+             vc_engine:=engine_siberite;
+             vc_weapon:=us_heavy_gun;
+             vc_control:=control_manual;
+             veh:=CreateVehicle;
+             if x <= AvengerMechs then
+             begin
+              PlaceHumanInUnit(AvengerMechs[x],veh);
+              x := x + 1;
+             end
+             else
+             begin
+              PlaceHumanInUnit(AvengerNonMechs[y],veh);
+              y := y + 1;
+             end;
+             PlaceUnitArea(veh,StartArea,false);
+             end;
+
+           for i=1 to 4 do //morphed double laser
+            begin
+             vc_chassis:=us_morphling;
+             vc_engine:=engine_siberite;
+             vc_weapon:=us_double_laser;
+             vc_control:=control_manual;
+             veh:=CreateVehicle;
+             if x <= AvengerMechs then
+             begin
+              PlaceHumanInUnit(AvengerMechs[x],veh);
+              x := x + 1;
+             end
+             else
+             begin
+              PlaceHumanInUnit(AvengerNonMechs[y],veh);
+              y := y + 1;
+             end;
+             PlaceUnitArea(veh,StartArea,false);
+             end;
+
+         if TeslaQuestCompleted then
+           for i=1 to 4 do //medium tracked tesla coil
+            begin
+             vc_chassis:=us_medium_tracked;
+             vc_engine:=engine_siberite;
+             vc_weapon:=us_tesla_coil;
+             vc_control:=control_manual;
+             veh:=CreateVehicle;
+             if x <= AvengerMechs then
+             begin
+              PlaceHumanInUnit(AvengerMechs[x],veh);
+              x := x + 1;
+             end
+             else
+             begin
+              PlaceHumanInUnit(AvengerNonMechs[y],veh);
+              y := y + 1;
+             end;
+             PlaceUnitArea(veh,StartArea,false);
+             end
+         else
+           for i=1 to 4 do //medium tracked gatling gun
+            begin
+             vc_chassis:=us_medium_tracked;
+             vc_engine:=engine_siberite;
+             vc_weapon:=us_gatling_gun;
+             vc_control:=control_manual;
+             veh:=CreateVehicle;
+             if x <= AvengerMechs then
+             begin
+              PlaceHumanInUnit(AvengerMechs[x],veh);
+              x := x + 1;
+             end
+             else
+             begin
+              PlaceHumanInUnit(AvengerNonMechs[y],veh);
+              y := y + 1;
+             end;
+             PlaceUnitArea(veh,StartArea,false);
+             end;
+
+      for i=1 to 3 do //medium tracked rocket launcher
+            begin
+             vc_chassis:=us_medium_tracked;
+             vc_engine:=engine_siberite;
+             vc_weapon:=us_rocket_launcher;
+             vc_control:=control_manual;
+             veh:=CreateVehicle;
+             if x <= AvengerMechs then
+             begin
+              PlaceHumanInUnit(AvengerMechs[x],veh);
+              x := x + 1;
+             end
+             else
+             begin
+              PlaceHumanInUnit(AvengerNonMechs[y],veh);
+              y := y + 1;
+             end;
+             PlaceUnitArea(veh,StartArea,false);
+             end;
+
+      for i=1 to 1 do //medium tracked radar
+            begin
+             vc_chassis:=us_medium_tracked;
+             vc_engine:=engine_siberite;
+             vc_weapon:=us_radar;
+             vc_control:=control_manual;
+             veh:=CreateVehicle;
+             if x <= AvengerMechs then
+             begin
+              PlaceHumanInUnit(AvengerMechs[x],veh);
+              x := x + 1;
+             end
+             else
+             begin
+              PlaceHumanInUnit(AvengerNonMechs[y],veh);
+              y := y + 1;
+             end;
+             PlaceUnitArea(veh,StartArea,false);
+             end;
+
+end;
+
+export function Kathryn_Squad_Assembly;
+var i, x, veh;
+begin
+     x := 1;
+     uc_side := 4;
+
+           for i=1 to 4 do //heavy tracked heavy gun
+            begin
+             vc_chassis:=us_heavy_tracked;
+             vc_engine:=engine_siberite;
+             vc_weapon:=us_heavy_gun;
+             vc_control:=control_manual;
+             veh:=CreateVehicle;
+             PlaceHumanInUnit(KathrynMechs[x],veh);
+             x := x + 1;
+             PlaceUnitArea(veh,StartAreaKathryn,false);
+             end;
+
+         if TeslaQuestCompleted then
+           for i=1 to 4 do //medium tracked tesla coil
+            begin
+             vc_chassis:=us_medium_tracked;
+             vc_engine:=engine_siberite;
+             vc_weapon:=us_tesla_coil;
+             vc_control:=control_manual;
+             veh:=CreateVehicle;
+             PlaceHumanInUnit(KathrynMechs[x],veh);
+             x := x + 1;
+             PlaceUnitArea(veh,StartAreaKathryn,false);
+             end
+         else
+           for i=1 to 4 do //medium tracked gatling gun
+            begin
+             vc_chassis:=us_medium_tracked;
+             vc_engine:=engine_siberite;
+             vc_weapon:=us_gatling_gun;
+             vc_control:=control_manual;
+             veh:=CreateVehicle;
+             PlaceHumanInUnit(KathrynMechs[x],veh);
+             x := x + 1;
+             PlaceUnitArea(veh,StartAreaKathryn,false);
+             end;
+
+      for i=1 to 4 do //medium tracked laser
+            begin
+             vc_chassis:=us_medium_tracked;
+             vc_engine:=engine_siberite;
+             vc_weapon:=us_laser;
+             vc_control:=control_manual;
+             veh:=CreateVehicle;
+             PlaceHumanInUnit(KathrynMechs[x],veh);
+             x := x + 1;
+             PlaceUnitArea(veh,StartAreaKathryn,false);
+             end;
+
+for i in KathrynSquad do PlaceUnitArea(i,StartAreaKathryn,false);
+KathrynSquad = KathrynSquad ^ KathrynMechs;
+
+end;

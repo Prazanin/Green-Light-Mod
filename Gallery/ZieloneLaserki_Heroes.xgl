@@ -1,0 +1,715 @@
+GALLERY
+  PORTRET
+    PAK male
+    PORT_COMPONENTS
+      TYP POZADI
+        COMP us-pozadi
+        BARVY 629183 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP KRKY
+        COMP new
+        BARVY 516DA2 82 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBLICEJE
+        COMP 2hlava
+        BARVY 516DA2 82 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP TVARE
+        COMP thorgal
+        BARVY 516DA2 82 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OCI
+        COMP rekb
+        BARVY 516DA2 82 629183 85 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP NOSY
+        COMP new
+        BARVY 516DA2 82 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP PUSY
+        COMP pacino
+        BARVY 516DA2 82 516DA2 82 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP USI
+        COMP uch1
+        BARVY 516DA2 82 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBOCI
+        COMP kingdom2
+        BARVY 516DA2 82 325270 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VLASY
+        COMP baret1
+        BARVY 325270 85 5A5A5A 85 366A8D 85 34799E 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VOUSY
+        COMP zadne
+        BARVY 325270 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP SATY
+        COMP USsol1
+        BARVY 444D59 85 36434E 100 6F8DB0 85 34799E 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP BRYLE
+        COMP zadne
+        BARVY 366A8D 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP POPREDI
+        COMP "NONE! check color depth"
+        BARVY 808080 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+    END_OF_PORT_COMPONENTS
+  END_OF_PORTRET
+  PORTRET
+    PAK male
+    PORT_COMPONENTS
+      TYP POZADI
+        COMP us-pozadi
+        BARVY A5A04B 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP KRKY
+        COMP 1krk
+        BARVY 6F8FB7 96 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBLICEJE
+        COMP new
+        BARVY 6F8FB7 96 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP TVARE
+        COMP gosudarov
+        BARVY 6F8FB7 96 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OCI
+        COMP 003
+        BARVY 6F8FB7 96 A5A04B 85 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP NOSY
+        COMP 001
+        BARVY 6F8FB7 96 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP PUSY
+        COMP pusa10
+        BARVY 6F8FB7 96 6F8FB7 96 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP USI
+        COMP rek
+        BARVY 6F8FB7 96 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBOCI
+        COMP 002
+        BARVY 6F8FB7 96 151D2F 105 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VLASY
+        COMP gosudarov
+        BARVY 151D2F 105 2B2B55 85 64717D 85 5B443C 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VOUSY
+        COMP zadne
+        BARVY 151D2F 105 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP SATY
+        COMP USmech1
+        BARVY 0D0D0B 85 36434E 100 6F8DB0 85 5B443C 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP BRYLE
+        COMP zadne
+        BARVY 64717D 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP POPREDI
+        COMP "NONE! check color depth"
+        BARVY 808080 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+    END_OF_PORT_COMPONENTS
+  END_OF_PORTRET
+  PORTRET
+    PAK male
+    PORT_COMPONENTS
+      TYP POZADI
+        COMP us-pozadi
+        BARVY 987E58 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP KRKY
+        COMP rek
+        BARVY 4D6499 96 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBLICEJE
+        COMP pacino
+        BARVY 4D6499 96 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP TVARE
+        COMP rek
+        BARVY 4D6499 96 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OCI
+        COMP kingdom
+        BARVY 4D6499 96 987E58 85 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP NOSY
+        COMP kingdom
+        BARVY 4D6499 96 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP PUSY
+        COMP new
+        BARVY 4D6499 96 4D6499 96 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP USI
+        COMP uch
+        BARVY 4D6499 96 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBOCI
+        COMP pacinoa
+        BARVY 4D6499 96 223F4D 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VLASY
+        COMP ples
+        BARVY 223F4D 85 281718 85 64717D 85 5B443C 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VOUSY
+        COMP zadne
+        BARVY 223F4D 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP SATY
+        COMP Rusol
+        BARVY 0D0D0B 85 36434E 100 6F8DB0 85 5B443C 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP BRYLE
+        COMP zadne
+        BARVY 64717D 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP POPREDI
+        COMP "NONE! check color depth"
+        BARVY 808080 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+    END_OF_PORT_COMPONENTS
+  END_OF_PORTRET
+  PORTRET
+    PAK male
+    PORT_COMPONENTS
+      TYP POZADI
+        COMP us-pozadi
+        BARVY 987E58 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP KRKY
+        COMP faldy
+        BARVY 516DA2 96 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBLICEJE
+        COMP rek
+        BARVY 516DA2 96 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP TVARE
+        COMP zgrane
+        BARVY 516DA2 96 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OCI
+        COMP 004
+        BARVY 516DA2 96 987E58 85 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP NOSY
+        COMP 003
+        BARVY 516DA2 96 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP PUSY
+        COMP samaris
+        BARVY 516DA2 96 516DA2 96 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP USI
+        COMP uch1
+        BARVY 516DA2 96 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBOCI
+        COMP 002
+        BARVY 516DA2 96 46739B 150 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VLASY
+        COMP vlas9
+        BARVY 46739B 150 1D363A 85 366A8D 85 5B443C 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VOUSY
+        COMP zadne
+        BARVY 46739B 150 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP SATY
+        COMP USdoc1
+        BARVY 0D0D0B 85 36434E 100 6F8DB0 85 5B443C 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP BRYLE
+        COMP op2
+        BARVY 366A8D 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP POPREDI
+        COMP "NONE! check color depth"
+        BARVY 808080 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+    END_OF_PORT_COMPONENTS
+  END_OF_PORTRET
+  PORTRET
+    PAK male
+    PORT_COMPONENTS
+      TYP POZADI
+        COMP us-pozadi
+        BARVY 4C4C4C 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP KRKY
+        COMP new
+        BARVY 4D6499 82 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBLICEJE
+        COMP thorgal
+        BARVY 4D6499 82 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP TVARE
+        COMP samaris
+        BARVY 4D6499 82 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OCI
+        COMP 1oko
+        BARVY 4D6499 82 4C4C4C 85 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP NOSY
+        COMP rek
+        BARVY 4D6499 82 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP PUSY
+        COMP 003
+        BARVY 4D6499 82 4D6499 82 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP USI
+        COMP uch1
+        BARVY 4D6499 82 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBOCI
+        COMP new
+        BARVY 4D6499 82 223F4D 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VLASY
+        COMP samaris
+        BARVY 223F4D 85 5A5A5A 85 64717D 85 5B443C 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VOUSY
+        COMP zadne
+        BARVY 223F4D 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP SATY
+        COMP USmech1
+        BARVY 0D0D0B 85 36434E 100 6F8DB0 85 5B443C 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP BRYLE
+        COMP zadne
+        BARVY 64717D 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP POPREDI
+        COMP "NONE! check color depth"
+        BARVY 808080 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+    END_OF_PORT_COMPONENTS
+  END_OF_PORTRET
+  PORTRET
+    PAK male
+    PORT_COMPONENTS
+      TYP POZADI
+        COMP us-pozadi
+        BARVY 987E58 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP KRKY
+        COMP grg1
+        BARVY 39598A 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBLICEJE
+        COMP new
+        BARVY 39598A 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP TVARE
+        COMP rek
+        BARVY 39598A 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OCI
+        COMP kingdom
+        BARVY 39598A 85 987E58 85 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP NOSY
+        COMP kingdom
+        BARVY 39598A 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP PUSY
+        COMP john
+        BARVY 39598A 85 39598A 85 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP USI
+        COMP 1ucho
+        BARVY 39598A 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBOCI
+        COMP pacinoa
+        BARVY 39598A 85 274058 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VLASY
+        COMP vlas4
+        BARVY 274058 85 2B2B55 85 64717D 85 5B443C 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VOUSY
+        COMP zadne
+        BARVY 274058 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP SATY
+        COMP USsol1
+        BARVY 0D0D0B 85 36434E 100 6F8DB0 85 5B443C 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP BRYLE
+        COMP zadne
+        BARVY 64717D 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP POPREDI
+        COMP "NONE! check color depth"
+        BARVY 808080 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+    END_OF_PORT_COMPONENTS
+  END_OF_PORTRET
+  PORTRET
+    PAK male
+    PORT_COMPONENTS
+      TYP POZADI
+        COMP us-pozadi
+        BARVY 987E58 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP KRKY
+        COMP samaris
+        BARVY 516DA2 82 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBLICEJE
+        COMP pacino
+        BARVY 516DA2 82 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP TVARE
+        COMP gosudarov
+        BARVY 516DA2 82 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OCI
+        COMP 1oko
+        BARVY 516DA2 82 987E58 85 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP NOSY
+        COMP frn2
+        BARVY 516DA2 82 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP PUSY
+        COMP 003
+        BARVY 516DA2 82 516DA2 82 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP USI
+        COMP uch1
+        BARVY 516DA2 82 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBOCI
+        COMP general
+        BARVY 516DA2 82 223F4D 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VLASY
+        COMP vlas4
+        BARVY 223F4D 85 1D363A 85 64717D 85 5B443C 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VOUSY
+        COMP zadne
+        BARVY 223F4D 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP SATY
+        COMP USmech1
+        BARVY 0D0D0B 85 36434E 100 6F8DB0 85 5B443C 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP BRYLE
+        COMP bl1
+        BARVY 64717D 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP POPREDI
+        COMP "NONE! check color depth"
+        BARVY 808080 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+    END_OF_PORT_COMPONENTS
+  END_OF_PORTRET
+  PORTRET
+    PAK male
+    PORT_COMPONENTS
+      TYP POZADI
+        COMP us-pozadi
+        BARVY 4C4C4C 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP KRKY
+        COMP samaris
+        BARVY 4A6C95 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBLICEJE
+        COMP lebza2
+        BARVY 4A6C95 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP TVARE
+        COMP lice1
+        BARVY 4A6C95 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OCI
+        COMP 1oko
+        BARVY 4A6C95 85 4C4C4C 85 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP NOSY
+        COMP rek
+        BARVY 4A6C95 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP PUSY
+        COMP 002
+        BARVY 4A6C95 85 4A6C95 85 5A7DA0 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP USI
+        COMP 1ucho
+        BARVY 4A6C95 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP OBOCI
+        COMP oboci
+        BARVY 4A6C95 85 474747 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VLASY
+        COMP general
+        BARVY 474747 85 5A5A5A 85 64717D 85 D20084 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP VOUSY
+        COMP padouch
+        BARVY 474747 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP SATY
+        COMP Rusol
+        BARVY 5C5B52 85 36434E 100 6F8DB0 85 D20084 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP BRYLE
+        COMP op1
+        BARVY 64717D 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+      TYP POPREDI
+        COMP "NONE! check color depth"
+        BARVY 808080 85 808080 85 808080 85 808080 85
+        POSUN 0 0
+        ROZESUN 0 0
+      END_OF_TYP
+    END_OF_PORT_COMPONENTS
+  END_OF_PORTRET
+END_OF_GALLERY
+END

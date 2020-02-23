@@ -1,0 +1,245 @@
+Every 0$1 do
+begin
+    enable;
+    IntBazooka(3, 1, 7);
+end;
+
+Every 0$1 do
+begin
+    enable;
+    RepairBuilding(3, RuBase);
+    HealUnitInBase(3, RussianHealArea1, MainRUBase, FilterAllUnits([[f_side, 3], [f_type, unit_building], [f_btype, b_lab_full]]));
+end;
+
+export function AIEngageEnemy;
+var enemy,enemy2,attacker;
+begin
+enemy = Filterallunits([f_side, 1]) ^ Filterallunits([f_side, 7]);
+enemy2 = Filterallunits([f_side, 7]);
+  for attacker in attack_group do
+    ComAttackUnit(attacker,NearestUnitToUnit(enemy,attacker));
+  for attacker in attack_group2 do
+    ComAttackUnit(attacker,NearestUnitToUnit(enemy2,attacker));
+end;
+
+every 0$1 do
+begin
+enable;
+AIEngageEnemy;
+end;
+
+every 0$1 do
+var un;
+begin
+enable;
+       if FilterAllUnits([[f_side, 3], [f_class, class_engineer]]) < 3 AND RusEngReserve > 0 then
+       begin
+       uc_side = 3;
+       uc_nation = 3;
+
+       hc_name = '';
+       hc_gallery = '';
+       PrepareHuman(sex_male, 2, 5);
+
+       un = CreateHuman;
+       PlaceUnitArea(un, RU_Personnel_Spawn, false);
+       RusEngReserve = RusEngReserve - 1;
+       end;
+end;
+
+Every 6$0 trigger russianAssaultStopped = 1 and IsOk(rusFabr) and GetSide(rusFabr) = 3 and FilterAllUnits([[f_side, 3], [f_type, unit_vehicle], [f_control, control_computer]]) = 0 do
+begin
+    enable;
+    if Difficulty = 1 then BuildingVehicleAndAttackEnemy(3, rusFabr, rand(4, 5), 7, [43, 44, 45, 46], 3, 3, 22);
+    if Difficulty = 2 then BuildingVehicleAndAttackEnemy(3, rusFabr, rand(5, 6), 7, [44, 45, 46], 3, 3, 22);
+    if Difficulty = 3 then BuildingVehicleAndAttackEnemy(3, rusFabr, rand(7, 8), 7, [44, 45, 46], 3, 3, 22);
+end;
+
+Every 5$0+1$30 trigger russianAssaultStopped = 1 and RusRearAttacks > 0 do
+begin
+    enable;
+    RespawnAttackInfantry(3, 3, Rand(3,5), 0, 0, 0, 0, rand(RuSolMinLevel, RuSolMaxLevel), RU_SpawnZone_SE, false, true);
+    RusRearAttacks = RusRearAttacks - 1;
+end;
+
+Every 6$0+2$20 trigger russianAssaultStopped = 1 and RusMainAttacks > 0 do
+var flags, coords;
+begin
+    enable;
+    flags := [0, 1, 0, 1, 0, RussianHealArea2, RussianHealArea2, 0, 0, 1];
+    coords := [];
+    Case Rand(1,2) of
+    1:begin
+    RespawnAttackInfantry(3, 3, Rand(2,3), 0, Rand(0,2), 0, Rand(0,2), rand(RuSolMinLevel, RuSolMaxLevel), RU_SpawnZone_N, true, true);
+    RespawnAttackVehicle(RU_SpawnZone_N, 3, Rand(3,7), rand(RuSolMinLevel, RuSolMaxLevel), 3, engine_siberite, [1,3], RuWeaponArray, [], [], true, true);
+    RusMainAttacks = RusMainAttacks - 1;
+    coords := [ [57,33], [72,59], [77,82] ];
+    Attack([0, MC_attack_group, coords, flags]);
+    end;
+    2:begin
+    RespawnAttackInfantry(3, 3, Rand(2,3), 0, Rand(0,2), 0, Rand(0,2), rand(RuSolMinLevel, RuSolMaxLevel), RU_SpawnZone_N2, true, true);
+    RespawnAttackVehicle(RU_SpawnZone_N2, 3, Rand(3,7), rand(RuSolMinLevel, RuSolMaxLevel), 3, engine_siberite, [1,3], RuWeaponArray, [], [], true, true);
+    RusMainAttacks = RusMainAttacks - 1;
+    coords := [ [124,69], [126,80], [131,106] ];
+    Attack([0, MC_attack_group, coords, flags]);
+    end;
+    end;
+end;
+
+
+export function CustomInitMacro();
+begin
+
+MC_SetScanArea(1, RU2_Base_Area);
+MC_SetParkingArea(1, RU2_Base_Parking);
+
+MC_SetDepositsXY(1, [
+   [22, 7, 0],
+   [7,  6, 1],
+]);
+
+MC_SetAllowedTurretWeapons(1, [ru_gatling_gun, ru_heavy_gun, ru_rocket_launcher]);
+MC_SetCratesArea(1, RU2_Base_Crates);
+MC_SetTame(1, RU2_Base_ApeTame);
+MC_SetDefenderLimit(1, 5);
+
+MC_SetProduceList(1, [
+   [ru_medium_tracked, engine_combustion, control_computer, ru_gatling_gun],
+   [ru_medium_tracked, engine_combustion, control_computer, ru_gun],
+   [ru_heavy_tracked, engine_combustion, control_computer, ru_rocket_launcher],
+   [ru_heavy_tracked, engine_combustion, control_computer, ru_gatling_gun],
+   [ru_heavy_tracked, engine_combustion, control_computer, ru_heavy_gun]
+]);
+
+MC_SetBuildingList(1, [
+            [b_depot, 36, 29, 2],
+            [b_armoury, 51, 45, 5],
+            [b_armoury, 33, 45, 0],
+            [b_lab, 38, 16, 1],
+            [b_lab, 46, 27, 5],
+            [b_workshop, 24, 34, 1],
+            [b_oil_mine, 22, 7, 1],
+            [b_siberite_mine, 7, 6, 1],
+            [b_siberite_power, 15, 24, 1],
+            [b_siberite_power, 20, 26, 2],
+            [b_siberite_power, 26, 27, 5],
+            [b_bunker, 27, 42, 0],
+            [b_bunker, 42, 47, 5],
+            [b_bunker, 49, 48, 5],
+            [b_bunker, 53, 43, 5],
+            [b_bunker, 54, 39, 4],
+            [b_bunker, 55, 36, 5],
+            [b_bunker, 53, 31, 4],
+]);
+
+MC_SetLabKind(1, [b_lab_weapon, b_lab_computer, b_lab_spacetime, b_lab_siberium]);
+MC_SetFactoryExtension(1, 24, 34, 1, [b_ext_computer, b_ext_track, b_ext_gun, b_ext_rocket, b_ext_siberium]);
+
+end;
+
+
+{Export function BuildRussianBase(position);
+var i, engineers, buildingsTab, area;
+begin
+     engineers = FilterAllUnits([[f_side, 6], [f_class, 2]]);
+
+     buildingsTab = [
+            [b_depot, 36, 29, 2],
+            [b_armoury, 42, 45, 5],
+            [b_armoury, 54, 40, 5],
+            [b_siberite_power, 15, 23, 1],
+            [b_workshop, 24, 34, 1],
+            [b_siberite_power, 20, 25, 2],
+            [b_ext_gun, 20, 34, 1],
+            [b_ext_rocket, 25, 37, 0],
+            [b_siberite_power, 22, 26, 5],
+            [b_bunker, 43, 41, 5],
+            [b_bunker, 26, 39, 5],
+            [b_bunker, 31, 40, 5],
+            [b_bunker, 51, 32, 5],
+            [b_bunker, 50, 36, 5],
+            [b_lab, 38, 16, 1],
+            [b_lab, 46, 27, 5],
+            [b_ext_siberium, 21, 30, 3],
+            [b_ext_track, 25, 31, 4],
+            [b_ext_computer, 29, 37, 5]
+        ];
+
+        for i in FilterAllUnits([[f_side, 6], [f_not, [f_class, 2]]]) do AddComAgressiveMove(i, 37, 34);
+
+        for i := 1 to buildingsTab do
+            AddComBuild(engineers, buildingsTab[i][1], buildingsTab[i][2], buildingsTab[i][3], buildingsTab[i][4]);
+
+    end;
+end;}
+
+
+
+{On BuildingComplete(building) Do
+var i;
+begin
+
+    if GetSide(building) = 3 then
+    begin
+        if GetBType(building) = b_depot then
+        begin
+            SetResourceType(GetBase(building), 1, 5000);
+            SetResourceType(GetBase(building), 2, 5000);
+            SetResourceType(GetBase(building), 3, 5000);
+            ruDepot = building;
+        end;
+
+        if GetBType(building) = 0 or GetBType(building) = 2 or GetBType(building) = 4 then ComUpgrade(building);
+
+        if GetBType(building) = b_lab then
+        begin
+
+            if FilterAllUnits([[f_side, 3], [f_btype, b_lab_full]]) = 0 then
+            begin
+                AddComUpgradeLab(building, b_lab_weapon);
+                AddComUpgradeLab(building, b_lab_computer);
+                ruLab1 = building;
+                ComResearch(building,tech_Tech1);
+                AddComResearch(building,tech_Tech2);
+                if difficulty = 2 or if difficulty = 3 then AddComResearch(building,tech_Tech3);
+                AddComResearch(building,tech_AdvMet);
+                AddComResearch(building,tech_Rocket);
+                AddComResearch(building,tech_Weap1);
+                if difficulty = 2 or if difficulty = 3 then then AddComResearch(building,tech_Weap2);
+                if difficulty = 3 then AddComResearch(building,tech_Weap3);
+                AddComResearch(building,tech_AdvAI);
+                AddComResearch(building,tech_Comp1);
+                if difficulty = 2 or if difficulty = 3 then AddComResearch(building,tech_Comp2);
+                if difficulty = 3 then AddComResearch(building,tech_Comp3);
+            end else
+            begin
+                AddComUpgradeLab(building, b_lab_siberium);
+                AddComUpgradeLab(building, b_lab_spacetime);
+                ruLab2 = building;
+                AddComResearch(building,tech_SibPow);
+                AddComResearch(building,tech_SibEng);
+                AddComResearch(building,tech_Sib1);
+                if difficulty = 2 or if difficulty = 3 then then AddComResearch(building,tech_Sib2);
+                if difficulty = 3 then AddComResearch(building,tech_Sib3);
+                AddComResearch(building,tech_SpacAnom);
+                AddComResearch(building,tech_TauField);
+                AddComResearch(building,tech_ST1);
+                if difficulty = 2 or if difficulty = 3 then AddComResearch(building,tech_ST2);
+                if difficulty = 3 then AddComResearch(building,tech_ST3);
+            end;
+
+        if ruDestroyedBuildings > 0 then
+        begin
+            ruDestroyedBuildings := Delete( ruDestroyedBuildings, 1);
+            ruDestroyedBuildings := Delete( ruDestroyedBuildings, 1);
+            ruDestroyedBuildings := Delete( ruDestroyedBuildings, 1);
+            ruDestroyedBuildings := Delete( ruDestroyedBuildings, 1);
+        end;
+
+        end;
+
+        if GetBType(building) = b_bunker then AddComPlaceWeapon(building, [44, 45, 46][Rand(1, 3)]);
+        if GetBType(building) = b_turret then AddComPlaceWeapon(building, [44, 45, 46][Rand(1, 3)]);
+
+    end;
+end;}

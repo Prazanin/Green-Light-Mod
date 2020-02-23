@@ -1,0 +1,43 @@
+on UnitDestroyed(un) do
+  begin
+    if un=Simone then
+      begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Simone');
+        ExclusiveOff;
+        exit;
+      end
+    else if un=Kathryn then
+      begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Kathryn');
+        ExclusiveOff;
+        exit;
+      end
+    else if un=Miller then
+      begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Miller');
+        ExclusiveOff;
+        exit;
+      end
+    else if un=base1 or un=base2 then
+      begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Bases');
+        ExclusiveOff;
+        exit;
+      end
+end;
+
+every 0$1 trigger LaserTanks < 2 do
+begin
+        ExclusiveOn;
+        Wait(0$2);
+        YouLost('Vehicles');
+        ExclusiveOff;
+end;

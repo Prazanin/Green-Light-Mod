@@ -1,0 +1,36 @@
+export attack_group;
+
+export function AIEngageEnemy;
+var enemy,attacker;
+begin
+enemy = Filterallunits([f_side, 7]);
+  for attacker in attack_group do
+    ComAttackUnit(attacker,NearestUnitToUnit(enemy,attacker));
+end;
+
+every 0$1 do
+begin
+enable;
+AIEngageEnemy;
+end;
+
+every 0$1 trigger OutpostCaptured and not LastStand do
+begin
+  wait(Rand(ARAttackIntervale[1], ARAttackIntervale[2]));
+  GenerateVehicleAttack(8, 0, Rand(ARMinVehCount, ARMaxVehCount));
+  enable;
+end;
+
+every 0$1 trigger OutpostCaptured and not LastStand do
+begin
+  wait(Rand(ARAttackIntervale[1], ARAttackIntervale[2]));
+  RespawnAttackInfantry(8, 2, Rand(ARMinSolCount, ARMaxSolCount), 0, 0, Rand(ARMinMortarCount, ARMaxMortarCount), 0, ARSolSkill, SoldierSpawn);
+  enable;
+end;
+
+every 0$1 trigger NOT OutpostCaptured do
+begin
+  enable;
+  RepairBuilding(8, GeoBase);
+  HealUnitInBase(8, GeoBaseHealArea, GeoBaseArea, FilterAllUnits([[f_side, 8], [f_type, unit_building], [f_btype, b_lab_half]]));
+end;

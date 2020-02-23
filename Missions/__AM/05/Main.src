@@ -1,0 +1,515 @@
+export MissionStart, BradfordAssault, AfterBradfordAssault;
+export Squad_Assembly_Start;
+export PlansCourierEscape, KolvichEnRoute;
+
+starting
+begin
+  RandomizeAll;
+
+  PrepareDifficulty;
+  Garrison_Buildings(3, 3, 2, 4, 2, 3, 2, Rand(RuSolMinLevel,RuSolMaxLevel));
+  Fill_Turrets(3);
+
+  SetBName(ustinov1, 'ustinova');
+  SetBName(ustinov2, 'ustinovb');
+
+  Prepare_AMBase;
+
+  CreatePersonas;
+
+  PlaceUnitXY(Bradford, 90, 80, false);
+  PlaceUnitXY(Richford, 91, 81, false);
+  PlaceUnitXY(Esther, 82, 84, false);
+  PlaceUnitXY(Edmonds, 84, 91, false);
+  PlaceUnitXY(Barnes, 88, 83, false);
+  ComTurnUnit(Bradford, Richford);
+  ComTurnUnit(Richford, Bradford);
+
+  ingame_video=true;
+  interface_hidden=true;
+
+  CenterNowOnUnits(Bradford);
+  Squad_Assembly_Start := true;
+  wait(0$2);
+  Say(Bradford, 'D1-Bradford-1');
+  Say(Richford, 'D1-Sol-1');
+  ComMoveXY(Richford, 102, 88);
+  CenterOnUnits(IsInUnit(Simone));
+  ComMoveXY(IsInUnit(Simone), 88, 94);
+  wait(0$5);
+  CenterOnUnits(IsInUnit(Simone));
+  wait(0$2);
+  ComExitVehicle(IsInUnit(Simone));
+  CenterOnUnits(Simone);
+  wait(0$0.5);
+  AddComMoveXY(Simone, 90, 81);
+  wait(0$5);
+  Say(Simone, 'D1-Simone-1');
+  Say(Bradford, 'D1-Bradford-2');
+  Say(Bradford, 'D1-Bradford-2a');
+  Say(Simone, 'D1-Simone-2');
+  Say(Bradford, 'D1-Bradford-3');
+  Say(Simone, 'D1-Simone-4');
+  Say(Bradford, 'D1-Bradford-4');
+  Say(Bradford, 'D1-Bradford-5');
+
+  ingame_video=false;
+  interface_hidden=false;
+
+  SetSide(Esther, 7);
+  SetSide(Edmonds, 7);
+
+  MissionStart := true;
+  AlliedReinforcement;
+
+  ChangeMissionObjectives('M1');
+  SaveForQuickRestart;
+
+  Wait(0$5);
+  Say(Barnes, 'D1a-Barnes-1');
+  Say(Simone, 'D1a-Simone-1');
+  Say(Barnes, 'D1a-Barnes-2');
+  Say(Simone, 'D1a-Simone-2');
+  Say(Barnes, 'D1a-Barnes-3');
+
+  Wait(1$0);
+
+  Say(Esther, 'D1b-Esther-1');
+  Say(Simone, 'D1b-Simone-1');
+  Say(Esther, 'D1b-Esther-2');
+  Say(Simone, 'D1b-Simone-2');
+  Say(Esther, 'D1b-Esther-3');
+end;
+
+every 0$1 trigger Squad_Assembly_Start do
+begin
+  Squad_Assembly;
+end;
+
+export Base_DepotBuilt, Base_WorkshopBuilt, Base_LabBuilt;
+export Base_WholeBuilt, Base_TooLate;
+
+every 0$1 trigger Base_DepotBuilt and Base_WorkshopBuilt and Base_LabBuilt and not Base_TooLate do
+begin
+  Say(Simone, 'D2-Simone-1');
+  Say(Bradford, 'D2-Bradford-1');
+  Say(Simone, 'D2-Simone-2');
+  Base_WholeBuilt := true;
+end;
+
+every 0$1 trigger MissionStart do
+begin
+  wait(5$0);
+  if not Base_WholeBuilt then
+  begin
+   Base_TooLate := true;
+   Say(Bradford, 'D2a-Bradford-1');
+   Say(Simone, 'D2a-Simone-1');
+   Say(Bradford, 'D2a-Bradford-2');
+   Say(Simone, 'D2a-Simone-2');
+   Say(Bradford, 'D2a-Bradford-3');
+   Base_WholeBuilt := true;
+  end;
+end;
+
+every 0$1 trigger Base_WholeBuilt do
+var WholeSquad, LabSpeaker;
+begin
+  wait(Rand(3$0,5$0));
+
+  WholeSquad := FilterAllUnits([[f_side, 7], [f_type, unit_human]]) diff [Simone, Miller, Esther, Edmonds, Pravar];
+  LabSpeaker:=SortBySkill(WholeSquad, 4);
+
+  if not IsDead(Edmonds) then
+   begin
+    Say(Simone, 'D3-Simone-1');
+    Say(Edmonds, 'D3-Edmonds-1');
+    Say(Edmonds, 'D3-Edmonds-2');
+    Say(Simone, 'D3-Simone-2');
+    Say(Edmonds, 'D3-Edmonds-3');
+    Say(Edmonds, 'D3-Edmonds-4');
+    Say(Simone, 'D3-Simone-3');
+   end
+  else
+   begin
+    SaySex(LabSpeaker[1], 'D4-Sci-1', 'D4-FemSci-1');
+    SaySex(LabSpeaker[1], 'D4-Sci-2', 'D4-FemSci-2');
+    SaySex(LabSpeaker[1], 'D4-Sci-3', 'D4-FemSci-3');
+    Say(Simone, 'D3-Simone-3');
+   end;
+
+  ChangeMissionObjectives('M1a');
+end;
+
+every 0$1 trigger Base_WholeBuilt do
+begin
+  wait(Rand(11$0,14$0));
+
+  Say(Barnes, 'D4a-Barnes-1');
+  Say(Bradford, 'D4a-Bradford-1');
+  Say(Barnes, 'D4a-Barnes-2');
+  Say(Bradford, 'D4a-Bradford-2');
+  Say(Bradford, 'D4a-Bradford-3');
+
+end;
+
+every 0$1 trigger Base_WholeBuilt do
+begin
+  wait(30$00);
+
+  InGameOn;
+  CenterOnUnits(Bradford);
+
+  AM_SquadOne := AM_SquadOne ^ [AM_Sols[1],AM_Sols[2],AM_Sols[3],AM_Sols[4]];
+  AM_SquadTwo := AM_SquadTwo ^ [AM_Sols[5],AM_Sols[6],AM_Sols[7]];
+  AM_SquadThree := AM_SquadThree ^ [AM_Sols[8],AM_Sols[9],AM_Sols[10]];
+
+  AM_SquadTwo := AM_SquadTwo ^ Bradford;
+  AM_SquadThree := AM_SquadThree ^ Richford;
+
+  ComMoveXY(AM_Sols, 93, 84);
+  Say(Bradford, 'D5-Bradford-1');
+  Say(Bradford, 'D5-Bradford-2');
+  Say(Bradford, 'D5-Bradford-3');
+
+  ComMoveXY(AM_SquadOne, 130, 56);
+  ComMoveXY(AM_SquadTwo, 143, 95);
+  ComMoveXY(AM_SquadThree, 169, 147);
+
+  ComMoveXY(Mortimer, 130, 56);
+
+  Wait(0$5);
+  InGameOff;
+
+  BradfordAssault := true;
+
+  ChangeMissionObjectives('M2');
+
+end;
+
+every 0$1 trigger BradfordAssault do
+begin
+  Wait(0$35);
+  ComAgressiveMove(AM_SquadOne, 176, 58);
+  ComAgressiveMove(AM_SquadTwo, 206, 94);
+  ComAgressiveMove(AM_SquadThree, 220, 142);
+  Say(Bradford, 'D5a-Bradford-1');
+
+  Wait(0$15);
+  Say(Mortimer, 'D5a-Doherty-1');
+  Say(Richford, 'D5a-Richford-1');
+
+  PriorityAttack(3, Bradford);
+  PriorityAttack(3, Richford);
+
+  Wait(0$45);
+  SayRadio(Barnes, 'D5a-Barnes-1');
+  ComMoveXY(AM_SquadOne, 95, 83);
+  ComMoveXY(AM_SquadThree, 95, 83);
+  ComMoveXY(Mortimer, 95, 83);
+  SayRadio(Barnes, 'D5a-Barnes-2');
+
+  Wait(0$40);
+  InGameOn;
+  DialogueOn;
+  Say(Barnes, 'D5b-Barnes-1');
+  Say(Simone, 'D5b-Simone-1');
+  Say(Barnes, 'D5b-Barnes-2');
+  SetSide(AM_SquadOne, 7);
+  SetSide(AM_SquadThree, 7);
+  SetSide(Mortimer, 7);
+  DialogueOff;
+  InGameOff;
+
+  AfterBradfordAssault := true;
+end;
+
+every 0$1 trigger AfterBradfordAssault do
+begin
+  Wait(3$40);
+  SayRadio(Sidorovich, 'D6-Sidor-1');
+  Say(Simone, 'D6-Simone-1');
+  SayRadio(Sidorovich, 'D6-Sidor-2');
+  Say(Simone, 'D6-Simone-2');
+end;
+
+every 0$1 trigger AfterBradfordAssault do
+begin
+  Wait(7$20);
+  SayRadio(Botnicov, 'D6a-Botnicov-1');
+  Say(Simone, 'D6a-Simone-1');
+  SayRadio(Botnicov, 'D6a-Botnicov-2');
+  Say(Simone, 'D6a-Simone-2');
+  SayRadio(Botnicov, 'D6a-Botnicov-3');
+  Say(Simone, 'D6a-Simone-3');
+  SayRadio(Botnicov, 'D6a-Botnicov-4');
+  Say(Simone, 'D6a-Simone-4');
+  SayRadio(Botnicov, 'D6a-Botnicov-5');
+  Say(Simone, 'D6a-Simone-5');
+  SayRadio(Botnicov, 'D6a-Botnicov-6');
+  KolvichEnRoute := true;
+  SayRadio(Botnicov, 'D6a-Botnicov-7');
+  Say(Esther, 'D6a-Esther-1');
+  Say(Simone, 'D6a-Simone-6');
+  SayRadio(Botnicov, 'D6a-Botnicov-8');
+  SayRadio(Botnicov, 'D6a-Botnicov-9');
+  Say(Simone, 'D6a-Simone-7');
+end;
+
+every 0$1 trigger AfterBradfordAssault do
+begin
+  Wait(16$30);
+  SayRadio(Sidorovich, 'D7-Sidor-1');
+  Say(Simone, 'D7-Simone-1');
+  SayRadio(Sidorovich, 'D7-Sidor-2');
+  Say(Simone, 'D7-Simone-2');
+end;
+
+every 0$1 trigger AfterBradfordAssault do
+var WholeSquad, SolSpeaker;
+begin
+  Wait(23$20);
+  WholeSquad := FilterAllUnits([[f_side, 7], [f_type, unit_human]]) diff [Simone, Miller, Esther, Edmonds];
+  SolSpeaker := WholeSquad[Rand(1, WholeSquad)];
+
+  if GetSex(SolSpeaker) = sex_male then Say(SolSpeaker, 'D8-Sol-1')
+  else if GetSex(SolSpeaker) = sex_female then Say(SolSpeaker, 'D8-FemSol-1');
+  SayRadio(Sidorovich, 'D8-Sidor-1');
+  Say(Simone, 'D8-Simone-1');
+  ChangeMissionObjectives('MPlans');
+  PlansCourierEscape := true;
+end;
+
+export CourierVeh, RU_Courier, RUVeh1, RUVeh2;
+every 0$1 trigger PlansCourierEscape do
+begin
+  uc_side:=6;
+  uc_nation:=nation_russian;
+
+  vc_chassis := ru_medium_tracked;
+  vc_engine  := engine_siberite;
+  vc_control := control_manual;
+  vc_weapon  := ru_gun;
+  CourierVeh := CreateVehicle;
+
+  vc_control := control_computer;
+  RUVeh1 := CreateVehicle;
+
+  vc_weapon  := ru_gatling_gun;
+  RUVeh2 := CreateVehicle;
+
+    hc_class=class_mechanic;
+    hc_sex=sex_male;
+    hc_importance=40;
+    hc_skills=[6,4,10,7];
+    hc_attr=[11,10];
+    hc_name:='Jovan Radovcic';
+    hc_gallery := 'ZieloneLaserki_Commanders';
+    hc_face_number := 7;
+
+    RU_Courier:=CreateHuman;
+
+    hc_name:='';
+    hc_gallery := '';
+
+  PlaceUnitArea(CourierVeh, CourierVehsArea, false);
+  PlaceUnitArea(RUVeh1, CourierVehsArea, false);
+  PlaceUnitArea(RUVeh2, CourierVehsArea, false);
+  PlaceHumanInUnit(RU_Courier, ustinov2);
+
+  ComEnterUnit(RU_Courier, CourierVeh);
+
+  wait(1$0);
+
+  ComMoveXY(CourierVeh, 123, 3);
+  ComAgressiveMove([RUVeh1, RUVeh2], 123, 3);
+end;
+
+export RUCourierEscaped, RU_Courier_Dead;
+every 0$1 trigger ( IsInArea(CourierVeh, RUCourierEvac) OR IsInArea(RU_Courier, RUCourierEvac) ) AND IsOK(RU_Courier) do
+begin
+  if not IsDead(CourierVeh) then RemoveUnit(CourierVeh);
+  RemoveUnit(RU_Courier);
+
+  Say(Miller, 'D8c-Miller-1');
+  RUCourierEscaped := true;
+end;
+
+every 0$1 trigger IsInArea(RUVeh1, RUCourierEvac) AND IsOK(RUVeh1) AND RUCourierEscaped do
+  RemoveUnit(RUVeh1);
+
+every 0$1 trigger IsInArea(RUVeh2, RUCourierEvac) AND IsOK(RUVeh2) AND RUCourierEscaped do
+  RemoveUnit(RUVeh2);
+
+export Endgame;
+export RU1Evacuation, BotnicovSpared, BotnicovAntagonized;
+every 0$1 trigger
+          IsDead(Sidorovich) AND
+          ( GetSide(ustinov1) = 7 OR IsDead(ustinov1) ) OR
+          ( GetSide(ustinov2) = 7 OR IsDead(ustinov2) )
+          do
+            begin
+            KolvichEnRoute := true;
+            wait(0$10);
+            RU1Evacuation := true;
+            Prepare_Escapees;
+            wait(0$4);
+            CenterOnUnits(Botnicov);
+            DialogueOn;
+            Say(Miller, 'D9a-Miller-2');
+            if not GetAttitude(5, 7)=att_enemy then
+            Case Query('QRussians') of
+             1:begin
+                 Say(Simone, 'D9a-Simone-2');
+                 Say(Botnicov, 'D9a-Botnicov-1');
+                 BotnicovSpared := true;
+                 ComMoveToArea(Botnicov_Sols, RUEvacZone);
+                 ComMoveToArea(Botnicov, RUEvacZone);
+               end;
+             2:begin
+                 Say(Simone, 'D9a-Simone-2a');
+                 Say(Botnicov, 'D9a-Botnicov-1a');
+                 BotnicovAntagonized := true;
+                 SetAttitude(5, 7, att_enemy, true);
+                 ComAgressiveMove(Botnicov_Sols, 257, 108);
+                 ComAgressiveMove(Botnicov, 257, 108);
+               end;
+             end;
+            DialogueOff;
+            wait(0$40);
+            Dialogue_Barnes_General;
+            Endgame := true;
+            end;
+
+export DvaliAttack;
+every 0$1 trigger Endgame do
+begin
+  wait(GEODvaliArrival);
+  DialogueOn;
+  SayRadio(Dvalishvili, 'D11-Dvali-1');
+  Say(Simone, 'D11-Simone-1');
+  SayRadio(Dvalishvili, 'D11-Dvali-2');
+  SayRadio(Dvalishvili, 'D11-Dvali-3');
+  Say(Simone, 'D11-Simone-2');
+  DialogueOff;
+
+  DvaliAttack := true;
+end;
+
+every 0$1 trigger DvaliAttack do
+begin
+  RespawnAttackVehicle(DvaliSpawn_N, 8, Rand(6,8), GeoSolMaxLevel, 2, engine_siberite, control_manual, [], [25, 26, 27, 28, 71, 72, 73], [], 1);
+  RespawnAttackInfantry(8, 2, Rand(8,11), 0, 0, 3, 2, GeoSolMaxLevel, DvaliSpawn_N, 1);
+  Attack([0, MC_attack_group, [ [181, 21], [226, 72], [225, 103] ], [0, 1, 0, 1, 1, 0, 0, 0, 1, 1] ]);
+end;
+
+every 0$1 trigger DvaliAttack do
+begin
+  RespawnAttackVehicle(DvaliSpawn_S, 8, Rand(6,9), GeoSolMaxLevel, 2, engine_siberite, control_manual, [], [25, 26, 27, 28, 71, 72, 73], [], 2);
+  RespawnAttackInfantry(8, 2, Rand(7,10), 0, 0, 2, 2, GeoSolMaxLevel, DvaliSpawn_S, 1);
+  Attack([0, MC_attack_group2, [ [211, 145], [242, 126], [254, 104] ], [0, 1, 0, 1, 1, 0, 0, 0, 1, 1] ]);
+end;
+
+export KolvichArrival, KolvichAttacks;
+every 0$1 trigger Endgame do
+var i;
+begin
+  wait(GEODvaliArrival + 15$00);
+  SayRadio(Kolvich, 'D12-Kolvich-1');
+  wait(0$05);
+  SayRadio(Kolvich, 'D12-Kolvich-2');
+  wait(0$05);
+  SayRadio(Kolvich, 'D12-Kolvich-3');
+  wait(0$02);
+  SayRadio(Kolvich, 'D12-Kolvich-4');
+
+  InGameOn;
+  SayRadio(Kolvich, 'D12-Kolvich-5');
+  Say(Simone, 'D12-Simone-1');
+  SayRadio(Kolvich, 'D12a-Kolvich-1');
+  InGameOff;
+
+  KolvichArrival := true;
+  SetSide(AMBase, 6);
+  SetSide(FilterAllUnits([ [f_side, 1], [f_btype, b_armoury] ]), 6);
+  SetSide(FilterAllUnits([ [f_side, 1], [f_btype, b_breastwork] ]), 6);
+  Prepare_RU2;
+  PriorityAttack(6, AMLab);
+  PriorityAttack(6, AM_Factory);
+  for i in AMFactoryExt do
+    PriorityAttack(6, i);
+  Wait(2$0);
+  KolvichAttacks := true;
+end;
+
+export RandallAwaiting;
+every 0$1 trigger KolvichArrival do
+begin
+  wait(DefenseTime);
+  KolvichAttacks = false;
+  RespawnAttackVehicle(AM1_ReinforceArrival, 1, 20, 10, 1, engine_siberite, control_manual, [], [], [4, 6, 9, 7], 2);
+  Attack([0, MC_attack_group2, [ [93, 55], [100, 72], [88, 82] ], [0, 1, 0, 1, 1, 0, 0, 0, 1, 1] ]);
+  wait(0$5);
+  Say(Simone, 'D13-Simone-1');
+  SayRadio(Kolvich, 'D13a-Kolvich-1');
+  wait(0$45);
+  PlaceUnitXY(Randall, 217, 1, false);
+  ComMoveXY(Randall, 277, 135);
+  AddComTurnUnit(Randall, Simone);
+  wait(0$25);
+  ChangeMissionObjectives('M4');
+  RandallAwaiting := true;
+end;
+
+every 0$1 trigger RandallAwaiting and GetDistUnits(Simone, Randall) < 3 do
+begin
+  InGameOn;
+  ComExitVehicle([Esther, Miller, Edmonds]);
+  ComMoveXY([Esther, Miller, Edmonds], 276, 137);
+  ComMoveXY(Simone, 278, 136);
+  AddComTurnUnit(Simone, Randall);
+  CenterOnUnits(Randall);
+  Say(Randall, 'D14-Randall-1');
+  Say(Simone, 'D14-Simone-1');
+  Say(Randall, 'D14-Randall-2');
+  Say(Simone, 'D14-Simone-2');
+  Say(Randall, 'D14-Randall-2a');
+  Say(Simone, 'D14-Simone-2a');
+  Say(Randall, 'D14-Randall-3');
+  Say(Simone, 'D14-Simone-2b');
+  Say(Randall, 'D14-Randall-4');
+  Say(Simone, 'D14-Simone-3');
+  Say(Randall, 'D14-Randall-5');
+  Say(Randall, 'D14-Randall-6');
+  Say(Randall, 'D14-Randall-7');
+
+  if not IsDead(Edmonds) then
+  begin
+    Say(Randall, 'D14-Edmonds-1');
+    Say(Randall, 'D14-Randall-8a');
+
+    ComMoveXY(Edmonds, 277, 135);
+  end
+  else Say(Randall, 'D14-Randall-8');
+
+  wait(0$5);
+  Say(Randall, 'D14-Randall-9');
+  ComMoveXY(Randall, 277, 135);
+
+  wait(0$2);
+  Say(Esther, 'D15-Esther-1');
+  Say(Simone, 'D15-Simone-1');
+  Say(Esther, 'D15-Esther-2');
+  Say(Simone, 'D15-Simone-2');
+  Say(Esther, 'D15-Esther-3');
+  ComMoveXY(Esther, 277, 135);
+  Say(Simone, 'D15-Simone-3');
+
+  wait(0$2);
+  Say(Miller, 'D15-Miller-1');
+  Say(Simone, 'D15-Simone-4');
+  InGameOff;
+
+  EndMission;
+end;
+

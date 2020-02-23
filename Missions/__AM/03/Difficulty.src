@@ -1,0 +1,68 @@
+Export function PrepareDifficulty;
+begin
+    if difficulty = 1 then
+    begin
+        SetMercenaryAggressivenessLevel(1);
+
+        AddResourceType(GetBase(GeoBase), mat_cans, 250);
+        AddResourceType(GetBase(GeoBase), mat_oil, 150);
+        AddResourceType(GetBase(GeoBase), mat_siberit, 50);
+
+        SetTech(tech_Tech1, 8, state_researched);
+        SetTech(tech_Weap1, 8, state_researched);
+
+        ThresholdLvl2 := 19;
+        ThresholdLvl3 := 54;
+        ThresholdLvl4 := 87;
+        ThresholdLvl5 := 119;
+        ThresholdLvl6 := 999;
+        ThresholdLvl7 := 999;
+        ThresholdLvl8 := 999;
+    end;
+
+    if difficulty = 2 then
+    begin
+        SetMercenaryAggressivenessLevel(1);
+
+        AddResourceType(GetBase(GeoBase), mat_cans, 100);
+        AddResourceType(GetBase(GeoBase), mat_oil, 50);
+        AddResourceType(GetBase(GeoBase), mat_siberit, 25);
+
+        SetTech(tech_Tech1, 8, state_researched);
+        SetTech(tech_Tech2, 8, state_researched);
+        SetTech(tech_Weap1, 8, state_researched);
+        SetTech(tech_Weap2, 8, state_researched);
+        SetTech(tech_Bio1, 8, state_researched);
+        SetTech(tech_StimDrugs, 8, state_researched);
+
+        ThresholdLvl2 := 14;
+        ThresholdLvl3 := 41;
+        ThresholdLvl4 := 64;
+        ThresholdLvl5 := 101;
+        ThresholdLvl6 := 999;
+        ThresholdLvl7 := 999;
+        ThresholdLvl8 := 999;
+    end;
+
+    if difficulty = 3 then
+    begin
+        SetMercenaryAggressivenessLevel(2);
+
+        SetTech(tech_Tech1, 8, state_researched);
+        SetTech(tech_Tech2, 8, state_researched);
+        SetTech(tech_Tech3, 8, state_researched);
+        SetTech(tech_Weap1, 8, state_researched);
+        SetTech(tech_Weap2, 8, state_researched);
+        SetTech(tech_Bio1, 8, state_researched);
+        SetTech(tech_Bio2, 8, state_researched);
+        SetTech(tech_StimDrugs, 8, state_researched);
+
+        ThresholdLvl2 := 0;
+        ThresholdLvl3 := 24;
+        ThresholdLvl4 := 52;
+        ThresholdLvl5 := 74;
+        ThresholdLvl6 := 99;
+        ThresholdLvl7 := 131;
+        ThresholdLvl8 := 155;
+    end;
+end;

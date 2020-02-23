@@ -1,0 +1,1299 @@
+// starting begin ingame_video = true ;
+   0: LD_ADDR_OWVAR 52
+   4: PUSH
+   5: LD_INT 1
+   7: ST_TO_ADDR
+// interface_hidden = true ;
+   8: LD_ADDR_OWVAR 54
+  12: PUSH
+  13: LD_INT 1
+  15: ST_TO_ADDR
+// CreatePersonnel ;
+  16: CALL 721 0 0
+// PrepareBattle ( ) ;
+  20: CALL 1033 0 0
+// CenterOnXY ( 41 , 25 ) ;
+  24: LD_INT 41
+  26: PPUSH
+  27: LD_INT 25
+  29: PPUSH
+  30: CALL_OW 84
+// music_class := 1 ;
+  34: LD_ADDR_OWVAR 72
+  38: PUSH
+  39: LD_INT 1
+  41: ST_TO_ADDR
+// music_nat := 2 ;
+  42: LD_ADDR_OWVAR 71
+  46: PUSH
+  47: LD_INT 2
+  49: ST_TO_ADDR
+// SetAttitude ( 3 , 1 , att_enemy , true ) ;
+  50: LD_INT 3
+  52: PPUSH
+  53: LD_INT 1
+  55: PPUSH
+  56: LD_INT 2
+  58: PPUSH
+  59: LD_INT 1
+  61: PPUSH
+  62: CALL_OW 80
+// CenterOnXY ( 41 , 25 ) ;
+  66: LD_INT 41
+  68: PPUSH
+  69: LD_INT 25
+  71: PPUSH
+  72: CALL_OW 84
+// ComAgressiveMove ( AMSolders , 42 , 24 ) ;
+  76: LD_EXP 4
+  80: PPUSH
+  81: LD_INT 42
+  83: PPUSH
+  84: LD_INT 24
+  86: PPUSH
+  87: CALL_OW 114
+// ComAgressiveMove ( [ tnk1 , tnk2 ] , 42 , 24 ) ;
+  91: LD_INT 34
+  93: PUSH
+  94: LD_INT 35
+  96: PUSH
+  97: EMPTY
+  98: LIST
+  99: LIST
+ 100: PPUSH
+ 101: LD_INT 42
+ 103: PPUSH
+ 104: LD_INT 24
+ 106: PPUSH
+ 107: CALL_OW 114
+// Wait ( 0 0$10 ) ;
+ 111: LD_INT 350
+ 113: PPUSH
+ 114: CALL_OW 67
+// MineExplosion ( 30 , 31 , 1 ) ;
+ 118: LD_INT 30
+ 120: PPUSH
+ 121: LD_INT 31
+ 123: PPUSH
+ 124: LD_INT 1
+ 126: PPUSH
+ 127: CALL_OW 453
+// Wait ( 0 0$15 ) ;
+ 131: LD_INT 525
+ 133: PPUSH
+ 134: CALL_OW 67
+// CenterOnUnits ( tnk3 ) ;
+ 138: LD_INT 62
+ 140: PPUSH
+ 141: CALL_OW 85
+// ComAgressiveMove ( AM2Solders , 42 , 24 ) ;
+ 145: LD_EXP 5
+ 149: PPUSH
+ 150: LD_INT 42
+ 152: PPUSH
+ 153: LD_INT 24
+ 155: PPUSH
+ 156: CALL_OW 114
+// ComAgressiveMove ( [ tnk3 , tnk4 , tnk5 ] , 42 , 24 ) ;
+ 160: LD_INT 62
+ 162: PUSH
+ 163: LD_INT 68
+ 165: PUSH
+ 166: LD_INT 69
+ 168: PUSH
+ 169: EMPTY
+ 170: LIST
+ 171: LIST
+ 172: LIST
+ 173: PPUSH
+ 174: LD_INT 42
+ 176: PPUSH
+ 177: LD_INT 24
+ 179: PPUSH
+ 180: CALL_OW 114
+// ComAgressiveMove ( FilterAllUnits ( [ f_side , 3 ] ) , 57 , 64 ) ;
+ 184: LD_INT 22
+ 186: PUSH
+ 187: LD_INT 3
+ 189: PUSH
+ 190: EMPTY
+ 191: LIST
+ 192: LIST
+ 193: PPUSH
+ 194: CALL_OW 69
+ 198: PPUSH
+ 199: LD_INT 57
+ 201: PPUSH
+ 202: LD_INT 64
+ 204: PPUSH
+ 205: CALL_OW 114
+// Wait ( 0 0$5 ) ;
+ 209: LD_INT 175
+ 211: PPUSH
+ 212: CALL_OW 67
+// CenterOnXY ( 54 , 50 ) ;
+ 216: LD_INT 54
+ 218: PPUSH
+ 219: LD_INT 50
+ 221: PPUSH
+ 222: CALL_OW 84
+// Wait ( 0 0$5 ) ;
+ 226: LD_INT 175
+ 228: PPUSH
+ 229: CALL_OW 67
+// MineExplosion ( 54 , 42 , 0 ) ;
+ 233: LD_INT 54
+ 235: PPUSH
+ 236: LD_INT 42
+ 238: PPUSH
+ 239: LD_INT 0
+ 241: PPUSH
+ 242: CALL_OW 453
+// SetLives ( depo , 245 ) ;
+ 246: LD_INT 14
+ 248: PPUSH
+ 249: LD_INT 245
+ 251: PPUSH
+ 252: CALL_OW 234
+// Wait ( 0 0$10 ) ;
+ 256: LD_INT 350
+ 258: PPUSH
+ 259: CALL_OW 67
+// ComAgressiveMove ( FilterAllUnits ( [ f_side , 3 ] ) , 43 , 81 ) ;
+ 263: LD_INT 22
+ 265: PUSH
+ 266: LD_INT 3
+ 268: PUSH
+ 269: EMPTY
+ 270: LIST
+ 271: LIST
+ 272: PPUSH
+ 273: CALL_OW 69
+ 277: PPUSH
+ 278: LD_INT 43
+ 280: PPUSH
+ 281: LD_INT 81
+ 283: PPUSH
+ 284: CALL_OW 114
+// PlaceUnitXY ( RuComm , 28 , 3 , false ) ;
+ 288: LD_EXP 3
+ 292: PPUSH
+ 293: LD_INT 28
+ 295: PPUSH
+ 296: LD_INT 3
+ 298: PPUSH
+ 299: LD_INT 0
+ 301: PPUSH
+ 302: CALL_OW 48
+// PlaceUnitXY ( Kolvich , 19 , 2 , false ) ;
+ 306: LD_EXP 2
+ 310: PPUSH
+ 311: LD_INT 19
+ 313: PPUSH
+ 314: LD_INT 2
+ 316: PPUSH
+ 317: LD_INT 0
+ 319: PPUSH
+ 320: CALL_OW 48
+// PlaceUnitXY ( Sidor , 26 , 2 , false ) ;
+ 324: LD_EXP 1
+ 328: PPUSH
+ 329: LD_INT 26
+ 331: PPUSH
+ 332: LD_INT 2
+ 334: PPUSH
+ 335: LD_INT 0
+ 337: PPUSH
+ 338: CALL_OW 48
+// ComMoveXY ( Sidor , 48 , 37 ) ;
+ 342: LD_EXP 1
+ 346: PPUSH
+ 347: LD_INT 48
+ 349: PPUSH
+ 350: LD_INT 37
+ 352: PPUSH
+ 353: CALL_OW 111
+// ComMoveXY ( Kolvich , 48 , 37 ) ;
+ 357: LD_EXP 2
+ 361: PPUSH
+ 362: LD_INT 48
+ 364: PPUSH
+ 365: LD_INT 37
+ 367: PPUSH
+ 368: CALL_OW 111
+// AddComTurnUnit ( Kolvich , Sidor ) ;
+ 372: LD_EXP 2
+ 376: PPUSH
+ 377: LD_EXP 1
+ 381: PPUSH
+ 382: CALL_OW 179
+// AddComTurnUnit ( Sidor , Kolvich ) ;
+ 386: LD_EXP 1
+ 390: PPUSH
+ 391: LD_EXP 2
+ 395: PPUSH
+ 396: CALL_OW 179
+// Wait ( 0 0$15 ) ;
+ 400: LD_INT 525
+ 402: PPUSH
+ 403: CALL_OW 67
+// CenterOnXY ( 41 , 25 ) ;
+ 407: LD_INT 41
+ 409: PPUSH
+ 410: LD_INT 25
+ 412: PPUSH
+ 413: CALL_OW 84
+// music_class := 0 ;
+ 417: LD_ADDR_OWVAR 72
+ 421: PUSH
+ 422: LD_INT 0
+ 424: ST_TO_ADDR
+// music_nat := 1 ;
+ 425: LD_ADDR_OWVAR 71
+ 429: PUSH
+ 430: LD_INT 1
+ 432: ST_TO_ADDR
+// Say ( Sidor , D1-Sidor-1 ) ;
+ 433: LD_EXP 1
+ 437: PPUSH
+ 438: LD_STRING D1-Sidor-1
+ 440: PPUSH
+ 441: CALL_OW 88
+// Say ( Kolvich , D1-Kolvich-1 ) ;
+ 445: LD_EXP 2
+ 449: PPUSH
+ 450: LD_STRING D1-Kolvich-1
+ 452: PPUSH
+ 453: CALL_OW 88
+// Say ( Sidor , D1-Sidor-2 ) ;
+ 457: LD_EXP 1
+ 461: PPUSH
+ 462: LD_STRING D1-Sidor-2
+ 464: PPUSH
+ 465: CALL_OW 88
+// ComMoveXY ( RuComm , 48 , 36 ) ;
+ 469: LD_EXP 3
+ 473: PPUSH
+ 474: LD_INT 48
+ 476: PPUSH
+ 477: LD_INT 36
+ 479: PPUSH
+ 480: CALL_OW 111
+// AddComTurnUnit ( RuComm , Sidor ) ;
+ 484: LD_EXP 3
+ 488: PPUSH
+ 489: LD_EXP 1
+ 493: PPUSH
+ 494: CALL_OW 179
+// Say ( Kolvich , D1-Kolvich-2 ) ;
+ 498: LD_EXP 2
+ 502: PPUSH
+ 503: LD_STRING D1-Kolvich-2
+ 505: PPUSH
+ 506: CALL_OW 88
+// Wait ( 0 0$5 ) ;
+ 510: LD_INT 175
+ 512: PPUSH
+ 513: CALL_OW 67
+// AddComTurnUnit ( Sidor , RuComm ) ;
+ 517: LD_EXP 1
+ 521: PPUSH
+ 522: LD_EXP 3
+ 526: PPUSH
+ 527: CALL_OW 179
+// Say ( RuComm , D1a-RuOff1-1 ) ;
+ 531: LD_EXP 3
+ 535: PPUSH
+ 536: LD_STRING D1a-RuOff1-1
+ 538: PPUSH
+ 539: CALL_OW 88
+// Say ( Sidor , D1a-Sidor-1 ) ;
+ 543: LD_EXP 1
+ 547: PPUSH
+ 548: LD_STRING D1a-Sidor-1
+ 550: PPUSH
+ 551: CALL_OW 88
+// Say ( RuComm , D1a-RuOff1-2 ) ;
+ 555: LD_EXP 3
+ 559: PPUSH
+ 560: LD_STRING D1a-RuOff1-2
+ 562: PPUSH
+ 563: CALL_OW 88
+// Say ( Sidor , D1a-Sidor-2 ) ;
+ 567: LD_EXP 1
+ 571: PPUSH
+ 572: LD_STRING D1a-Sidor-2
+ 574: PPUSH
+ 575: CALL_OW 88
+// Say ( RuComm , D1a-RuOff1-3 ) ;
+ 579: LD_EXP 3
+ 583: PPUSH
+ 584: LD_STRING D1a-RuOff1-3
+ 586: PPUSH
+ 587: CALL_OW 88
+// Say ( Sidor , D1a-Sidor-3 ) ;
+ 591: LD_EXP 1
+ 595: PPUSH
+ 596: LD_STRING D1a-Sidor-3
+ 598: PPUSH
+ 599: CALL_OW 88
+// Say ( RuComm , D1a-RuOff1-4 ) ;
+ 603: LD_EXP 3
+ 607: PPUSH
+ 608: LD_STRING D1a-RuOff1-4
+ 610: PPUSH
+ 611: CALL_OW 88
+// Say ( Sidor , D1a-Sidor-4 ) ;
+ 615: LD_EXP 1
+ 619: PPUSH
+ 620: LD_STRING D1a-Sidor-4
+ 622: PPUSH
+ 623: CALL_OW 88
+// ComMoveXY ( RuComm , 27 , 2 ) ;
+ 627: LD_EXP 3
+ 631: PPUSH
+ 632: LD_INT 27
+ 634: PPUSH
+ 635: LD_INT 2
+ 637: PPUSH
+ 638: CALL_OW 111
+// Wait ( 0 0$2 ) ;
+ 642: LD_INT 70
+ 644: PPUSH
+ 645: CALL_OW 67
+// AddComTurnUnit ( Sidor , Kolvich ) ;
+ 649: LD_EXP 1
+ 653: PPUSH
+ 654: LD_EXP 2
+ 658: PPUSH
+ 659: CALL_OW 179
+// Say ( Sidor , D1b-Sidor-1 ) ;
+ 663: LD_EXP 1
+ 667: PPUSH
+ 668: LD_STRING D1b-Sidor-1
+ 670: PPUSH
+ 671: CALL_OW 88
+// Say ( Kolvich , D1b-Kolvich-1 ) ;
+ 675: LD_EXP 2
+ 679: PPUSH
+ 680: LD_STRING D1b-Kolvich-1
+ 682: PPUSH
+ 683: CALL_OW 88
+// Wait ( 0 0$2 ) ;
+ 687: LD_INT 70
+ 689: PPUSH
+ 690: CALL_OW 67
+// ingame_video = false ;
+ 694: LD_ADDR_OWVAR 52
+ 698: PUSH
+ 699: LD_INT 0
+ 701: ST_TO_ADDR
+// interface_hidden = false ;
+ 702: LD_ADDR_OWVAR 54
+ 706: PUSH
+ 707: LD_INT 0
+ 709: ST_TO_ADDR
+// changemap ( 02 , %_cont ) ;
+ 710: LD_STRING 02
+ 712: PPUSH
+ 713: LD_STRING %_cont
+ 715: PPUSH
+ 716: CALL_OW 340
+// end ; end_of_file
+ 720: END
+// export Sidor , Kolvich , RuComm ; export AMSolders , AM2Solders ; export function CreatePersonnel ; begin
+ 721: LD_INT 0
+ 723: PPUSH
+// uc_side := 3 ;
+ 724: LD_ADDR_OWVAR 20
+ 728: PUSH
+ 729: LD_INT 3
+ 731: ST_TO_ADDR
+// hc_class = class_soldier ;
+ 732: LD_ADDR_OWVAR 28
+ 736: PUSH
+ 737: LD_INT 1
+ 739: ST_TO_ADDR
+// uc_nation := nation_russian ;
+ 740: LD_ADDR_OWVAR 21
+ 744: PUSH
+ 745: LD_INT 3
+ 747: ST_TO_ADDR
+// hc_sex = sex_male ;
+ 748: LD_ADDR_OWVAR 27
+ 752: PUSH
+ 753: LD_INT 1
+ 755: ST_TO_ADDR
+// hc_importance = 110 ;
+ 756: LD_ADDR_OWVAR 32
+ 760: PUSH
+ 761: LD_INT 110
+ 763: ST_TO_ADDR
+// hc_skills = [ 8 , 5 , 7 , 6 ] ;
+ 764: LD_ADDR_OWVAR 31
+ 768: PUSH
+ 769: LD_INT 8
+ 771: PUSH
+ 772: LD_INT 5
+ 774: PUSH
+ 775: LD_INT 7
+ 777: PUSH
+ 778: LD_INT 6
+ 780: PUSH
+ 781: EMPTY
+ 782: LIST
+ 783: LIST
+ 784: LIST
+ 785: LIST
+ 786: ST_TO_ADDR
+// hc_attr = [ 12 , 10 ] ;
+ 787: LD_ADDR_OWVAR 29
+ 791: PUSH
+ 792: LD_INT 12
+ 794: PUSH
+ 795: LD_INT 10
+ 797: PUSH
+ 798: EMPTY
+ 799: LIST
+ 800: LIST
+ 801: ST_TO_ADDR
+// hc_name := Sidorovich ;
+ 802: LD_ADDR_OWVAR 26
+ 806: PUSH
+ 807: LD_STRING Sidorovich
+ 809: ST_TO_ADDR
+// hc_gallery := ZieloneLaserki_Heroes ;
+ 810: LD_ADDR_OWVAR 33
+ 814: PUSH
+ 815: LD_STRING ZieloneLaserki_Heroes
+ 817: ST_TO_ADDR
+// hc_face_number := 8 ;
+ 818: LD_ADDR_OWVAR 34
+ 822: PUSH
+ 823: LD_INT 8
+ 825: ST_TO_ADDR
+// Sidor := CreateHuman ;
+ 826: LD_ADDR_EXP 1
+ 830: PUSH
+ 831: CALL_OW 44
+ 835: ST_TO_ADDR
+// uc_nation := nation_russian ;
+ 836: LD_ADDR_OWVAR 21
+ 840: PUSH
+ 841: LD_INT 3
+ 843: ST_TO_ADDR
+// hc_sex = sex_male ;
+ 844: LD_ADDR_OWVAR 27
+ 848: PUSH
+ 849: LD_INT 1
+ 851: ST_TO_ADDR
+// hc_importance = 110 ;
+ 852: LD_ADDR_OWVAR 32
+ 856: PUSH
+ 857: LD_INT 110
+ 859: ST_TO_ADDR
+// hc_skills = [ 7 , 3 , 6 , 5 ] ;
+ 860: LD_ADDR_OWVAR 31
+ 864: PUSH
+ 865: LD_INT 7
+ 867: PUSH
+ 868: LD_INT 3
+ 870: PUSH
+ 871: LD_INT 6
+ 873: PUSH
+ 874: LD_INT 5
+ 876: PUSH
+ 877: EMPTY
+ 878: LIST
+ 879: LIST
+ 880: LIST
+ 881: LIST
+ 882: ST_TO_ADDR
+// hc_attr = [ 12 , 10 ] ;
+ 883: LD_ADDR_OWVAR 29
+ 887: PUSH
+ 888: LD_INT 12
+ 890: PUSH
+ 891: LD_INT 10
+ 893: PUSH
+ 894: EMPTY
+ 895: LIST
+ 896: LIST
+ 897: ST_TO_ADDR
+// hc_name := Kolvich ;
+ 898: LD_ADDR_OWVAR 26
+ 902: PUSH
+ 903: LD_STRING Kolvich
+ 905: ST_TO_ADDR
+// hc_gallery := RusCamp_KolvichCoterie ;
+ 906: LD_ADDR_OWVAR 33
+ 910: PUSH
+ 911: LD_STRING RusCamp_KolvichCoterie
+ 913: ST_TO_ADDR
+// hc_face_number := 2 ;
+ 914: LD_ADDR_OWVAR 34
+ 918: PUSH
+ 919: LD_INT 2
+ 921: ST_TO_ADDR
+// Kolvich := CreateHuman ;
+ 922: LD_ADDR_EXP 2
+ 926: PUSH
+ 927: CALL_OW 44
+ 931: ST_TO_ADDR
+// uc_nation := nation_russian ;
+ 932: LD_ADDR_OWVAR 21
+ 936: PUSH
+ 937: LD_INT 3
+ 939: ST_TO_ADDR
+// hc_importance = 30 ;
+ 940: LD_ADDR_OWVAR 32
+ 944: PUSH
+ 945: LD_INT 30
+ 947: ST_TO_ADDR
+// hc_sex = sex_male ;
+ 948: LD_ADDR_OWVAR 27
+ 952: PUSH
+ 953: LD_INT 1
+ 955: ST_TO_ADDR
+// hc_skills = [ 2 , 2 , 4 , 3 ] ;
+ 956: LD_ADDR_OWVAR 31
+ 960: PUSH
+ 961: LD_INT 2
+ 963: PUSH
+ 964: LD_INT 2
+ 966: PUSH
+ 967: LD_INT 4
+ 969: PUSH
+ 970: LD_INT 3
+ 972: PUSH
+ 973: EMPTY
+ 974: LIST
+ 975: LIST
+ 976: LIST
+ 977: LIST
+ 978: ST_TO_ADDR
+// hc_attr = [ 11 , 10 ] ;
+ 979: LD_ADDR_OWVAR 29
+ 983: PUSH
+ 984: LD_INT 11
+ 986: PUSH
+ 987: LD_INT 10
+ 989: PUSH
+ 990: EMPTY
+ 991: LIST
+ 992: LIST
+ 993: ST_TO_ADDR
+// hc_name := Bertrand Zhirinov ;
+ 994: LD_ADDR_OWVAR 26
+ 998: PUSH
+ 999: LD_STRING Bertrand Zhirinov
+1001: ST_TO_ADDR
+// hc_gallery := ZieloneLaserki_RusCommanders ;
+1002: LD_ADDR_OWVAR 33
+1006: PUSH
+1007: LD_STRING ZieloneLaserki_RusCommanders
+1009: ST_TO_ADDR
+// hc_face_number := 3 ;
+1010: LD_ADDR_OWVAR 34
+1014: PUSH
+1015: LD_INT 3
+1017: ST_TO_ADDR
+// RuComm := CreateHuman ;
+1018: LD_ADDR_EXP 3
+1022: PUSH
+1023: CALL_OW 44
+1027: ST_TO_ADDR
+// end ;
+1028: LD_VAR 0 1
+1032: RET
+// export function PrepareBattle ( ) ; var i , mech1 , mech2 , mech3 , mech4 , mech5 , un ; begin
+1033: LD_INT 0
+1035: PPUSH
+1036: PPUSH
+1037: PPUSH
+1038: PPUSH
+1039: PPUSH
+1040: PPUSH
+1041: PPUSH
+1042: PPUSH
+// uc_nation = 1 ;
+1043: LD_ADDR_OWVAR 21
+1047: PUSH
+1048: LD_INT 1
+1050: ST_TO_ADDR
+// uc_side = 1 ;
+1051: LD_ADDR_OWVAR 20
+1055: PUSH
+1056: LD_INT 1
+1058: ST_TO_ADDR
+// PrepareMechanic ( 0 , 5 ) ;
+1059: LD_INT 0
+1061: PPUSH
+1062: LD_INT 5
+1064: PPUSH
+1065: CALL_OW 383
+// mech1 = CreateHuman ;
+1069: LD_ADDR_VAR 0 3
+1073: PUSH
+1074: CALL_OW 44
+1078: ST_TO_ADDR
+// mech2 = CreateHuman ;
+1079: LD_ADDR_VAR 0 4
+1083: PUSH
+1084: CALL_OW 44
+1088: ST_TO_ADDR
+// mech3 = CreateHuman ;
+1089: LD_ADDR_VAR 0 5
+1093: PUSH
+1094: CALL_OW 44
+1098: ST_TO_ADDR
+// mech4 = CreateHuman ;
+1099: LD_ADDR_VAR 0 6
+1103: PUSH
+1104: CALL_OW 44
+1108: ST_TO_ADDR
+// mech5 = CreateHuman ;
+1109: LD_ADDR_VAR 0 7
+1113: PUSH
+1114: CALL_OW 44
+1118: ST_TO_ADDR
+// PlaceHumanInUnit ( mech1 , tnk1 ) ;
+1119: LD_VAR 0 3
+1123: PPUSH
+1124: LD_INT 34
+1126: PPUSH
+1127: CALL_OW 52
+// PlaceHumanInUnit ( mech2 , tnk2 ) ;
+1131: LD_VAR 0 4
+1135: PPUSH
+1136: LD_INT 35
+1138: PPUSH
+1139: CALL_OW 52
+// PlaceHumanInUnit ( mech3 , tnk3 ) ;
+1143: LD_VAR 0 5
+1147: PPUSH
+1148: LD_INT 62
+1150: PPUSH
+1151: CALL_OW 52
+// PlaceHumanInUnit ( mech4 , tnk4 ) ;
+1155: LD_VAR 0 6
+1159: PPUSH
+1160: LD_INT 68
+1162: PPUSH
+1163: CALL_OW 52
+// PlaceHumanInUnit ( mech5 , tnk5 ) ;
+1167: LD_VAR 0 7
+1171: PPUSH
+1172: LD_INT 69
+1174: PPUSH
+1175: CALL_OW 52
+// for i = 1 to 7 do
+1179: LD_ADDR_VAR 0 2
+1183: PUSH
+1184: DOUBLE
+1185: LD_INT 1
+1187: DEC
+1188: ST_TO_ADDR
+1189: LD_INT 7
+1191: PUSH
+1192: FOR_TO
+1193: IFFALSE 1283
+// begin uc_side = 1 ;
+1195: LD_ADDR_OWVAR 20
+1199: PUSH
+1200: LD_INT 1
+1202: ST_TO_ADDR
+// uc_nation = 1 ;
+1203: LD_ADDR_OWVAR 21
+1207: PUSH
+1208: LD_INT 1
+1210: ST_TO_ADDR
+// hc_name =  ;
+1211: LD_ADDR_OWVAR 26
+1215: PUSH
+1216: LD_STRING 
+1218: ST_TO_ADDR
+// hc_gallery =  ;
+1219: LD_ADDR_OWVAR 33
+1223: PUSH
+1224: LD_STRING 
+1226: ST_TO_ADDR
+// PrepareHuman ( sex_male , 1 , 5 ) ;
+1227: LD_INT 1
+1229: PPUSH
+1230: LD_INT 1
+1232: PPUSH
+1233: LD_INT 5
+1235: PPUSH
+1236: CALL_OW 380
+// un = CreateHuman ;
+1240: LD_ADDR_VAR 0 8
+1244: PUSH
+1245: CALL_OW 44
+1249: ST_TO_ADDR
+// PlaceUnitArea ( un , AmSols , false ) ;
+1250: LD_VAR 0 8
+1254: PPUSH
+1255: LD_INT 2
+1257: PPUSH
+1258: LD_INT 0
+1260: PPUSH
+1261: CALL_OW 49
+// AMSolders = AMSolders ^ un ;
+1265: LD_ADDR_EXP 4
+1269: PUSH
+1270: LD_EXP 4
+1274: PUSH
+1275: LD_VAR 0 8
+1279: ADD
+1280: ST_TO_ADDR
+// end ;
+1281: GO 1192
+1283: POP
+1284: POP
+// for i = 1 to 7 do
+1285: LD_ADDR_VAR 0 2
+1289: PUSH
+1290: DOUBLE
+1291: LD_INT 1
+1293: DEC
+1294: ST_TO_ADDR
+1295: LD_INT 7
+1297: PUSH
+1298: FOR_TO
+1299: IFFALSE 1389
+// begin uc_side = 1 ;
+1301: LD_ADDR_OWVAR 20
+1305: PUSH
+1306: LD_INT 1
+1308: ST_TO_ADDR
+// uc_nation = 1 ;
+1309: LD_ADDR_OWVAR 21
+1313: PUSH
+1314: LD_INT 1
+1316: ST_TO_ADDR
+// hc_name =  ;
+1317: LD_ADDR_OWVAR 26
+1321: PUSH
+1322: LD_STRING 
+1324: ST_TO_ADDR
+// hc_gallery =  ;
+1325: LD_ADDR_OWVAR 33
+1329: PUSH
+1330: LD_STRING 
+1332: ST_TO_ADDR
+// PrepareHuman ( sex_male , 1 , 5 ) ;
+1333: LD_INT 1
+1335: PPUSH
+1336: LD_INT 1
+1338: PPUSH
+1339: LD_INT 5
+1341: PPUSH
+1342: CALL_OW 380
+// un = CreateHuman ;
+1346: LD_ADDR_VAR 0 8
+1350: PUSH
+1351: CALL_OW 44
+1355: ST_TO_ADDR
+// PlaceUnitArea ( un , Am2Sols , false ) ;
+1356: LD_VAR 0 8
+1360: PPUSH
+1361: LD_INT 3
+1363: PPUSH
+1364: LD_INT 0
+1366: PPUSH
+1367: CALL_OW 49
+// AM2Solders = AM2Solders ^ un ;
+1371: LD_ADDR_EXP 5
+1375: PUSH
+1376: LD_EXP 5
+1380: PUSH
+1381: LD_VAR 0 8
+1385: ADD
+1386: ST_TO_ADDR
+// end ;
+1387: GO 1298
+1389: POP
+1390: POP
+// for i = 1 to 3 do
+1391: LD_ADDR_VAR 0 2
+1395: PUSH
+1396: DOUBLE
+1397: LD_INT 1
+1399: DEC
+1400: ST_TO_ADDR
+1401: LD_INT 3
+1403: PUSH
+1404: FOR_TO
+1405: IFFALSE 1476
+// begin uc_side = 1 ;
+1407: LD_ADDR_OWVAR 20
+1411: PUSH
+1412: LD_INT 1
+1414: ST_TO_ADDR
+// uc_nation = 1 ;
+1415: LD_ADDR_OWVAR 21
+1419: PUSH
+1420: LD_INT 1
+1422: ST_TO_ADDR
+// hc_name =  ;
+1423: LD_ADDR_OWVAR 26
+1427: PUSH
+1428: LD_STRING 
+1430: ST_TO_ADDR
+// hc_gallery =  ;
+1431: LD_ADDR_OWVAR 33
+1435: PUSH
+1436: LD_STRING 
+1438: ST_TO_ADDR
+// PrepareHuman ( sex_male , 1 , 5 ) ;
+1439: LD_INT 1
+1441: PPUSH
+1442: LD_INT 1
+1444: PPUSH
+1445: LD_INT 5
+1447: PPUSH
+1448: CALL_OW 380
+// un = CreateHuman ;
+1452: LD_ADDR_VAR 0 8
+1456: PUSH
+1457: CALL_OW 44
+1461: ST_TO_ADDR
+// PlaceHumanInUnit ( un , ar1 ) ;
+1462: LD_VAR 0 8
+1466: PPUSH
+1467: LD_INT 15
+1469: PPUSH
+1470: CALL_OW 52
+// end ;
+1474: GO 1404
+1476: POP
+1477: POP
+// PrepareHuman ( sex_male , 1 , 5 ) ;
+1478: LD_INT 1
+1480: PPUSH
+1481: LD_INT 1
+1483: PPUSH
+1484: LD_INT 5
+1486: PPUSH
+1487: CALL_OW 380
+// un = CreateHuman ;
+1491: LD_ADDR_VAR 0 8
+1495: PUSH
+1496: CALL_OW 44
+1500: ST_TO_ADDR
+// PlaceHumanInUnit ( un , tur1 ) ;
+1501: LD_VAR 0 8
+1505: PPUSH
+1506: LD_INT 23
+1508: PPUSH
+1509: CALL_OW 52
+// PrepareHuman ( sex_male , 1 , 5 ) ;
+1513: LD_INT 1
+1515: PPUSH
+1516: LD_INT 1
+1518: PPUSH
+1519: LD_INT 5
+1521: PPUSH
+1522: CALL_OW 380
+// un = CreateHuman ;
+1526: LD_ADDR_VAR 0 8
+1530: PUSH
+1531: CALL_OW 44
+1535: ST_TO_ADDR
+// PlaceHumanInUnit ( un , tur2 ) ;
+1536: LD_VAR 0 8
+1540: PPUSH
+1541: LD_INT 27
+1543: PPUSH
+1544: CALL_OW 52
+// for i = 1 to 11 do
+1548: LD_ADDR_VAR 0 2
+1552: PUSH
+1553: DOUBLE
+1554: LD_INT 1
+1556: DEC
+1557: ST_TO_ADDR
+1558: LD_INT 11
+1560: PUSH
+1561: FOR_TO
+1562: IFFALSE 1636
+// begin uc_side = 3 ;
+1564: LD_ADDR_OWVAR 20
+1568: PUSH
+1569: LD_INT 3
+1571: ST_TO_ADDR
+// uc_nation = 3 ;
+1572: LD_ADDR_OWVAR 21
+1576: PUSH
+1577: LD_INT 3
+1579: ST_TO_ADDR
+// hc_name =  ;
+1580: LD_ADDR_OWVAR 26
+1584: PUSH
+1585: LD_STRING 
+1587: ST_TO_ADDR
+// hc_gallery =  ;
+1588: LD_ADDR_OWVAR 33
+1592: PUSH
+1593: LD_STRING 
+1595: ST_TO_ADDR
+// PrepareHuman ( sex_male , 1 , 10 ) ;
+1596: LD_INT 1
+1598: PPUSH
+1599: LD_INT 1
+1601: PPUSH
+1602: LD_INT 10
+1604: PPUSH
+1605: CALL_OW 380
+// un = CreateHuman ;
+1609: LD_ADDR_VAR 0 8
+1613: PUSH
+1614: CALL_OW 44
+1618: ST_TO_ADDR
+// PlaceUnitArea ( un , RuSols , false ) ;
+1619: LD_VAR 0 8
+1623: PPUSH
+1624: LD_INT 1
+1626: PPUSH
+1627: LD_INT 0
+1629: PPUSH
+1630: CALL_OW 49
+// end ;
+1634: GO 1561
+1636: POP
+1637: POP
+// for i = 1 to 4 do
+1638: LD_ADDR_VAR 0 2
+1642: PUSH
+1643: DOUBLE
+1644: LD_INT 1
+1646: DEC
+1647: ST_TO_ADDR
+1648: LD_INT 4
+1650: PUSH
+1651: FOR_TO
+1652: IFFALSE 1726
+// begin uc_side = 3 ;
+1654: LD_ADDR_OWVAR 20
+1658: PUSH
+1659: LD_INT 3
+1661: ST_TO_ADDR
+// uc_nation = 3 ;
+1662: LD_ADDR_OWVAR 21
+1666: PUSH
+1667: LD_INT 3
+1669: ST_TO_ADDR
+// hc_name =  ;
+1670: LD_ADDR_OWVAR 26
+1674: PUSH
+1675: LD_STRING 
+1677: ST_TO_ADDR
+// hc_gallery =  ;
+1678: LD_ADDR_OWVAR 33
+1682: PUSH
+1683: LD_STRING 
+1685: ST_TO_ADDR
+// PrepareHuman ( sex_male , class_bazooker , 10 ) ;
+1686: LD_INT 1
+1688: PPUSH
+1689: LD_INT 9
+1691: PPUSH
+1692: LD_INT 10
+1694: PPUSH
+1695: CALL_OW 380
+// un = CreateHuman ;
+1699: LD_ADDR_VAR 0 8
+1703: PUSH
+1704: CALL_OW 44
+1708: ST_TO_ADDR
+// PlaceUnitArea ( un , RuSols , false ) ;
+1709: LD_VAR 0 8
+1713: PPUSH
+1714: LD_INT 1
+1716: PPUSH
+1717: LD_INT 0
+1719: PPUSH
+1720: CALL_OW 49
+// end ;
+1724: GO 1651
+1726: POP
+1727: POP
+// end ; end_of_file
+1728: LD_VAR 0 1
+1732: RET
+// export function ColumnaVozov ( strona , pojazdy , x , y ) ; var i , veh , mech , soldat ; begin
+1733: LD_INT 0
+1735: PPUSH
+1736: PPUSH
+1737: PPUSH
+1738: PPUSH
+1739: PPUSH
+// uc_nation = nation_russian ;
+1740: LD_ADDR_OWVAR 21
+1744: PUSH
+1745: LD_INT 3
+1747: ST_TO_ADDR
+// uc_side = strona ;
+1748: LD_ADDR_OWVAR 20
+1752: PUSH
+1753: LD_VAR 0 1
+1757: ST_TO_ADDR
+// hc_name :=  ;
+1758: LD_ADDR_OWVAR 26
+1762: PUSH
+1763: LD_STRING 
+1765: ST_TO_ADDR
+// hc_gallery :=  ;
+1766: LD_ADDR_OWVAR 33
+1770: PUSH
+1771: LD_STRING 
+1773: ST_TO_ADDR
+// for i = 1 to pojazdy do
+1774: LD_ADDR_VAR 0 6
+1778: PUSH
+1779: DOUBLE
+1780: LD_INT 1
+1782: DEC
+1783: ST_TO_ADDR
+1784: LD_VAR 0 2
+1788: PUSH
+1789: FOR_TO
+1790: IFFALSE 1888
+// begin uc_direction = 3 ;
+1792: LD_ADDR_OWVAR 24
+1796: PUSH
+1797: LD_INT 3
+1799: ST_TO_ADDR
+// vc_chassis := ru_heavy_tracked ;
+1800: LD_ADDR_OWVAR 37
+1804: PUSH
+1805: LD_INT 24
+1807: ST_TO_ADDR
+// vc_engine := engine_combustion ;
+1808: LD_ADDR_OWVAR 39
+1812: PUSH
+1813: LD_INT 1
+1815: ST_TO_ADDR
+// vc_weapon := ru_heavy_gun ;
+1816: LD_ADDR_OWVAR 40
+1820: PUSH
+1821: LD_INT 46
+1823: ST_TO_ADDR
+// vc_control := control_computer ;
+1824: LD_ADDR_OWVAR 38
+1828: PUSH
+1829: LD_INT 3
+1831: ST_TO_ADDR
+// veh := CreateVehicle ;
+1832: LD_ADDR_VAR 0 7
+1836: PUSH
+1837: CALL_OW 45
+1841: ST_TO_ADDR
+// PlaceUnitXY ( veh , 86 , 3 , false ) ;
+1842: LD_VAR 0 7
+1846: PPUSH
+1847: LD_INT 86
+1849: PPUSH
+1850: LD_INT 3
+1852: PPUSH
+1853: LD_INT 0
+1855: PPUSH
+1856: CALL_OW 48
+// ComMoveXY ( veh , x , y ) ;
+1860: LD_VAR 0 7
+1864: PPUSH
+1865: LD_VAR 0 3
+1869: PPUSH
+1870: LD_VAR 0 4
+1874: PPUSH
+1875: CALL_OW 111
+// Wait ( 0 0$10 ) ;
+1879: LD_INT 350
+1881: PPUSH
+1882: CALL_OW 67
+// end ;
+1886: GO 1789
+1888: POP
+1889: POP
+// end ;
+1890: LD_VAR 0 5
+1894: RET
+// export function ColumnaLudziow ( strona , soldaty , x , y ) ; var i , veh , mech , soldat ; begin
+1895: LD_INT 0
+1897: PPUSH
+1898: PPUSH
+1899: PPUSH
+1900: PPUSH
+1901: PPUSH
+// uc_nation = nation_russian ;
+1902: LD_ADDR_OWVAR 21
+1906: PUSH
+1907: LD_INT 3
+1909: ST_TO_ADDR
+// uc_side = strona ;
+1910: LD_ADDR_OWVAR 20
+1914: PUSH
+1915: LD_VAR 0 1
+1919: ST_TO_ADDR
+// hc_name :=  ;
+1920: LD_ADDR_OWVAR 26
+1924: PUSH
+1925: LD_STRING 
+1927: ST_TO_ADDR
+// hc_gallery :=  ;
+1928: LD_ADDR_OWVAR 33
+1932: PUSH
+1933: LD_STRING 
+1935: ST_TO_ADDR
+// for i = 1 to soldaty do
+1936: LD_ADDR_VAR 0 6
+1940: PUSH
+1941: DOUBLE
+1942: LD_INT 1
+1944: DEC
+1945: ST_TO_ADDR
+1946: LD_VAR 0 2
+1950: PUSH
+1951: FOR_TO
+1952: IFFALSE 2035
+// begin PrepareSoldier ( 1 , 5 ) ;
+1954: LD_INT 1
+1956: PPUSH
+1957: LD_INT 5
+1959: PPUSH
+1960: CALL_OW 381
+// hc_attr = [ 10 , 10 ] ;
+1964: LD_ADDR_OWVAR 29
+1968: PUSH
+1969: LD_INT 10
+1971: PUSH
+1972: LD_INT 10
+1974: PUSH
+1975: EMPTY
+1976: LIST
+1977: LIST
+1978: ST_TO_ADDR
+// soldat = CreateHuman ;
+1979: LD_ADDR_VAR 0 9
+1983: PUSH
+1984: CALL_OW 44
+1988: ST_TO_ADDR
+// PlaceUnitXY ( soldat , 89 , 1 , false ) ;
+1989: LD_VAR 0 9
+1993: PPUSH
+1994: LD_INT 89
+1996: PPUSH
+1997: LD_INT 1
+1999: PPUSH
+2000: LD_INT 0
+2002: PPUSH
+2003: CALL_OW 48
+// ComMoveXY ( soldat , x , y ) ;
+2007: LD_VAR 0 9
+2011: PPUSH
+2012: LD_VAR 0 3
+2016: PPUSH
+2017: LD_VAR 0 4
+2021: PPUSH
+2022: CALL_OW 111
+// Wait ( 0 0$3 ) ;
+2026: LD_INT 105
+2028: PPUSH
+2029: CALL_OW 67
+// end ;
+2033: GO 1951
+2035: POP
+2036: POP
+// end ;
+2037: LD_VAR 0 5
+2041: RET
+// export function ColumnaLudziow2 ( strona , soldaty , x , y ) ; var i , veh , mech , soldat ; begin
+2042: LD_INT 0
+2044: PPUSH
+2045: PPUSH
+2046: PPUSH
+2047: PPUSH
+2048: PPUSH
+// uc_nation = nation_russian ;
+2049: LD_ADDR_OWVAR 21
+2053: PUSH
+2054: LD_INT 3
+2056: ST_TO_ADDR
+// uc_side = strona ;
+2057: LD_ADDR_OWVAR 20
+2061: PUSH
+2062: LD_VAR 0 1
+2066: ST_TO_ADDR
+// hc_name :=  ;
+2067: LD_ADDR_OWVAR 26
+2071: PUSH
+2072: LD_STRING 
+2074: ST_TO_ADDR
+// hc_gallery :=  ;
+2075: LD_ADDR_OWVAR 33
+2079: PUSH
+2080: LD_STRING 
+2082: ST_TO_ADDR
+// for i = 1 to soldaty do
+2083: LD_ADDR_VAR 0 6
+2087: PUSH
+2088: DOUBLE
+2089: LD_INT 1
+2091: DEC
+2092: ST_TO_ADDR
+2093: LD_VAR 0 2
+2097: PUSH
+2098: FOR_TO
+2099: IFFALSE 2182
+// begin PrepareSoldier ( 1 , 5 ) ;
+2101: LD_INT 1
+2103: PPUSH
+2104: LD_INT 5
+2106: PPUSH
+2107: CALL_OW 381
+// hc_attr = [ 10 , 10 ] ;
+2111: LD_ADDR_OWVAR 29
+2115: PUSH
+2116: LD_INT 10
+2118: PUSH
+2119: LD_INT 10
+2121: PUSH
+2122: EMPTY
+2123: LIST
+2124: LIST
+2125: ST_TO_ADDR
+// soldat = CreateHuman ;
+2126: LD_ADDR_VAR 0 9
+2130: PUSH
+2131: CALL_OW 44
+2135: ST_TO_ADDR
+// PlaceUnitXY ( soldat , 90 , 1 , false ) ;
+2136: LD_VAR 0 9
+2140: PPUSH
+2141: LD_INT 90
+2143: PPUSH
+2144: LD_INT 1
+2146: PPUSH
+2147: LD_INT 0
+2149: PPUSH
+2150: CALL_OW 48
+// ComMoveXY ( soldat , x , y ) ;
+2154: LD_VAR 0 9
+2158: PPUSH
+2159: LD_VAR 0 3
+2163: PPUSH
+2164: LD_VAR 0 4
+2168: PPUSH
+2169: CALL_OW 111
+// Wait ( 0 0$3 ) ;
+2173: LD_INT 105
+2175: PPUSH
+2176: CALL_OW 67
+// end ;
+2180: GO 2098
+2182: POP
+2183: POP
+// end ;
+2184: LD_VAR 0 5
+2188: RET

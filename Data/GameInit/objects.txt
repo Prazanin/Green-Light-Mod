@@ -1,0 +1,10 @@
+GAMEINIT
+  OBJECTS
+    OBJECT_LABEL "E(Basic informations)C(Základní informace)"
+    XCOORD_LABEL "E(x coord)C(pozice x)"
+    YCOORD_LABEL "E(y coord)C(pozice y)"
+    DIRECTION_LABEL "E(direction)C(smìr)"
+    FRAME_LABEL "E(frame)C(obrázek)"
+    RANDOM_LABEL "E(&Random)C(&Náhodnì)"
+  END_OF_OBJECTS
+END_OF_GAMEINIT

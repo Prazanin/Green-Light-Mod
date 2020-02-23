@@ -1,0 +1,6 @@
+begin
+? type grass
+ ! rgb 73 84 77
+ ! sat 73
+ ! all 85
+end
