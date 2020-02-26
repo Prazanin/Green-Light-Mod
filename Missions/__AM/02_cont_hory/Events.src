@@ -1,0 +1,66 @@
+export SiberiteMineTaken, DvaliContactMade;
+
+on BuildingComplete(building) do
+begin
+    if GetBType(building)=b_siberite_mine and GetSide(building)=7 and NOT SiberiteMineTaken then
+     begin
+      Say(Simone,'D2-Simone-1');
+      ChangeMissionObjectives('M2');
+      SiberiteMineTaken=true;
+      wait(0$25);
+      Say(Simone,'D2-Simone-2');
+     end;
+
+    if GetBType(building)=b_lab and GetSide(building)=1 then
+     begin
+      ComUpgrade(AM_Armor);
+      ComEnterUnit(AM_Scientists,building);
+      ComResearch(building,tech_Tech1);
+      AddComResearch(building,tech_Tech2);
+      AddComResearch(building,tech_Tech3);
+      AddComUpgradeLab(building,b_lab_weapon);
+      AddComResearch(building,tech_AdvMet);
+      AddComResearch(building,tech_Rocket);
+      AddComResearch(building,tech_Weap1);
+      AddComResearch(building,tech_Weap2);
+      AddComResearch(building,tech_Weap3);
+      AddComUpgradeLab(building,b_lab_computer);
+      AddComResearch(building,tech_AdvAI);
+      AddComResearch(building,tech_Comp1);
+      AddComResearch(building,tech_Comp2);
+      AddComResearch(building,tech_Comp3);
+     end;
+
+    if GetBType(building)=b_turret and GetSide(building)=1 then
+     begin
+
+      Case Rand(1,10) of
+      1..5:ComPlaceWeapon(building, us_heavy_gun);
+      6..8:ComPlaceWeapon(building, us_gatling_gun);
+      9..10:ComPlaceWeapon(building, us_rocket_launcher);
+      end;
+
+     end;
+end;
+
+on UpgradeComplete(building) do
+begin
+
+    if building=AM_Fab and GetSide(building)=1 then
+     begin
+      ComEnterUnit(AM_Mechs,building);
+     end;
+
+end;
+
+on Contact(side1,side2) do
+begin
+
+  if side1 in [7,8] and side2 in [7,8] and not DvaliContactMade then
+   begin
+   Say(Simone,'D5-Simone-1');
+   Say(Smithy,'D5-Smithy-1');
+   DvaliContactMade = true;
+   end;
+
+end;

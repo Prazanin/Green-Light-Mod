@@ -1,0 +1,11 @@
+begin
+? type terrain
+ ! all 87
+ ! sat 91
+ ! all 70
+new
+? type grass
+ ! all 63
+ ! rgb 143 129 63
+ ! sat 56
+end

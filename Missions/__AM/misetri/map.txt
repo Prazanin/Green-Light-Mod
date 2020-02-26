@@ -1,0 +1,632 @@
+MAIN_DEFINITIONS
+  SIZE 140 160
+  TICK 0
+  PLAYER_NUMBER 0
+  FOG_TYPE 0
+  FOGSIDES 1 2 3 4 5 6 7 8
+  MUCHY_RECT 0 0 0 0
+  EAGLES 0 50
+  WAVES 0
+  WATER_COLORS 0000 3 0000 3 0000
+END_OF_MAIN_DEFINITIONS
+
+HEXES
+  LINE 0 0 139
+    t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4rA t4rA t4rA t4r6sX t4r6v4sn t4r6vAsn t4r6vGsH t4r6vIsH t4r6vKsA t4vKsY t4r6vLsQ t4r6vLsQ t4r6vLsQ t4r6vLsQ t4r6vLsQ t4r6vLsQ t4r6vLsQ t4r6vKsY t4r6vKso t4r6vNsQ t4r6vNsQ t4r6vNsQ t4r6vNsQ t4r6vNsQ t4r6vNsQ t4r6vNsQ t4r6vNsR t4r6vKsR t4r6vKsQ t4r6vMso t4r6vPsQ t4r6vPsQ t4r6vPsQ t4r6vPsR t4r6vLsZ t4r6vLsR t4r6vLsR t4r6vLsR t4r6vLsR t4r6vLsR t4r6vLsW t4r6vP t4r6vP t4r6vPsQ t4r6vPsQ t4r6vPsQ t4r6vPsQ t4r6vPsQ t4r6vPsQ t4r6vPsQ t4r6vPsQ t4r6vPsQ t4r6vPsR
+  LINE 1 1 140
+    t4 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2rA t2rA t2rA t2 t2r6sX t2r6v4sn t2r6vAsn t2r6vGsP t2r6vJsH t2r6vLso t2r6vOsQ t2r6vOsR t2r6vO t2r6vO t2r6vO t2r6vO t2r6vO t2r6vOsQ t2r6vOsQ t2r6vQ t2r6vQ t2r6vQ t2r6vQ t2r6vQ t2r6vQ t2r6vQ t2r6vQ t2r6vNsR t2r6vN t2r6vNsf t2r6vS t2r6vS t2r6vS t2r6vS t2r6vPsR t2r6vOsZ t2r6vOsZ t2r6vOsJ t2r6vO t2r6vO t2r6vO t2r6vOs8 t2r6vOs8 t2r6vOsW t2r6vS t2r6vS t2r6vS t2r6vS t2r6vS t2r6vS t2r6vS t2r6vS t2r6vS t4r6vPsS
+  LINE 2 1 140
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA r6sX r6v4sn r6vAsn r6vGsH r6vIsP r6vLsn r6vR r6vR r6vOsR r6vOsR r6vOsR r6vO r6vO r6vOsQ r6vR r6vQsC r6vQ r6vQ r6vQ r6vQ r6vQ r6vQ r6vQ r6vQ r6vNsS r6vN r6vNsf r6vS r6vS r6vS r6vS r6vS r6vS r6vQsZ r6vOsp r6vOsJ r6vOsJ r6vO r6vO r6vO r6vOsW r6vOsW r6vOsW r6vS r6vS r6vS r6vS r6vS t2r6vS t4r6vRsC
+  LINE 3 2 141
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" r6sX r6v4sn r6vAsn r6vGsP r6vJsn r6vPsH r6vR r6vR r6vR r6vR r6vOsR r6vOsJ r6vOsO r6vR r6vQsD r6vQ r6vQ r6vQ r6vQ r6vQ r6vQ r6vQ r6vQ r6vNsS r6vN r6vNsf r6vS r6vS r6vS r6vS r6vS r6vS r6vSsH r6vU r6vQsZ r6vQsR r6vOsh r6vO r6vO r6vO r6vO r6vO r6vOsW r6vOsW r6vS r6vS r6vS r6vS t2r6vS t4r6vMsq
+  LINE 4 2 141
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA r6sX r6v4sf r6v9sn r6vFsP r6vIsn r6vOsH r6vQs8 r6vQs8 r6vQs8 r6vQs8 r6vQsD r6vQ r6vQ r6vQs8 r6vQsD r6vMsb r6vMsW r6vPs8 r6vPs8 r6vPs8 r6vPs8 r6vPsD r6vPsD r6vPsD r6vMsS r6vMs8 r6vNse r6vRs8 r6vRs8 r6vRs8 r6vRs8 r6vRs9 r6vSs9 r6vTs9 r6vTsB r6vT r6vT r6vOsh r6vOsR r6vNsD r6vNs8 r6vNs8 r6vNs8 r6vNsD r6vNse r6vOsW r6vS r6vS t2r6vNsj t4r6vMsq
+  LINE 5 3 142
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" r6sX r6v4sn r6vAsn r6vGsn r6vMsH r6vOsH r6vQ r6vQ r6vQ r6vQ r6vQ r6vQ r6vQ r6vQ r6vMsb r6vM r6vMsP r6vP r6vPsO r6vPsO r6vPsR r6vPsT r6vP r6vMsS r6vM r6vMsf r6vR r6vRsO r6vRsO r6vRsO r6vRsP r6vRsH r6vTsQ r6vTsR r6vTsR r6vT r6vT r6vRsK r6vNsa r6vN r6vNsO r6vNsO r6vNsO r6vN r6vNs8 r6vOsW r6vS r6vNsj t2r6vN t4r6vKsS
+  LINE 6 3 142
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA r6sX r6v4sf r6v9sn r6vFsP r6vIsn r6vOsH r6vQ r6vQ r6vQ r6vQ r6vQ r6vQ r6vQ r6vQ r6vMsa r6vM r6vMsP r6vP r6vPsQ r6vSsI r6vSsJ r6vS r6vPsS r6vP r6vMsS r6vM r6vMsf r6vRsP r6vU r6vU r6vU r6vRsT r6vRsg r6vW r6vW r6vTsS r6vT r6vPsb r6vNsa r6vN r6vNsQ r6vQ r6vQ r6vNsS r6vN r6vNs8 r6vNse r6vNsj t2r6vN t4r6vMsC
+  LINE 7 4 143
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" r6sX r6v4sn r6vAsn r6vGsn r6vMsH r6vOsH r6vQ r6vQ r6vQ r6vQ r6vQ r6vNsT r6vNsO r6vQ r6vMsa r6vM r6vMsP r6vPsP r6vSsH r6vU r6vSsJ r6vS r6vPsS r6vMsS r6vM r6vMsf r6vR r6vRsP r6vRsP r6vRsT r6vRsT r6vRsj r6vW r6vW r6vTsT r6vPsb r6vPsb r6vP r6vNsI r6vNsQ r6vQ r6vQ r6vNsS r6vN r6vN r6vN r6vN r6vN t2r6vN t4r6vKsS
+  LINE 8 4 143
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA r6sX r6v4sf r6v9sn r6vFsP r6vIsn r6vOsH r6vQ r6vQ r6vQsQ r6vQsQ r6vQsR r6vNsS r6vN r6vNsO r6vMsb r6vM r6vMsP r6vPsP r6vSsH r6vU r6vU r6vPsj r6vPsT r6vMsS r6vM r6vM r6vMsn r6vRsQ r6vRsQ r6vRsK r6vRsL r6vR r6vRsj r6vTsT r6vTsT r6vPsb r6vP r6vP r6vNsL r6vNsQ r6vQ r6vQ r6vNsT r6vN r6vJsb r6vJsW r6vJsW r6vN t2r6vN t4r6vMsC
+  LINE 9 5 144
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" r6sX r6v4sn r6vAsn r6vGsn r6vMsH r6vOsH r6vQ r6vQsP r6vT r6vT r6vQsS r6vNsS r6vN r6vMsD r6vM r6vMsP r6vP r6vPsO r6vSsG r6vSsL r6vPsj r6vP r6vMsT r6vMsJ r6vMsJ r6vMsn r6vSsH r6vU r6vTsC r6vT r6vRsJ r6vRsJ r6vT r6vT r6vPsa r6vP r6vP r6vNsL r6vN r6vNsO r6vNsT r6vNsT r6vIsj r6vIsj r6vIs8 r6vJ r6vJsX r6vN t2r6vN t4r6vKsS
+  LINE 10 5 144
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" r6sX r6v4sf r6v9sn r6vFsH r6vHsf r6vMsH r6vOsH r6vQsP r6vT r6vT r6vQsS r6vQ r6vNsS r6vMsC r6vM r6vM r6vMsP r6vP r6vPsO r6vPsO r6vPsT r6vP r6vMsT r6vMsG r6vO r6vMsH r6vMsn r6vSsH r6vTs9 r6vTsB r6vTsB r6vRsJ r6vNsp r6vNsm r6vT r6vPsa r6vNsL r6vNsL r6vN r6vN r6vN r6vIsj r6vIsj r6vI r6vI r6vIs9 r6vJsX r6vN t2r6vN t4r6vMsC
+  LINE 11 6 145
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sI r7sI r7sI r7sJ r7sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" r6sX r6v4sf r6v9sn r6vFsP r6vIsn r6vOsH r6vQ r6vQsP r6vT r6vT r6vQsS r6vQ r6vMsa r6vM r6vM r6vM r6vMsP r6vP r6vP r6vP r6vMsT r6vJsr r6vJsO r6vMsG r6vMsH r6vMsn r6vSsI r6vTs9 r6vTs9 r6vU r6vSsK r6vNsi r6vN r6vNsm r6vNsr r6vMsT r6vMsD r6vIsj r6vIsj r6vIsj r6vIsj r6vI r6vI r6vI r6vIsY r6vJsY r6vN r6vN t2r6vN t4r6vKsS
+  LINE 12 6 145
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sI r7v2so r7v2so r7v2so r7v2sp r7sJ r7sJ r7sJ r7sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" r6sX r6v4sf r6v9sn r6vFsP r6vIsn r6vOsH r6vQsP r6vT r6vT r6vQsS r6vQ r6vMsa r6vM r6vM r6vMsA r6vMso r6vPsQ r6vPsR r6vP r6vMsS r6vJsS r6vJ r6vJsP r6vM r6vMsn r6vSsH r6vU r6vU r6vU r6vSsK r6vS r6vNsi r6vMsD r6vMsD r6vMsD r6vM r6vIsa r6vI r6vI r6vI r6vI r6vI r6vI r6vIsX r6vMs9 r6vN r6vN t2r6vN t4r6vMsC
+  LINE 13 7 146
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1 v1 v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sI r7v2so r7v8 r7v8 r7v8 r7v2sp r7v2sp r7v2sp r7v2sp r7sJ sJ sJ "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsn r6vQ r6vQsP r6vT r6vT r6vQsS r6vMsa r6vKsL r6vKsG r6vMsA r6vNso r6vSso r6vSsp r6vPsp r6vPsp r6vKsi r6vJsB r6vJsA r6vKso r6vMso r6vS r6vSsH r6vU r6vU r6vSsK r6vS r6vS r6vMsq r6vM r6vM r6vM r6vM r6vIsZ r6vIsZ r6vI r6vI r6vI r6vI r6vI r6vIsW r6vJsW r6vN r6vN t2r6vN t4r6vKsS
+  LINE 14 7 146
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sA v1sA v1sB v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sI r7v2so r7v8 r7v8 r7v8sY r7v8sY r7v8sZ r7v8sZ r7v8sZ r7v2sp r7v2sp r7v2sp r7sJ r7sJ "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsH r6vKsn r6vQsP r6vT r6vT r6vQsS r6vMsa r6vKsK r6vK r6vKso r6vNso r6vTsf r6vY r6vVsR r6vV r6vPsp r6vKsp r6vKso r6vKso r6vQsQ r6vSsB r6vS r6vSsH r6vTs9 r6vTsB r6vSsB r6vSsB r6vSsB r6vMsp r6vMsB r6vM r6vM r6vM r6vM r6vIsZ r6vIsJ r6vIsJ r6vIsJ r6vI r6vI r6vIs9 r6vJsW r6vJsW t2r6vJsW t4r6vJsb
+  LINE 15 8 147
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sA v2 v2 v1sC sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sI r7sI r7v2so r7v8 r7v8sY r7v8sY r7vC r7vC r7vC r7vC r7v8sZ r7v8sZ r7v8 r7v2sp r7v2sp r7sJ sJ "" "" "" "" "" "" "" "" "" rA rA rA "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsH r6vMsW r6vPsW r6vT r6vT r6vNsq r6vKsS r6vK r6vKso r6vQsP r6vTsP r6vWsH r6vY r6vVsS r6vSsR r6vQsJ r6vQso r6vQso r6vQso r6vTsR r6vSsB r6vSsA r6vT r6vT r6vTsA r6vTsQ r6vTsR r6vSsJ r6vNsp r6vMsB r6vM r6vM r6vM r6vM r6vKsK r6vK r6vK r6vIsJ r6vI r6vIsA r6vJ r6vJ r6vJ t2r6vJ t4r6vGsS
+  LINE 16 8 147
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sA v2 v2 v1sC sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sI r7v2so r7v2so r7v8sY r7v8sY r7vC r7vC r7vC r7vCsY r7vCsZ r7vC r7vC r7v8sZ r7v8 r7v8 r7v2sp r7v2sp r7sJ "" "" "" "" "" "" "" "" rA rA rA "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsH r6vKsH r6vMsO r6vPsW r6vPsW r6vPsb r6vNsJ r6vKso r6vKso r6vQ r6vQsP r6vTsf r6vY r6vVsS r6vSsS r6vS r6vSso r6vWsJ r6vW r6vW r6vTsp r6vTsp r6vTsB r6vTsB r6vTsA r6vUsH r6vW r6vUsJ r6vTsC r6vNsp r6vMsB r6vM r6vM r6vKsL r6vKsL r6vK r6vK r6vK r6vIsQ r6vIsQ r6vJsQ r6vJsQ r6vJsR t2r6vJ t4r6vIsC
+  LINE 17 9 148
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1s9 v2 v2 v1sC v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2sn r7v8 r7v8sY r7vCsQ r7vCsR r7vC r7vCsY r7vCsY r7vG r7vCsZ r7vC r7vC r7v8sZ r7v8sZ r7v8 r7v8 r7v2sp r7sJ "" "" "" "" "" "" "" "" rA rA rA "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsH r6vM r6vMsP r6vP r6vP r6vP r6vPsA r6vQ r6vQ r6vQs9 r6vRsH r6vTse r6vVsT r6vSsS r6vS r6vSso r6vY r6vWsJ r6vW r6vWsQ r6vZ r6vUsp r6vUsp r6vU r6vU r6vUsG r6vW r6vTsS r6vT r6vNsq r6vMsC r6vM r6vIsb r6vIsG r6vK r6vK r6vKsQ r6vKsQ r6vLsI r6vLsI r6vM r6vM r6vJsR t2r6vJsR t4r6vGsS
+  LINE 18 9 148
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1s9 v2 v2 v1sC v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2sn r7v8 r7v8sY r7vCsQ r7vF r7vCsR r7vCsY r7vGsg r7vGsg r7vGsh r7vCsZ r7vCsZ r7vC r7vC r7v8sZ r7v8 r7v8 r7v2sp r7sJ "" "" "" "" "" "" "" "" rA rA "" "" r6sX r6v4sf r6v9sn r6vFsf r6vKsH r6vM r6vMsP r6vP r6vP r6vP r6vPsY r6vQsR r6vQsB r6vQsA r6vR r6vRsG r6vTsG r6vV r6vSsR r6vSso r6vYsI r6vYsJ r6vWsJ r6vWsQ r6vZ r6vZsA r6va r6vUsp r6vUsp r6vU r6vUsG r6vTsT r6vT r6vNsq r6vN r6vMsC r6vIsa r6vI r6vIsH r6vK r6vKsQ r6vN r6vN r6vN r6vMsB r6vM r6vM t2r6vM t4r6vIsa
+  LINE 19 10 149
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1s9 v2 v2 v1sC sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2sn r7v8sX r7vCsP r7vF r7vF r7vFs9 r7vGsf r7vLsQ r7vLsR r7vGsh r7vG r7vCsZ r7vCsZ r7vC r7v8sZ r7v8sZ r7v8 r7v2sp r7sJ "" "" "" "" "" "" "" rA rA rA "" r6sX r6v4sH r6v6sn r6vCsn r6vIsH r6vKsH r6vM r6vMsP r6vP r6vP r6vPsX r6vT r6vRsJ r6vRsJ r6vR r6vR r6vRsG r6vTsG r6vV r6vVsP r6vYsH r6va r6vYsJ r6vYsB r6vZ r6vZsY r6vasR r6va r6va r6vUsq r6vU r6vTsC r6vT r6vNsq r6vN r6vJsb r6vIsa r6vI r6vIsH r6vK r6vKsQ r6vN r6vN r6vNsQ r6vNsQ r6vMsZ r6vMsJ r6vM t2r6vJsS t4r6vGsS
+  LINE 20 10 149
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1s9 v2 v2 v1sC v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2sn r7v8sX r7vCsP r7vF r7vFsA r7vFsA r7vGsH r7vIsn r7vO r7vLsR r7vGsh r7vG r7vG r7vCsZ r7vCsZ r7vCsZ r7v8sZ r7v8 r7v2sp r7sJ "" "" "" "" "" "" rA rA rA "" r6sX r6v4sH r6v6sn r6vCsH r6vEsn r6vKsH r6vM r6vM r6vMsP r6vNsL r6vNsG r6vPsX r6vT r6vT r6vRsK r6vR r6vR r6vRsH r6vTsH r6vVsP r6vYsH r6va r6va r6vYsJ r6vYs9 r6vZsX r6vd r6vasR r6vYsL r6vYsL r6vUsa r6vU r6vTsC r6vNsq r6vN r6vJsb r6vJ r6vIsC r6vIsH r6vK r6vKsP r6vN r6vN r6vNsP r6vQ r6vQsY r6vOsp r6vMsJ t2r6vM t4r6vIsa
+  LINE 21 11 150
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1s9 v2 v1sC v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2sn r7v8 r7v8sX r7vCsP r7vFs9 r7vG r7vG r7vGsH r7vIsn r7vO r7vLsS r7vGsi r7vG r7vG r7vG r7vG r7vCsZ r7v8sZ r7v8 r7v2sp r7sJ "" "" "" "" "" rA rA rA rA "" r6sX r6v4sH r6v6sn r6vCsP r6vFsf r6vKsH r6vMsg r6vMsg r6vNsY r6vN r6vNsn r6vT r6vT r6vRsK r6vR r6vRsI r6vRsY r6vTsI r6vVsP r6vY r6vYsG r6vYsG r6vYsJ r6vYs9 r6vZsP r6vcsH r6vdsB r6vYsp r6vY r6vY r6vUsp r6vUsp r6vOsq r6vNsC r6vJsa r6vJ r6vIsC r6vI r6vIsH r6vKsP r6vN r6vN r6vN r6vNsP r6vQsX r6vU r6vOsq r6vMsK t2r6vM t4r6vGsq
+  LINE 22 11 150
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 v1s8 v1sD v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2sn r7v8 r7v8sW r7vCsO r7vCsW r7vCsW r7vG r7vGsf r7vLsO r7vLsT r7vL r7vGsi r7vG r7vEsL r7vEsG r7vG r7vCsa r7v8sa r7v8 r7v2sq r7sK "" "" "" "" "" rA rA rA "" r6sX r6v4sH r6v6sn r6vCsH r6vEs9 r6vFsn r6vLsn r6vR r6vR r6vNsZ r6vNsn r6vT r6vT r6vT r6vRsJ r6vRsI r6vTsH r6vV r6vV r6vVsP r6vY r6vYsG r6vYsG r6vYsH r6vZsA r6vasX r6vesA r6vesB r6vYsq r6vY r6vYsI r6va r6vUsq r6vOsq r6vJsi r6vJ r6vJ r6vIsC r6vIsH r6vK r6vKsP r6vN r6vN r6vN r6vNsn r6vTs8 r6vOsq r6vMsK t2r6vM t4r6vLsC
+  LINE 23 12 151
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 sD sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2sn r7v8 r7v8sW r7v8sW r7v8sW r7vCsW r7vCsW r7vFsm r7vFsm r7vGse r7vGsj r7vCsb r7vCsb r7vE r7vEsG r7vEsL r7vCsK r7v8sa r7v2sq r7sK "" "" "" "" "" rA rA rA rA "" r6sX r6v4sH r6v6sn r6vCsH r6vEsn r6vKsH r6vMsf r6vR r6vR r6vRs9 r6vSsn r6vTsh r6vTsB r6vT r6vT r6vT r6vTsH r6vV r6vVsP r6vY r6vYsH r6va r6va r6va r6vasX r6ves9 r6vf r6vasi r6vYsJ r6vYsI r6va r6va r6vUsq r6vOsq r6vJsi r6vJ r6vIsC r6vI r6vIsH r6vKsP r6vN r6vN r6vN r6vN r6vNsn r6vRsL r6vMsi r6vM t2r6vM t4r6vGsq
+  LINE 24 12 151
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sG r7v2sm r7v2sm r7v2sm r7v8 r7v8sW r7v8sW r7v9sm r7v9sm r7vAsm r7vAsm r7vAsr r7vAsG r7vCsG r7vE r7vE r7vE r7v8sq r7v8 r7v2sq r7sK "" "" "" "" rA rA rA rA "" "" r6sX r6v4sf r6v9sP r6vCsP r6vFsf r6vKsH r6vMsf r6vR r6vRs9 r6vSsn r6vY r6vUsZ r6vTsR r6vTsB r6vT r6vTsH r6vV r6vUsD r6vUsW r6vY r6vYsG r6va r6vYsL r6vYsG r6vYsm r6vcsO r6vesD r6vasb r6vasA r6vasB r6vVsj r6vUsq r6vOsq r6vNsC r6vJsZ r6vJsZ r6vIsB r6vIsI r6vK r6vKsO r6vN r6vN r6vN r6vNsX r6vR r6vMsi r6vM t2r6vM t4r6vIsa
+  LINE 25 13 152
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sG r7sG r7sG r7v2sm r7v2sm r7v2sm r7v3sm r7v8s8 r7v8sG r7v8sG r7v8sG r7v8sG r7v8sW r7vAsW r7vAsW r7vAsW r7vAsb r7v8sK r7v2sq r7sK "" "" "" "" "" rA rA rA rA "" r6sX r6v4sf r6v9sP r6vCsH r6vEsn r6vKsH r6vMsP r6vPsH r6vR r6vRs9 r6vSsn r6vWsL r6vW r6vUsJ r6vTsB r6vTsA r6vUs9 r6vUs9 r6vU r6vUsW r6vUsW r6vYsG r6vYsL r6vY r6vY r6vYsW r6vcsG r6vasb r6vasT r6vbsJ r6vVsq r6vV r6vUsC r6vOsq r6vNsC r6vN r6vJsZ r6vJsR r6vK r6vK r6vKsO r6vKsO r6vN r6vN r6vNsW r6vMsi r6vM r6vM t2r6vJsS t4r6vGsS
+  LINE 26 13 152
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sG r7sG r7sG r7sO r7v2sm r7v2sm r7v2sm r7v2sm r7v8 r7v8 r7v8sG r7vA r7vA r7vA r7v8sL r7v8 r7v2sq r7sK "" "" "" "" rA rA rA rA "" "" r6sX r6v4sf r6v9sn r6vEsn r6vKsH r6vMsP r6vP r6vPsH r6vRs9 r6vSsH r6vUsH r6vW r6vW r6vUsK r6vU r6vUs9 r6vV r6vUsC r6vU r6vU r6vUsW r6vUsW r6vXs8 r6vY r6vY r6vYsW r6vYsb r6vYse r6vd r6vbsK r6vVsq r6vVsp r6vUsC r6vOsq r6vNsC r6vMsC r6vM r6vKsJ r6vK r6vK r6vK r6vKsO r6vKsO r6vKsO r6vN r6vMsC r6vM t2r6vJsS t4r6vIsC
+  LINE 27 14 153
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sG r7sG r7sG r7sG r7v2sm r7v2sm r7v2sm r7v4sm r7v4sm r7v4sm r7v4sr r7v2sr r7v2sr r7sK "" "" "" "" rA rA rA rA "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsH r6vKsH r6vMsP r6vP r6vPsH r6vRs9 r6vSsX r6vW r6vW r6vUsK r6vU r6vU r6vTsH r6vTsG r6vU r6vU r6vU r6vSsL r6vSse r6vSsm r6vSsm r6vSsm r6vSsm r6vSsm r6vXsm r6vXsr r6vXsa r6vb r6vVsp r6vUsC r6vOsq r6vMsK r6vM r6vM r6vKsZ r6vKsZ r6vK r6vK r6vK r6vK r6vKsO r6vJsb r6vJsT r6vJsT t2r6vJ t4r6vGsS
+  LINE 28 14 153
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sG r7sG r7sG r7sW r7sW r7sW r7sW r7sb r7sL r7sL "" "" "" "" rA rA rA rA "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsH r6vMsP r6vP r6vP r6vPsH r6vRsP r6vUsG r6vUsG r6vW r6vUsJ r6vU r6vTsC r6vRsL r6vRsO r6vU r6vU r6vSsK r6vRsD r6vRs8 r6vRs8 r6vRs8 r6vRs8 r6vRs8 r6vRsm r6vX r6vX r6vXsa r6vb r6vVsp r6vUsC r6vOsq r6vMsK r6vM r6vMsH r6vO r6vKsZ r6vKsZ r6vK r6vK r6vK r6vJsC r6vJ r6vJ t2r6vJ t4r6vJsA
+  LINE 29 15 154
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsH r6vKsf r6vP r6vP r6vP r6vPsG r6vPse r6vU r6vUsG r6vW r6vUsJ r6vUsJ r6vRsS r6vR r6vRsO r6vUsA r6vUsB r6vRsS r6vQsD r6vQs8 r6vR r6vR r6vR r6vR r6vRsn r6vX r6vX r6vXsW r6vb r6vVsq r6vPsq r6vMsS r6vM r6vMsH r6vO r6vO r6vO r6vKsZ r6vKsZ r6vK r6vJsC r6vJ r6vJ r6vJ t2r6vJsQ t4r6vKsJ
+  LINE 30 15 154
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsf r6vP r6vP r6vP r6vP r6vP r6vPsf r6vU r6vUsG r6vW r6vW r6vRsi r6vR r6vR r6vRsX r6vV r6vUsC r6vQsa r6vQ r6vQs9 r6vR r6vR r6vQsD r6vQsn r6vWs9 r6vX r6vX r6vXsW r6vb r6vVsq r6vPsq r6vMsS r6vM r6vMsH r6vO r6vO r6vO r6vO r6vKsZ r6vKsJ r6vJsR r6vJ r6vJsY t2r6vJsY t4r6vMsB
+  LINE 31 16 155
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsf r6vNsH r6vP r6vP r6vLsb r6vLsW r6vOsn r6vU r6vU r6vUsG r6vW r6vW r6vRsi r6vR r6vR r6vRsX r6vUsD r6vQsa r6vQ r6vQs9 r6vR r6vR r6vPsL r6vPs8 r6vQsn r6vWs9 r6vX r6vX r6vXsW r6vXsa r6vUsS r6vOsq r6vMsK r6vM r6vMsH r6vO r6vO r6vO r6vO r6vMsK r6vM r6vJsY r6vJsY r6vN t2r6vN t4r6vKsS
+  LINE 32 16 155
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsf r6vP r6vP r6vLsa r6vL r6vLsP r6vOsn r6vU r6vU r6vUsG r6vW r6vRsi r6vR r6vR r6vRsP r6vU r6vQsa r6vQ r6vQ r6vQs8 r6vR r6vPsL r6vP r6vPs9 r6vQsn r6vWs9 r6vX r6vX r6vX r6vXsS r6vUsp r6vOsq r6vMsK r6vM r6vMsG r6vO r6vO r6vO r6vMsK r6vM r6vMs9 r6vN r6vN t2r6vN t4r6vMsC
+  LINE 33 17 156
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsf r6vNsH r6vP r6vP r6vLsY r6vLsg r6vOsn r6vU r6vU r6vU r6vUsG r6vRsi r6vQsD r6vQsD r6vQsb r6vU r6vQsa r6vQ r6vQ r6vQ r6vQs8 r6vPsL r6vP r6vPs9 r6vQsn r6vWs9 r6vX r6vX r6vX r6vXsP r6va r6vUsq r6vOsq r6vMsK r6vM r6vMsG r6vMsG r6vMsG r6vMsL r6vM r6vMs9 r6vN r6vNsQ r6vNsR t2r6vN t4r6vKsS
+  LINE 34 17 156
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsf r6vP r6vP r6vLsb r6vLsg r6vQ r6vQsX r6vU r6vU r6vU r6vU r6vQsa r6vQ r6vQ r6vQsX r6vQsa r6vQ r6vQ r6vQ r6vOsL r6vOsG r6vP r6vP r6vPsH r6vRsn r6vX r6vX r6vX r6vX r6vXsP r6vUsq r6vOsq r6vMsK r6vM r6vM r6vLsD r6vLs8 r6vM r6vM r6vM r6vMs9 r6vNsP r6vQ t2r6vNsR t4r6vMsa
+  LINE 35 18 157
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsf r6vNsH r6vP r6vLsb r6vLsj r6vQ r6vQsX r6vU r6vU r6vU r6vU r6vQsa r6vQ r6vQ r6vQsX r6vU r6vQsa r6vQ r6vQ r6vOsL r6vO r6vOs8 r6vOs8 r6vPsH r6vRsn r6vX r6vX r6vX r6vXsQ r6vXsQ r6va r6vUsq r6vOsq r6vMsK r6vLsC r6vLsB r6vL r6vLs8 r6vLs8 r6vM r6vMs9 r6vNsP r6vQ r6vQ t2r6vQ t4r6vKsq
+  LINE 36 18 157
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sB "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsf r6vP r6vLsa r6vL r6vLse r6vNsO r6vOsm r6vU r6vU r6vU r6vPsj r6vPs8 r6vQ r6vQsX r6vU r6vQsa r6vQ r6vOsL r6vOsL r6vO r6vO r6vO r6vOs9 r6vPsH r6vRsn r6vX r6vX r6vXsQ r6va r6va r6vUsq r6vOsq r6vMsK r6vLsC r6vLsq r6vLsp r6vL r6vL r6vJsO r6vJsO r6vMs9 r6vNsP r6vQ t2r6vQ t4r6vMsa
+  LINE 37 19 158
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsH r6vKsf r6vMsT r6vLsD r6vLsG r6vN r6vNs9 r6vOsn r6vU r6vU r6vPsj r6vP r6vPsQ r6vQsI r6vSsG r6vOsr r6vOsL r6vOsL r6vO r6vO r6vO r6vO r6vO r6vOsH r6vQsn r6vWs9 r6vX r6vXsQ r6va r6va r6va r6vUsq r6vOsq r6vLsS r6vLsq r6vR r6vLsp r6vLsp r6vJsK r6vJ r6vJsX r6vN r6vNsP r6vQ t2r6vQ t4r6vKsq
+  LINE 38 19 158
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsH r6vM r6vIsb r6vIsT r6vIse r6vNs9 r6vOsn r6vU r6vU r6vPsj r6vP r6vPsQ r6vS r6vS r6vOsa r6vO r6vO r6vO r6vO r6vO r6vO r6vOsA r6vOsA r6vPs9 r6vQsn r6vWsX r6vXsQ r6va r6va r6va r6vUsq r6vOsq r6vLsS r6vL r6vLsn r6vR r6vR r6vLsp r6vJsJ r6vJ r6vJsX r6vN r6vNsO t2r6vQ t4r6vMsa
+  LINE 39 20 159
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" r6sX r6v4sf r6v9sn r6vFsf r6vKsH r6vM r6vIsa r6vI r6vI r6vIse r6vIsm r6vOsm r6vU r6vPsj r6vP r6vPsY r6vSsB r6vS r6vOsa r6vO r6vO r6vO r6vO r6vO r6vO r6vOsA r6vP r6vP r6vPsf r6vUsn r6va r6va r6va r6va r6vUsq r6vOsq r6vJsj r6vJsG r6vLsn r6vR r6vR r6vR r6vLsp r6vJsJ r6vJsA r6vKsO r6vN r6vNsO t2r6vNsT t4r6vKsS
+  LINE 40 20 159
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsH r6vKsH r6vM r6vIsa r6vI r6vI r6vI r6vIsm r6vOsm r6vPse r6vP r6vPsY r6vT r6vSsB r6vS r6vOsa r6vO r6vO r6vO r6vO r6vO r6vOsA r6vP r6vP r6vPsX r6vTs9 r6vUsn r6va r6vUsr r6vUsr r6vUsr r6vOsq r6vJsi r6vJ r6vJsH r6vLsn r6vR r6vR r6vR r6vLsp r6vKsB r6vK r6vKsO r6vKsO t2r6vN t4r6vMsC
+  LINE 41 21 160
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsH r6vM r6vM r6vIsZ r6vI r6vI r6vI r6vIsm r6vNsG r6vPsW r6vPsY r6vT r6vT r6vSsB r6vS r6vOsZ r6vO r6vO r6vO r6vO r6vOsA r6vP r6vPsY r6vPsX r6vT r6vTs8 r6vUsm r6vUsr r6vTsD r6vOsr r6vOsr r6vJsi r6vJ r6vJsH r6vLsn r6vRsA r6vRsQ r6vRsR r6vRsB r6vLsp r6vKsB r6vK r6vK r6vKsO t2r6vN t4r6vKsS
+  LINE 42 21 160
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsH r6vKsH r6vM r6vM r6vIsZ r6vIsZ r6vIsQ r6vIsg r6vN r6vNsn r6vT r6vT r6vT r6vT r6vSsB r6vSsB r6vOsZ r6vOsZ r6vO r6vOsA r6vOsA r6vP r6vPsX r6vT r6vNsm r6vNsm r6vOsm r6vOsm r6vOsr r6vOsj r6vNsD r6vNsD r6vJsZ r6vJsY r6vLsn r6vRsY r6vSso r6vUsY r6vSsp r6vRsZ r6vLsp r6vKsJ r6vK r6vK t2r6vKsO t4r6vMsC
+  LINE 43 22 161
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsH r6vM r6vM r6vM r6vM r6vLso r6vLso r6vNsY r6vNsY r6vRsG r6vRsG r6vT r6vTsg r6vTsh r6vT r6vSsB r6vS r6vOsZ r6vOsY r6vP r6vP r6vNsL r6vNsm r6vNsr r6vN r6vNs9 r6vOsG r6vOsG r6vOsL r6vNsT r6vN r6vN r6vN r6vNsH r6vPsn r6vVsP r6vY r6vY r6vVsR r6vRsZ r6vMsp r6vKsh r6vK r6vKsP t2r6vN t4r6vKsS
+  LINE 44 22 161
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" r6sX r6v4sf r6v9sn r6vFsf r6vKsH r6vM r6vM r6vM r6vMsg r6vMsg r6vR r6vR r6vR r6vR r6vR r6vRsG r6vSsm r6vY r6vTsi r6vT r6vSsC r6vS r6vS r6vNsj r6vNsG r6vNsG r6vN r6vN r6vN r6vNsQ r6vOsI r6vQ r6vQsQ r6vQsR r6vNsR r6vN r6vN r6vNsH r6vPsn r6vV r6vVsP r6vY r6vY r6vVsS r6vSsR r6vPsp r6vKsh r6vK t2r6vKsP t4r6vMsC
+  LINE 45 23 162
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" r6sX r6v4sf r6v9sn r6vFsf r6vKsH r6vM r6vM r6vMsg r6vMsg r6vR r6vR r6vR r6vR r6vR r6vLsr r6vLsm r6vMsm r6vSsm r6vSsr r6vRsL r6vNsr r6vNse r6vNse r6vNsj r6vMsD r6vMs8 r6vNsW r6vNsZ r6vNsZ r6vNsQ r6vQ r6vQ r6vQsQ r6vT r6vQsR r6vNsp r6vN r6vNsH r6vPsn r6vV r6vV r6vVsO r6vY r6vVsS r6vV r6vV r6vPsq r6vKsi r6vKsQ t2r6vN t4r6vKsS
+  LINE 46 23 162
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" r6sX r6v4sf r6v9sn r6vFsf r6vKsH r6vM r6vM r6vMsg r6vR r6vR r6vPsL r6vPsG r6vPsG r6vR r6vLsr r6vL r6vLs8 r6vMsm r6vRs8 r6vRsD r6vNsa r6vN r6vN r6vNsW r6vMsj r6vM r6vMsf r6vR r6vR r6vQsC r6vQ r6vQ r6vQsQ r6vT r6vT r6vT r6vNsp r6vNsR r6vP r6vPsn r6vV r6vSsT r6vSsm r6vVsT r6vV r6vV r6vPsq r6vNsK r6vN t2r6vN t4r6vMsC
+  LINE 47 24 163
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" "" "" "" "" "" rA rA rA "" "" "" "" r6sX r6v4sf r6v9sn r6vFsf r6vKsH r6vM r6vM r6vMsg r6vR r6vR r6vPsL r6vP r6vP r6vLsm r6vLsr r6vL r6vL r6vLs8 r6vMsf r6vR r6vR r6vNsZ r6vNsY r6vNsY r6vR r6vMsj r6vMsf r6vR r6vR r6vQsC r6vQ r6vQ r6vQsP r6vT r6vT r6vT r6vT r6vQsR r6vPsR r6vPso r6vV r6vSsT r6vS r6vSsO r6vSsO r6vSsO r6vSsT r6vPsS r6vNsK r6vN t2r6vN t4r6vKsS
+  LINE 48 24 163
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" "" "" "" "" "" rA rA rA "" "" "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsH r6vKsH r6vM r6vMsf r6vR r6vR r6vPsK r6vP r6vP r6vLsa r6vL r6vL r6vL r6vL r6vLsn r6vR r6vR r6vR r6vR r6vR r6vR r6vOsT r6vO r6vOsP r6vR r6vR r6vQsC r6vQ r6vQsP r6vT r6vT r6vT r6vT r6vT r6vSsB r6vSsR r6vV r6vSsT r6vS r6vS r6vS r6vS r6vS r6vS r6vNsi r6vN t2r6vN t4r6vMsC
+  LINE 49 25 164
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sI r7sJ r7 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" "" "" "" "" rA rA rA "" "" "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsH r6vM r6vMsf r6vR r6vR r6vPsK r6vP r6vP r6vLsa r6vL r6vL r6vL r6vL r6vLsf r6vQs9 r6vR r6vR r6vR r6vOsT r6vOsT r6vOsT r6vO r6vOsP r6vR r6vR r6vR r6vQsC r6vPsD r6vPsW r6vSs8 r6vT r6vT r6vT r6vT r6vSsB r6vSsR r6vSsT r6vS r6vS r6vS r6vS r6vS r6vS r6vS r6vNsh r6vN t2r6vN t4r6vKsS
+  LINE 50 25 164
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sI r7sI r7sI r7sI r7v2 r7sJ r7sJ r7sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" "" "" "" rA rA rA "" "" "" "" "" r6sX r6v4sf r6v9sn r6vFsf r6vKsH r6vM r6vMsH r6vOsP r6vOsO r6vR r6vPsJ r6vP r6vLsa r6vL r6vL r6vLsg r6vLsg r6vLsg r6vQso r6vRsh r6vR r6vR r6vOsS r6vO r6vO r6vO r6vOsP r6vR r6vR r6vR r6vR r6vPsK r6vP r6vPsO r6vSs8 r6vT r6vT r6vT r6vSsB r6vSsJ r6vSsJ r6vS r6vS r6vS r6vS r6vS r6vSsI r6vSsI r6vSsJ r6vNsp t2r6vN t4r6vMsC
+  LINE 51 26 165
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sI r7v2 r7v2sQ r7v2sQ r7v2sQ r7v2sQ r7v2sR r7v2sR r7sJ r7sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 v1 sC "" "" "" "" "" rA rA rA "" "" "" "" r6sX r6v4sf r6v9sn r6vFsf r6vKsH r6vM r6vMsg r6vOsP r6vO r6vOsP r6vR r6vPsJ r6vPsB r6vLsh r6vLsg r6vLsg r6vQso r6vQso r6vQso r6vW r6vRsh r6vRsh r6vR r6vOsS r6vO r6vO r6vO r6vOsP r6vR r6vR r6vPsL r6vPsL r6vP r6vP r6vPsO r6vSs8 r6vT r6vT r6vSs9 r6vSsJ r6vU r6vSsK r6vS r6vS r6vS r6vSsI r6vSsI r6vU r6vU r6vTsC r6vNsq t2r6vN t4r6vKsS
+  LINE 52 26 165
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2 r7v2sP r7v5 r7v5 r7v5 r7v5 r7v5 r7v2sR r7v2sR r7sh r7sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 sD "" "" "" "" "" rA rA rA rA "" "" "" r6sX r6v4sf r6v9sn r6vFsf r6vKsH r6vM r6vMsf r6vR r6vOsR r6vOsQ r6vR r6vRsg r6vQsp r6vQ r6vQso r6vQso r6vQso r6vW r6vW r6vW r6vW r6vW r6vRsh r6vQsp r6vOsJ r6vO r6vO r6vOsP r6vR r6vR r6vPsL r6vP r6vP r6vP r6vP r6vPsO r6vOse r6vOse r6vQsP r6vSsH r6vU r6vQsb r6vPsT r6vPsO r6vS r6vSsH r6vU r6vU r6vU r6vTsC r6vNsq t2r6vN t4r6vMsC
+  LINE 53 27 166
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2 r7v2 r7v2sP r7v5 r7v5sg r7v5sg r7v5sg r7v5sh r7v5sh r7v5 r7v2sR r7sJ r7sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsH r6vKsH r6vM r6vMsf r6vR r6vR r6vRsg r6vRsg r6vW r6vQsp r6vQso r6vW r6vW r6vW r6vW r6vW r6vW r6vW r6vW r6vW r6vQsp r6vOsR r6vOsR r6vOsQ r6vR r6vR r6vPsL r6vP r6vPsY r6vPsZ r6vP r6vP r6vOsC r6vO r6vOsH r6vQsX r6vU r6vQsb r6vNsT r6vNsL r6vNse r6vNse r6vOsm r6vU r6vU r6vTsC r6vT r6vNsq t2r6vN t4r6vKsS
+  LINE 54 27 166
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sG r7sG r7v2sP r7v5 r7v5sf r7vA r7vA r7vA r7vA r7v5si r7v5 r7v2sR r7v2sR r7sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHs9 r6vIsH r6vKsH r6vMsf r6vR r6vR r6vRsf r6vW r6vW r6vW r6vW r6vW r6vW r6vW r6vW r6vW r6vW r6vSsb r6vSsW r6vW r6vW r6vRsh r6vRsZ r6vR r6vR r6vR r6vPsK r6vP r6vPsX r6vT r6vPsZ r6vPsB r6vP r6vOsB r6vOsH r6vQsX r6vU r6vQsb r6vNsT r6vNsb r6vNsb r6vN r6vNs8 r6vOsm r6vSsG r6vTsD r6vT r6vNsq t2r6vN t4r6vMsC
+  LINE 55 28 167
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2sP r7v5sf r7vA r7vAsY r7vAsY r7vAsZ r7v7sp r7v5sJ r7v5 r7v5 r7v2sR r7sJ r7sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHs9 r6vIsH r6vKsH r6vMse r6vMse r6vRsf r6vW r6vW r6vW r6vW r6vW r6vW r6vRsj r6vRse r6vRse r6vRsj r6vSsb r6vS r6vSsX r6vW r6vWsg r6vVsp r6vRsh r6vRsh r6vRsh r6vPsK r6vP r6vP r6vPsX r6vTsQ r6vQsp r6vPsZ r6vP r6vOs8 r6vOsG r6vQsW r6vQsb r6vNsT r6vNsb r6vR r6vNsa r6vN r6vNs8 r6vOsX r6vSs8 r6vT r6vRsK r6vNsa t2r6vN t4r6vKsS
+  LINE 56 28 167
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2 r7v2sP r7v5sf r7vAsX r7vE r7vEsg r7vDsp r7v7sp r7v5sh r7v5 r7v5 r7v2sR r7v2sR r7sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsH r6vM r6vM r6vMse r6vQsm r6vW r6vW r6vQsr r6vQsm r6vRse r6vRsj r6vR r6vRse r6vRse r6vRsD r6vS r6vSsX r6vW r6vWsf r6vb r6vWsi r6vW r6vW r6vRsh r6vPsh r6vP r6vPsX r6vTsg r6vWsJ r6vTsR r6vPsZ r6vP r6vKse r6vKsm r6vQ r6vNsT r6vN r6vNsW r6vNsb r6vN r6vN r6vNsP r6vQsG r6vSs8 r6vRsL r6vR t2r6vNsa t4r6vMsC
+  LINE 57 29 168
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2 r7v2sP r7v5sP r7v8sn r7vE r7vEsf r7vJ r7vDsq r7vAsR r7v5sp r7v5sh r7v5 r7v5 r7v2sR r7sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" r6sX r6v4sf r6v9sn r6vFsf r6vKsH r6vM r6vIsb r6vIsW r6vMsW r6vQsm r6vRse r6vQsr r6vLsj r6vLsm r6vLsm r6vQs8 r6vRsf r6vW r6vRse r6vRsA r6vS r6vSsX r6vWsf r6vb r6vWsi r6vW r6vW r6vW r6vUsK r6vPsh r6vPsY r6vTsf r6vY r6vWsK r6vTsS r6vPsa r6vKsi r6vK r6vKso r6vNsQ r6vN r6vN r6vN r6vN r6vNsQ r6vNsQ r6vQ r6vQsG r6vRsD r6vR r6vR t2r6vNsa t4r6vKsS
+  LINE 58 29 168
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2sP r7v5 r7v5sf r7vAsX r7vE r7vEsf r7vIsB r7vDsh r7vBsp r7vAsJ r7v5sh r7v5sh r7v5 r7v2sR r7sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" r6sX r6v4sf r6v9sn r6vFsf r6vKsH r6vM r6vIsa r6vI r6vIsW r6vMsW r6vNsW r6vNsb r6vLsj r6vL r6vL r6vLse r6vQsn r6vW r6vRse r6vRsg r6vSsY r6vSsY r6vW r6vWsf r6vb r6vWsg r6vWsY r6vWsZ r6vUsK r6vU r6vTsB r6vTsO r6vWsG r6vWsL r6vTsS r6vPsa r6vP r6vKsi r6vKsI r6vMsY r6vNsR r6vNsB r6vNsB r6vNsA r6vNsQ r6vQ r6vQ r6vQ r6vQs9 r6vR r6vR t2r6vNsa t4r6vMsC
+  LINE 59 30 169
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2sP r7v5 r7v5sf r7vAsX r7vE r7vEsP r7vHsp r7vIsh r7vHsp r7vCsp r7vAsJ r7vAsJ r7v5sh r7v5 r7v2sR r7sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" r6sX r6v4sf r6v9sn r6vFsf r6vKsH r6vM r6vIsa r6vI r6vI r6vIsW r6vIse r6vN r6vN r6vLsK r6vL r6vL r6vLse r6vQsm r6vQsm r6vRsf r6vW r6vW r6vW r6vW r6vWsf r6vWse r6vWsW r6va r6vWsa r6vUsK r6vU r6vTs8 r6vTsO r6vTsO r6vTsT r6vPsa r6vP r6vOsC r6vMsJ r6vMsY r6vQ r6vOsp r6vOsp r6vOsp r6vOsI r6vQ r6vQ r6vQ r6vQs9 r6vR r6vR r6vR t2r6vNsa t4r6vKsS
+  LINE 60 30 169
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2sP r7v5sf r7vA r7vAsX r7vEsP r7vHsn r7vN r7vN r7vIsi r7vCsp r7vCsp r7vAsJ r7v5sh r7v5 r7v2sS r7sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsH r6vKsH r6vM r6vIsZ r6vIsZ r6vIsR r6vI r6vIsf r6vN r6vLsK r6vLsS r6vLsR r6vL r6vLsf r6vQ r6vQsn r6vW r6vW r6vW r6vWsg r6vWsg r6vWse r6vWsG r6vYsG r6vYsL r6vWsK r6vUsK r6vTsC r6vPsb r6vPsW r6vPsW r6vPsb r6vP r6vOsC r6vO r6vOsH r6vQ r6vQsX r6vU r6vU r6vQsZ r6vQsZ r6vQ r6vQ r6vQ r6vQs9 r6vR r6vR t2r6vR t4r6vMsi
+  LINE 61 31 170
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2sP r7v5sf r7vAs9 r7vBsn r7vHsn r7vN r7vN r7vLsK r7vIsR r7vIsR r7vCsq r7vAsK r7v5si r7v2sS r7v2 r7sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsg r6vMsQ r6vMsR r6vMsR r6vLsC r6vIsR r6vIsf r6vN r6vLsL r6vLsP r6vO r6vLsR r6vLse r6vQ r6vQsn r6vW r6vW r6vW r6vWsf r6vb r6vb r6vWse r6vWsG r6vWsG r6vWsL r6vW r6vUsK r6vPsi r6vP r6vP r6vP r6vP r6vP r6vOsB r6vO r6vOsH r6vQ r6vQsX r6vU r6vU r6vU r6vQsa r6vQ r6vQ r6vQ r6vQs8 r6vR r6vR t2r6vNsa t4r6vKsS
+  LINE 62 31 170
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2 r7v2sP r7v5sf r7vAsH r7vCsn r7vIse r7vIse r7vMsD r7vLsB r7vL r7vFsq r7vAsi r7v5si r7v5 r7v2sS r7v2 r7sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" r6sX r6v4sf r6v9sn r6vFsf r6vKsf r6vP r6vP r6vP r6vLsa r6vL r6vJsJ r6vJsa r6vJsX r6vL r6vLsP r6vO r6vLsO r6vLse r6vQ r6vQsn r6vW r6vW r6vWsf r6vb r6vb r6vWse r6vW r6vTsT r6vTsO r6vW r6vW r6vRsi r6vPsK r6vP r6vP r6vP r6vPsY r6vPsZ r6vOsJ r6vOsI r6vQsQ r6vQsP r6vQsX r6vQsW r6vU r6vQsa r6vQ r6vQ r6vQ r6vOsL r6vOsO r6vR t2r6vR t4r6vMsi
+  LINE 63 32 171
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2 r7v2sP r7v5se r7v6sm r7vCsm r7vI r7vIsW r7vM r7vIsb r7vHsb r7vEsS r7vAsa r7v5si r7v2sS r7v2 r7sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 v1 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsH r6vKsf r6vP r6vP r6vP r6vLsZ r6vL r6vJsK r6vJ r6vJsH r6vLsP r6vO r6vLsS r6vL r6vLsf r6vQsn r6vW r6vW r6vW r6vWsf r6vb r6vWsj r6vW r6vTsS r6vT r6vTsO r6vW r6vW r6vRsi r6vPsK r6vP r6vP r6vPsX r6vT r6vQsS r6vQ r6vQsQ r6vT r6vQsS r6vQ r6vQsX r6vU r6vQsZ r6vQsZ r6vQsZ r6vOsR r6vO r6vOsP r6vR t2r6vR t4r6vLsq
+  LINE 64 32 171
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sG r7v2 r7v2sO r7v5s8 r7v6sm r7vCsm r7vCsm r7vGsm r7vGsr r7vEsb r7vEsT r7vAsa r7v5si r7v5 r7v2sS r7sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsH r6vMsP r6vP r6vP r6vP r6vLsZ r6vLsZ r6vJsp r6vJsI r6vLsP r6vO r6vLsS r6vL r6vLso r6vQsn r6vW r6vW r6vW r6vWsf r6vb r6vWsj r6vW r6vTsS r6vT r6vT r6vTsP r6vW r6vRsj r6vR r6vPsI r6vPsI r6vPsH r6vPsX r6vRsL r6vQsD r6vQsO r6vT r6vT r6vQsQ r6vQsY r6vU r6vU r6vU r6vU r6vRsR r6vOsR r6vOsQ r6vR t2r6vR t4r6vMsi
+  LINE 65 33 172
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sG r7sG r7v2sO r7v5s8 r7v6sm r7v6sm r7vAsm r7vAsm r7vAsr r7vAsb r7vAsb r7vA r7v5si r7v2sS r7sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sD sD "" "" "" "" "" "" "" "" "" sA sA sA sB "" "" "" rA rA rA "" "" "" "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsH r6vKsH r6vMsP r6vP r6vP r6vP r6vP r6vP r6vLsa r6vL r6vLsO r6vLsO r6vLsn r6vLso r6vR r6vRsf r6vW r6vW r6vW r6vWse r6vWsj r6vW r6vW r6vTsS r6vT r6vTsP r6vW r6vQsr r6vOsT r6vOsP r6vPsH r6vR r6vPsG r6vPsG r6vOsT r6vOsG r6vQsP r6vT r6vQsT r6vQsY r6vU r6vU r6vUsQ r6vUsR r6vU r6vRsR r6vR r6vRsI r6vRsJ t2r6vR t4r6vLsq
+  LINE 66 33 172
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sG r7v2sO r7v2sW r7v2sW r7v4sm r7v5se r7v5se r7v5sj r7v5sj r7v5sj r7v5sj r7v2sS r7sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 sD "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 sB "" "" rA rA rA rA "" "" "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHsP r6vKsH r6vM r6vMsP r6vP r6vP r6vJsr r6vJsm r6vLsb r6vL r6vL r6vL r6vLsn r6vR r6vRsI r6vRsH r6vRsf r6vW r6vW r6vRsj r6vRse r6vRse r6vVs8 r6vVsD r6vTsJ r6vTsI r6vVs8 r6vQsq r6vOsK r6vO r6vOsH r6vQs8 r6vPsG r6vP r6vOsD r6vO r6vOsf r6vT r6vQsT r6vQsb r6vU r6vU r6vUsQ r6vX r6vUsR r6vU r6vRsR r6vRsI r6vT t2r6vRsK t4r6vMsi
+  LINE 67 34 173
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sG r7v2 r7v2 r7v2sG r7v2sO r7v2sO r7v2sO r7v2sT r7v2sT r7v2sT r7v2sT r7sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 sC "" "" rA rA rA "" "" "" "" "" r6sX r6v4sf r6v9sn r6vFsP r6vIsH r6vKsH r6vM r6vMsP r6vP r6vJsq r6vJ r6vJsH r6vL r6vL r6vL r6vL r6vLsn r6vRsH r6vT r6vRsH r6vRsf r6vRsj r6vRsj r6vR r6vR r6vRsX r6vV r6vV r6vV r6vV r6vSsS r6vQsK r6vOsJ r6vOsI r6vQ r6vQ r6vOsK r6vKsj r6vKsW r6vO r6vOsf r6vQsT r6vQ r6vQsX r6vU r6vUsP r6vXsI r6vXsJ r6vUsR r6vU r6vTsB r6vT r6vT t2r6vRsK t4r6vLsq
+  LINE 68 34 173
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG r7sG r7sG r7v2 r7v2 r7sL r7sL r7sL r7sL r7sL r7sL "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 sC "" "" rA rA rA "" "" "" "" "" r6sX r6v4sf r6v9sn r6vFsH r6vHs9 r6vIsH r6vKsH r6vM r6vMsP r6vP r6vJsq r6vJsH r6vL r6vJsL r6vJsG r6vL r6vL r6vLsn r6vRsH r6vT r6vRsH r6vRsH r6vRsL r6vR r6vR r6vRsX r6vV r6vV r6vV r6vV r6vSsS r6vS r6vQsK r6vQ r6vQ r6vQ r6vOsK r6vKsa r6vK r6vKsW r6vOsH r6vQ r6vQ r6vQsX r6vU r6vU r6vUsf r6vZ r6vXsK r6vUsS r6vU r6vTsC r6vT t2r6vRsK t4r6vMsi
+  LINE 69 35 174
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sG r7sG r7sL "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v1sB v1 v1 sC "" "" rA rA rA "" "" "" "" "" r6sW r6v3sm r6v9sn r6vFsH r6vHs9 r6vIsH r6vKsH r6vMsP r6vP r6vJsq r6vJ r6vJsI r6vJsL r6vGsT r6vGse r6vGse r6vL r6vLsn r6vRsH r6vT r6vT r6vT r6vRsK r6vR r6vRsX r6vV r6vV r6vV r6vV r6vSsS r6vS r6vQsK r6vQ r6vQ r6vQ r6vQ r6vMsa r6vKsK r6vK r6vKsW r6vMsW r6vQ r6vQ r6vQsX r6vU r6vUsP r6vXsG r6vXsL r6vUsS r6vU r6vTsC r6vT r6vT t2r6vNsq t4r6vKsS
+  LINE 70 35 174
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2 v1sC v1 sC "" "" rA rA rA "" "" "" "" "" "" r6sO r6v3sm r6v9sn r6vFsH r6vHs9 r6vIsH r6vKsH r6vMsP r6vP r6vJsp r6vJso r6vJso r6vGsS r6vG r6vG r6vGsf r6vLs9 r6vMsf r6vRsG r6vRsG r6vRsG r6vRsL r6vR r6vRsX r6vV r6vV r6vV r6vV r6vV r6vSsS r6vQsK r6vQ r6vQ r6vQ r6vOsL r6vMsb r6vM r6vKsJ r6vKsI r6vM r6vMsW r6vQ r6vQ r6vQsX r6vUsP r6vX r6vX r6vUsT r6vU r6vTsC r6vT r6vRsL t2r6vNsr t4r6vMsC
+  LINE 71 36 175
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1s9 v1sC v1 v1 sC "" rA rA rA rA "" "" "" "" "" "" r6sO r6v3sm r6v9sn r6vFsH r6vHs9 r6vIsH r6vKsH r6vMsP r6vP r6vP r6vP r6vJsp r6vGsp r6vG r6vGso r6vLsA r6vM r6vMse r6vMse r6vMse r6vMse r6vMse r6vMse r6vPsm r6vQse r6vQse r6vQse r6vQsj r6vPsr r6vMsr r6vMsW r6vOsG r6vOsG r6vOsL r6vMsL r6vM r6vM r6vM r6vM r6vM r6vMsW r6vMsW r6vQ r6vQsW r6vUsO r6vUsO r6vUsT r6vU r6vTsC r6vT r6vRsL r6vNsb t2r6vN t4r6vKsS
+  LINE 72 36 175
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1s9 v2 v1sC v1 sC "" "" rA rA rA "" "" "" "" "" "" "" r6sO r6v3sm r6v9sn r6vFsH r6vHs9 r6vIsH r6vKsG r6vMsO r6vMsO r6vMsO r6vMsT r6vM r6vGsm r6vGso r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vMsO r6vMsW r6vMsW r6vMsW r6vMsW r6vMsb r6vMsT r6vM r6vMsG r6vMsG r6vMsG r6vMsL r6vM r6vKsL r6vKsG r6vKsG r6vM r6vM r6vM r6vMsW r6vMsW r6vOsm r6vU r6vU r6vQsb r6vQsb r6vRsL r6vRsL r6vNsb t2r6vN t4r6vMsC
+  LINE 73 37 176
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sI v1sA v2 v1sC v1 v1 sC "" rA rA rA "" "" "" "" "" "" "" "" r6sO r6v3sm r6v9sn r6vFsH r6vHs9 r6vIsG r6vIsW r6vIsW r6vIsW r6vIsW r6vIsW r6vIsW r6vKsG r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vM r6vKsL r6vHsj r6vHsO r6vIsG r6vKsG r6vM r6vM r6vM r6vM r6vMsG r6vOsm r6vOsm r6vOsr r6vMsb r6vMse r6vR r6vNsb r6vN t2r6vN t4r6vKsS
+  LINE 74 37 176
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA v1 v1sA v2 v2 v2 v1sC v1 sC "" rA rA rA rA "" "" "" "" "" "" "" "" r6sO r6v3sm r6v9sn r6vFsG r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vIsG r6vIsW r6vIsW r6vIsW r6vIsW r6vIsW r6vIsW r6vIsW r6vIsW r6vKsG r6vM r6vM r6vM r6vKsL r6vIsb r6vIsb r6vIsb r6vIsb r6vIsb r6vIsb r6vIsb r6vGsr r6vFsj r6vFsG r6vHs8 r6vIsG r6vIsW r6vIsW r6vIsW r6vIsW r6vIsW r6vIsm r6vIsm r6vIsm r6vIsr r6vIsW r6vLsm r6vLsm r6vN t2r6vN t4r6vMsC
+  LINE 75 38 177
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sA v1sA v1sI v2sA v2sB v2 v2 v1sC sC "" "" rA rA rA "" "" "" "" "" "" "" "" "" r6sO r6v3sn r6v9sm r6vBsm r6vBsm r6vBsm r6vBsm r6vBsm r6vBsm r6vFsG r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vIsG r6vIsW r6vIsW r6vIsb r6vHsj r6vHsT r6vHsD r6vHsD r6vHsD r6vHsD r6vHsD r6vDsj r6vDsj r6vAsr r6vAse r6vFsG r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHs8 r6vHsW r6vJsG r6vLsG r6vN t2r6vN t4r6vKsS
+  LINE 76 38 177
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA v1sA v2 v2sA v3 v3 v2sC v2 v1sC sC "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" r6sX r6v4se r6v6se r6v6se r6v6se r6v6se r6v6se r6v6se r6v9sm r6vBsm r6vCse r6vBsr r6vBsm r6vBsm r6vBsm r6vBsm r6vBsm r6vFsG r6vHs8 r6vHs8 r6vHs8 r6vCsr r6vCsr r6vBsr r6vBsr r6vBsr r6vBsr r6vBsm r6vCsj r6vCsj r6v7sr r6v7sr r6v7sO r6v9sm r6vBsm r6vBsm r6vBsm r6vBsm r6vBsm r6vBsm r6vBsm r6vBsm r6vBsm r6vBsm r6vBsm r6vFsG r6vHsH r6vJsG r6vJsW t2r6vJsb t4r6vIsj
+  LINE 77 39 178
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1s9 v2 v2s9 v3 v3 v2sC v2 v1sC sC "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" r6sW r6sm r6sm r6sm r6sm r6sm r6sm r6v4se r6v6se r6v6sm r6v6sr r6v6sj r6v6se r6v6se r6v6se r6v6se r6v9sm r6vBsm r6vBsm r6vCse r6vCsj r6v7sj r6v7sj r6v6sj r6v6sj r6v6sj r6v6se r6v6sm r6v6sr r6v6sr r6v1sr r6v1sm r6v4se r6v6se r6v6se r6v6se r6v6se r6v6se r6v6se r6v6se r6v6se r6v6se r6v6se r6v6se r6v9sm r6vFsP r6vIs8 r6vIs8 r6vIs8 t2r6vIsD t4r6vI
+  LINE 78 39 178
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1s9 v2s9 v3 v3 v2sD v1sD v1sD sC "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sW r6sm r6sm r6sm r6sr r6sr r6sm r6sm r6sm r6v4se r6v6se r6v6se r6v6sm r6v6sm r6v6sr r6v1sr r6v1sr r6sr r6sr r6sr r6sm r6sm r6sr r6sr s8 r6sW r6sm r6sm r6sm r6sm r6sm r6sm r6sm r6sm r6sm r6sm r6sm r6v4se r6v9sm r6vCsm r6vCsm r6vCsm t2r6vCsm t4r6vCsr
+  LINE 79 40 179
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 v1 v1 v1s8 v2s8 v2sD v1sL v1sD v1 sD "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sW r6sm r6sm r6sm r6sm r6sm r6sr sD sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sW r6v4se r6v6sm r6v6sm r6v6sm r6v6sm t2r6v6sm t4r6v6sr
+  LINE 80 40 179
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 sG sG sL sD sD sD "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sW r6sm r6sm r6sm r6sm t2r6sm t4r6sm
+  LINE 81 41 180
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 82 41 180
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA "" "" "" rA rA rA "" "" "" "" rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA t2rA t4rA
+  LINE 83 42 181
+    t4rA t2rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA t2rA t4rA
+  LINE 84 42 181
+    t4rA t2rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA t2rA t4rA
+  LINE 85 43 182
+    t4rA t2rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA t2rA t4rA
+  LINE 86 43 182
+    t4rA t2rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA t2rA t4rA
+  LINE 87 44 183
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 88 44 183
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 89 45 184
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 90 45 184
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 91 46 185
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 92 46 185
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 93 47 186
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA v1 v1 v1 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 94 47 186
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA v1 v1 v1 v1 v1 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 95 48 187
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 v1 v1 sD sD sD sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 96 48 187
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 sD sD sD sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 97 49 188
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 98 49 188
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 99 50 189
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 100 50 189
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 101 51 190
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 102 51 190
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 103 52 191
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" so so r7so so sp "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 104 52 191
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA r7sA r7sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7so r7so r7so r7v6 r7v6 r7v6 r7v6 r7sp "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 105 53 192
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA r7sA r7v1sY r7v1sZ r7sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7so r7so r7v6 r7v6 r7v6 r7v6 r7v6 r7v6 r7v6 r7sp "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 106 53 192
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA r7v1sY r7v1sY r7v1sY r7v1sY r7v5 r7v1sZ r7sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7so r7v6 r7v6 r7v6sg r7v6sg r7v6sg r7v6sh r7v6 r7v6 r7v6 r7sp "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 107 54 193
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA r7sA r7v1sY r7v5 r7v5 r7v5so r7v5sp r7v5 r7v1sZ r7sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7so r7so r7v6 r7v6 r7v6sg r7vB r7vB r7vB r7v6sh r7v6sh r7v6 r7v6 r7sp "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 108 54 193
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 r7v1sY r7v1sY r7v5 r7v5so r7v5so r7vB r7v5sp r7v5 r7v1sZ r7sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7so r7v6 r7v6 r7v6sg r7v6sg r7vBsY r7vBsY r7vBsZ r7vB r7vB r7v6sh r7v6 r7v6 r7sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 109 55 194
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 r7v1sX r7v5 r7v5so r7v5so r7vB r7vBsg r7vBsh r7v5sp r7v5sp r7v1sZ r7sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7so r7v6 r7v6 r7v6sg r7vB r7vBsY r7vF r7vF r7vBsZ r7vB r7vB r7v6sh r7v6 r7sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 110 55 194
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7s9 r7v1sX r7v5sn r7vB r7vBsg r7vBsg r7vG r7vBsh r7vB r7v5sq r7v1sZ r7sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sn r7v6 r7v6sg r7v6sg r7vB r7vBsY r7vFsY r7vFsZ r7vF r7vBsZ r7vB r7vB r7v6sh r7v6 r7sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 111 56 195
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 r7v1sX r7v5sn r7vB r7vBsf r7vG r7vGsQ r7vGsR r7vBsi r7v5sq r7v5 r7v1sZ r7sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sn r7v6 r7v6sf r7vB r7vBsY r7vBsY r7vFso r7vJsJ r7vFsZ r7vF r7vBsZ r7vB r7vB r7v6sh r7v6 r7sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 112 56 195
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7s9 r7v1sX r7v5sn r7vB r7vBsf r7vGsP r7vJ r7vGsS r7vBsi r7v5sq r7v5 r7v1sa sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sn r7v6sf r7vB r7vBsX r7vF r7vFsn r7vL r7vJsK r7vFsa r7vF r7vBsZ r7vB r7vB r7v6si r7sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 113 57 196
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 r7v1sX r7v5 r7v5sm r7vB r7vBse r7vDsm r7vGsT r7vBsi r7vB r7v5sq r7v1sa r7sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sn r7v6 r7v6sf r7vBsX r7vF r7vFsX r7vJsG r7vJsL r7vFsa r7vF r7vF r7vBsa r7vB r7v6si r7v6 r7sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 114 57 196
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7s9 r7v1sX r7v5 r7v5sm r7v5sm r7vBsG r7vBse r7vBsj r7vB r7vB r7v5sq r7v1sa sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sn r7v6sf r7vB r7vBsW r7vF r7vFsW r7vFsW r7vFsb r7vF r7vBsb r7vBsb r7vB r7vB r7v6si r7sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 115 58 197
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7s8 r7v1sW r7v1sW r7v5 r7v5sm r7v5sm r7v5sm r7v5sm r7v5sr r7v5sr r7v1sa r7sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sn r7v6sf r7vB r7vBsW r7vBsW r7vF r7vF r7vBsb r7vBsb r7vB r7v6sj r7v6sj r7v6sj r7sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 116 58 197
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 r7s8 r7v1sW r7v1sW r7v1sW r7v5 r7v5 r7v5 r7v1sb r7v1sb r7sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sB sB sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sm r7v6se r7v6se r7v6se r7v9sm r7vBsW r7vBsb r7v6sj r7v6sj r7v6sj r7v6 r7v6 r7sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 117 59 198
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 r7s8 r7v1sW r7v1sW r7v1sW r7v1sb r7sD r7sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sm r7sm r7v6 r7v6sO r7v6se r7v6se r7v6sj r7v6 r7v6 r7v6 r7v6 r7sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 118 59 198
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 r7s8 r7s8 r7s8 r7sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 v1 v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sm r7sm r7sm r7sm r7sm r7sm r7sm r7sm r7sm r7sr "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 119 60 199
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 sD s8 v1 v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" sA sA sA sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 120 60 199
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 sC "" s8 v1 v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" sA v1 v1 v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 121 61 200
+    t4 t2 "" "" "" "" "" "" "" "" "" sA sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" s8 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" s9 v1 v1sA v1sB v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 122 61 200
+    t4 t2 "" "" "" "" "" "" "" "" "" sA v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sB sB "" s9 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" s9 v1 v1sA v2 v1sB v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 123 62 201
+    t4 t2 "" "" "" "" "" "" "" "" sA v1 v1 sB sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 sB sA v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" s9 v1sA v2sA v2sB v1sJ v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 124 62 201
+    t4 t2 "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" s9 v1s9 v2s9 v3sA v3sB v1sJ v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 125 63 202
+    t4 t2 "" "" "" "" "" "" "" s9 v1 v1 v1 v1 v1 v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 v1 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" s9 v1s9 v2s9 v3s9 v4 v3sC v1sK sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 126 63 202
+    t4 t2 "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sB "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 sD "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" s9 v1s9 v2s9 v3s8 v3sD v2sC v1sC sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 127 64 203
+    t4 t2 "" "" "" "" "" "" "" s9 v1 v1 v1sA v1sA v1sA v1sB sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA v1 v1 sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" s9 v1s9 v2s8 v3 v2sD v1sC sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 128 64 203
+    t4 t2 "" "" "" "" "" "" "" "" s9 v1 v1s9 v2 v2 v2 v1sC sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1 v1 v1 v1 v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1s8 v1sG v1sL v1sD sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA sA sA sB "" "" "" "" t2 t4
+  LINE 129 65 204
+    t4 t2 "" "" "" "" "" "" "" "" s8 v1 v1s8 v2 v2 v1sC v1 sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sD s8 s8 v1 v1 sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" s8 v1 v1 v1 sD sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1 v1 v1 v1 v1 sC "" "" "" "" t2 t4
+  LINE 130 65 204
+    t4 t2 "" "" "" "" "" "" "" "" "" s8 s8 sG sG v1sD v1 v1 v1 sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sD "" "" s8 s8 s8 v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 v1 sC "" "" "" "" t2 t4
+  LINE 131 66 205
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 v1 sB sB sB sB sB sB "" "" "" "" "" "" "" "" "" "" "" "" s8 sD "" "" "" "" "" s9 v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 v1 sC "" "" "" "" "" t2 t4
+  LINE 132 66 205
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 v1 v1 v1 v1 v1 v1 v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 v1 v1 v1 v1 sC "" "" "" "" "" t2 t4
+  LINE 133 67 206
+    t4 t2 "" "" "" "" "" S "" "" "" "" "" s9 v1 v1 v1 v1 v1 v1 v1 v1 v1 sD s8 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 v1 v1 sC "" "" "" "" "" "" t2 t4
+  LINE 134 67 206
+    t4 t2 "" "" "" "" "" S S S S "" "" "" s8 s8 v1 v1 sD sD s8 s8 v1 sD "" s8 sD "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA sB "" s9 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 sD "" "" "" "" "" "" t2 t4
+  LINE 135 68 207
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 sD "" "" "" s8 sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 sB sA v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 136 68 207
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 v1 v1 sD sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 137 69 208
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 v1 v1 v1 sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sY r7sZ "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 138 69 208
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sY r7v4 r7sZ "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 139 70 209
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sY r7sY r7v4 r7v4 r7sZ "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 140 70 209
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sY r7v4 r7v4sg r7v4sh r7v4 r7sZ "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 141 71 210
+    t4 t2 "" "" "" "" sA sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sY r7v4 r7v4sg r7v9 r7v4sh r7v4 r7sZ "" "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 142 71 210
+    t4 t2 "" "" "" "" sA v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4 r7v4sg r7v9sQ r7v9sR r7v4sh r7v4 r7sZ "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 143 72 211
+    t4 t2 "" "" sA sA v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4 r7v4sg r7v9sQ r7vC r7v9sR r7v4sh r7v4 r7sa "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 144 72 211
+    t4 t2 "" "" s9 v1 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4so r7v9sQ r7vCsY r7vCsZ r7v9sR r7v4sh r7sa "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 145 73 212
+    t4 t2 "" "" s9 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4sn r7vAso r7vCsY r7vG r7vCsZ r7v9sR r7v4si r7sa "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sD s9 s9 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 146 73 212
+    t4 t2 "" "" s9 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4sn r7vAsn r7vG r7vG r7vG r7vCsZ r7v6sq r7sq "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" s9 v1 sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 147 74 213
+    t4 t2 "" "" s8 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4sP r7v7sf r7vCsX r7vGsg r7vGsh r7vG r7vAsq r7v4sq r7sa "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sC "" "" s9 v1 v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 148 74 213
+    t4 t2 "" "" "" s8 sD "" "" "" "" "" "" "" sA sB "" "" "" "" "" "" sA v1 sC "" "" sA sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4sH r7v6sn r7vCsX r7vGsf r7vL r7vGsi r7vCsa r7v6sq r7sq "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sB sA sA v1 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 149 75 214
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" s9 v1 sB "" sA sA sA sA sA v1 sC "" "" s9 v1 sB sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4sH r7v6sn r7vCsP r7vFsn r7vL r7vGsi r7vCsa r7v6sq r7v4sK r7sa "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 v1 v1 v1 v1 sD sD sD "" sA sA sB "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 150 75 214
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sB sA v1 v1 v1 v1 v1 sC "" "" "" s9 v1 v1 v1 sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4 r7v4sf r7v9sP r7vCsf r7vHsX r7vL r7vFsq r7vCsS r7v6sq r7sq "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 s8 sD "" "" "" s9 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 151 76 215
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1sA v1sB v1 v1 v1 sC "" "" "" s9 v1 v1 v1 v1 sB sB sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4sf r7v9sP r7vCsf r7vH r7vHsW r7vHsb r7vCsi r7v6sq r7v4sK r7sa "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sD sD "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 152 76 215
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1s9 v2 v1sB v1sB v1 sC "" "" "" s9 v1 v1 sD s8 v1 v1 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4sH r7v6sn r7vC r7vCsf r7vH r7vH r7vCsi r7v6sq r7v4sK r7sa "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 153 77 216
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" s8 v1 v1 v1s8 v2 v2 v1sC v1 sC "" "" s9 v1 v1 sC "" s9 v1 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4 r7v4sf r7v9sP r7vCsf r7vH r7vH r7vH r7vBsq r7v5sq r7si "" "" "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 154 77 216
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 sG sG sL sD sD "" "" "" s9 v1 v1 sB sA v1 v1 v1 sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4 r7v4sf r7v9sP r7vC r7vCsf r7vH r7vH r7vBsq r7v5sq r7si "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 155 78 217
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 v1 v1 v1 v1 sD sD sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4sf r7v9sP r7vC r7vCsf r7vH r7vH r7vBsq r7v5sq r7v4sC r7sa "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 156 78 217
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 v1 sD sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4 r7v4sf r7v9sP r7vC r7vCse r7vH r7vBsq r7v5sq r7v4sC r7sa "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 157 79 218
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4 r7v4sf r7v9 r7v9sP r7vC r7vCse r7vBsr r7v7sa r7v4sS r7sa "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 158 79 218
+    t4 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2r7sX t2r7v4 t2r7v4sf t2r7v9 t2r7v9sO t2r7vC t2r7v9sT t2r7v7sb t2r7v4sT t2r7sa t2 t2 t2 t2 t2rA t2rA t2rA t2rA t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t4
+  LINE 159 80 219
+    t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4r7sX t4r7v4 t4r7v4sf t4r7v9 t4r7v9 t4r7v9sO t4r7v9sT t4r7v4sj t4r7v1sr t4r7sb t4 t4 t4 t4 t4rA t4rA t4rA t4rA t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4
+END_OF_HEXES
+
+EXTERNAL_NODES nodes.bin
+ENVIROMENT
+  SET 1 dummy
+  SET 2 list-akatojerab
+  SET 3 list-jerab-spal
+  SET 4 list-platan
+  SET 5 list-platan-spal
+  SET 6 list-mocal-koreny
+  SET 7 list-vrba
+  SET 8 list-vrba-zluta
+  SET 9 jehl-borovice
+  SET 10 jehl-borov-vysoka
+  SET 11 jehl-borovice-mala
+  SET 12 stone_set_01
+  SET 13 stone_set_02
+  SET 14 stone_set_03
+  SET 15 stone_set_04
+  SET 16 stone_set_05
+  SET 17 stone_set_06
+  SET 18 stone_set_07
+  SET 19 houby
+  SET 20 mrcha
+  SET 21 jehl-smrk-silny
+  SET 22 jehl-smrk-stredni
+  SET 23 jehl-smrk-uzky-spal
+  SET 24 jehl-smrk-stredni
+  SET 25 jehl-smrk-stredni-spal
+  SET 26 jehl-smrk-stredni-suchy
+  SET 27 list-dvoupatr
+  SET 28 list-briza
+  SET 29 list-paskvil
+  SET 30 ker
+  SET 31 jehl-borov-vysoka-spal
+  SET 32 list-akat-vysoky-spal
+  SET 33 plavun
+  SET 34 cykas
+  SET 35 list-kastan
+  SET 36 mech
+  SET 37 jehl-smrk-maly
+  SET 38 ker-husty
+  SET 39 ker-rosti
+  SET 40 list-akat-rosti
+  SET 41 list-briza-vyssi
+  SET 42 list-sahara
+  SET 43 list-akat-maly
+  SET 44 list-dvoupatr-maly
+  SET 45 parez
+  SET 46 polosuche
+  SET 47 list-dub
+  SET 48 list-kastan-vanek
+  SET 49 parezoid
+  SET 50 branka
+  SET 51 leknin
+  SET 52 monolit
+  SET 53 snowman
+  SET 54 snowman_small
+END_OF_ENVIROMENT
+
+EXTERNAL_SECTORS sectors.bin
+ATTITUDES
+  PARAMS 8
+  1 0 0 0 0 0 0 0 0
+  0 1 2 2 2 2 2 2 2
+  0 2 1 2 2 2 2 2 2
+  0 2 2 1 2 2 2 2 2
+  0 2 2 2 1 2 2 2 2
+  0 2 2 2 2 1 2 2 2
+  0 2 2 2 2 2 1 2 2
+  0 2 2 2 2 2 2 1 2
+  0 2 2 2 2 2 2 2 1
+  FLAG 8
+  T T T T T T T T T
+END_OF_ATTITUDES
+
+TECHS
+  PARAMS 72 8
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+END_OF_TECHS
+
+RESTRICTS
+  PARAMS 0 40 8
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+END_OF_RESTRICTS
+
+MISSION_OBJECTIVES_FULL 0
+
+SPECS
+  PARAMS 0 8
+  FLAG 0 0
+END_OF_SPECS
+
+BASES
+  PARAMS T T
+
+
+END_OF_BASES
+
+
+
+RANDOMS
+  MICROLOGIC 2 0 1
+  RANDOM_SEED 1 -825291365
+  RANDOM_SEED 2 -520532447
+  RANDOM_SEED 3 -640921953
+  RANDOM_SEED 4 351781432
+  RANDOM_SEED 5 2126507290
+  RANDOM_SEED 6 819563911
+  RANDOM_SEED 7 1232445861
+  RANDOM_SEED 8 1406517309
+  RANDOM_SEED 9 1346435896
+  RANDOM_SEED 10 -2046883951
+  RANDOM_SEED 11 1394258579
+  RANDOM_SEED 12 406441188
+  RANDOM_SEED 13 1374343798
+  RANDOM_SEED 14 2043902034
+  RANDOM_SEED 15 1237870497
+  RANDOM_SEED 16 325684778
+  RANDOM_SEED 17 330412244
+  RANDOM_SEED 18 810436649
+  RANDOM_SEED 19 1544081103
+  RANDOM_SEED 20 1297041935
+  RANDOM_SEED 21 -825291365
+  RANDOM_SEED 22 1456968094
+  WIND_TIME -1 -1 0
+  WIND_STRENGTH 0.0 0.0 0.0
+  WIND_SCATTER 0.0
+END_OF_RANDOMS
+
+NEW_UNITS
+END_OF_NEW_UNITS
+
+COLDMEAT
+END_OF_COLDMEAT
+
+FOGOBJ
+END_OF_FOGOBJ
+
+MISSILES
+END_OF_MISSILES
+
+EXPLOSIONS
+END_OF_EXPLOSIONS
+
+CRATERS_NEW
+END_OF_CRATERS_NEW
+
+LAPSER_EFECTS
+END_OF_LAPSER_EFECTS
+
+LASER_EFECTS
+END_OF_LASER_EFECTS
+
+USER_INTERFACE
+  VIEW 1704 1180 1062 676 1
+  MASHA_FLAG 2 F F
+END_OF_USER_INTERFACE
+
+MC_COMMANDS
+END_OF_MC_COMMANDS
+
+DEBRIEFING
+SIDE 0 10
+  LINES
+SIDE 1 10
+  LINES
+SIDE 2 10
+  LINES
+SIDE 3 10
+  LINES
+SIDE 4 10
+  LINES
+SIDE 5 10
+  LINES
+SIDE 6 10
+  LINES
+SIDE 7 10
+  LINES
+SIDE 8 10
+  LINES
+END_OF_DEBRIEFING
+
+AREAS
+  ACTIVE 0
+  LAST 0
+END_OF_AREAS
+

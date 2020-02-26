@@ -1,0 +1,69 @@
+Every 6$0+2$20 trigger russianAssault = true and RusMainAttacks > 0 do
+begin
+    enable;
+
+    if Difficulty = 3 then
+    begin
+
+    Case Rand(1,2) of
+    1:begin
+    RespawnAttackInfantry(6, 3, Rand(2,5), 0, Rand(0,2), 0, 0, rand(RuSolMinLevel, RuSolMaxLevel), RU_Spawn_N);
+    Wait(0$20);
+    RespawnAttackVehicle(RU_Spawn_N, 6, Rand(3,7), rand(RuSolMinLevel, RuSolMaxLevel), 3, engine_siberite, [1,3], [43, 44, 42, 45, 46], [], []);
+    RusMainAttacks = RusMainAttacks - 1;
+    end;
+    2:begin
+    RespawnAttackInfantry(6, 3, Rand(2,5), 0, Rand(0,2), 0, 0, rand(RuSolMinLevel, RuSolMaxLevel), RU_Spawn_E1);
+    Wait(0$20);
+    RespawnAttackVehicle(RU_Spawn_E1, 6, Rand(3,7), rand(RuSolMinLevel, RuSolMaxLevel), 3, engine_siberite, [1,3], [43, 44, 42, 45, 46], [], []);
+    RusMainAttacks = RusMainAttacks - 1;
+    end;
+    end;
+
+    Case Rand(1,2) of
+    1:begin
+    RespawnAttackInfantry(6, 3, Rand(2,5), 0, Rand(0,2), 0, 0, rand(RuSolMinLevel, RuSolMaxLevel), RU_Spawn_E2);
+    Wait(0$20);
+    RespawnAttackVehicle(RU_Spawn_E2, 6, Rand(3,7), rand(RuSolMinLevel, RuSolMaxLevel), 3, engine_siberite, [1,3], [43, 44, 42, 45, 46], [], []);
+    RusMainAttacks = RusMainAttacks - 1;
+    end;
+    2:begin
+    RespawnAttackInfantry(6, 3, Rand(2,5), 0, Rand(0,2), 0, 0, rand(RuSolMinLevel, RuSolMaxLevel), RU_Spawn_E3);
+    Wait(0$20);
+    RespawnAttackVehicle(RU_Spawn_E3, 6, Rand(3,7), rand(RuSolMinLevel, RuSolMaxLevel), 3, engine_siberite, [1,3], [43, 44, 42, 45, 46], [], []);
+    RusMainAttacks = RusMainAttacks - 1;
+    end;
+    end;
+
+    end
+    else
+    begin;
+    Case Rand(1,4) of
+    1:begin
+    RespawnAttackInfantry(6, 3, Rand(2,5), 0, Rand(0,2), 0, 0, rand(RuSolMinLevel, RuSolMaxLevel), RU_Spawn_N);
+    Wait(0$20);
+    RespawnAttackVehicle(RU_Spawn_N, 6, Rand(3,7), rand(RuSolMinLevel, RuSolMaxLevel), 3, engine_siberite, [1,3], [43, 44, 42, 45, 46], [], []);
+    RusMainAttacks = RusMainAttacks - 1;
+    end;
+    2:begin
+    RespawnAttackInfantry(6, 3, Rand(2,5), 0, Rand(0,2), 0, 0, rand(RuSolMinLevel, RuSolMaxLevel), RU_Spawn_E1);
+    Wait(0$20);
+    RespawnAttackVehicle(RU_Spawn_E1, 6, Rand(3,7), rand(RuSolMinLevel, RuSolMaxLevel), 3, engine_siberite, [1,3], [43, 44, 42, 45, 46], [], []);
+    RusMainAttacks = RusMainAttacks - 1;
+    end;
+    3:begin
+    RespawnAttackInfantry(6, 3, Rand(2,5), 0, Rand(0,2), 0, 0, rand(RuSolMinLevel, RuSolMaxLevel), RU_Spawn_E2);
+    Wait(0$20);
+    RespawnAttackVehicle(RU_Spawn_E2, 6, Rand(3,7), rand(RuSolMinLevel, RuSolMaxLevel), 3, engine_siberite, [1,3], [43, 44, 42, 45, 46], [], []);
+    RusMainAttacks = RusMainAttacks - 1;
+    end;
+    4:begin
+    RespawnAttackInfantry(6, 3, Rand(2,5), 0, Rand(0,2), 0, 0, rand(RuSolMinLevel, RuSolMaxLevel), RU_Spawn_E3);
+    Wait(0$20);
+    RespawnAttackVehicle(RU_Spawn_E3, 6, Rand(3,7), rand(RuSolMinLevel, RuSolMaxLevel), 3, engine_siberite, [1,3], [43, 44, 42, 45, 46], [], []);
+    RusMainAttacks = RusMainAttacks - 1;
+    end;
+    end;
+
+    end;
+end;

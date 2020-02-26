@@ -1,0 +1,43 @@
+export RandSol;
+
+export function CreatePersonnel;
+begin
+
+    uc_side:=7;
+
+    Simone:=CreateCharacter('Simone');
+    Kathryn:=CreateCharacter('Kathryn');
+
+    uc_side:=1;
+    hc_sex=sex_male;
+
+    hc_class=class_soldier;
+    uc_nation:=nation_american;
+    hc_importance=80;
+    PrepareSoldier(1,9);
+    hc_attr=[10,10];
+    hc_name:='Bradford';
+    hc_gallery := 'ZieloneLaserki_Commanders';
+    hc_face_number := 1;
+
+    Bradford:=CreateHuman;
+
+    uc_nation:=nation_american;
+    hc_importance=70;
+    PrepareSoldier(1,8);
+    hc_attr=[10,10];
+    hc_name:='Barnes';
+    hc_gallery := 'ZieloneLaserki_Commanders';
+    hc_face_number := 2;
+
+    Barnes:=CreateHuman;
+
+    uc_nation:=nation_american;
+    hc_importance=Rand(10,50);
+    PrepareSoldier(1,4);
+    hc_name:='';
+    hc_gallery := '';
+
+    RandSol:=CreateHuman;
+
+end;

@@ -22,16 +22,16 @@ begin
 
         SetTech(tech_Tech1, 8, state_researched);
         SetTech(tech_Weap1, 8, state_researched);
-        RusMainAttacks = 8;
+        RusMainAttacks = 5;
 
-        ThresholdLvl2 := 6;
-        ThresholdLvl3 := 4;
+        ThresholdLvl2 := 4;
+        ThresholdLvl3 := 3;
         ThresholdLvl4 := 2;
-        ThresholdLvl5 := 0;
+        ThresholdLvl5 := 1;
 
         RU2MineSquadArrivalTime = 20$0;
-        AMOffensiveTime = 90$00;
-        RU3RocketBatteryActivation = 30$00;
+        AMOffensiveTime = 60$00;
+        RU3RocketBatteryActivation = 20$00;
     end;
 
     if difficulty = 2 then
@@ -64,16 +64,16 @@ begin
         SetTech(tech_Tech2, 8, state_researched);
         SetTech(tech_Weap1, 8, state_researched);
         SetTech(tech_Weap2, 8, state_researched);
-        RusMainAttacks = 12;
+        RusMainAttacks = 10;
 
-        ThresholdLvl2 := 10;
-        ThresholdLvl3 := 8;
-        ThresholdLvl4 := 6;
-        ThresholdLvl5 := 4;
+        ThresholdLvl2 := 8;
+        ThresholdLvl3 := 6;
+        ThresholdLvl4 := 4;
+        ThresholdLvl5 := 2;
 
         RU2MineSquadArrivalTime = 15$0;
-        AMOffensiveTime = 80$00;
-        RU3RocketBatteryActivation = 25$00;
+        AMOffensiveTime = 50$00;
+        RU3RocketBatteryActivation = 15$00;
     end;
 
     if difficulty = 3 then
@@ -117,15 +117,15 @@ begin
         SetTech(tech_Weap3, 8, state_researched);
         SetTech(tech_StimDrugs, 8, state_researched);
 
-        RusMainAttacks = 24;
+        RusMainAttacks = 14;
 
-        ThresholdLvl2 := 20;
-        ThresholdLvl3 := 16;
-        ThresholdLvl4 := 12;
-        ThresholdLvl5 := 8;
+        ThresholdLvl2 := 12;
+        ThresholdLvl3 := 10;
+        ThresholdLvl4 := 8;
+        ThresholdLvl5 := 6;
 
         RU2MineSquadArrivalTime = 10$0;
-        AMOffensiveTime = 75$00;
-        RU3RocketBatteryActivation = 20$00;
+        AMOffensiveTime = 40$00;
+        RU3RocketBatteryActivation = 12$30;
     end;
 end;

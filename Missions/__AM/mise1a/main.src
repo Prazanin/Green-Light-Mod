@@ -1,0 +1,214 @@
+{
+    Green Light AM01
+    Map scripts : Pra¿anin, Serpent, Nefarem
+    Map by Pra¿anin
+    no textures yet :(
+}
+export MissionBegin, RussianAssaultStopped, readyForAttack;
+export AMAttack;
+export LaserTanks, personnel;
+
+starting
+begin
+IngameOn;
+
+LaserTanks=[ts,tk,t1,t2,t3];
+
+CreatePersonnel;
+PrepareDifficulty;
+Garrison_Buildings(3);
+Garrison_Buildings(1);
+
+music_class = 1;
+
+PlaceHumanInUnit(Simone, ts);
+PlaceHumanInUnit(Kathryn, tk);
+PlaceHumanInUnit(Lazarfeld, tlz);
+PlaceHumanInUnit(Gomez, t1);
+PlaceHumanInUnit(Mirron, t2);
+PlaceHumanInUnit(Valheim, t3);
+
+ComAgressiveMove(Lazarfeld, 75,71);
+ComAgressiveMove(Mirron, 61,67);
+ComAgressiveMove(Valheim, 86,79);
+
+ComAgressiveMove(Simone, 126,92);
+ComAgressiveMove(Kathryn, 114,86);
+ComAgressiveMove(Gomez, 135,94);
+
+CenterNowOnXY(61,96);
+Wait(0$2);
+SayRadio(Lazarfeld,'D1-Lazar-2');
+Wait(0$3);
+CenterOnXY(124,116);
+Wait(0$2);
+SayRadio(Lazarfeld,'D1-Lazar-1');
+Wait(0$3);
+CenterOnXY(127,89);
+Wait(0$15);
+SayRadio(Lazarfeld,'D1-Lazar-3');
+Wait(0$3);
+IngameOff;
+
+SayRadio(Lazarfeld,'D1a-Lazar-1');
+SayRadio(Loghain,'D1a-Off-1');
+SayRadio(Loghain,'D1a-Off-2');
+SayRadio(Lazarfeld,'D1a-Lazar-2');
+Say(Simone,'D1a-Simone-1');
+SayRadio(Lazarfeld,'D1a-Lazar-3');
+
+music_class = 0;
+
+ChangeMissionObjectives('M1');
+
+MissionBegin = true;
+end;
+
+every 0$1 trigger MissionBegin do
+begin
+Wait(0$42);
+SayRadio(Scout,'D2-Scout-1');
+Say(Simone,'D2-Simone-1');
+Say(Kathryn,'D2-Kathryn-1');
+
+RespawnAttackInfantry(3, 3, 4, 0, 1, 0, 3, rand(RuSolMinLevel, RuSolMaxLevel), RU_SpawnZone_N);
+RespawnAttackInfantry(3, 3, 9, 0, 2, 0, 2, rand(RuSolMinLevel, RuSolMaxLevel), RU_SpawnZone_E);
+Wait(0$12);
+RespawnAttackVehicle(RU_SpawnZone_N, 3, 3, rand(RuSolMinLevel, RuSolMaxLevel), 3, engine_siberite, [1,3], [43, 44, 45, 46], [], []);
+RespawnAttackVehicle(RU_SpawnZone_E, 3, 5, rand(RuSolMinLevel, RuSolMaxLevel), 3, engine_siberite, [1,3], [43, 44, 45, 46], [], []);
+
+Wait(3$20);
+SayRadio(Scout,'D2-Scout-2');
+RespawnAttackInfantry(3, 3, 8, 0, 2, 0, 3, rand(RuSolMinLevel, RuSolMaxLevel), RU_SpawnZone_N);
+RespawnAttackInfantry(3, 3, 11, 0, 3, 0, 3, rand(RuSolMinLevel, RuSolMaxLevel), RU_SpawnZone_E);
+Wait(0$30);
+RespawnAttackVehicle(RU_SpawnZone_N, 3, 4, rand(RuSolMinLevel, RuSolMaxLevel), 3, engine_siberite, [1,3], [43, 44, 45, 46], [], []);
+RespawnAttackVehicle(RU_SpawnZone_E, 3, 6, rand(RuSolMinLevel, RuSolMaxLevel), 3, engine_siberite, [1,3], [43, 44, 45, 46], [], []);
+Wait(0$30);
+SetLives(tlz,0);
+CenterOnUnits(tlz);
+Wait(0$1);
+DialogueOn;
+SayRadio(Lazarfeld,'D3-Lazar-1');
+SetLives(Lazarfeld,0);
+DialogueOff;
+SayRadio(Valheim,'D3-Valheim-1');
+SayRadio(Simone,'D3-Simone-1');
+Wait(0$30);
+RespawnAttackInfantry(3, 3, 7, 0, 1, 0, 0, rand(RuSolMinLevel, RuSolMaxLevel), RU_SpawnZone_SE);
+Wait(0$5);
+SayRadio(Scout,'D2-Scout-3');
+RespawnAttackVehicle(RU_SpawnZone_N, 3, 4, rand(RuSolMinLevel, RuSolMaxLevel), 3, engine_siberite, [1,3], [43, 44, 45, 46], [], []);
+Wait(2$10);
+
+Say(Loghain,'D4-Off-1');
+Say(Simone,'D4-Simone-1');
+Say(Kathryn,'D4-Kathryn-1');
+Say(Simone,'D4-Simone-2');
+SayRadio(Barnes,'D4-Comm-1');
+SayRadio(Barnes,'D4-Comm-2');
+Say(Simone,'D4-Simone-3');
+Say(Kathryn,'D4-Kathryn-2');
+Say(Simone,'D4-Simone-4');
+
+ChangeMissionObjectives('M2');
+
+SetSide([Mirron,t2,Valheim,t3], 4);
+RussianAssaultStopped = true;
+end;
+
+every 0$1 trigger RussianAssaultStopped do
+begin
+Wait(0$30);
+Say(Loghain,'D5-Off-1');
+BuildingVehicleAndAttackEnemy(1, factor, rand(7, 8), [6, 7, 4], 3, 3, 5);
+end;
+
+every 0$1 trigger readyForAttack do
+var i, un, AttackParty, target1, target2;
+begin
+       for i = 1 to 7 do
+        begin
+
+                uc_side = 1;
+                uc_nation = 1;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(sex_male, 1, 6);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, AM_SpawnZone_S, false);
+                AttackParty = AttackParty ^ un;
+        end;
+
+       for i = 1 to 7 do
+        begin
+
+                uc_side = 1;
+                uc_nation = 1;
+
+                hc_name = '';
+                hc_gallery = '';
+                PrepareHuman(sex_male, 1, 6);
+
+                un = CreateHuman;
+                PlaceUnitArea(un, AM_SpawnZone_W, false);
+                AttackParty = AttackParty ^ un;
+        end;
+ComMoveXY(AttackParty,113,103);
+Say(Loghain,'D5-Off-2');
+Say(Simone,'D5-Simone-1');
+Say(Loghain,'D5-Off-3');
+AMAttack = AttackParty ^ FilterUnitsExceptArea(MainRUBase,[[f_side, 1], [f_type, unit_vehicle]]);
+
+    repeat
+        wait(0$1);
+
+            for i in AMAttack  do
+            begin
+
+            target1 := NearestUnitToUnit(FilterAllUnits([f_enemy, 1]), i);
+            target2 := NearestUnitToUnit(FilterAllUnits([[[f_enemy, 1], [f_or,[f_occupied], [f_type, unit_human], [f_type, unit_vehicle]]]]), i);
+
+            If GetDistUnits(i, target1)+8 < GetDistUnits(i, target2) then
+            begin
+                ComAttackUnit(i, target1);
+            end
+            else
+            begin
+                ComAttackUnit(i, target2);
+            end;
+      end;
+    until AMAttack=[];
+
+end;
+
+every 0$1 trigger FilterAllUnits([[f_side,3],[f_type, unit_human],[f_ok]])<4 do
+begin
+SayRadio(ROff,'D6-ROff-1');
+Say(Kathryn,'D6-Kathryn-1');
+Say(Simone,'D6-Simone-1');
+SayRadio(Barnes,'D6-Comm-1');
+SayRadio(Barnes,'D6-Comm-2');
+
+    wait(0$1);
+    if IsOK(Gomez) and IsOK(Mirron) and IsOK(Valheim) then AddMedal('Personnel',1)
+    else AddMedal('Personnel',-1);
+    if LaserTanks<=5 then AddMedal('Vehicles',-1)
+    else AddMedal('Vehicles',1);
+    AddMedal('Bases',1);
+
+    GiveMedals('Main');
+
+    personnel=FilterAllUnits([[f_side,4],[f_type, unit_human],[f_ok]]);
+
+    RewardPeople(personnel);
+
+    SaveCharacters(Kathryn,'Kathryn');
+    SaveCharacters(Simone,'Simone');
+    SaveCharacters(personnel diff [Kathryn,Simone,0],'AM01_Survivors');
+
+    YouWin;
+
+end;

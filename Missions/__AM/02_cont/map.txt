@@ -131,13 +131,13 @@ HEXES
   LINE 58 29 208
     t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sf r6v5sn r6vBsn r6vHsn r6vN r6vNsX r6vRsn r6vXsn r6vdsn r6vjsH r6vlsn r6vrsn r6vxsn r6v#41 r6v#41sP r6v#44 r6v#44 r6v#3Esq r6vusq r6vosq r7vo r7vos9 r7vps9 r7vq r7vq r7vq r7vq r7vosK r7vo r7vosX r6vssn r6vysn r6v#42sn r6v#48sn r6v#4E r6v#48sq r6v#42sr r6v#41sr r6v#41sr r6v#41sr r6vxsq r6vrsq r6vlsq r6vfsq r6vbsa r6vVsq r6vPsq r6vJsq r6vDsq r6v9sa r6v9 r6v9 r6v3sq r6sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 59 30 209
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sf r6v5sn r6vBsn r6vHsn r6vN r6vN r6vNsX r6vRsn r6vXsn r6vdsn r6vjsH r6vlsn r6vrsn r6vxsn r6v#41 r6v#41sn r6v#44sR r6v#3Esq r6vusq r6vosq r7vo r7vo r7vos9 r7vps9 r7vq r7vq r7vosL r7vosL r7vo r7vosX r6vssn r6vysn r6v#42sn r6v#48sn r6v#4E r6v#48sq r6v#42sq r6v#41sC r6v#41 r6v#41 r6vxsq r6vrsq r6vlsq r6vfsq r6vbsa r6vVsq r6vPsq r6vJsq r6vDsq r6v9sa r6v9 r6v9 r6v3sq r6sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sf r6v5sn r6vBsn r6vHsn r6vN r6vN r6vNsX r6vRsn r6vXsn r6vdsn r6vjsH r6vlsn r6vrsn r6vxsn r6v#41 r6v#41sn r6v#44sR r6v#3Esq r6vusq r6vosq r7vo r7vo r7vos9 r7vps9 r7vq r7vq r7vosL r7vosL r7vo r7vosX r6vssn r6vysn r6v#42sn r6v#48sn r6v#4E r6v#48sq r6v#42sq r6v#41sC r6v#41 r6v#41 r6vxsq r6vrsq r6vlsq r6vfsq r6vbsa r6vVsq r6vPsq r6vJsq r6vDsq r6v9sa r6v9 r6v9 r6v3sq r6sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 60 30 209
     t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sf r6v5sn r6vBsn r6vHsn r6vN r6vNsP r6vQsn r6vWs9 r6vXsn r6vdsn r6vjsH r6vlsn r6vrsn r6vxsn r6v#41sn r6v#47 r6v#44sR r6v#3Esq r6vusq r6vosq r7vo r7vo r7vos9 r7vosG r7vosG r7vosL r7vo r7vo r7vo r6vosX r6vssn r6vysn r6v#42sn r6v#48sn r6v#4E r6v#48sq r6v#42sq r6v#41sC r6v#41 r6v#41 r6vxsq r6vrsq r6vlsq r6vfsq r6vbsa r6vVsq r6vPsq r6vJsq r6vDsq r6v9sa r6v9 r6v3sq r6sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 61 31 210
     t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sf r6v5sn r6vBsn r6vH r6vHsn r6vN r6vNsP r6vQsn r6vWs9 r6vXsn r6vdsn r6vjsH r6vlsn r6vrsn r6vxsn r6v#41sn r6v#47 r6v#44sR r6v#3Esq r6vusq r6vosp r6vosp r6vosp r7vo r7vo r7vo r7vo r7vo r7vo r7vosX r6vssn r6vysn r6v#42sn r6v#48sn r6v#4E r6v#48sq r6v#42sq r6vysr r6vxsr r6vxsr r6vxsr r6vrsq r6vlsq r6vfsq r6vbsa r6vVsq r6vPsq r6vJsq r6vDsq r6v9sa r6v9 r6v3sq r6sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 62 31 210
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sf r6v5sn r6vBsn r6vH r6vH r6vHsn r6vN r6vNsP r6vQsn r6vWsP r6vZsn r6vfsn r6vlsn r6vr r6vrsn r6vxsn r6v#41sn r6v#47 r6v#44sR r6v#3Esp r6vusp r6vusp r6vusp r6vosp r7vosp r7vosB r7vosB r7vosB r7vosA r7vosY r6vssn r6vysn r6v#42sn r6v#48sn r6v#4E r6v#48sq r6v#42sq r6vysq r6vssr r6vsse r6vx r6vrsr r6vosS r6vksa r6vesq r6vYsq r6vSsq r6vMsq r6vGsq r6vAsq r6v9sC r6v3sq r6sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sf r6v5sn r6vBsn r6vH r6vH r6vHsn r6vN r6vNsP r6vQsn r6vWsP r6vZsn r6vfsn r6vlsn r6vr r6vrsn r6vxsn r6v#41sn r6v#47 r6v#44sR r6v#3Esp r6vusp r6vusp r6vusp r6vosp r7vosp r7vosB r7vosB r7vosB r7vosA r7vosY r6vssn r6vysn r6v#42sn r6v#48sn r6v#4E r6v#48sq r6v#42sq r6vysq r6vssr r6vsse r6vx r6vrsr r6vosS r6vksa r6vesq r6vYsq r6vSsq r6vMsq r6vGsq r6vAsq r6v9sC r6v3sq r6sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 63 32 211
     t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sf r6v5sn r6vBsn r6vHso r6vHso r6vN r6vN r6vNsP r6vQsn r6vWsP r6vZsn r6vfsn r6vlsn r6vqs8 r6vrsn r6vxsn r6v#41sn r6v#47 r6v#44sR r6v#3Esp r6v#3Eso r6v#3Esp r6vusp r6vusp r6vpsp r6vpsp r6vpsp r6vpso r6vpso r6vssQ r6vusX r6vysn r6v#42sn r6v#48sm r6v#48sr r6v#42sq r6vysq r6vssr r6vrsD r6vrsm r6vrsr r6vosT r6vo r6vksa r6vesq r6vYsq r6vSsq r6vMsq r6vGsq r6vAsq r6v4sq r6sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 64 32 211
@@ -151,17 +151,17 @@ HEXES
   LINE 68 34 213
     t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sf r6v5sn r6vBsn r6vHsn r6vN r6vN r6vNsf r6vS r6vRs9 r6vRs9 r6vSsn r6vYsn r6vesm r6vesm r6vk r6vks8 r6vlsm r6vlsm r6vrsm r6vrsr r6vosr r6vosm r6vusm r6vusm r6v#3Esm r6v#3Esm r6v#3Esm r6v#3Esm r6v#3Esr r6vxsT r6vxsT r6vusr r6vrsT r6vrsW r6vv r6vv r6vv r6vpsq r6vksi r6vesq r6vcsK r6vc r6vc r6vWsq r6vVsC r6vSsS r6vMsq r6vGsq r6vAsq r6v4sq r6sa r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sIf8 v2sof8 v8sYf8 v8sY v8sZ v6sJ v6 v6 sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 69 35 214
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sf r6v5sn r6vBsn r6vH r6vHsn r6vN r6vNsf r6vS r6vS r6vRs9 r6vRs9 r6vSsm r6vYsm r6vYsm r6vesm r6vk r6visO r6visO r6vlsm r6vosO r6vosT r6vo r6vosm r6vrsO r6vusm r6vxsO r6vxsO r6vxsO r6vxsO r6vxsT r6vx r6vx r6vrsq r6vr r6vpsm r6vpsm r6vqse r6vqsh r6vpsB r6vksp r6vesp r6vcsJ r6vcsJ r6vWsq r6vVsC r6vV r6vSsS r6vMsq r6vGsq r6vAsq r6v4sq r6sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sIf8 sIf8 v2sof8 v8sXf8 vC vC v8sa v6sK v6 v2sa sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sf r6v5sn r6vBsn r6vH r6vHsn r6vN r6vNsf r6vS r6vS r6vRs9 r6vRs9 r6vSsm r6vYsm r6vYsm r6vesm r6vk r6visO r6visO r6vlsm r6vosO r6vosT r6vo r6vosm r6vrsO r6vusm r6vxsO r6vxsO r6vxsO r6vxsO r6vxsT r6vx r6vx r6vrsq r6vr r6vpsm r6vpsm r6vqse r6vqsh r6vpsB r6vksp r6vesp r6vcsJ r6vcsJ r6vWsq r6vVsC r6vV r6vSsS r6vMsq r6vGsq r6vAsq r6v4sq r6sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sIf8 sIf8 v2sof8 v8sXf8 vC vC v8sa v6sK v6 v2sa sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 70 35 214
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sf r6v5sn r6vBsn r6vH r6vHsm r6vN r6vNse r6vS r6vS r6vRs9 r6vRs8 r6vSsm r6vSsm r6vYsm r6vesm r6vesm r6vi r6visn r6vo r6vo r6vo r6vo r6vosP r6vrsO r6vrsm r6vx r6vx r6vx r6vx r6vx r6vx r6vx r6vrsq r6vpsK r6vp r6vps9 r6vqsn r6vqsp r6vqsp r6vksp r6vesp r6ve r6vYsq r6vSsq r6vPsr r6vPsr r6vMsr r6vGsq r6vAsq r6v4sq r6sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sHf8 v2sIf8 v2sof8 v8sHf8 vAsH vCf8 vAsK v6sa v6 v6 v2sa sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sf r6v5sn r6vBsn r6vH r6vHsm r6vN r6vNse r6vS r6vS r6vRs9 r6vRs8 r6vSsm r6vSsm r6vYsm r6vesm r6vesm r6vi r6visn r6vo r6vo r6vo r6vo r6vosP r6vrsO r6vrsm r6vx r6vx r6vx r6vx r6vx r6vx r6vx r6vrsq r6vpsK r6vp r6vps9 r6vqsn r6vqsp r6vqsp r6vksp r6vesp r6ve r6vYsq r6vSsq r6vPsr r6vPsr r6vMsr r6vGsq r6vAsq r6v4sq r6sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sHf8 v2sIf8 v2sof8 v8sHf8 vAsH vCf8 vAsK v6sa v6 v6 v2sa sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 71 36 215
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sf r6v5sn r6vBsn r6vH r6vHsm r6vHsm r6vNse r6vS r6vRsD r6vR r6vRs8 r6vRs8 r6vSsm r6vYsm r6vYsm r6vcsm r6vesW r6vism r6vism r6vism r6vlsO r6vlsm r6vr r6vr r6vrsm r6vrsm r6vrsm r6vrsm r6vusO r6vxsA r6vxsg r6vwsq r6vqsq r6vpsB r6vpsA r6vqsn r6vw r6vw r6vqsq r6vksq r6vesq r6vYsq r6vSsq r6vMsr r6vJsr r6vJsr r6vGsr r6vAsq r6v4sq r6sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sXf8 v4f8 v4sXf8 v8sH vAsG vAsK v8sK v6sJ v6 v2sa v2 sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sf r6v5sn r6vBsn r6vH r6vHsm r6vHsm r6vNse r6vS r6vRsD r6vR r6vRs8 r6vRs8 r6vSsm r6vYsm r6vYsm r6vcsm r6vesW r6vism r6vism r6vism r6vlsO r6vlsm r6vr r6vr r6vrsm r6vrsm r6vrsm r6vrsm r6vusO r6vxsA r6vxsg r6vwsq r6vqsq r6vpsB r6vpsA r6vqsn r6vw r6vw r6vqsq r6vksq r6vesq r6vYsq r6vSsq r6vMsr r6vJsr r6vJsr r6vGsr r6vAsq r6v4sq r6sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sXf8 v4f8 v4sXf8 v8sH vAsG vAsK v8sK v6sJ v6 v2sa v2 sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 72 36 215
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sf r6v5sn r6vBsn r6vH r6vH r6vHsm r6vNse r6vRsD r6vR r6vR r6vR r6vRs8 r6vSsm r6vSsm r6vWsm r6vYsm r6vcsm r6vcsm r6vcsm r6vfsm r6vfsm r6vlsm r6vlsm r6vlsm r6vosO r6vosO r6vosO r6vrsP r6vusX r6vyso r6v#40sJ r6vwsq r6vqsq r6vq r6vq r6vqsm r6vqsm r6vqsr r6vksq r6vesq r6vYsq r6vSsq r6vMsq r6vJsT r6vJ r6vDsr r6vAsr r6v4sq r6sa r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sHf8 v2sHf8 v4sXf8 v8 v8sH vA vAsa v8sp v6sp v6 v2sZ v2sZ sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sf r6v5sn r6vBsn r6vH r6vH r6vHsm r6vNse r6vRsD r6vR r6vR r6vR r6vRs8 r6vSsm r6vSsm r6vWsm r6vYsm r6vcsm r6vcsm r6vcsm r6vfsm r6vfsm r6vlsm r6vlsm r6vlsm r6vosO r6vosO r6vosO r6vrsP r6vusX r6vyso r6v#40sJ r6vwsq r6vqsq r6vq r6vq r6vqsm r6vqsm r6vqsr r6vksq r6vesq r6vYsq r6vSsq r6vMsq r6vJsT r6vJ r6vDsr r6vAsr r6v4sq r6sa r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sHf8 v2sHf8 v4sXf8 v8 v8sH vA vAsa v8sp v6sp v6 v2sZ v2sZ sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 73 37 216
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sf r6v5sn r6vBsm r6vBsm r6vBsm r6vHsm r6vLsm r6vR r6vR r6vR r6vNsb r6vMsm r6vMsm r6vQsm r6vSsm r6vWsm r6vWsm r6vWsm r6vZsm r6vZsm r6vfsm r6vfsm r6visO r6vlsP r6vo r6vo r6vosn r6vusX r6vysn r6v#42 r6vysq r6vssq r6vmsq r6vksr r6vksr r6vksm r6vksm r6vksr r6vesq r6vYsq r6vSsq r6vMsq r6vJsS r6vJ r6vDsr r6vAsT r6v4sq r6sa r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sXf8 v4f8 v4sX v8 v8sH vAsX vE vCsK v6sq v6 v6 sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sf r6v5sn r6vBsm r6vBsm r6vBsm r6vHsm r6vLsm r6vR r6vR r6vR r6vNsb r6vMsm r6vMsm r6vQsm r6vSsm r6vWsm r6vWsm r6vWsm r6vZsm r6vZsm r6vfsm r6vfsm r6visO r6vlsP r6vo r6vo r6vosn r6vusX r6vysn r6v#42 r6vysq r6vssq r6vmsq r6vksr r6vksr r6vksm r6vksm r6vksr r6vesq r6vYsq r6vSsq r6vMsq r6vJsS r6vJ r6vDsr r6vAsT r6v4sq r6sa r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sXf8 v4f8 v4sX v8 v8sH vAsX vE vCsK v6sq v6 v6 sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 74 37 216
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6se r6v5sm r6v5sm r6v5sm r6vBsm r6vFsm r6vLsm r6vLsm r6vR r6vNsb r6vHsr r6vHse r6vKsm r6vMsm r6vQsm r6vQsm r6vQsm r6vTsm r6vZ r6vZsm r6vcsO r6vfsP r6visn r6vo r6vo r6vo r6vosm r6vssm r6vysm r6vysr r6vssq r6vmsq r6vgsr r6vesr r6vesr r6vesm r6vesm r6vesr r6vYsq r6vSsq r6vMsq r6vJsS r6vJ r6vDsr r6vAsT r6vA r6v4sq r6sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sXf8 v4 v4sX v8sH vAsH vCsG vCsL v6sq v6 v6f8 v6 sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6se r6v5sm r6v5sm r6v5sm r6vBsm r6vFsm r6vLsm r6vLsm r6vR r6vNsb r6vHsr r6vHse r6vKsm r6vMsm r6vQsm r6vQsm r6vQsm r6vTsm r6vZ r6vZsm r6vcsO r6vfsP r6visn r6vo r6vo r6vo r6vosm r6vssm r6vysm r6vysr r6vssq r6vmsq r6vgsr r6vesr r6vesr r6vesm r6vesm r6vesr r6vYsq r6vSsq r6vMsq r6vJsS r6vJ r6vDsr r6vAsT r6vA r6v4sq r6sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sXf8 v4 v4sX v8sH vAsH vCsG vCsL v6sq v6 v6f8 v6 sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 75 38 217
     t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6se r6se r6se r6v5sm r6v9sm r6vFsm r6vFsm r6vLsm r6vLsr r6vHsr r6vEsT r6vEsm r6vGsm r6vKsm r6vKsm r6vKsm r6vNsm r6vTsm r6vZ r6vZsO r6vcsn r6vi r6vism r6vism r6vism r6vism r6vmsm r6vssm r6vssm r6vssr r6vmsq r6vgsq r6vasr r6vYsr r6vYsr r6vYsm r6vYsm r6vYsr r6vSsq r6vMsq r6vJsS r6vJ r6vDsr r6vAsT r6vA r6v4sq r6sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sY sZ "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" f8 sHf8 v2sG v4 v4sX v8sX vC v6sr v6sr v6 v6 v6 sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 76 38 217
@@ -197,11 +197,11 @@ HEXES
   LINE 91 46 225
     t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW v4 v4sO v5sm vB vBsO vBsO vAsb vAf8 vAf8 v4sqf8 saf8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 92 46 225
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW v4s8 v5sm v8sO vB vAsC vA vA v7sSf8 v1sqf8 sC "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW v4s8 v5sm v8sO vB vAsC vA vA v7sSf8 v1sqf8 sCf8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 93 47 226
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW se v4sW v8sO vB vAsA vAsY vAsZ v7sSf8 v1sq sC "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW se v4sW v8sO vB vAsA vAsY vAsZ v7sSf8 v1sqf8 sCf8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 94 47 226
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW v2sm v8sO v8sO vAsY vE vAsa v5si si "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW v2sm v8sO v8sO vAsY vE vAsa v5si sif8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 95 48 227
     t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG v2sm v8 v8sn vE vAsb v7sS v1sq sC f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 96 48 227
@@ -570,778 +570,2404 @@ ENVIROMENT
   SET 52 monolit
   SET 53 snowman
   SET 54 snowman_small
-  ON_HEX 5 5
-    sLi4
-  ON_HEX 12 5
-    sLi3
-  ON_HEX 18 5
-    sMi8
-  ON_HEX 115 5
-    sbi8
-  ON_HEX 121 5
-    sbi7
-  ON_HEX 119 6
-    sLi4
-  ON_HEX 165 6
-    sMi2
-  ON_HEX 90 7
-    sMi8
-  ON_HEX 105 7
-    sLi3
-  ON_HEX 123 7
-    sMi8
-  ON_HEX 147 7
-    sLi3
-  ON_HEX 7 10
-    sbi4
-  ON_HEX 19 10
-    sbi5
-  ON_HEX 83 10
-    sLi2
-  ON_HEX 99 11
-    sLi4
-  ON_HEX 144 11
-    sbi1
-  ON_HEX 139 12
-    sLi5
-  ON_HEX 89 13
-    sbi3
-  ON_HEX 13 14
-    sLi2
-  ON_HEX 17 14
-    sMi7
-  ON_HEX 95 15
-    sLi2
-  ON_HEX 83 16
-    sLi2
-  ON_HEX 98 16
-    sFiW
-  ON_HEX 16 17
-    sFiC
-  ON_HEX 101 17
-    sMi2
-  ON_HEX 148 17
-    sLi3
-  ON_HEX 92 18
-    sOi9
-  ON_HEX 14 19
-    sMi2
-  ON_HEX 25 20
-    sMi1
-  ON_HEX 88 20
+  ON_HEX 59 0
+    sGid
+  ON_HEX 31 2
+    sUir
+  ON_HEX 37 2
+    sgi2
+  ON_HEX 44 2
+    sci1
+  ON_HEX 45 2
     sOi3
-  ON_HEX 96 20
-    sLi1
-  ON_HEX 21 22
-    sMi9
-  ON_HEX 91 23
-    sLi2
-  ON_HEX 98 24
-    sbiA
-  ON_HEX 102 25
-    sLi4
-  ON_HEX 91 26
-    sbi7
-  ON_HEX 89 27
-    sLi3
-  ON_HEX 95 27
-    sMi7
-  ON_HEX 17 28
-    sLi2
-  ON_HEX 99 29
-    sLi4
-  ON_HEX 103 30
-    sMi3
-  ON_HEX 25 31
-    sMi3
-  ON_HEX 108 31
-    sbi9
-  ON_HEX 95 33
-    sMi3
-  ON_HEX 22 34
-    sMi8
-  ON_HEX 31 36
-    sMi6
-  ON_HEX 110 37
-    sLi5
-  ON_HEX 103 39
-    sLi3
-  ON_HEX 27 43
-    sLi2
-  ON_HEX 102 43
-    sbi5
-  ON_HEX 110 45
-    sbi5
-  ON_HEX 164 47
-    sLi2
-  ON_HEX 173 47
-    sLi4
-  ON_HEX 29 48
+  ON_HEX 48 2
+    sGi5
+  ON_HEX 43 3
+    sJiQ
+  ON_HEX 46 3
+    sJi4
+  ON_HEX 54 3
+    sGiF
+  ON_HEX 62 3
     sMi5
-  ON_HEX 171 48
-    sMi1
-  ON_HEX 107 49
-    sbi2
-  ON_HEX 117 49
-    sLi2
-  ON_HEX 179 50
-    sbi6
-  ON_HEX 199 50
-    sMi2
-  ON_HEX 124 51
-    sLi3
-  ON_HEX 42 52
-    sMi1
-  ON_HEX 116 53
+  ON_HEX 165 3
+    sai3
+  ON_HEX 178 3
+    sIi3
+  ON_HEX 32 4
+    sgi4
+  ON_HEX 51 4
+    sci7
+  ON_HEX 77 4
     sbi9
-  ON_HEX 121 53
-    sMi9
-  ON_HEX 173 53
-    sLi3
-  ON_HEX 186 53
-    sLi4
-  ON_HEX 192 53
-    sMi8
-  ON_HEX 38 54
-    sbi1
-  ON_HEX 110 54
-    sFiA
-  ON_HEX 123 54
-    sFi2
-  ON_HEX 179 55
-    sLi1
-  ON_HEX 32 56
-    sLi4
-  ON_HEX 128 56
-    sMi8
-  ON_HEX 122 57
-    sMi7
-  ON_HEX 140 58
-    sLi5
-  ON_HEX 118 59
-    sMi8
-  ON_HEX 189 59
-    sFiS
-  ON_HEX 185 60
-    sMi9
-  ON_HEX 129 61
-    sMi7
-  ON_HEX 193 61
-    sMi3
-  ON_HEX 127 62
-    sbi3
-  ON_HEX 188 62
-    sLi3
-  ON_HEX 199 62
+  ON_HEX 93 4
     sMi1
-  ON_HEX 137 63
-    sLi2
-  ON_HEX 37 64
-    sLi4
-  ON_HEX 115 64
-    sLi5
-  ON_HEX 43 65
-    sMi4
-  ON_HEX 186 65
-    sbi6
-  ON_HEX 193 65
-    sbi7
-  ON_HEX 47 66
-    sbi6
-  ON_HEX 187 66
-    sbi4
-  ON_HEX 126 67
-    sLi1
-  ON_HEX 191 69
-    sLi2
-  ON_HEX 133 71
-    sbi3
-  ON_HEX 208 71
-    sMi3
-  ON_HEX 122 72
+  ON_HEX 121 4
     sbi5
-  ON_HEX 203 72
-    sbi1
-  ON_HEX 46 74
-    sLi3
-  ON_HEX 140 74
-    sbi9
-  ON_HEX 201 74
-    sMi5
-  ON_HEX 42 75
-    sLi5
-  ON_HEX 50 77
-    sMi4
-  ON_HEX 199 77
-    sLi2
-  ON_HEX 119 80
-    sLi5
-  ON_HEX 208 80
-    sLi4
-  ON_HEX 203 84
-    sLi2
-  ON_HEX 149 86
-    sbi6
-  ON_HEX 55 87
-    sLi4
-  ON_HEX 219 87
-    sMi1
-  ON_HEX 74 88
-    sbi6
-  ON_HEX 68 89
-    sbi8
-  ON_HEX 125 89
-    sbi6
-  ON_HEX 49 90
-    sLi4
-  ON_HEX 64 90
-    sLi1
-  ON_HEX 209 90
-    sMi9
-  ON_HEX 119 91
-    sbi4
-  ON_HEX 105 92
-    sLi1
-  ON_HEX 153 92
-    sbi4
-  ON_HEX 95 93
-    sLi3
-  ON_HEX 100 93
-    sbiA
-  ON_HEX 217 93
-    sLi5
-  ON_HEX 57 94
-    sLi1
-  ON_HEX 126 94
-    sbi1
-  ON_HEX 87 95
-    sLi3
-  ON_HEX 118 95
-    sLi3
-  ON_HEX 197 95
-    sLi4
-  ON_HEX 205 95
-    sLi1
-  ON_HEX 68 96
-    sMi3
-  ON_HEX 79 96
-    sLi4
-  ON_HEX 62 97
-    sMi1
-  ON_HEX 75 97
-    sLi1
-  ON_HEX 111 97
-    sbi1
-  ON_HEX 66 98
-    sLi4
-  ON_HEX 132 98
-    sbi3
-  ON_HEX 211 98
-    sLi2
-  ON_HEX 54 99
-    sLi1
-  ON_HEX 127 99
-    sbi7
-  ON_HEX 59 100
-    sbi5
-  ON_HEX 87 100
-    sLi5
-  ON_HEX 219 100
-    sLi4
-  ON_HEX 62 101
-    sLi2
-  ON_HEX 64 101
-    sFiK
-  ON_HEX 202 101
-    sFi2
-  ON_HEX 74 102
-    sLi2
-  ON_HEX 90 102
-    sbi4
-  ON_HEX 117 103
-    sjiE
-  ON_HEX 211 103
-    sLi1
-  ON_HEX 82 104
-    sLi4
-  ON_HEX 201 104
-    sLi3
-  ON_HEX 70 105
-    sMi4
-  ON_HEX 75 105
-    sbi8
-  ON_HEX 129 105
-    sLi1
-  ON_HEX 135 105
-    sbi2
-  ON_HEX 148 105
-    sbi2
-  ON_HEX 85 106
-    sbi7
-  ON_HEX 60 107
-    sLi3
-  ON_HEX 88 107
-    sMi5
-  ON_HEX 140 107
-    sLi5
-  ON_HEX 229 107
-    sMi7
-  ON_HEX 81 108
-    sMi8
-  ON_HEX 202 108
-    sLi2
-  ON_HEX 126 109
-    sMi3
-  ON_HEX 67 110
-    sMi2
-  ON_HEX 134 112
-    sMi1
-  ON_HEX 165 113
-    sMi2
-  ON_HEX 181 113
-    sbi2
-  ON_HEX 87 114
-    sMi4
-  ON_HEX 151 114
-    sMi3
-  ON_HEX 63 116
-    sLi2
-  ON_HEX 98 116
-    sMi9
-  ON_HEX 137 116
-    sFiQ
-  ON_HEX 66 117
-    sbi9
-  ON_HEX 126 117
-    sLi5
-  ON_HEX 233 117
-    sLi5
-  ON_HEX 144 118
-    sLi4
-  ON_HEX 161 118
-    sMi3
-  ON_HEX 171 118
-    sMi5
-  ON_HEX 121 119
-    sLi1
-  ON_HEX 70 120
-    sMi7
-  ON_HEX 95 120
-    sMi2
-  ON_HEX 126 120
-    sLi3
-  ON_HEX 179 120
-    sMi6
-  ON_HEX 91 121
-    sMi6
-  ON_HEX 137 122
-    sLi2
-  ON_HEX 111 123
-    sMi4
-  ON_HEX 125 124
-    sLi5
-  ON_HEX 132 125
-    sLi2
-  ON_HEX 125 126
-    sLi2
-  ON_HEX 156 126
-    sLi5
-  ON_HEX 170 126
-    sMi3
-  ON_HEX 145 128
-    sLi2
-  ON_HEX 176 128
-    sbi9
-  ON_HEX 141 129
-    sMi4
-  ON_HEX 241 129
-    sLi4
-  ON_HEX 161 131
-    sFif
-  ON_HEX 75 132
-    sLi4
-  ON_HEX 125 132
-    sMi1
-  ON_HEX 157 132
-    sLi1
-  ON_HEX 70 133
-    sLi5
-  ON_HEX 81 133
-    sLi5
-  ON_HEX 90 133
-    sLi2
-  ON_HEX 135 133
-    sMi4
-  ON_HEX 170 133
-    sjiB
-  ON_HEX 175 133
-    sMi3
-  ON_HEX 182 134
-    sMi8
-  ON_HEX 100 135
-    sLi3
-  ON_HEX 149 135
-    sMi8
-  ON_HEX 86 136
-    sLi1
-  ON_HEX 94 136
-    sLi5
-  ON_HEX 79 137
-    sLi1
-  ON_HEX 142 138
-    sMi4
-  ON_HEX 167 138
-    sLi4
-  ON_HEX 92 139
-    sLi5
-  ON_HEX 147 139
-    sMi3
-  ON_HEX 156 139
-    sLi4
-  ON_HEX 161 139
-    sMi8
-  ON_HEX 76 140
-    sLi4
-  ON_HEX 87 140
-    sLi3
-  ON_HEX 95 140
-    sLi4
-  ON_HEX 81 141
-    sLi5
-  ON_HEX 249 141
-    sMi7
-  ON_HEX 85 142
-    sLi1
-  ON_HEX 99 142
-    sLi1
-  ON_HEX 152 142
-    sMi2
-  ON_HEX 192 142
-    sbi5
-  ON_HEX 181 143
+  ON_HEX 177 4
     sOi5
-  ON_HEX 163 144
-    sOi8
-  ON_HEX 167 144
-    sLi1
-  ON_HEX 85 145
-    sbiA
-  ON_HEX 92 145
-    sLi2
-  ON_HEX 97 145
-    sbi6
-  ON_HEX 156 145
-    sMi5
-  ON_HEX 187 145
-    sbi6
-  ON_HEX 82 146
-    sLi5
-  ON_HEX 95 146
-    sLi5
-  ON_HEX 176 147
-    sMi6
-  ON_HEX 90 148
+  ON_HEX 43 5
+    sUi#D1
+  ON_HEX 58 5
+    sci5
+  ON_HEX 93 5
+    sJiZ
+  ON_HEX 111 5
+    sYi7
+  ON_HEX 123 5
+    sUiG
+  ON_HEX 149 5
     sLi4
-  ON_HEX 167 149
-    sMi1
-  ON_HEX 101 150
-    sLi3
-  ON_HEX 183 150
-    sMi7
-  ON_HEX 98 152
-    sMi6
-  ON_HEX 108 152
-    sLi1
-  ON_HEX 254 152
-    sMi8
-  ON_HEX 164 153
-    sLi2
-  ON_HEX 95 154
-    sMi2
-  ON_HEX 160 154
-    sMi7
-  ON_HEX 88 156
-    sMi5
-  ON_HEX 183 156
+  ON_HEX 178 5
+    sai3
+  ON_HEX 181 5
     sOi9
-  ON_HEX 175 157
-    sLi3
-  ON_HEX 180 157
-    sMi2
-  ON_HEX 194 157
-    sbi1
-  ON_HEX 201 157
-    sLi4
-  ON_HEX 188 158
-    sji5
-  ON_HEX 210 158
-    sLi5
-  ON_HEX 157 160
-    sLi3
-  ON_HEX 207 161
-    sbi3
-  ON_HEX 168 166
-    sLi5
-  ON_HEX 164 168
-    sLi4
-  ON_HEX 255 168
-    sLi3
-  ON_HEX 107 169
-    sMi4
-  ON_HEX 213 169
-    sLi1
-  ON_HEX 221 170
-    sLi5
-  ON_HEX 224 170
-    sFi3
-  ON_HEX 103 171
-    sLi1
-  ON_HEX 211 171
-    sLi4
-  ON_HEX 91 173
+  ON_HEX 46 6
+    sJiE
+  ON_HEX 55 6
+    sGiF
+  ON_HEX 58 6
+    sciA
+  ON_HEX 105 6
     sMi7
-  ON_HEX 180 173
-    sLi5
-  ON_HEX 185 174
-    sMi7
-  ON_HEX 218 174
-    sLi5
-  ON_HEX 162 177
-    sLi4
-  ON_HEX 232 177
-    sbi2
-  ON_HEX 243 177
-    sLi4
-  ON_HEX 244 177
-    sMi8
-  ON_HEX 254 177
-    sLi4
-  ON_HEX 178 178
-    sMi4
-  ON_HEX 230 179
-    sLi3
-  ON_HEX 119 180
-    sLi2
-  ON_HEX 168 180
-    sMi5
-  ON_HEX 172 180
-    sLi1
-  ON_HEX 238 180
-    sLi3
-  ON_HEX 103 181
-    sLi4
-  ON_HEX 108 181
-    sLi2
-  ON_HEX 203 181
-    sbi6
-  ON_HEX 96 183
-    sLi2
-  ON_HEX 115 183
-    sLi4
-  ON_HEX 153 183
-    sLi3
-  ON_HEX 243 183
-    sLi3
-  ON_HEX 263 183
-    sMi7
-  ON_HEX 240 184
-    sbi1
-  ON_HEX 105 185
-    sLi5
-  ON_HEX 165 185
-    sbi4
-  ON_HEX 171 185
-    sbi4
-  ON_HEX 237 185
-    sLi3
-  ON_HEX 102 187
-    sMi7
-  ON_HEX 150 187
-    sMi1
-  ON_HEX 162 187
-    sbiA
-  ON_HEX 228 187
-    sLi1
-  ON_HEX 109 188
-    sLi4
-  ON_HEX 126 188
-    sLi4
-  ON_HEX 222 188
-    sLi2
-  ON_HEX 114 189
-    sbi7
-  ON_HEX 136 190
-    sLi2
-  ON_HEX 151 190
-    sLi5
-  ON_HEX 245 190
-    sLi3
-  ON_HEX 119 191
-    sLi4
-  ON_HEX 125 191
-    sbi2
-  ON_HEX 147 191
-    sMi1
-  ON_HEX 210 191
-    sMi3
-  ON_HEX 241 191
-    sMi6
-  ON_HEX 170 192
-    sbi6
-  ON_HEX 201 192
-    sFi4
-  ON_HEX 123 193
-    sLi5
-  ON_HEX 228 193
-    sMi5
-  ON_HEX 243 193
-    sLi2
-  ON_HEX 181 195
-    sLi3
-  ON_HEX 131 196
-    sLi3
-  ON_HEX 223 196
-    sMi1
-  ON_HEX 251 196
-    sLi3
-  ON_HEX 220 197
-    sLi1
-  ON_HEX 233 197
-    sbi6
-  ON_HEX 270 197
-    sLi3
-  ON_HEX 231 198
-    sFiD
-  ON_HEX 236 198
-    sLi5
-  ON_HEX 126 200
-    sLi5
-  ON_HEX 227 200
-    sbi9
-  ON_HEX 230 200
-    sLi2
-  ON_HEX 131 202
-    sLi3
-  ON_HEX 190 202
-    sMi6
-  ON_HEX 223 202
-    sMi7
-  ON_HEX 244 202
-    sLi1
-  ON_HEX 260 202
-    sLi2
-  ON_HEX 207 204
-    sMi1
-  ON_HEX 219 204
-    sLi1
-  ON_HEX 256 204
-    sLi2
-  ON_HEX 136 206
-    sLi1
-  ON_HEX 194 206
-    sLi2
-  ON_HEX 229 207
-    sLi2
-  ON_HEX 236 207
-    sLi5
-  ON_HEX 281 212
-    sMi5
-  ON_HEX 141 214
-    sLi3
-  ON_HEX 159 215
-    sFi8
-  ON_HEX 247 215
-    sLi4
-  ON_HEX 164 216
-    sLi2
-  ON_HEX 146 217
-    sLi1
-  ON_HEX 203 218
-    sLi4
-  ON_HEX 149 219
-    sLi1
-  ON_HEX 177 220
-    sLi2
-  ON_HEX 173 221
+  ON_HEX 106 6
+    sJiV
+  ON_HEX 111 6
+    sOi4
+  ON_HEX 150 6
+    sai2
+  ON_HEX 22 7
+    shi9
+  ON_HEX 31 7
+    sUi#3E
+  ON_HEX 37 7
+    sGi4
+  ON_HEX 44 7
+    sGic
+  ON_HEX 53 7
+    sGiH
+  ON_HEX 111 7
+    sJiR
+  ON_HEX 47 8
+    sJi6
+  ON_HEX 61 8
+    sci5
+  ON_HEX 63 8
+    sci5
+  ON_HEX 87 8
     sOi6
-  ON_HEX 196 222
-    sLi1
-  ON_HEX 199 222
-    sMi1
-  ON_HEX 180 223
-    sbi4
-  ON_HEX 148 224
-    sLi5
-  ON_HEX 156 224
-    sOi7
-  ON_HEX 159 224
-    sLi1
-  ON_HEX 186 224
-    sLi4
-  ON_HEX 196 224
-    sFi5
-  ON_HEX 172 226
-    sLi4
-  ON_HEX 165 227
+  ON_HEX 117 8
     sLi2
-  ON_HEX 193 227
-    sbi3
-  ON_HEX 158 229
-    sbi3
-  ON_HEX 188 230
-    sLi3
-  ON_HEX 293 230
-    sLi3
-  ON_HEX 173 231
-    sLi2
-  ON_HEX 199 231
-    sLi1
-  ON_HEX 178 232
-    sLi2
-  ON_HEX 156 233
-    sLi5
-  ON_HEX 198 233
+  ON_HEX 148 8
+    sbiA
+  ON_HEX 35 9
+    sgi7
+  ON_HEX 38 9
+    sci8
+  ON_HEX 44 9
+    sUi#58
+  ON_HEX 45 9
+    sci5
+  ON_HEX 48 9
+    sJi6
+  ON_HEX 54 9
+    sciA
+  ON_HEX 83 9
     sLi4
-  ON_HEX 260 233
-    sLi3
-  ON_HEX 173 234
-    sbi9
-  ON_HEX 184 234
-    sLi5
-  ON_HEX 160 235
-    sLi4
-  ON_HEX 170 236
-    sLi3
-  ON_HEX 159 237
-    sLi2
-  ON_HEX 156 238
+  ON_HEX 102 9
+    sHi7
+  ON_HEX 117 9
+    sJiT
+  ON_HEX 148 9
+    sci3
+  ON_HEX 35 10
+    sGia
+  ON_HEX 38 10
+    sci1
+  ON_HEX 41 10
+    sci3
+  ON_HEX 42 10
+    sGie
+  ON_HEX 44 10
+    sUi#40
+  ON_HEX 47 10
+    sGie
+  ON_HEX 53 10
+    sciA
+  ON_HEX 56 10
+    sGiE
+  ON_HEX 75 10
     sMi3
-  ON_HEX 158 238
-    sFiI
-  ON_HEX 166 238
-    sLi4
-  ON_HEX 162 239
-    sbi2
-  ON_HEX 267 239
-    sLi2
-  ON_HEX 178 240
-    sLi4
-  ON_HEX 270 241
-    sbi2
-  ON_HEX 201 242
-    sLi3
-  ON_HEX 299 244
-    sMi8
-  ON_HEX 171 245
-    sLi1
-  ON_HEX 163 247
+  ON_HEX 84 10
+    sJiS
+  ON_HEX 101 10
     sLi5
-  ON_HEX 285 247
+  ON_HEX 40 11
+    sJi9
+  ON_HEX 43 11
+    sGie
+  ON_HEX 51 11
+    sGig
+  ON_HEX 57 11
+    sUi#D4
+  ON_HEX 67 11
+    sGis
+  ON_HEX 127 11
+    sbi1
+  ON_HEX 34 12
+    sci3
+  ON_HEX 42 12
+    sci3
+  ON_HEX 56 12
+    sGiQ
+  ON_HEX 90 12
+    sbi3
+  ON_HEX 103 12
+    sJi6
+  ON_HEX 128 12
+    sUi#B9
+  ON_HEX 146 12
+    sLi4
+  ON_HEX 35 13
+    sUi#87
+  ON_HEX 44 13
+    sci3
+  ON_HEX 49 13
+    sci4
+  ON_HEX 50 13
+    sci3
+  ON_HEX 52 13
+    sMi1
+  ON_HEX 56 13
+    sciA
+  ON_HEX 64 13
+    sMi7
+  ON_HEX 80 13
+    sbi3
+  ON_HEX 90 13
+    sJiP
+  ON_HEX 95 13
     sLi1
-  ON_HEX 273 248
-    sMi4
-  ON_HEX 298 249
+  ON_HEX 147 13
+    sJi6
+  ON_HEX 148 13
+    sUiV
+  ON_HEX 174 13
+    sUi#AB
+  ON_HEX 35 14
+    sUi#4A
+  ON_HEX 44 14
+    sGij
+  ON_HEX 46 14
+    sUi#D8
+  ON_HEX 55 14
+    sci5
+  ON_HEX 66 14
+    sGif
+  ON_HEX 98 14
+    sOi2
+  ON_HEX 39 15
+    sGiT
+  ON_HEX 41 15
+    sGiT
+  ON_HEX 57 15
+    sci9
+  ON_HEX 59 15
+    sUi#A0
+  ON_HEX 134 15
+    sbi7
+  ON_HEX 138 15
+    sai6
+  ON_HEX 139 15
+    sbiA
+  ON_HEX 44 16
+    sGiT
+  ON_HEX 55 16
+    sci4
+  ON_HEX 58 16
+    sci4
+  ON_HEX 135 16
+    sJi5
+  ON_HEX 37 17
+    sUiB
+  ON_HEX 41 17
+    sci6
+  ON_HEX 45 17
+    sci1
+  ON_HEX 54 17
+    sci4
+  ON_HEX 56 17
+    sUi#84
+  ON_HEX 140 17
+    sJiF
+  ON_HEX 149 17
+    sbi3
+  ON_HEX 37 18
+    sUi#5D
+  ON_HEX 52 18
+    sGis
+  ON_HEX 58 18
+    sOi5
+  ON_HEX 68 18
+    sciA
+  ON_HEX 85 18
+    sIi3
+  ON_HEX 93 18
+    sJiE
+  ON_HEX 150 18
+    sJi4
+  ON_HEX 187 18
+    sOi4
+  ON_HEX 40 19
+    sGiF
+  ON_HEX 55 19
+    sUim
+  ON_HEX 13 20
+    shi9
+  ON_HEX 56 20
+    sci8
+  ON_HEX 88 20
+    sLi4
+  ON_HEX 105 20
+    sJia
+  ON_HEX 106 20
+    sMi1
+  ON_HEX 40 21
+    sUi3
+  ON_HEX 55 21
+    sUiL
+  ON_HEX 60 21
+    sci3
+  ON_HEX 65 21
+    sci8
+  ON_HEX 106 21
+    sai1
+  ON_HEX 44 22
+    sUi#41
+  ON_HEX 49 22
+    sci6
+  ON_HEX 63 22
+    sMi1
+  ON_HEX 96 22
+    sOi9
+  ON_HEX 103 22
+    sbi7
+  ON_HEX 168 22
+    sai1
+  ON_HEX 50 23
+    sUi#3F
+  ON_HEX 55 23
+    sUi#AF
+  ON_HEX 60 23
+    sUi#79
+  ON_HEX 93 23
+    sMi7
+  ON_HEX 100 23
+    sLi5
+  ON_HEX 40 24
+    sGiJ
+  ON_HEX 60 24
+    sUiP
+  ON_HEX 63 24
+    sci5
+  ON_HEX 87 24
+    sHiM
+  ON_HEX 95 24
+    sJiJ
+  ON_HEX 81 25
     sMi2
+  ON_HEX 96 25
+    sJiB
+  ON_HEX 24 26
+    shi5
+  ON_HEX 42 26
+    sGi5
+  ON_HEX 47 26
+    sGiW
+  ON_HEX 90 26
+    sJi5
+  ON_HEX 99 26
+    sJiF
+  ON_HEX 87 27
+    sLi5
+  ON_HEX 94 27
+    sJiI
+  ON_HEX 102 27
+    sbi2
+  ON_HEX 94 28
+    sJiO
+  ON_HEX 36 30
+    shi9
+  ON_HEX 160 30
+    sOi8
+  ON_HEX 86 31
+    sbi9
+  ON_HEX 162 31
+    sci2
+  ON_HEX 163 32
+    sJiD
+  ON_HEX 99 33
+    sLi4
+  ON_HEX 107 33
+    sLi3
+  ON_HEX 94 34
+    sMi6
+  ON_HEX 21 35
+    shiA
+  ON_HEX 104 35
+    sMi1
+  ON_HEX 110 35
+    sbi9
+  ON_HEX 95 39
+    sbi4
+  ON_HEX 99 39
+    sbi7
+  ON_HEX 106 39
+    sJia
+  ON_HEX 111 41
+    sOi6
+  ON_HEX 100 42
+    sJiU
+  ON_HEX 105 42
+    sOi5
+  ON_HEX 106 43
+    sJi9
+  ON_HEX 161 43
+    sMi8
+  ON_HEX 165 43
+    sbi8
+  ON_HEX 28 44
+    shi1
+  ON_HEX 43 44
+    shi9
+  ON_HEX 161 44
+    sJia
+  ON_HEX 162 44
+    sai3
+  ON_HEX 163 44
+    sai3
+  ON_HEX 165 44
+    sci3
+  ON_HEX 182 44
+    sDim
+  ON_HEX 117 45
+    sbi2
+  ON_HEX 158 45
+    sLi5
+  ON_HEX 176 45
+    sEiF
+  ON_HEX 184 45
+    sUiu
+  ON_HEX 119 46
+    sHiF
+  ON_HEX 157 46
+    sai2
+  ON_HEX 159 46
+    sJi5
+  ON_HEX 167 46
+    sJiA
+  ON_HEX 176 46
+    sUi#BF
+  ON_HEX 119 47
+    sHiF
+  ON_HEX 192 47
+    sbi1
+  ON_HEX 103 48
+    sMi9
+  ON_HEX 117 48
+    sdiA
+  ON_HEX 123 48
+    sLi2
+  ON_HEX 173 49
+    sci5
+  ON_HEX 115 50
+    sMi6
+  ON_HEX 123 50
+    sciA
+  ON_HEX 175 50
+    sLi1
+  ON_HEX 111 51
+    sLi3
+  ON_HEX 175 51
+    sJiO
+  ON_HEX 176 51
+    sEiI
+  ON_HEX 42 52
+    shi4
+  ON_HEX 116 53
+    sci1
+  ON_HEX 185 53
+    sbi7
+  ON_HEX 166 54
+    sLi3
+  ON_HEX 188 54
+    sci3
+  ON_HEX 166 55
+    sLi1
+  ON_HEX 184 55
+    sIi5
+  ON_HEX 114 57
+    sOi7
+  ON_HEX 167 57
+    sci8
+  ON_HEX 184 57
+    sci6
+  ON_HEX 187 57
+    sci6
+  ON_HEX 110 58
+    sHi1
+  ON_HEX 122 58
+    sbi9
+  ON_HEX 123 58
+    sJiS
+  ON_HEX 138 58
+    sHiN
+  ON_HEX 170 59
+    sIiF
+  ON_HEX 191 59
+    sHiC
+  ON_HEX 192 59
+    sci1
+  ON_HEX 138 60
+    sci4
+  ON_HEX 141 60
+    sLi2
+  ON_HEX 142 60
+    sai3
+  ON_HEX 35 61
+    shi4
+  ON_HEX 119 61
+    shi2
+  ON_HEX 189 61
+    sci8
+  ON_HEX 190 61
+    sbi1
+  ON_HEX 110 62
+    sai5
+  ON_HEX 111 62
+    sMi5
+  ON_HEX 141 62
+    sai3
+  ON_HEX 143 62
+    sUi#98
+  ON_HEX 144 63
+    sai2
+  ON_HEX 176 63
+    sMi6
+  ON_HEX 163 64
+    sai5
+  ON_HEX 177 64
+    sci7
+  ON_HEX 118 65
+    sbi8
+  ON_HEX 150 66
+    sUiw
+  ON_HEX 119 67
+    sci7
+  ON_HEX 183 68
+    sLi2
+  ON_HEX 193 68
+    sUi#3F
+  ON_HEX 40 70
+    shi3
+  ON_HEX 155 71
+    sci9
+  ON_HEX 157 71
+    sci7
+  ON_HEX 200 71
+    sLi4
+  ON_HEX 128 72
+    sbi8
+  ON_HEX 118 73
+    shi5
+  ON_HEX 199 73
+    sEi2
+  ON_HEX 129 74
+    sci7
+  ON_HEX 113 75
+    sFiF
+  ON_HEX 192 75
+    sJiQ
+  ON_HEX 48 76
+    sdi3
+  ON_HEX 134 76
+    sOi2
+  ON_HEX 169 76
+    sUi#5A
+  ON_HEX 190 76
+    sLi1
+  ON_HEX 217 76
+    sLi4
+  ON_HEX 133 77
+    sai5
+  ON_HEX 134 77
+    sai5
+  ON_HEX 190 77
+    sci4
+  ON_HEX 207 77
+    sLi1
+  ON_HEX 135 78
+    sai2
+  ON_HEX 214 78
+    sOi5
+  ON_HEX 140 79
+    sYiA
+  ON_HEX 115 80
+    shi2
+  ON_HEX 138 80
+    sci5
+  ON_HEX 140 80
+    sLi5
+  ON_HEX 141 80
+    sUiz
+  ON_HEX 62 81
+    shi8
+  ON_HEX 175 81
+    sJi5
+  ON_HEX 52 82
+    sdi2
+  ON_HEX 161 82
+    sUi#DC
+  ON_HEX 58 83
+    sUi#D9
+  ON_HEX 142 83
+    sci9
+  ON_HEX 185 83
+    sci5
+  ON_HEX 202 83
+    sLi3
+  ON_HEX 45 84
+    sdi1
+  ON_HEX 53 84
+    shi6
+  ON_HEX 184 84
+    sbi9
+  ON_HEX 187 84
+    sLi3
+  ON_HEX 190 84
+    sci7
+  ON_HEX 209 84
+    sLi4
+  ON_HEX 47 85
+    sdi2
+  ON_HEX 216 85
+    sOi3
+  ON_HEX 50 86
+    sdi4
+  ON_HEX 53 86
+    sdi8
+  ON_HEX 213 86
+    sLi2
+  ON_HEX 188 87
+    sci1
+  ON_HEX 221 87
+    sLi2
+  ON_HEX 54 88
+    sdi6
+  ON_HEX 73 88
+    shiA
+  ON_HEX 117 88
+    sUi#CF
+  ON_HEX 187 88
+    sbiA
+  ON_HEX 49 89
+    sUiK
+  ON_HEX 52 89
+    sUi#42
+  ON_HEX 60 89
+    sUi#9E
+  ON_HEX 100 89
+    shiA
+  ON_HEX 107 89
+    sdi3
+  ON_HEX 47 90
+    sUiK
+  ON_HEX 48 90
+    shi3
+  ON_HEX 107 90
+    sUi#84
+  ON_HEX 60 91
+    sUi#7E
+  ON_HEX 67 91
+    sJia
+  ON_HEX 110 91
+    shiA
+  ON_HEX 111 91
+    sdi9
+  ON_HEX 116 91
+    shi4
+  ON_HEX 202 91
+    sLi1
+  ON_HEX 210 91
+    sOi7
+  ON_HEX 214 91
+    sMi3
+  ON_HEX 59 92
+    sUi#67
+  ON_HEX 110 92
+    sUi#86
+  ON_HEX 192 92
+    sUi#65
+  ON_HEX 203 92
+    sJi1
+  ON_HEX 93 93
+    shi4
+  ON_HEX 98 93
+    sUi5
+  ON_HEX 108 93
+    sdi5
+  ON_HEX 111 93
+    sUi#A9
+  ON_HEX 59 94
+    sJiI
+  ON_HEX 104 94
+    sdi4
+  ON_HEX 108 94
+    sdi3
+  ON_HEX 135 94
+    shi6
+  ON_HEX 59 95
+    sai1
+  ON_HEX 61 95
+    smi9
+  ON_HEX 62 95
+    sJiR
+  ON_HEX 71 95
+    sai1
+  ON_HEX 72 95
+    sai1
+  ON_HEX 88 95
+    shi9
+  ON_HEX 114 95
+    sdi8
+  ON_HEX 192 95
+    sDij
+  ON_HEX 60 96
+    sJiV
+  ON_HEX 63 96
+    sdi9
+  ON_HEX 56 97
+    smi4
+  ON_HEX 63 97
+    sUi#C1
+  ON_HEX 106 97
+    shiA
+  ON_HEX 116 97
+    sUi#D2
+  ON_HEX 130 97
+    shi3
+  ON_HEX 56 98
+    sUi#7B
+  ON_HEX 58 98
+    sJi7
+  ON_HEX 98 98
+    sFiD
+  ON_HEX 118 98
+    sFiZ
+  ON_HEX 199 98
+    sEiN
+  ON_HEX 57 99
+    sJiP
+  ON_HEX 67 99
+    smi9
+  ON_HEX 105 99
+    sdi4
+  ON_HEX 141 99
+    shi1
+  ON_HEX 87 100
+    shi1
+  ON_HEX 109 100
+    sdi6
+  ON_HEX 112 100
+    shi3
+  ON_HEX 216 100
+    sLi1
+  ON_HEX 102 101
+    sUiv
+  ON_HEX 216 101
+    sJiG
+  ON_HEX 52 102
+    smi3
+  ON_HEX 57 102
+    smi4
+  ON_HEX 62 102
+    smi6
+  ON_HEX 68 102
+    sai1
+  ON_HEX 70 102
+    shi1
+  ON_HEX 137 102
+    sLi2
+  ON_HEX 141 102
+    sFiP
+  ON_HEX 57 103
+    smi5
+  ON_HEX 60 103
+    sFid
+  ON_HEX 106 103
+    sUiQ
+  ON_HEX 107 103
+    sUi#53
+  ON_HEX 137 103
+    sci2
+  ON_HEX 61 104
+    sFid
+  ON_HEX 67 104
+    sdi6
+  ON_HEX 137 104
+    sJi6
+  ON_HEX 145 104
+    sUi#C0
+  ON_HEX 147 104
+    sUi#99
+  ON_HEX 55 105
+    sJiF
+  ON_HEX 63 105
+    smi6
+  ON_HEX 136 105
+    sUit
+  ON_HEX 70 106
+    sai1
+  ON_HEX 144 106
+    sUi#81
+  ON_HEX 167 106
+    sbi2
+  ON_HEX 200 106
+    sbi5
+  ON_HEX 56 107
+    sJi8
+  ON_HEX 65 107
+    sai1
+  ON_HEX 69 107
+    sdiA
+  ON_HEX 115 107
+    shi7
+  ON_HEX 135 107
+    sUiL
+  ON_HEX 136 107
+    sUi#AF
+  ON_HEX 148 107
+    sUi#A7
+  ON_HEX 163 107
+    sUi#67
+  ON_HEX 164 107
+    sMi9
+  ON_HEX 63 108
+    sai1
+  ON_HEX 68 108
+    sdiA
+  ON_HEX 130 108
+    sLi3
+  ON_HEX 165 108
+    sai6
+  ON_HEX 66 109
+    sai1
+  ON_HEX 68 109
+    sdi7
+  ON_HEX 71 109
+    sai1
+  ON_HEX 77 109
+    shi5
+  ON_HEX 133 109
+    sUi#45
+  ON_HEX 142 109
+    sUio
+  ON_HEX 145 109
+    sUi#3E
+  ON_HEX 147 109
+    sci2
+  ON_HEX 148 109
+    sMi3
+  ON_HEX 150 109
+    sai6
+  ON_HEX 151 109
+    sJiY
+  ON_HEX 66 110
+    sdi6
+  ON_HEX 67 110
+    sdi1
+  ON_HEX 140 110
+    sJiI
+  ON_HEX 60 111
+    smi5
+  ON_HEX 77 111
+    sai1
+  ON_HEX 140 111
+    sUi#85
+  ON_HEX 145 111
+    sJiY
+  ON_HEX 152 111
+    sUi#C3
+  ON_HEX 175 111
+    sOi9
+  ON_HEX 64 112
+    sai1
+  ON_HEX 66 112
+    sai1
+  ON_HEX 71 112
+    sdi9
+  ON_HEX 127 112
+    sUiF
+  ON_HEX 132 112
+    sUiz
+  ON_HEX 160 112
+    sai2
+  ON_HEX 161 112
+    sLi1
+  ON_HEX 81 113
+    shi4
+  ON_HEX 135 113
+    sMi9
+  ON_HEX 141 113
+    sUi#58
+  ON_HEX 142 113
+    sUi#AA
+  ON_HEX 157 113
+    sUi#BF
+  ON_HEX 178 113
+    sEiC
+  ON_HEX 144 114
+    sJiX
+  ON_HEX 148 114
+    sJiR
+  ON_HEX 156 114
+    sYi1
+  ON_HEX 162 114
+    sci5
+  ON_HEX 208 114
+    sMi3
+  ON_HEX 64 115
+    sUih
+  ON_HEX 67 115
+    sdi7
+  ON_HEX 72 115
+    sdi1
+  ON_HEX 100 115
+    shi6
+  ON_HEX 141 115
+    sUi#4E
+  ON_HEX 152 115
+    sUi#A9
+  ON_HEX 156 115
+    sMi9
+  ON_HEX 172 115
+    sLi3
+  ON_HEX 201 115
+    sMi7
+  ON_HEX 65 116
+    sUiu
+  ON_HEX 139 116
+    sUi#79
+  ON_HEX 202 116
+    sMi7
+  ON_HEX 208 116
+    sJiM
+  ON_HEX 66 117
+    sai1
+  ON_HEX 130 117
+    sUig
+  ON_HEX 138 117
+    sJi9
+  ON_HEX 143 117
+    sOi8
+  ON_HEX 173 117
+    sci3
+  ON_HEX 213 117
+    sMi6
+  ON_HEX 75 118
+    sdiA
+  ON_HEX 76 118
+    sdi8
+  ON_HEX 78 118
+    sUi4
+  ON_HEX 149 118
+    sJiZ
+  ON_HEX 158 118
+    sci9
+  ON_HEX 167 118
+    sUi#90
+  ON_HEX 169 118
+    sMi8
+  ON_HEX 213 118
+    sJiJ
+  ON_HEX 143 119
+    sIiG
+  ON_HEX 153 119
+    sai5
+  ON_HEX 154 119
+    sLi5
+  ON_HEX 176 119
+    sai1
+  ON_HEX 215 119
+    sUi#B4
+  ON_HEX 234 119
+    sOi5
+  ON_HEX 87 120
+    smi2
+  ON_HEX 145 120
+    sUi#5B
+  ON_HEX 175 120
+    sEiG
+  ON_HEX 82 121
+    sUi#CE
+  ON_HEX 93 121
+    sJiN
+  ON_HEX 128 121
+    shi9
+  ON_HEX 140 121
+    sUi#6B
+  ON_HEX 114 122
+    shi3
+  ON_HEX 137 122
+    shi8
+  ON_HEX 144 122
+    sUi#6C
+  ON_HEX 146 122
+    sUil
+  ON_HEX 83 123
+    sJiU
+  ON_HEX 133 123
+    sUij
+  ON_HEX 143 123
+    sLi3
+  ON_HEX 151 123
+    sLi5
+  ON_HEX 226 123
+    sUi#CA
+  ON_HEX 229 123
+    sMi8
+  ON_HEX 75 124
+    sdi2
+  ON_HEX 85 124
+    smi6
+  ON_HEX 87 124
+    sJiS
+  ON_HEX 89 124
+    sai1
+  ON_HEX 90 124
+    shi4
+  ON_HEX 142 124
+    sai4
+  ON_HEX 151 124
+    sJiV
+  ON_HEX 71 125
+    sdi6
+  ON_HEX 74 125
+    sFi9
+  ON_HEX 77 125
+    sUi#BC
+  ON_HEX 87 125
+    sJiN
+  ON_HEX 88 125
+    smi2
+  ON_HEX 96 125
+    sFi2
+  ON_HEX 100 125
+    sai1
+  ON_HEX 151 125
+    sUi#C7
+  ON_HEX 176 125
+    sai5
+  ON_HEX 235 125
+    sHi6
+  ON_HEX 239 125
+    sOi7
+  ON_HEX 83 126
+    smi9
+  ON_HEX 85 126
+    sJiJ
+  ON_HEX 96 126
+    sFi2
+  ON_HEX 234 126
+    sMi2
+  ON_HEX 64 127
+    sdi1
+  ON_HEX 79 127
+    smi9
+  ON_HEX 86 127
+    smi5
+  ON_HEX 97 127
+    shi4
+  ON_HEX 183 127
+    sEiJ
+  ON_HEX 71 128
+    sJi5
+  ON_HEX 81 128
+    sUi#C0
+  ON_HEX 84 128
+    sJiH
+  ON_HEX 85 128
+    sai1
+  ON_HEX 91 128
+    sJiP
+  ON_HEX 94 128
+    sai1
+  ON_HEX 149 128
+    sMi3
+  ON_HEX 184 128
+    sai5
+  ON_HEX 189 128
+    sLi1
+  ON_HEX 75 129
+    sai1
+  ON_HEX 76 129
+    sai1
+  ON_HEX 82 129
+    sJiE
+  ON_HEX 87 129
+    sJiZ
+  ON_HEX 91 129
+    sai1
+  ON_HEX 94 129
+    sJiZ
+  ON_HEX 97 129
+    sJiR
+  ON_HEX 111 129
+    shi7
+  ON_HEX 149 129
+    sJiY
+  ON_HEX 74 130
+    sJi6
+  ON_HEX 81 130
+    sJiN
+  ON_HEX 87 130
+    smi6
+  ON_HEX 88 130
+    smi6
+  ON_HEX 92 130
+    sdi1
+  ON_HEX 67 131
+    sdi1
+  ON_HEX 74 131
+    smi1
+  ON_HEX 78 131
+    sJi1
+  ON_HEX 80 131
+    sJiP
+  ON_HEX 96 131
+    sai1
+  ON_HEX 69 132
+    sdi2
+  ON_HEX 74 132
+    sdi4
+  ON_HEX 78 132
+    sJiB
+  ON_HEX 82 132
+    sdi9
+  ON_HEX 83 132
+    sJiJ
+  ON_HEX 93 132
+    sai1
+  ON_HEX 172 132
+    sOi9
+  ON_HEX 240 132
+    sMi1
+  ON_HEX 76 133
+    sdi7
+  ON_HEX 77 133
+    smi3
+  ON_HEX 78 133
+    smi5
+  ON_HEX 86 133
+    sdi4
+  ON_HEX 91 133
+    sJiG
+  ON_HEX 95 133
+    smiA
+  ON_HEX 191 133
+    sOi4
+  ON_HEX 192 133
+    sci5
+  ON_HEX 74 134
+    smi5
+  ON_HEX 75 134
+    sdi5
+  ON_HEX 82 134
+    sJi8
+  ON_HEX 84 134
+    sai1
+  ON_HEX 86 134
+    sJi3
+  ON_HEX 89 134
+    sdi7
+  ON_HEX 74 135
+    sdi1
+  ON_HEX 79 135
+    smi7
+  ON_HEX 82 135
+    sdi2
+  ON_HEX 83 135
+    sdi5
+  ON_HEX 86 135
+    sai1
+  ON_HEX 88 135
+    sJiF
+  ON_HEX 89 135
+    smi9
+  ON_HEX 91 135
+    sdiA
+  ON_HEX 78 136
+    sdi5
+  ON_HEX 79 136
+    sai1
+  ON_HEX 82 136
+    sJiK
+  ON_HEX 83 136
+    sdi7
+  ON_HEX 90 136
+    sJiT
+  ON_HEX 91 136
+    smi4
+  ON_HEX 92 136
+    sai1
+  ON_HEX 101 136
+    shi9
+  ON_HEX 79 137
+    sdi6
+  ON_HEX 83 137
+    sai1
+  ON_HEX 84 137
+    sai1
+  ON_HEX 182 137
+    sLi4
+  ON_HEX 84 138
+    sdi5
+  ON_HEX 86 138
+    smi9
+  ON_HEX 91 138
+    sai1
+  ON_HEX 93 139
+    sJiW
+  ON_HEX 183 139
+    sciA
+  ON_HEX 248 140
+    sLi1
+  ON_HEX 93 141
+    sdi7
+  ON_HEX 105 141
+    shi8
+  ON_HEX 158 141
+    sUi#87
+  ON_HEX 181 141
+    sOi7
+  ON_HEX 79 142
+    sdi4
+  ON_HEX 86 142
+    sdi7
+  ON_HEX 168 143
+    sUi#4E
+  ON_HEX 86 144
+    sdi9
+  ON_HEX 154 144
+    shi8
+  ON_HEX 168 144
+    sFi7
+  ON_HEX 174 144
+    sUi#7A
+  ON_HEX 84 145
+    sdi7
+  ON_HEX 151 145
+    sUi#4E
+  ON_HEX 188 145
+    sMi6
+  ON_HEX 85 146
+    sdi7
+  ON_HEX 151 146
+    sUi4
+  ON_HEX 83 147
+    sdi4
+  ON_HEX 169 147
+    sUi2
+  ON_HEX 179 147
+    sUi#CB
+  ON_HEX 187 147
+    sUi#9D
+  ON_HEX 249 147
+    sLi1
+  ON_HEX 90 148
+    sdi8
+  ON_HEX 152 148
+    sUi#48
+  ON_HEX 170 148
+    sUi#80
+  ON_HEX 177 148
+    sUiI
+  ON_HEX 75 149
+    sdi3
+  ON_HEX 92 149
+    shi5
+  ON_HEX 144 149
+    sUi3
+  ON_HEX 173 149
+    sUi#C6
+  ON_HEX 195 149
+    sbi3
+  ON_HEX 153 150
+    sUi#8A
+  ON_HEX 167 150
+    sUii
+  ON_HEX 152 151
+    sUi#7C
+  ON_HEX 162 151
+    sZi4
+  ON_HEX 167 151
+    sUi#44
+  ON_HEX 178 151
+    sUit
+  ON_HEX 181 151
+    sJiO
+  ON_HEX 186 151
+    sUi#5E
+  ON_HEX 184 152
+    sUi#47
+  ON_HEX 174 153
+    sJiG
+  ON_HEX 187 153
+    sUi#77
+  ON_HEX 191 153
+    sOi3
+  ON_HEX 252 153
+    sMi2
+  ON_HEX 183 154
+    sJiI
+  ON_HEX 190 154
+    sbi9
+  ON_HEX 191 154
+    sUi#94
+  ON_HEX 153 155
+    sUi#51
+  ON_HEX 182 155
+    sJiK
+  ON_HEX 91 156
+    shi6
+  ON_HEX 187 156
+    sMi8
+  ON_HEX 256 156
+    sLi3
+  ON_HEX 92 157
+    shi7
+  ON_HEX 106 157
+    shi6
+  ON_HEX 154 157
+    sUis
+  ON_HEX 165 157
+    sZi8
+  ON_HEX 180 157
+    sUir
+  ON_HEX 154 158
+    shi8
+  ON_HEX 166 159
+    sZi5
+  ON_HEX 172 159
+    sUi#7D
+  ON_HEX 201 159
+    sLi1
+  ON_HEX 159 160
+    sZi2
+  ON_HEX 162 160
+    sZi5
+  ON_HEX 174 160
+    sZi9
+  ON_HEX 175 160
+    sJiC
+  ON_HEX 189 160
+    sbi8
+  ON_HEX 222 160
+    sbi8
+  ON_HEX 163 161
+    sZi5
+  ON_HEX 167 161
+    sdi6
+  ON_HEX 168 161
+    sai1
+  ON_HEX 185 161
+    sJiR
+  ON_HEX 190 161
+    sai4
+  ON_HEX 192 161
+    sUi#89
+  ON_HEX 168 162
+    sai1
+  ON_HEX 176 162
+    sJi9
+  ON_HEX 163 163
+    sZi2
+  ON_HEX 167 163
+    sai1
+  ON_HEX 174 163
+    sUi#A3
+  ON_HEX 180 163
+    sJiM
+  ON_HEX 188 163
+    sFif
+  ON_HEX 152 164
+    shi9
+  ON_HEX 162 164
+    sUic
+  ON_HEX 254 164
+    sOi1
+  ON_HEX 258 164
+    sbi6
+  ON_HEX 165 165
+    sUi#4C
+  ON_HEX 170 165
+    sdi8
+  ON_HEX 205 165
+    sUi#47
+  ON_HEX 228 165
+    sHi9
+  ON_HEX 247 165
+    sbi6
+  ON_HEX 250 165
+    sLi1
+  ON_HEX 176 166
+    sIiF
+  ON_HEX 179 166
+    sJi2
+  ON_HEX 181 166
+    sli1
+  ON_HEX 198 166
+    sLi1
+  ON_HEX 161 167
+    sai1
+  ON_HEX 162 167
+    shi7
+  ON_HEX 169 167
+    sZi5
+  ON_HEX 171 167
+    sai1
+  ON_HEX 180 167
+    sJi7
+  ON_HEX 182 167
+    sJiF
+  ON_HEX 196 167
+    sbi9
+  ON_HEX 198 167
+    sJiT
+  ON_HEX 229 167
+    sJiH
+  ON_HEX 231 167
+    sMi2
+  ON_HEX 238 167
+    sLi1
+  ON_HEX 150 168
+    sdi4
+  ON_HEX 156 168
+    sdi4
+  ON_HEX 165 168
+    sUiU
+  ON_HEX 168 168
+    sdiA
+  ON_HEX 169 168
+    sdi8
+  ON_HEX 171 168
+    sUi#CB
+  ON_HEX 174 168
+    sdi9
+  ON_HEX 179 168
+    sJiZ
+  ON_HEX 198 168
+    sJi1
+  ON_HEX 200 168
+    sci1
+  ON_HEX 202 168
+    sOi8
+  ON_HEX 217 168
+    sUi#DC
+  ON_HEX 161 169
+    sai1
+  ON_HEX 163 169
+    sai1
+  ON_HEX 184 169
+    sJi1
+  ON_HEX 185 169
+    sliA
+  ON_HEX 208 169
+    sUi#AC
+  ON_HEX 237 169
+    sbi3
+  ON_HEX 242 169
+    sbi7
+  ON_HEX 245 169
+    sci3
+  ON_HEX 246 169
+    sMi6
+  ON_HEX 249 169
+    sciA
+  ON_HEX 161 170
+    sdiA
+  ON_HEX 165 170
+    sdi5
+  ON_HEX 169 170
+    sUi#C7
+  ON_HEX 173 170
+    sUi#A5
+  ON_HEX 182 170
+    sKiJ
+  ON_HEX 237 170
+    sJiK
+  ON_HEX 246 170
+    sJiC
+  ON_HEX 154 171
+    sai1
+  ON_HEX 161 171
+    sai1
+  ON_HEX 167 171
+    sdi8
+  ON_HEX 178 171
+    sUi1
+  ON_HEX 180 171
+    sJiS
+  ON_HEX 204 171
+    sbiA
+  ON_HEX 100 172
+    sUiy
+  ON_HEX 151 172
+    sZi1
+  ON_HEX 158 172
+    sai1
+  ON_HEX 163 172
+    sai1
+  ON_HEX 177 172
+    sLi1
+  ON_HEX 179 172
+    sli1
+  ON_HEX 187 172
+    sJiZ
+  ON_HEX 204 172
+    sUii
+  ON_HEX 205 172
+    sUi#7E
+  ON_HEX 216 172
+    sMi8
+  ON_HEX 230 172
+    sIiF
+  ON_HEX 114 173
+    shi9
+  ON_HEX 177 173
+    sJiM
+  ON_HEX 182 173
+    sJiE
+  ON_HEX 183 173
+    sJiM
+  ON_HEX 185 173
+    sKi9
+  ON_HEX 188 173
+    sJiM
+  ON_HEX 206 173
+    sUi#77
+  ON_HEX 155 174
+    sUi#D8
+  ON_HEX 162 174
+    sZi6
+  ON_HEX 168 174
+    sdi9
+  ON_HEX 181 174
+    sJiT
+  ON_HEX 217 174
+    sci6
+  ON_HEX 92 175
+    sJi6
+  ON_HEX 153 175
+    sdi1
+  ON_HEX 160 175
+    sdi7
+  ON_HEX 168 175
+    sUi#A2
+  ON_HEX 173 175
+    sUi1
+  ON_HEX 189 175
+    sJi4
+  ON_HEX 209 175
+    sUi#7B
+  ON_HEX 210 175
+    sUi#71
+  ON_HEX 111 176
+    sUi#9E
+  ON_HEX 113 176
+    sUi#CD
+  ON_HEX 159 176
+    sUi1
+  ON_HEX 160 176
+    sUi#46
+  ON_HEX 162 176
+    sai1
+  ON_HEX 163 176
+    sJiO
+  ON_HEX 164 176
+    sUil
+  ON_HEX 179 176
+    sUi1
+  ON_HEX 183 176
+    sJiL
+  ON_HEX 184 176
+    sKi6
+  ON_HEX 220 176
+    sbi6
+  ON_HEX 100 177
+    sJi6
+  ON_HEX 107 177
+    sdi1
+  ON_HEX 157 177
+    sZi2
+  ON_HEX 159 177
+    sai1
+  ON_HEX 160 177
+    sUi1
+  ON_HEX 163 177
+    sUi1
+  ON_HEX 168 177
+    sai1
+  ON_HEX 170 177
+    sZi9
+  ON_HEX 182 177
+    sUi1
+  ON_HEX 183 177
+    sJiT
+  ON_HEX 193 177
+    sLi1
+  ON_HEX 223 177
+    sLi2
+  ON_HEX 95 178
+    sJiA
+  ON_HEX 111 178
+    sdi6
+  ON_HEX 158 178
+    sZi2
+  ON_HEX 161 178
+    sUi1
+  ON_HEX 163 178
+    sdiA
+  ON_HEX 166 178
+    sLi1
+  ON_HEX 173 178
+    sUi1
+  ON_HEX 187 178
+    sJiP
+  ON_HEX 189 178
+    sbi3
+  ON_HEX 190 178
+    sYi3
+  ON_HEX 191 178
+    sli1
+  ON_HEX 192 178
+    sYi2
+  ON_HEX 195 178
+    sHi2
+  ON_HEX 222 178
+    sciA
+  ON_HEX 113 179
+    sai1
+  ON_HEX 147 179
+    sdi2
+  ON_HEX 152 179
+    sZi2
+  ON_HEX 156 179
+    sJiA
+  ON_HEX 161 179
+    sJiS
+  ON_HEX 166 179
+    sJiD
+  ON_HEX 169 179
+    sJiX
+  ON_HEX 179 179
+    sUi1
+  ON_HEX 194 179
+    sOi3
+  ON_HEX 98 180
+    sJia
+  ON_HEX 104 180
+    sai1
+  ON_HEX 110 180
+    sZi6
+  ON_HEX 114 180
+    sdi9
+  ON_HEX 116 180
+    sJi3
+  ON_HEX 160 180
+    sUi1
+  ON_HEX 165 180
+    sUi1
+  ON_HEX 190 180
+    sJiV
+  ON_HEX 194 180
+    sai5
+  ON_HEX 197 180
+    sbi1
+  ON_HEX 212 180
+    sLi1
+  ON_HEX 101 181
+    sJiB
+  ON_HEX 104 181
+    sdi2
+  ON_HEX 105 181
+    sdi2
+  ON_HEX 106 181
+    sdi1
+  ON_HEX 108 181
+    sUi#7E
+  ON_HEX 122 181
+    sJia
+  ON_HEX 157 181
+    sJiI
+  ON_HEX 186 181
+    sai4
+  ON_HEX 187 181
+    sai4
+  ON_HEX 188 181
+    sai5
+  ON_HEX 205 181
+    sdi4
+  ON_HEX 217 181
+    sdi8
+  ON_HEX 255 181
+    sOi3
+  ON_HEX 103 182
+    sJiD
+  ON_HEX 126 182
+    shi5
+  ON_HEX 165 182
+    sUi#BE
+  ON_HEX 167 182
+    sai1
+  ON_HEX 168 182
+    sai1
+  ON_HEX 174 182
+    sUi1
+  ON_HEX 186 182
+    sai2
+  ON_HEX 187 182
+    sai6
+  ON_HEX 207 182
+    sOi1
+  ON_HEX 256 182
+    sOi6
+  ON_HEX 101 183
+    sUia
+  ON_HEX 105 183
+    sZi3
+  ON_HEX 116 183
+    sai1
+  ON_HEX 117 183
+    sUiK
+  ON_HEX 152 183
+    sdi3
+  ON_HEX 157 183
+    sai1
+  ON_HEX 161 183
+    sUi#46
+  ON_HEX 244 183
+    sMi5
+  ON_HEX 248 183
+    sLi1
+  ON_HEX 111 184
+    sai1
+  ON_HEX 118 184
+    sZi4
+  ON_HEX 157 184
+    sZi1
+  ON_HEX 161 184
+    sUi#9B
+  ON_HEX 224 184
+    sbi3
+  ON_HEX 248 184
+    sLi2
+  ON_HEX 106 185
+    sJiI
+  ON_HEX 115 185
+    sai1
+  ON_HEX 119 185
+    sJiJ
+  ON_HEX 121 185
+    sdiA
+  ON_HEX 124 185
+    sJiM
+  ON_HEX 154 185
+    sUi3
+  ON_HEX 162 185
+    sUi1
+  ON_HEX 163 185
+    shi7
+  ON_HEX 170 185
+    sUi1
+  ON_HEX 173 185
+    sFiF
+  ON_HEX 261 185
+    sLi2
+  ON_HEX 100 186
+    sZi3
+  ON_HEX 117 186
+    sJi8
+  ON_HEX 118 186
+    sJiB
+  ON_HEX 156 186
+    sdi7
+  ON_HEX 157 186
+    sZi3
+  ON_HEX 166 186
+    sJiQ
+  ON_HEX 253 186
+    sci5
+  ON_HEX 105 187
+    sai1
+  ON_HEX 109 187
+    sdi7
+  ON_HEX 112 187
+    sZi9
+  ON_HEX 128 187
+    sdi4
+  ON_HEX 135 187
+    sUi#B1
+  ON_HEX 177 187
+    sdi4
+  ON_HEX 209 187
+    sdi5
+  ON_HEX 257 187
+    sUi#72
+  ON_HEX 110 188
+    sUi#A8
+  ON_HEX 116 188
+    sUi#B7
+  ON_HEX 118 188
+    sZi8
+  ON_HEX 121 188
+    sJiB
+  ON_HEX 123 188
+    sZi7
+  ON_HEX 161 188
+    sZi3
+  ON_HEX 211 188
+    sbiA
+  ON_HEX 221 188
+    sLi2
+  ON_HEX 234 188
+    sbi6
+  ON_HEX 249 188
+    sbi6
+  ON_HEX 254 188
+    sUi#4E
+  ON_HEX 259 188
+    sci7
+  ON_HEX 115 189
+    sai1
+  ON_HEX 121 189
+    sZi5
+  ON_HEX 156 189
+    sUi1
+  ON_HEX 158 189
+    sJiB
+  ON_HEX 171 189
+    sJiZ
+  ON_HEX 186 189
+    sUi1
+  ON_HEX 215 189
+    sdi6
+  ON_HEX 226 189
+    sbi3
+  ON_HEX 107 190
+    sZi7
+  ON_HEX 108 190
+    sai1
+  ON_HEX 110 190
+    sdi3
+  ON_HEX 111 190
+    sJiA
+  ON_HEX 117 190
+    sZi5
+  ON_HEX 122 190
+    sZi9
+  ON_HEX 126 190
+    sdi4
+  ON_HEX 128 190
+    sUiz
+  ON_HEX 163 190
+    sUiu
+  ON_HEX 202 190
+    sdi1
+  ON_HEX 208 190
+    sdi2
+  ON_HEX 217 190
+    sdiA
+  ON_HEX 223 190
+    sOi7
+  ON_HEX 257 190
+    sUi6
+  ON_HEX 261 190
+    sUi#66
+  ON_HEX 96 191
+    sJi8
+  ON_HEX 105 191
+    sZi7
+  ON_HEX 124 191
+    sZi9
+  ON_HEX 127 191
+    sdi5
+  ON_HEX 134 191
+    sUi#CF
+  ON_HEX 182 191
+    sdi5
+  ON_HEX 229 191
+    sLi1
+  ON_HEX 250 191
+    sIi5
+  ON_HEX 257 191
+    sci8
+  ON_HEX 259 191
+    sai3
+  ON_HEX 106 192
+    sZi3
+  ON_HEX 107 192
+    sZi4
+  ON_HEX 108 192
+    sZi7
+  ON_HEX 128 192
+    sUi#97
+  ON_HEX 130 192
+    sUi#C0
+  ON_HEX 136 192
+    sUi#C4
+  ON_HEX 165 192
+    sUi1
+  ON_HEX 166 192
+    sUi1
+  ON_HEX 190 192
+    sFi6
+  ON_HEX 210 192
+    sLi3
+  ON_HEX 227 192
+    sHi3
+  ON_HEX 258 192
+    sai1
+  ON_HEX 259 192
+    sUi1
+  ON_HEX 119 193
+    sZi7
+  ON_HEX 126 193
+    sdi6
+  ON_HEX 129 193
+    sUi#9F
+  ON_HEX 204 193
+    sdi1
+  ON_HEX 259 193
+    sai5
+  ON_HEX 260 193
+    sai3
+  ON_HEX 261 193
+    sai6
+  ON_HEX 262 193
+    sai3
+  ON_HEX 124 194
+    sZi1
+  ON_HEX 125 194
+    sUi#59
+  ON_HEX 254 194
+    sLi3
+  ON_HEX 260 194
+    sai6
+  ON_HEX 261 194
+    sai1
+  ON_HEX 262 194
+    sai3
+  ON_HEX 106 195
+    sai1
+  ON_HEX 138 195
+    sdi2
+  ON_HEX 187 195
+    sZi9
+  ON_HEX 219 195
+    sLi1
+  ON_HEX 234 195
+    sJi7
+  ON_HEX 235 195
+    sJiJ
+  ON_HEX 124 196
+    sZi6
+  ON_HEX 127 196
+    sZi1
+  ON_HEX 178 196
+    sZi3
+  ON_HEX 190 196
+    sZi6
+  ON_HEX 256 196
+    sci1
+  ON_HEX 123 197
+    sdi2
+  ON_HEX 130 197
+    sZi6
+  ON_HEX 141 197
+    sFiT
+  ON_HEX 183 197
+    sdi4
+  ON_HEX 188 197
+    sdi8
+  ON_HEX 212 197
+    sdi6
+  ON_HEX 269 197
+    sLi3
+  ON_HEX 125 198
+    sZi3
+  ON_HEX 130 198
+    sZi4
+  ON_HEX 174 198
+    sdi1
+  ON_HEX 258 198
+    sJiE
+  ON_HEX 127 199
+    sZi3
+  ON_HEX 132 199
+    sdiA
+  ON_HEX 183 199
+    sdi7
+  ON_HEX 239 199
+    sJiN
+  ON_HEX 249 199
+    sJiW
+  ON_HEX 129 200
+    sUi#67
+  ON_HEX 133 200
+    sZi9
+  ON_HEX 177 200
+    sZi2
+  ON_HEX 181 200
+    sdi5
+  ON_HEX 219 200
+    sbiA
+  ON_HEX 263 200
+    sbi7
+  ON_HEX 270 200
+    sbi7
+  ON_HEX 271 200
+    sHi4
+  ON_HEX 132 201
+    sZi4
+  ON_HEX 184 201
+    sUif
+  ON_HEX 193 201
+    sZi9
+  ON_HEX 223 201
+    sOi8
+  ON_HEX 236 201
+    sMi5
+  ON_HEX 241 201
+    sJiJ
+  ON_HEX 266 201
+    sci4
+  ON_HEX 269 201
+    sMi3
+  ON_HEX 125 202
+    sdi5
+  ON_HEX 135 202
+    sZi5
+  ON_HEX 180 202
+    sZi5
+  ON_HEX 190 202
+    sZi8
+  ON_HEX 211 202
+    sLi4
+  ON_HEX 217 202
+    sLi3
+  ON_HEX 228 202
+    sLi4
+  ON_HEX 234 202
+    sJiD
+  ON_HEX 270 202
+    sJiB
+  ON_HEX 191 203
+    sdi9
+  ON_HEX 208 203
+    sMi8
+  ON_HEX 231 203
+    sbi5
+  ON_HEX 239 203
+    sbi9
+  ON_HEX 246 203
+    sJia
+  ON_HEX 148 204
+    sZi9
+  ON_HEX 191 204
+    sJia
+  ON_HEX 181 205
+    sUih
+  ON_HEX 182 205
+    sJiA
+  ON_HEX 188 205
+    sZi7
+  ON_HEX 191 205
+    sJiM
+  ON_HEX 212 205
+    sbi9
+  ON_HEX 143 206
+    sZi7
+  ON_HEX 191 206
+    sZi9
+  ON_HEX 237 206
+    sJiB
+  ON_HEX 246 206
+    sJiR
+  ON_HEX 248 206
+    sLi1
+  ON_HEX 136 207
+    sZi3
+  ON_HEX 185 207
+    sai1
+  ON_HEX 181 208
+    sJi1
+  ON_HEX 185 208
+    sUi#3E
+  ON_HEX 195 208
+    sJi4
+  ON_HEX 239 208
+    sOi6
+  ON_HEX 143 209
+    shi5
+  ON_HEX 184 209
+    sZi3
+  ON_HEX 191 209
+    sUi#A9
+  ON_HEX 196 209
+    sUi#D6
+  ON_HEX 230 209
+    sOi8
+  ON_HEX 136 210
+    sZi5
+  ON_HEX 182 210
+    sJi1
+  ON_HEX 198 210
+    sUi#C0
+  ON_HEX 204 210
+    sLi1
+  ON_HEX 216 210
+    sOi3
+  ON_HEX 245 210
+    sOi4
+  ON_HEX 248 210
+    sbi1
+  ON_HEX 208 211
+    sbi5
+  ON_HEX 216 211
+    sai4
+  ON_HEX 220 211
+    sMi5
+  ON_HEX 226 211
+    sLi3
+  ON_HEX 231 211
+    sDiO
+  ON_HEX 183 212
+    sZi1
+  ON_HEX 212 212
+    sai4
+  ON_HEX 213 212
+    sLi3
+  ON_HEX 220 212
+    sai2
+  ON_HEX 184 213
+    sai1
+  ON_HEX 187 213
+    sUis
+  ON_HEX 193 213
+    sUi#7C
+  ON_HEX 237 213
+    sLi4
+  ON_HEX 183 214
+    sUi#51
+  ON_HEX 184 214
+    sUi#5B
+  ON_HEX 197 214
+    sJiT
+  ON_HEX 247 214
+    sbi5
+  ON_HEX 137 215
+    sZi1
+  ON_HEX 176 215
+    sai1
+  ON_HEX 181 215
+    sZi2
+  ON_HEX 185 215
+    sai1
+  ON_HEX 186 215
+    sZi7
+  ON_HEX 192 215
+    sJiJ
+  ON_HEX 238 215
+    sDiI
+  ON_HEX 246 215
+    sUif
+  ON_HEX 182 216
+    sai1
+  ON_HEX 183 216
+    sUi9
+  ON_HEX 186 216
+    sZi4
+  ON_HEX 188 216
+    sUi#7A
+  ON_HEX 197 216
+    sFiI
+  ON_HEX 241 216
+    sUi#9B
+  ON_HEX 169 217
+    sai1
+  ON_HEX 179 217
+    sai1
+  ON_HEX 185 217
+    sZi3
+  ON_HEX 190 217
+    sZi9
+  ON_HEX 193 217
+    sUi#CC
+  ON_HEX 208 217
+    sFiW
+  ON_HEX 197 218
+    sLi1
+  ON_HEX 208 218
+    sMi6
+  ON_HEX 244 218
+    sMi3
+  ON_HEX 196 219
+    sJiN
+  ON_HEX 207 219
+    sJiY
+  ON_HEX 242 219
+    sUi#98
+  ON_HEX 243 219
+    sDiQ
+  ON_HEX 144 220
+    sZi9
+  ON_HEX 146 220
+    sZi6
+  ON_HEX 180 220
+    sUiN
+  ON_HEX 182 220
+    sai1
+  ON_HEX 185 220
+    sai1
+  ON_HEX 191 220
+    sUiB
+  ON_HEX 202 220
+    sbi5
+  ON_HEX 256 220
+    sJiR
+  ON_HEX 184 221
+    sZi1
+  ON_HEX 157 222
+    sZi3
+  ON_HEX 159 222
+    sFiA
+  ON_HEX 208 222
+    sJiI
+  ON_HEX 210 222
+    sbi8
+  ON_HEX 150 223
+    sdi2
+  ON_HEX 163 223
+    sdi8
+  ON_HEX 178 223
+    sUi#7B
+  ON_HEX 289 223
+    sLi4
+  ON_HEX 183 224
+    sZi5
+  ON_HEX 148 225
+    sdi5
+  ON_HEX 154 225
+    sZi1
+  ON_HEX 156 225
+    sdi5
+  ON_HEX 201 225
+    sLi1
+  ON_HEX 281 225
+    sUiB
+  ON_HEX 282 225
+    sMi2
+  ON_HEX 161 226
+    sdi1
+  ON_HEX 162 226
+    sdi7
+  ON_HEX 201 226
+    sJiV
+  ON_HEX 250 226
+    sUi#A3
+  ON_HEX 291 226
+    sOi8
+  ON_HEX 155 227
+    sdi7
+  ON_HEX 156 227
+    sZi3
+  ON_HEX 157 227
+    sdiA
+  ON_HEX 168 227
+    sdiA
+  ON_HEX 205 227
+    sbi7
+  ON_HEX 252 227
+    sDi4
+  ON_HEX 289 227
+    sci1
+  ON_HEX 153 228
+    sdi3
+  ON_HEX 166 228
+    sZi6
+  ON_HEX 168 228
+    sZi9
+  ON_HEX 171 228
+    sZi8
+  ON_HEX 160 229
+    sdi2
+  ON_HEX 164 229
+    sdi3
+  ON_HEX 166 229
+    sZi5
+  ON_HEX 253 229
+    sUi#64
+  ON_HEX 255 229
+    sMi9
+  ON_HEX 154 230
+    sdi6
+  ON_HEX 165 230
+    sZi4
+  ON_HEX 197 230
+    sZi2
+  ON_HEX 291 230
+    sHi7
+  ON_HEX 159 231
+    sZi2
+  ON_HEX 160 231
+    sdi7
+  ON_HEX 163 231
+    sZi5
+  ON_HEX 257 231
+    sci6
+  ON_HEX 157 232
+    sZi3
+  ON_HEX 170 232
+    sdi8
+  ON_HEX 263 232
+    sLi3
+  ON_HEX 163 233
+    sdi7
+  ON_HEX 169 233
+    sZi9
+  ON_HEX 172 233
+    sai1
+  ON_HEX 200 233
+    sZi7
+  ON_HEX 149 234
+    sdi5
+  ON_HEX 176 234
+    sZi3
+  ON_HEX 294 234
+    sMi8
+  ON_HEX 160 235
+    sZi1
+  ON_HEX 175 235
+    sai1
+  ON_HEX 207 235
+    sZi9
+  ON_HEX 262 235
+    sMi6
+  ON_HEX 270 235
+    sai5
+  ON_HEX 198 236
+    sZi2
+  ON_HEX 261 236
+    sJi2
+  ON_HEX 266 236
+    sOi5
+  ON_HEX 292 236
+    sYiA
+  ON_HEX 156 237
+    sdi9
+  ON_HEX 161 237
+    sdi1
+  ON_HEX 162 237
+    sdi4
+  ON_HEX 174 237
+    sZi9
+  ON_HEX 180 237
+    sZi8
+  ON_HEX 200 237
+    sFiV
+  ON_HEX 265 237
+    sci2
+  ON_HEX 289 237
+    sUi#A5
+  ON_HEX 297 237
+    sOi8
+  ON_HEX 161 238
+    sdi4
+  ON_HEX 193 238
+    sZi3
+  ON_HEX 167 239
+    sdi7
+  ON_HEX 198 239
+    sZi2
+  ON_HEX 155 240
+    sZi2
+  ON_HEX 163 240
+    sdi1
+  ON_HEX 164 240
+    sZi5
+  ON_HEX 171 240
+    sZi7
+  ON_HEX 172 241
+    sdi7
+  ON_HEX 175 241
+    sai1
+  ON_HEX 172 242
+    sZi6
+  ON_HEX 176 242
+    sai1
+  ON_HEX 181 242
+    sai1
+  ON_HEX 202 242
+    sZi7
+  ON_HEX 205 242
+    sZi5
+  ON_HEX 160 243
+    sZi3
+  ON_HEX 164 243
+    sdi5
+  ON_HEX 175 243
+    sZi6
+  ON_HEX 171 244
+    sZi1
+  ON_HEX 175 244
+    sZi4
+  ON_HEX 186 244
+    sZi9
+  ON_HEX 274 244
+    sIi2
+  ON_HEX 298 244
+    sLi3
+  ON_HEX 173 245
+    sai1
+  ON_HEX 276 245
+    sMi1
+  ON_HEX 282 245
+    sci9
+  ON_HEX 174 246
+    sZi4
+  ON_HEX 272 246
+    sLi4
+  ON_HEX 287 246
+    sLi1
+  ON_HEX 181 247
+    sai1
+  ON_HEX 270 247
+    sJi8
+  ON_HEX 300 247
+    sJiT
+  ON_HEX 184 248
+    sai1
+  ON_HEX 272 248
+    sMi4
+  ON_HEX 275 248
+    sci8
+  ON_HEX 281 248
+    sMi6
+  ON_HEX 298 248
+    sOi7
+  ON_HEX 173 249
+    sZi1
 END_OF_ENVIROMENT
 
 EXTERNAL_SECTORS sectors.bin
@@ -1361,7 +2987,7 @@ ATTITUDES
 END_OF_ATTITUDES
 
 TECHS
-  PARAMS 73 8
+  PARAMS 74 8
   F T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F
@@ -1431,6 +3057,7 @@ TECHS
   F T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F F T T T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F
@@ -1555,21 +3182,21 @@ END_OF_BASES
 
 RANDOMS
   MICROLOGIC 2 0 1
-  RANDOM_SEED 1 -1014717853
-  RANDOM_SEED 2 1007567676
-  RANDOM_SEED 3 303941632
+  RANDOM_SEED 1 -234461015
+  RANDOM_SEED 2 -1080028329
+  RANDOM_SEED 3 354498256
   RANDOM_SEED 4 1330527458
   RANDOM_SEED 5 1728609905
   RANDOM_SEED 6 1743601721
   RANDOM_SEED 7 848587556
   RANDOM_SEED 8 88943545
   RANDOM_SEED 9 249135263
-  RANDOM_SEED 10 -1192165863
+  RANDOM_SEED 10 -234461015
   RANDOM_SEED 11 846909858
   RANDOM_SEED 12 1972773934
   RANDOM_SEED 13 1410544365
   RANDOM_SEED 14 303216294
-  RANDOM_SEED 15 -119093472
+  RANDOM_SEED 15 1674062690
   RANDOM_SEED 16 638753861
   RANDOM_SEED 17 1696392027
   RANDOM_SEED 18 1504436427
@@ -4943,7 +6570,7 @@ LASER_EFECTS
 END_OF_LASER_EFECTS
 
 USER_INTERFACE
-  VIEW 504 2454 1540 854 1
+  VIEW 430 2424 1540 854 1
   MASHA_FLAG 2 F F
 END_OF_USER_INTERFACE
 
@@ -4972,8 +6599,8 @@ SIDE 8 10
 END_OF_DEBRIEFING
 
 AREAS
-  ACTIVE 8
-  LAST 17
+  ACTIVE 17
+  LAST 18
   AREA 1
     NAME AM_Start
     COLOR 8CCC93

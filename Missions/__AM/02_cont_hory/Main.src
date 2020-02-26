@@ -1,0 +1,147 @@
+export MissionStart;
+export RussianAssault;
+
+starting
+begin
+
+PrepareDifficulty;
+PreparePlayerSquad;
+CreatePersonnel;
+CreateAlliedPersonnel;
+
+Garrison_Buildings(3);
+Assemble_Barracks(3);
+Assemble_Armories(3);
+Fill_Turrets(3);
+Fill_Bunkers(3);
+
+PlaceUnitXY(Smithy,125,160,false);
+ComTurnUnit(Smithy,Simone);
+
+InGameOn;
+
+ComMoveXY(FilterAllUnits([f_side,7]),110,157);
+ComMoveXY(Simone,120,160);
+AddComExitVehicle(Simone);
+AddComMoveXY(Simone,124,160);
+AddComTurnUnit(Simone,Smithy);
+CenterNowOnUnits(Simone);
+wait(0$1);
+
+repeat
+CenterNowOnUnits(Simone)
+until IsIdle(Simone);
+
+CenterNowOnUnits(Simone);
+Say(Simone,'D1-Simone-1');
+Say(Smithy,'D1-Smithy-1');
+Say(Simone,'D1-Simone-2');
+Say(Smithy,'D1-Smithy-2');
+Say(Simone,'D1-Simone-3');
+Say(Smithy,'D1-Smithy-3');
+Say(Simone,'D1-Simone-4');
+Say(Smithy,'D1-Smithy-4');
+ChangeMissionObjectives('M1');
+
+ComEnterUnit(Smithy, AM_Depot);
+
+InGameOff;
+MissionStart = true;
+SetSide(MnBase, 7);
+
+SaveForQuickRestart;
+end;
+
+every 0$1 trigger MissionStart do
+begin
+  Wait(11$0);
+
+  Say(Simone,'D2a-Simone-1');
+  Say(Smithy,'D2a-Smithy-1');
+  Say(Simone,'D2a-Simone-2');
+  Say(Smithy,'D2a-Smithy-2');
+  Say(Smithy,'D2a-Smithy-3');
+  Say(Simone,'D2a-Simone-3');
+  Say(Smithy,'D2a-Smithy-4');
+  Say(Smithy,'D2a-Smithy-5');
+  Say(Smithy,'D2a-Smithy-6');
+
+end;
+
+every 0$1 trigger MissionStart do
+begin
+  Wait(14$0);
+
+  RespawnAttackInfantry(6, 3, 5, 0, 0, 0, 0, 4, RU_Spawn_N);
+
+end;
+
+every 0$1 trigger MissionStart do
+var Edmonds_Car;
+begin
+  Wait(17$0);
+
+  uc_side = 1;
+  uc_nation:=nation_american;
+
+  vc_chassis:=us_light_wheeled;
+  vc_engine:=engine_combustion;
+  vc_weapon:=us_machine_gun;
+  vc_control:=control_manual;
+  Edmonds_Car:=CreateVehicle;
+
+  PlaceHumanInUnit(Edmonds,Edmonds_Car);
+  PlaceUnitArea(Edmonds_Car,AM_Start,false);
+
+  ComMoveXY(Edmonds,159,207);
+  AddComExitVehicle(Edmonds);
+
+  Wait(0$20);
+
+  Say(Simone,'D3-Simone-1');
+  Say(Edmonds,'D3-Edmonds-1');
+  Say(Edmonds,'D3-Edmonds-1a');
+  Say(Edmonds,'D3-Edmonds-2');
+  Say(Simone,'D3-Simone-2');
+
+  SetSide(Edmonds,7);
+  SetTech(tech_LasDouble,7,state_enabled);
+//  ChangeMissionObjectives('');
+end;
+
+every 0$1 trigger MissionStart do
+begin
+  Wait(21$0);
+  RussianAssault = true;
+
+  RussianFirstAssault;
+  Wait(0$25);
+  Say(Selected_americans[4],'D2b-Sol-1');
+  Say(Simone,'D2b-Simone-1');
+  Wait(1$20);
+  DialogueOn;
+  Say(Selected_americans[4],'D2c-Sol-1');
+  Say(Smithy,'D2c-Smithy-1');
+  Say(Simone,'D2c-Simone-1');
+  DialogueOff;
+end;
+
+
+every 0$1 trigger MissionStart do
+begin
+  Wait(54$0);
+  RespawnAttackInfantry(8, 2, 4, 0, 0, 0, 0, 6, GU_Spawn_E);
+  Wait(0$15);
+  RespawnAttackVehicle(GU_Spawn_E, 8, 3, 5, 2, [1,2,3], 1, [], [25,26,27,28,72], []);
+  Wait(0$45);
+  RespawnAttackInfantry(8, 2, 3, 0, 0, 0, 0, 6, GU_Spawn_S);
+
+  Wait(5$25);
+  RespawnAttackInfantry(8, 2, 5, 0, 0, 2, 0, 6, GU_Spawn_E);
+  Wait(0$25);
+  RespawnAttackVehicle(GU_Spawn_E, 8, 2, 5, 2, [1,2,3], 1, [], [25,26,27,28,72], []);
+  Wait(0$10);
+  RespawnAttackInfantry(8, 2, 4, 0, 0, 1, 0, 6, GU_Spawn_S);
+  RespawnAttackVehicle(GU_Spawn_S, 8, 2, 5, 2, [1,2,3], 1, [], [25,26,27,28], []);
+end;
+

@@ -112,7 +112,7 @@ begin
   PlaceHumanInUnit(Edmonds,Edmonds_Car);
   PlaceUnitArea(Edmonds_Car,AM_Start,false);
 
-  ComMoveXY(Edmonds,159,207);
+  ComMoveXY(Edmonds,162,208);
   AddComExitVehicle(Edmonds);
 
   Wait(0$20);
@@ -121,7 +121,7 @@ begin
   Say(Edmonds,'D3-Edmonds-1');
   Say(Edmonds,'D3-Edmonds-2');
   Say(Simone,'D3-Simone-2');
-  //Say(Edmonds,'D3-Edmonds-3');  // not dubbed
+  Say(Edmonds,'D3-Edmonds-3');
 
   SetSide(Edmonds,7);
   SetTech(tech_LasDouble,7,state_enabled);
@@ -177,8 +177,8 @@ begin
   RussianAssault = true;
 
   RussianFirstAssault;
-  Wait(0$30);
-  Squad := FilterAllUnits([[f_side, 7],[f_or, [f_class, 1], [f_class,2], [f_class,3], [f_class,4], [f_class,5] ]]) diff [Simone, Kathryn, Miller];
+  Wait(0$25);
+  Squad := FilterAllUnits([f_side, 7]) diff [Simone, Kathryn, Miller];
   SaySex(Squad[Rand(1, Squad)],'D2b-Sol-1', 'D2b-FemSol-1');
   Say(Simone,'D2b-Simone-1');
   Wait(1$20);
@@ -188,7 +188,7 @@ begin
   Say(Simone,'D2c-Simone-1');
   DialogueOff;
   //Wait(2$20);
-  //Say(Smithy,'D4a-Smithy-1');  //no dubbing
+  //Say(Smithy,'D4a-Smithy-1'); no dubbing
 end;
 
 

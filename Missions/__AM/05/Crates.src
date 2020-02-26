@@ -1,0 +1,8 @@
+every 0$1 trigger MissionStart do
+Begin
+wait(Rand(0$50, 1$20));
+CreateCratesArea(Rand(2, 5), CratesArea,true);
+
+enable;
+ 
+end;

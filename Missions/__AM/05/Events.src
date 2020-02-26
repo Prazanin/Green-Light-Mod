@@ -44,6 +44,10 @@ begin
    begin
      RU_Courier_Dead := true;
      Say(Miller, 'D8b-Miller-1');
+   end
+  else if un=Dvalishvili then
+   begin
+     ChangeMissionObjectives('M3b');
    end;
 
 MCE_UnitDestroyed(un);
@@ -77,18 +81,22 @@ begin
      DialogueOff;
    end;
 
-  if un = ustinov1 then
+  if un = ustinov1 and not Ustinov1Captured then
    begin
+     Ustinov1Captured := true;
      SetSide(ustinov1, 7);
      SetLives(ustinov1, 400);
-     Say(Sidorovich, 'D9-Sidor-1');
    end;
-  if un = ustinov2 then
+  if un = ustinov2 and not Ustinov2Captured then
    begin
+     Ustinov2Captured := true;
      SetSide(ustinov2, 7);
      SetLives(ustinov2, 400);
+     Say(Sidorovich, 'D9-Sidor-1');
    end;
 end;
+
+export Ustinov1Captured, Ustinov2Captured;
 
 On Contact(s1, s2) do
 begin

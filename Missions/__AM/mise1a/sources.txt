@@ -1,0 +1,8 @@
+SOURCE_CODES
+  ENABLED main
+  ENABLED characters
+  ENABLED AI
+  ENABLED Difficulty
+  ENABLED Functions
+  ENABLED Endings
+END_OF_SOURCE_CODES

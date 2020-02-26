@@ -1,0 +1,15 @@
+SOURCE_CODES
+  ENABLED Main
+  ENABLED Characters
+  ENABLED Functions
+  ENABLED Events
+  ENABLED AI
+  ENABLED Attacks
+  ENABLED Difficulty
+  ENABLED Ending
+  ENABLED Crates
+  ENABLED Macro
+  ENABLED MacroEvents
+  ENABLED MacroFunctions
+  ENABLED Aggro_Leveling
+END_OF_SOURCE_CODES

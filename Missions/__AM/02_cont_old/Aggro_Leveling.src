@@ -1,0 +1,76 @@
+export RUAggressivenessLevel, RUWeaponsPool;
+export RUMinVehCount, RUMaxVehCount, RUMinSolCount, RUMaxSolCount;
+export RUMinBazookaCount, RUMaxBazookaCount;
+
+export ThresholdLvl2,
+       ThresholdLvl3,
+       ThresholdLvl4,
+       ThresholdLvl5;
+
+export function SetAggressivenessLevel(level);
+begin
+  Case level of
+  1: begin
+       RUAggressivenessLevel := 1;
+       RUWeaponsPool := [42, 43, 44];
+       RUMinVehCount := 3;
+       RUMaxVehCount := 5;
+       RUMinSolCount := 4;
+       RUMaxSolCount := 5;
+       RUMinBazookaCount := 0;
+       RUMaxBazookaCount := 0;
+     end;
+  2: begin
+       RUAggressivenessLevel := 2;
+       RUWeaponsPool := [42, 43, 44];
+       RUMinVehCount := 4;
+       RUMaxVehCount := 5;
+       RUMinSolCount := 5;
+       RUMaxSolCount := 6;
+       RUMinBazookaCount := 0;
+       RUMaxBazookaCount := 0;
+     end;
+  3: begin
+       RUAggressivenessLevel := 3;
+       RUWeaponsPool := [43, 44, 76];
+       RUMinVehCount := 4;
+       RUMaxVehCount := 6;
+       RUMinSolCount := 4;
+       RUMaxSolCount := 5;
+       RUMinBazookaCount := 0;
+       RUMaxBazookaCount := 1;
+     end;
+  4: begin
+       RUAggressivenessLevel := 4;
+       RUWeaponsPool := [43, 44, 45, 76];
+       RUMinVehCount := 3;
+       RUMaxVehCount := 5;
+       RUMinSolCount := 4;
+       RUMaxSolCount := 5;
+       RUMinBazookaCount := 1;
+       RUMaxBazookaCount := 2;
+     end;
+  5: begin
+       RUAggressivenessLevel := 5;
+       RUWeaponsPool := [43, 44, 45, 46, 75, 76];
+       RUMinVehCount := 5;
+       RUMaxVehCount := 7;
+       RUMinSolCount := 6;
+       RUMaxSolCount := 7;
+       RUMinBazookaCount := 2;
+       RUMaxBazookaCount := 3;
+     end;
+  end;
+end;
+
+every 0$1 trigger RusMainAttacks < ThresholdLvl2 do
+  SetAggressivenessLevel(2);
+
+every 0$1 trigger RusMainAttacks < ThresholdLvl3 do
+  SetAggressivenessLevel(3);
+
+every 0$1 trigger RusMainAttacks < ThresholdLvl4 do
+  SetAggressivenessLevel(4);
+
+every 0$1 trigger RusMainAttacks < ThresholdLvl5 do
+  SetAggressivenessLevel(5);

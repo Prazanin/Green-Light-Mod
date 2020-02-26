@@ -1,0 +1,94 @@
+Every 0$1 do
+begin
+    enable;
+    IntBazooka(RUBazookers);
+end;
+
+Every 0$1 do
+begin
+    enable;
+    RepairBuilding(3, RuBase);
+    HealUnitInBase(3, RussianHealArea1, MainRUBase, FilterAllUnits([[f_side, 3], [f_type, unit_building], [f_btype, b_lab_full]]));
+end;
+
+every 0$1 do
+var damageUnit_list, i, j, target1, target2;
+begin
+    repeat
+        wait(0$1);
+        damageUnit_list = FilterUnitsExceptArea(MainRUBase,[[f_side, 3], [f_and, [f_not, [f_lives, 550]],[f_lives, 250]]]);
+        soldiersOK_list = FilterUnitsExceptArea(MainRUBase,[[f_side, 3], [f_or,[f_class, 1], [f_class, 5], [f_class, 8], [f_class, 9]], [f_lives, 1000]]);
+
+        IF medic_list > 0  then
+        begin
+                if damageUnit_list > 0  then
+                begin
+                        for i in damageUnit_list do
+                        begin
+                                ComMoveToArea(i, RussianHealArea2);
+                                for j in medic_list do
+                                AddComHeal(j, i);
+                        end;
+                    end;
+        end;
+
+        for i in soldiersOK_list do
+        begin
+
+                target1 := NearestUnitToUnit(FilterAllUnits([f_enemy, 3]), i);
+                target2 := NearestUnitToUnit(FilterAllUnits([[[f_enemy, 3], [f_or,[f_occupied], [f_type, unit_human], [f_type, unit_vehicle]]]]), i);
+
+                If GetDistUnits(i, target1)+8 < GetDistUnits(i, target2) then
+                begin
+                        ComAttackUnit(i, target1);
+                        end  else
+                        begin
+                        ComAttackUnit(i, target2);
+                end;
+
+        end;
+
+        for i in soldiersOK_list do
+        begin
+                target1 := NearestUnitToUnit(FilterAllUnits([f_enemy, 3]), i);
+                target2 := NearestUnitToUnit(FilterAllUnits([[[f_enemy, 3], [f_or,[f_occupied], [f_type, unit_human], [f_type, unit_vehicle]]]]), i);
+
+                If GetDistUnits(i, target1)+8 < GetDistUnits(i, target2) then
+                begin
+                ComAttackUnit(i, target1);
+                end else
+                begin
+                ComAttackUnit(i, target2);
+        end;
+    end; until soldiersOK_list = [];
+end;
+
+every 0$1 do
+var i, target1, target2;
+begin
+
+    repeat
+        wait(0$1);
+        vehicleOK_list = FilterUnitsExceptArea(MainRUBase,[[f_side, 3], [f_type, unit_vehicle], [f_lives, 650]]);
+
+        IF vehicleOK_list > 0 then
+        begin
+
+            for i in vehicleOK_list  do
+            begin
+
+            target1 := NearestUnitToUnit(FilterAllUnits([f_enemy, 3]), i);
+            target2 := NearestUnitToUnit(FilterAllUnits([[[f_enemy, 3], [f_or,[f_occupied], [f_type, unit_human], [f_type, unit_vehicle]]]]), i);
+
+            If GetDistUnits(i, target1)+8 < GetDistUnits(i, target2) then
+            begin
+                ComAttackUnit(i, target1);
+            end
+            else
+            begin
+                ComAttackUnit(i, target2);
+            end;
+        end;
+      end;
+    until (FilterUnitsExceptArea(MainRUBase,[[f_side, 3], [f_type, unit_vehicle]])) = 0;
+end;

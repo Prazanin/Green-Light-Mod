@@ -1,0 +1,9 @@
+begin
+? type grass
+ ! rgb 75 75 75
+ ! sat 80
+ ! all 73
+new
+? type terrain
+ ! all 80
+end

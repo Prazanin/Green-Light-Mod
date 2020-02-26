@@ -6174,25 +6174,25 @@
 10401: LD_EXP 22
 10405: PLUS
 10406: ST_TO_ADDR
-// BradfordFirstThresholdTimer := 60 60$00 ;
+// BradfordFirstThresholdTimer := 50 50$00 ;
 10407: LD_ADDR_EXP 36
 10411: PUSH
-10412: LD_INT 126000
+10412: LD_INT 105000
 10414: ST_TO_ADDR
-// BradfordSecondThresholdTimer := 100 100$00 ;
+// BradfordSecondThresholdTimer := 70 70$00 ;
 10415: LD_ADDR_EXP 37
 10419: PUSH
-10420: LD_INT 210000
+10420: LD_INT 147000
 10422: ST_TO_ADDR
-// BradfordTerminatesMissionTimer := 120 120$00 ;
+// BradfordTerminatesMissionTimer := 80 80$00 ;
 10423: LD_ADDR_EXP 38
 10427: PUSH
-10428: LD_INT 252000
+10428: LD_INT 168000
 10430: ST_TO_ADDR
-// KathrynMoodIdleDropCoeficent := 1 ;
+// KathrynMoodIdleDropCoeficent := 3 ;
 10431: LD_ADDR_EXP 39
 10435: PUSH
-10436: LD_INT 1
+10436: LD_INT 3
 10438: ST_TO_ADDR
 // end ; if difficulty = 2 then
 10439: LD_OWVAR 67
@@ -6365,25 +6365,25 @@
 10712: LD_EXP 22
 10716: PLUS
 10717: ST_TO_ADDR
-// BradfordFirstThresholdTimer := 50 50$00 ;
+// BradfordFirstThresholdTimer := 40 40$00 ;
 10718: LD_ADDR_EXP 36
 10722: PUSH
-10723: LD_INT 105000
+10723: LD_INT 84000
 10725: ST_TO_ADDR
-// BradfordSecondThresholdTimer := 90 90$00 ;
+// BradfordSecondThresholdTimer := 60 60$00 ;
 10726: LD_ADDR_EXP 37
 10730: PUSH
-10731: LD_INT 189000
+10731: LD_INT 126000
 10733: ST_TO_ADDR
-// BradfordTerminatesMissionTimer := 110 110$00 ;
+// BradfordTerminatesMissionTimer := 70 70$00 ;
 10734: LD_ADDR_EXP 38
 10738: PUSH
-10739: LD_INT 231000
+10739: LD_INT 147000
 10741: ST_TO_ADDR
-// KathrynMoodIdleDropCoeficent := 2 ;
+// KathrynMoodIdleDropCoeficent := 5 ;
 10742: LD_ADDR_EXP 39
 10746: PUSH
-10747: LD_INT 2
+10747: LD_INT 5
 10749: ST_TO_ADDR
 // end ; if difficulty = 3 then
 10750: LD_OWVAR 67
@@ -6612,25 +6612,25 @@
 11114: LD_EXP 22
 11118: PLUS
 11119: ST_TO_ADDR
-// BradfordFirstThresholdTimer := 40 40$00 ;
+// BradfordFirstThresholdTimer := 25 25$00 ;
 11120: LD_ADDR_EXP 36
 11124: PUSH
-11125: LD_INT 84000
+11125: LD_INT 52500
 11127: ST_TO_ADDR
-// BradfordSecondThresholdTimer := 80 80$00 ;
+// BradfordSecondThresholdTimer := 50 50$00 ;
 11128: LD_ADDR_EXP 37
 11132: PUSH
-11133: LD_INT 168000
+11133: LD_INT 105000
 11135: ST_TO_ADDR
-// BradfordTerminatesMissionTimer := 100 100$00 ;
+// BradfordTerminatesMissionTimer := 60 60$00 ;
 11136: LD_ADDR_EXP 38
 11140: PUSH
-11141: LD_INT 210000
+11141: LD_INT 126000
 11143: ST_TO_ADDR
-// KathrynMoodIdleDropCoeficent := 3 ;
+// KathrynMoodIdleDropCoeficent := 10 ;
 11144: LD_ADDR_EXP 39
 11148: PUSH
-11149: LD_INT 3
+11149: LD_INT 10
 11151: ST_TO_ADDR
 // end ; end ; end_of_file
 11152: LD_VAR 0 1

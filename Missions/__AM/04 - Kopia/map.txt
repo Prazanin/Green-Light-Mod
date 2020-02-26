@@ -1,0 +1,3843 @@
+MAIN_DEFINITIONS
+  SIZE 60 80
+  TICK 0
+  PLAYER_NUMBER 7
+  FOG_TYPE 2
+  FOGSIDES 7 2 3 4 5 6 7 8
+  MAP_GBI ThetaDestroyed.gbi
+  MUCHY_RECT 0 0 0 0
+  EAGLES 0 50
+  WAVES 0
+  WATER_COLORS 0000 3 0000 3 0000
+END_OF_MAIN_DEFINITIONS
+
+HEXES
+  LINE 0 0 59
+    t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4f#90 t4rAf#90
+  LINE 1 1 60
+    t4 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2f#90 t2rAf#90 t2rAf#90 t4rAf#90
+  LINE 2 1 60
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 t2rAf#90 t4rAf#90
+  LINE 3 2 61
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 sYf#90 sYf#90 sZf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 t2rAf#90 t4rAf#90
+  LINE 4 2 61
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 sXf#90 v4f#90 v4f#90 sZf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 t2rAf#90 t4rAf#90
+  LINE 5 3 62
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 sXf#90 v4f#90 v4f#90 v4f#90 saf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 t2f#90 t4f#90
+  LINE 6 3 62
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 sWf#90 v4f#90 v4f#90 saf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 t2f#90 t4f#90
+  LINE 7 4 63
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 sWf#90 sWf#90 sbf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 t2f#90 t4f#90
+  LINE 8 4 63
+    t4 t2f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 t2f#90 t4f#90
+  LINE 9 5 64
+    t4 t2 "" "" "" "" "" "" fG fG fG "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 10 5 64
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 11 6 65
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 12 6 65
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 13 7 66
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 14 7 66
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 15 8 67
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#80 f#80 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 16 8 67
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#80 f#90 f#80 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 17 9 68
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#80 f#80 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4
+  LINE 18 9 68
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4
+  LINE 19 10 69
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 20 10 69
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 21 11 70
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 22 11 70
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 "" "" f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 23 12 71
+    t4 t2 "" "" "" "" "" "" "" f#90 "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#80 f#80 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 24 12 71
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#80 f#90 f#80 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 25 13 72
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#80 f#80 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 sYf#90 sYf#90 sZf#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 26 13 72
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 rAf#90 f#90 f#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 sXf#90 v4f#90 v4f#90 sZf#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 27 14 73
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 sXf#90 v4f#90 v4f#90 v4f#90 saf#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 28 14 73
+    t4 t2 "" "" "" "" "" "" "" f#90 "" "" "" "" "" "" rA rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 sWf#90 v4f#90 v4f#90 saf#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 29 15 74
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 sWf#90 sWf#90 sbf#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 30 15 74
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 31 16 75
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 32 16 75
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 33 17 76
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 34 17 76
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#80 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 35 18 77
+    t4 t2 "" "" "" "" "" "" "" fG "" "" "" "" "" "" "" "" rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#80 f#80 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 36 18 77
+    t4 t2 "" "" "" "" "" "" "" f#90 "" "" "" "" "" "" "" "" "" rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#80 f#80 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2f#90 t4
+  LINE 37 19 78
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#80 f#80 f#80 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 t2 t4
+  LINE 38 19 78
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 rAf#90 rAf#90 rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#80 f#80 f#80 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 "" t2 t4
+  LINE 39 20 79
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rAf#90 rAf#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#80 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 "" "" "" t2 t4
+  LINE 40 20 79
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA f#90 f#90 f#90 f#90 f#90 f#90 fG fG fG f#90 f#90 f#90 f#80 f#80 f#80 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 "" "" "" "" "" t2 t4
+  LINE 41 21 80
+    t4 t2 "" "" "" "" "" "" "" f#90 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 "" "" "" f#90 "" "" f#90 "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 "" "" "" "" "" "" "" "" t2 t4
+  LINE 42 21 80
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 "" "" "" "" "" "" "" t2 t4
+  LINE 43 22 81
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 "" "" "" "" "" "" "" "" t2 t4
+  LINE 44 22 81
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 "" "" "" "" "" "" "" t2 t4
+  LINE 45 23 82
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 "" "" "" "" "" "" "" "" t2 t4
+  LINE 46 23 82
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 "" "" "" "" "" "" "" "" t2 t4
+  LINE 47 24 83
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 48 24 83
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 49 25 84
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 50 25 84
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 51 26 85
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 52 26 85
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 53 27 86
+    t4 t2 "" "" "" "" fG "" fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f#90 "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 54 27 86
+    t4 t2f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 f#90 "" "" "" "" "" "" "" "" "" "" "" "" t2 t4sI
+  LINE 55 28 87
+    t4 t2 "" "" "" "" fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2r6so t4v2sZ
+  LINE 56 28 87
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2r6so t4r6v6so
+  LINE 57 29 88
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6so t2r6v6so t4r6vC
+  LINE 58 29 88
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sn t2r6v6sn t4r6vCsY
+  LINE 59 30 89
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sn r6v6sn t2r6vCsX t4r6vG
+  LINE 60 30 89
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sn t2r6v6sn t4r6vCsX
+  LINE 61 31 90
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sn r6v6sn t2r6vCsX t4r6vG
+  LINE 62 31 90
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH r6v2sX t2r6v6sn t4r6vCsX
+  LINE 63 32 91
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sn r6v6sn t2r6vCsX t4r6vG
+  LINE 64 32 91
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH r6v2sX t2r6v6sn t4r6vCsX
+  LINE 65 33 92
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sn r6v6sn t2r6vCsX t4r6vG
+  LINE 66 33 92
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA sA sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH r6v2sX t2r6v6sn t4r6vCsX
+  LINE 67 34 93
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA sA sA sQ v1sI v1sI v1sI v1sI v1sJ sB sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sX r6v4sn t2r6vAsn t4r6vG
+  LINE 68 34 93
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" sA sA sA sQ v1sI v1sI v1sI v1sI v1sI v3sA v3sA v3sA v3sA v3sA v1sR v1sJ v1sJ sB sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sn t2r6v6sn t4r6vCsX
+  LINE 69 35 94
+    t4 t2 "" "" "" "" "" "" "" sA sA sA sQ v1sI v1sI v1sI v3sA v3sA r6v3sA r6v3sA r6v3sA r6v3sA r6v4sQ r6v4sQ r6v4sQ v4sQ r6v4sQ v3sZ v3sB v1sR v1sJ v1sJ sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA r6sY r6v4sn t2r6vAsn t4r6vG
+  LINE 70 35 94
+    t4 t2 "" "" "" "" "" "" sA sQ v1sI v1sI v1sI v3sA v3sA v3sA v3sA r6v4sQ r6v4sQ r6v4sQ r6v4sQ r6v4sQ r6v4sY r6v7sA r6v7sA r6v7sA r6v7sA r6v7sB r6v4sZ r6v4sR r6v3sZ v3sB v1sR v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1so r6v4sQ t2r6v7sf t4r6vCsX
+  LINE 71 36 95
+    t4 t2 "" "" "" sA sA sQ v1sI v3sA v3sA v3sA v3sA v4sQ r6v4sQ r6v4sQ r6v4sY r6v7sA r6v7sA r6v7sA r6v7sA r6v7sA r6v8so r6v8so r6v8so r6v8so r6v8sp r6v8sp r6v7sB r6v7sB r6v4sZ r6v4sR r6v3sZ v1sR sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 r6v1sn r6v7so r6v7so t2r6vCsX t4r6vG
+  LINE 72 36 95
+    t4 t2 "" "" "" sQ v1sI v1sI v3sA v3sA v4sQ r6v4sQ r6v4sQ r6v4sY r6v7sA r6v7sA r6v7sA r6v8so r6v8so r6v8so r6v8so r6v8so r6v8so r6vE r6vE r6vEsA r6vEsA r6vEsB r6v8sp r6v8sR r6v8sR r6v7sB r6v7sB r6v4sZ r6v1sp v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6s9 r6v1sn r6v7sn r6vD t2r6vCs9 t4r6vCsX
+  LINE 73 37 96
+    t4 t2 "" sA sQ v3sA v3sA r6v3sA r6v4sQ r6v4sY r6v7sA r6v7sA r6v7sA r6v8so r6v8so r6v8so r6v8so r6vE r6vE r6vEso r6vEso r6vEso r6vEso r6vEso r6vEso r6vFsI r6vFsI r6vEsR r6vBsR r6vBsR r6v8sR r6v8sR r6v8sR r6v7sB r6v3sh r6v1sR sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sQ r6v1sI r6v3sn r6v9sn r6vCsP t2r6vCsX t4r6vG
+  LINE 74 37 96
+    t4 t2 sA sQ v1sI v3sA r6v4sQ r6v4sQ r6v4sY r6v7sA r6v8so r6v8so r6v8so r6v8so r6vE r6vE r6vEso r6vEso r6vEso r6vEso r6vKsQ r6vKsR r6vKsJ r6vKsJ r6vK r6vHsR r6vHsQ r6vHsQ r6vEsp r6vEsp r6vBsR r6vBsR r6vBsR r6v8sR r6v8sR r6v4sZ r6v1sp r6v1sJ sJ sJ "" "" "" "" "" "" "" "" "" "" "" "" "" r6sQ r6v3so r6v3so r6v9sn r6vF t2r6vCsP t4r6vCsX
+  LINE 75 38 97
+    t4sA t2sQ v1sI v3sA r6v3sA r6v4sY r6v7sA r6v7sA r6v8so r6v8so r6vE r6vE r6vEso r6vEso r6vEso r6vEso r6vKso r6vKso r6vKso r6vKso r6vNsQ r6vMsZ r6vM r6vKsJ r6vKso r6vKso r6vKso r6vKso r6vKsp r6vEsp r6vEsp r6vEsp r6vBsR r6vBsR r6v8sp r6v7sB r6v3sh r6v2sp r6v2sp sJ "" "" "" "" "" "" "" "" "" "" "" sQ r6sQ r6v3so r6v9so r6v9so r6vF r6vCsT t2r6vCsW t4r6vG
+  LINE 76 38 97
+    t4sQ t2v1sI v3sA r6v3sA r6v4sQ r6v4sY r6v8so r6v8so r6v8so r6vEso r6vEso r6vEso r6vEso r6vKso r6vKso r6vKso r6vKso r6vQ r6vQ r6vQ r6vQ r6vQ r6vMsZ r6vMsZ r6vMsY r6vQ r6vQ r6vQ r6vQ r6vKsp r6vKsp r6vKsp r6vEsp r6vEsp r6vEsp r6v8sp r6v8sp r6v8sp r6v8sp r6v2sp sJ "" "" "" "" "" "" "" "" "" "" r6sQ r6v3so r6v3so r6v9so r6vF r6vF r6vAsj t2r6vAsG t4r6vCsW
+  LINE 77 39 98
+    t4v3sA t2r6v3sA r6v4sQ r6v4sY r6v7sA r6v8so r6vE r6vEso r6vEso r6vKso r6vKso r6vKso r6vKso r6vQ r6vQ r6vQ r6vKsm r6vKsm r6vQ r6vQsY r6vQsY r6vQsY r6vQsZ r6vQsR r6vQsR r6vNsT r6vNsO r6vQ r6vQ r6vQ r6vQ r6vKsp r6vKsp r6vKsp r6vEsp r6vEsp r6vEsp r6vEsp r6v8sp r6v2sp sJ sB "" "" "" "" "" "" "" "" r6sP r6v3sn r6v9so r6v9so r6vF r6vF r6v9sr r6v9s8 t2r6vAsn t4r6vG
+  LINE 78 39 98
+    t4v3sA t2r6v4sQ t2r6v4sQ t2r6v7sA t2r6v8so t2r6v8so t2r6vE t2r6vEsn t2r6vKso t2r6vKso t2r6vQ t2r6vQ t2r6vQ t2r6vQ t2r6vQ t2r6vKsr t2r6vKsr t2r6vK t2r6vKsn t2r6vQsX t2r6vU t2r6vUsg t2r6vUsg t2r6vTsp t2r6vTsp t2r6vNsq t2r6vN t2r6vKsr t2r6vKsm t2r6vKsm t2r6vKsm t2r6vQ t2r6vQsg t2r6vQsh t2r6vKsp t2r6vKsp t2r6vKsR t2r6vKsB t2r6vEsp t2r6v8sp t2r6v2sp t2v1sJ t2sB t2sB t2 t2 t2 t2 t2 t2 t2r6sP t2r6v3sn t2r6v9sn t2r6vF t2r6vF t2r6v9sr t2r6v9sr t2r6v4sj t2r6v4sm t4r6vAsm
+  LINE 79 40 99
+    t4r6v4sP t4r6v7 t4r6v7s9 t4r6v8sn t4r6vE t4r6vE t4r6vEsn t4r6vKsn t4r6vQ t4r6vQ t4r6vQ t4r6vKsr t4r6vKsr t4r6vKsr t4r6vKsr t4r6vEsr t4r6vEsr t4r6vKsn t4r6vQ t4r6vQsW t4r6vTsm t4r6vZ t4r6vZ t4r6vZ t4r6vTsq t4r6vNsq t4r6vHsr t4r6vEsr t4r6vEsm t4r6vEsm t4r6vKsm t4r6vPsm t4r6vV t4r6vQsi t4r6vQ t4r6vNsS t4r6vLsK t4r6vKsC t4r6vEsq t4r6v8sq t4r6v3si t4v1sK t4v1 t4sC t4 t4 t4 t4 t4 t4r6 t4r6sP t4r6v3sn t4r6v9sm t4r6v9sm t4r6v9sr t4r6v3sr t4r6v3sr t4r6v3s8 t4r6v4sm t4r6v4sr
+END_OF_HEXES
+
+EXTERNAL_NODES nodes.bin
+ENVIROMENT
+  SET 1 dummy
+  SET 2 list-akatojerab
+  SET 3 list-jerab-spal
+  SET 4 list-platan
+  SET 5 list-platan-spal
+  SET 6 list-mocal-koreny
+  SET 7 list-vrba
+  SET 8 list-vrba-zluta
+  SET 9 jehl-borovice
+  SET 10 jehl-borov-vysoka
+  SET 11 jehl-borovice-mala
+  SET 12 stone_set_01
+  SET 13 stone_set_02
+  SET 14 stone_set_03
+  SET 15 stone_set_04
+  SET 16 stone_set_05
+  SET 17 stone_set_06
+  SET 18 stone_set_07
+  SET 19 houby
+  SET 20 mrcha
+  SET 21 jehl-smrk-silny
+  SET 22 jehl-smrk-stredni
+  SET 23 jehl-smrk-uzky-spal
+  SET 24 jehl-smrk-stredni
+  SET 25 jehl-smrk-stredni-spal
+  SET 26 jehl-smrk-stredni-suchy
+  SET 27 list-dvoupatr
+  SET 28 list-briza
+  SET 29 list-paskvil
+  SET 30 ker
+  SET 31 jehl-borov-vysoka-spal
+  SET 32 list-akat-vysoky-spal
+  SET 33 plavun
+  SET 34 cykas
+  SET 35 list-kastan
+  SET 36 mech
+  SET 37 jehl-smrk-maly
+  SET 38 ker-husty
+  SET 39 ker-rosti
+  SET 40 list-akat-rosti
+  SET 41 list-briza-vyssi
+  SET 42 list-sahara
+  SET 43 list-akat-maly
+  SET 44 list-dvoupatr-maly
+  SET 45 parez
+  SET 46 polosuche
+  SET 47 list-dub
+  SET 48 list-kastan-vanek
+  SET 49 parezoid
+  SET 50 branka
+  SET 51 leknin
+  SET 52 monolit
+  SET 53 snowman
+  SET 54 snowman_small
+  ON_HEX 42 2
+    s8i5
+  ON_HEX 6 3
+    s8i9
+  ON_HEX 17 3
+    sdi4
+  ON_HEX 25 3
+    s8i5
+  ON_HEX 7 4
+    sdi4
+  ON_HEX 16 4
+    sdi8
+  ON_HEX 27 4
+    sdi6
+  ON_HEX 44 4
+    sdi8
+  ON_HEX 9 14
+    sdiA
+  ON_HEX 33 14
+    s8i7
+  ON_HEX 34 14
+    sdi3
+  ON_HEX 14 15
+    s8i7
+  ON_HEX 15 15
+    sdiA
+  ON_HEX 79 44
+    s8i5
+  ON_HEX 79 45
+    sdi4
+  ON_HEX 31 49
+    s8i9
+  ON_HEX 67 49
+    s8i8
+  ON_HEX 67 50
+    sdi7
+  ON_HEX 45 61
+    s8i2
+  ON_HEX 63 61
+    s8i8
+  ON_HEX 44 62
+    sdi6
+  ON_HEX 47 63
+    sdi1
+  ON_HEX 65 63
+    sdi5
+  ON_HEX 52 65
+    s8i1
+  ON_HEX 37 66
+    s8i4
+  ON_HEX 51 66
+    sdi3
+  ON_HEX 39 68
+    sdiA
+  ON_HEX 85 68
+    s8i1
+  ON_HEX 85 70
+    sdi5
+  ON_HEX 76 71
+    s8i9
+  ON_HEX 77 72
+    sdi5
+END_OF_ENVIROMENT
+
+EXTERNAL_SECTORS sectors.bin
+ATTITUDES
+  PARAMS 8
+  1 0 0 0 0 0 0 0 0
+  0 1 2 2 1 2 2 1 2
+  0 2 1 2 2 2 2 2 2
+  0 2 2 1 2 2 2 2 2
+  0 1 2 2 1 2 2 2 2
+  0 2 2 2 2 1 2 2 2
+  0 2 2 2 2 2 1 2 2
+  0 1 2 2 2 2 2 1 2
+  0 2 2 2 2 2 2 2 1
+  FLAG 8
+  T T T T T T T T T
+END_OF_ATTITUDES
+
+TECHS
+  PARAMS 73 8
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+END_OF_TECHS
+
+RESTRICTS
+  PARAMS 0 40 8
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+END_OF_RESTRICTS
+
+MISSION_OBJECTIVES_FULL 0
+
+SPECS
+  PARAMS 0 8
+  FLAG 0 0
+END_OF_SPECS
+
+BASES
+  PARAMS T T
+
+  POOL 1
+
+  BASE 1
+    POOL_NUM 1
+    SIDE 1
+    UNIT 1
+END_OF_BASES
+
+
+
+RANDOMS
+  MICROLOGIC 2 0 1
+  RANDOM_SEED 1 330410170
+  RANDOM_SEED 2 -821370009
+  RANDOM_SEED 3 -1081869714
+  RANDOM_SEED 4 268982047
+  RANDOM_SEED 5 1444295583
+  RANDOM_SEED 6 1108460578
+  RANDOM_SEED 7 -683824473
+  RANDOM_SEED 8 473227629
+  RANDOM_SEED 9 1286938405
+  RANDOM_SEED 10 330410170
+  RANDOM_SEED 11 2059587780
+  RANDOM_SEED 12 195029467
+  RANDOM_SEED 13 1570046283
+  RANDOM_SEED 14 385382526
+  RANDOM_SEED 15 -2051902574
+  RANDOM_SEED 16 1261887081
+  RANDOM_SEED 17 101777426
+  RANDOM_SEED 18 1995606620
+  RANDOM_SEED 19 486320081
+  RANDOM_SEED 20 570641687
+  RANDOM_SEED 21 877798685
+  RANDOM_SEED 22 618301786
+  WIND_TIME -1 -1 0
+  WIND_STRENGTH 36.7606167791381 52.0 53.3803083895691
+  WIND_SCATTER 24.1066377870272
+END_OF_RANDOMS
+
+NEW_UNITS
+  UNIT 1 BUILDING
+    DEFINITION
+      IDENT theta
+      POS 34 21 2
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 2 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 34 21 2 6 F
+      UNITMODE F 34 21
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 658 378 0
+      FROM_TO_POS 34 21 0 34 21 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 2 BUILDING
+    DEFINITION
+      POS 41 16 3
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 4 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 41 16 3 6 F
+      UNITMODE F 41 16
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 924 288 0
+      FROM_TO_POS 41 16 0 41 16 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3 BUILDING
+    DEFINITION
+      POS 52 24 4
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 4 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 52 24 4 6 F
+      UNITMODE F 52 24
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1120 432 0
+      FROM_TO_POS 52 24 0 52 24 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 4 BUILDING
+    DEFINITION
+      POS 56 36 5
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 6 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 56 36 5 6 F
+      UNITMODE F 56 36
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1064 648 0
+      FROM_TO_POS 56 36 0 56 36 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 5 BUILDING
+    DEFINITION
+      IDENT factor1
+      POS 50 41 5
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 6 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 50 41 5 6 F
+      UNITMODE F 50 41
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 826 738 0
+      FROM_TO_POS 50 41 0 50 41 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 6 BUILDING
+    DEFINITION
+      IDENT lab1
+      POS 23 28 1
+      SIDE 1
+      NATION 1
+      HP 400
+      BUILDING
+        TYPE 19 LEVEL 1 BASE 0 PARAMS 21 23
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 23 28 1 6 F
+      UNITMODE F 23 28
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 252 504 0
+      FROM_TO_POS 23 28 0 23 28 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+  UNIT 8 BUILDING
+    DEFINITION
+      POS 27 36 1
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 19 LEVEL 1 BASE 0 PARAMS 23 23
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 27 36 1 6 F
+      UNITMODE F 27 36
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 252 648 0
+      FROM_TO_POS 27 36 0 27 36 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+  UNIT 17 BUILDING
+    DEFINITION
+      POS 32 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 32 8 1 6 F
+      UNITMODE F 32 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 784 144 0
+      FROM_TO_POS 32 8 0 32 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 19 BUILDING
+    DEFINITION
+      POS 31 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 31 8 1 6 F
+      UNITMODE F 31 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 756 144 0
+      FROM_TO_POS 31 8 0 31 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 21 BUILDING
+    DEFINITION
+      POS 30 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 30 8 1 6 F
+      UNITMODE F 30 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 728 144 0
+      FROM_TO_POS 30 8 0 30 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 23 BUILDING
+    DEFINITION
+      POS 29 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 29 8 1 6 F
+      UNITMODE F 29 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 700 144 0
+      FROM_TO_POS 29 8 0 29 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 25 BUILDING
+    DEFINITION
+      POS 28 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 28 8 1 6 F
+      UNITMODE F 28 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 672 144 0
+      FROM_TO_POS 28 8 0 28 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 27 BUILDING
+    DEFINITION
+      POS 27 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 27 8 1 6 F
+      UNITMODE F 27 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 644 144 0
+      FROM_TO_POS 27 8 0 27 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 37 BUILDING
+    DEFINITION
+      POS 22 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 22 8 1 6 F
+      UNITMODE F 22 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 504 144 0
+      FROM_TO_POS 22 8 0 22 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 38 BUILDING
+    DEFINITION
+      POS 21 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 21 8 1 6 F
+      UNITMODE F 21 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 476 144 0
+      FROM_TO_POS 21 8 0 21 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 39 BUILDING
+    DEFINITION
+      POS 20 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 20 8 1 6 F
+      UNITMODE F 20 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 448 144 0
+      FROM_TO_POS 20 8 0 20 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 40 BUILDING
+    DEFINITION
+      POS 19 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 19 8 1 6 F
+      UNITMODE F 19 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 420 144 0
+      FROM_TO_POS 19 8 0 19 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 41 BUILDING
+    DEFINITION
+      POS 18 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 18 8 1 6 F
+      UNITMODE F 18 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 392 144 0
+      FROM_TO_POS 18 8 0 18 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 42 BUILDING
+    DEFINITION
+      POS 17 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 17 8 1 6 F
+      UNITMODE F 17 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 364 144 0
+      FROM_TO_POS 17 8 0 17 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 43 BUILDING
+    DEFINITION
+      POS 16 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 16 8 1 6 F
+      UNITMODE F 16 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 336 144 0
+      FROM_TO_POS 16 8 0 16 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 44 BUILDING
+    DEFINITION
+      POS 15 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 15 8 1 6 F
+      UNITMODE F 15 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 308 144 0
+      FROM_TO_POS 15 8 0 15 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 46 BUILDING
+    DEFINITION
+      POS 14 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 14 8 1 6 F
+      UNITMODE F 14 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 280 144 0
+      FROM_TO_POS 14 8 0 14 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 48 BUILDING
+    DEFINITION
+      POS 13 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 13 8 1 6 F
+      UNITMODE F 13 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 252 144 0
+      FROM_TO_POS 13 8 0 13 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 50 BUILDING
+    DEFINITION
+      POS 12 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 12 8 1 6 F
+      UNITMODE F 12 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 224 144 0
+      FROM_TO_POS 12 8 0 12 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 51 BUILDING
+    DEFINITION
+      POS 11 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 11 8 1 6 F
+      UNITMODE F 11 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 196 144 0
+      FROM_TO_POS 11 8 0 11 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 52 BUILDING
+    DEFINITION
+      POS 10 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 10 8 1 6 F
+      UNITMODE F 10 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 168 144 0
+      FROM_TO_POS 10 8 0 10 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 53 BUILDING
+    DEFINITION
+      POS 9 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 9 8 1 6 F
+      UNITMODE F 9 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 140 144 0
+      FROM_TO_POS 9 8 0 9 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 54 BUILDING
+    DEFINITION
+      POS 8 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 8 8 1 6 F
+      UNITMODE F 8 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 112 144 0
+      FROM_TO_POS 8 8 0 8 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 55 BUILDING
+    DEFINITION
+      POS 7 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 7 8 1 6 F
+      UNITMODE F 7 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 84 144 0
+      FROM_TO_POS 7 8 0 7 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 56 BUILDING
+    DEFINITION
+      POS 6 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 6 8 1 6 F
+      UNITMODE F 6 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 56 144 0
+      FROM_TO_POS 6 8 0 6 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 57 BUILDING
+    DEFINITION
+      POS 5 8 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 5 8 1 6 F
+      UNITMODE F 5 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 28 144 0
+      FROM_TO_POS 5 8 0 5 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 58 BUILDING
+    DEFINITION
+      POS 55 26 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 55 26 1 6 F
+      UNITMODE F 55 26
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1176 468 0
+      FROM_TO_POS 55 26 0 55 26 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 59 BUILDING
+    DEFINITION
+      POS 56 27 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 56 27 1 6 F
+      UNITMODE F 56 27
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1190 486 0
+      FROM_TO_POS 56 27 0 56 27 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 60 BUILDING
+    DEFINITION
+      POS 57 28 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 57 28 1 6 F
+      UNITMODE F 57 28
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1204 504 0
+      FROM_TO_POS 57 28 0 57 28 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 61 BUILDING
+    DEFINITION
+      POS 58 29 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 58 29 1 6 F
+      UNITMODE F 58 29
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1218 522 0
+      FROM_TO_POS 58 29 0 58 29 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 62 BUILDING
+    DEFINITION
+      POS 59 30 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 59 30 1 6 F
+      UNITMODE F 59 30
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1232 540 0
+      FROM_TO_POS 59 30 0 59 30 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 63 BUILDING
+    DEFINITION
+      POS 61 32 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 61 32 1 6 F
+      UNITMODE F 61 32
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1260 576 0
+      FROM_TO_POS 61 32 0 61 32 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 64 BUILDING
+    DEFINITION
+      POS 60 31 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 60 31 1 6 F
+      UNITMODE F 60 31
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1246 558 0
+      FROM_TO_POS 60 31 0 60 31 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 69 BUILDING
+    DEFINITION
+      POS 66 37 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 66 37 1 6 F
+      UNITMODE F 66 37
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1330 666 0
+      FROM_TO_POS 66 37 0 66 37 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 70 BUILDING
+    DEFINITION
+      POS 67 38 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 67 38 1 6 F
+      UNITMODE F 67 38
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1344 684 0
+      FROM_TO_POS 67 38 0 67 38 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 71 BUILDING
+    DEFINITION
+      POS 68 39 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 68 39 1 6 F
+      UNITMODE F 68 39
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1358 702 0
+      FROM_TO_POS 68 39 0 68 39 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 72 BUILDING
+    DEFINITION
+      POS 69 40 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 69 40 1 6 F
+      UNITMODE F 69 40
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1372 720 0
+      FROM_TO_POS 69 40 0 69 40 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 73 BUILDING
+    DEFINITION
+      POS 70 41 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 70 41 1 6 F
+      UNITMODE F 70 41
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1386 738 0
+      FROM_TO_POS 70 41 0 70 41 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 74 BUILDING
+    DEFINITION
+      POS 71 42 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 71 42 1 6 F
+      UNITMODE F 71 42
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1400 756 0
+      FROM_TO_POS 71 42 0 71 42 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 75 BUILDING
+    DEFINITION
+      POS 71 43 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 71 43 1 6 F
+      UNITMODE F 71 43
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1386 774 0
+      FROM_TO_POS 71 43 0 71 43 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 76 BUILDING
+    DEFINITION
+      POS 72 44 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 72 44 1 6 F
+      UNITMODE F 72 44
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1400 792 0
+      FROM_TO_POS 72 44 0 72 44 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 77 BUILDING
+    DEFINITION
+      POS 72 45 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 72 45 1 6 F
+      UNITMODE F 72 45
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1386 810 0
+      FROM_TO_POS 72 45 0 72 45 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 78 BUILDING
+    DEFINITION
+      POS 72 46 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 72 46 1 6 F
+      UNITMODE F 72 46
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1372 828 0
+      FROM_TO_POS 72 46 0 72 46 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 82 BUILDING
+    DEFINITION
+      POS 72 50 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 72 50 1 6 F
+      UNITMODE F 72 50
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1316 900 0
+      FROM_TO_POS 72 50 0 72 50 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 83 BUILDING
+    DEFINITION
+      POS 72 51 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 72 51 1 6 F
+      UNITMODE F 72 51
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1302 918 0
+      FROM_TO_POS 72 51 0 72 51 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 84 BUILDING
+    DEFINITION
+      POS 72 52 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 72 52 1 6 F
+      UNITMODE F 72 52
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1288 936 0
+      FROM_TO_POS 72 52 0 72 52 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 85 BUILDING
+    DEFINITION
+      POS 72 53 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 72 53 1 6 F
+      UNITMODE F 72 53
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1274 954 0
+      FROM_TO_POS 72 53 0 72 53 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 86 BUILDING
+    DEFINITION
+      POS 72 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 72 54 1 6 F
+      UNITMODE F 72 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1260 972 0
+      FROM_TO_POS 72 54 0 72 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 87 BUILDING
+    DEFINITION
+      POS 71 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 71 54 1 6 F
+      UNITMODE F 71 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1232 972 0
+      FROM_TO_POS 71 54 0 71 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 88 BUILDING
+    DEFINITION
+      POS 70 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 70 54 1 6 F
+      UNITMODE F 70 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1204 972 0
+      FROM_TO_POS 70 54 0 70 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 89 BUILDING
+    DEFINITION
+      POS 69 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 69 54 1 6 F
+      UNITMODE F 69 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1176 972 0
+      FROM_TO_POS 69 54 0 69 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 90 BUILDING
+    DEFINITION
+      POS 68 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 68 54 1 6 F
+      UNITMODE F 68 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1148 972 0
+      FROM_TO_POS 68 54 0 68 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 91 BUILDING
+    DEFINITION
+      POS 67 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 67 54 1 6 F
+      UNITMODE F 67 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1120 972 0
+      FROM_TO_POS 67 54 0 67 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 92 BUILDING
+    DEFINITION
+      POS 66 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 66 54 1 6 F
+      UNITMODE F 66 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1092 972 0
+      FROM_TO_POS 66 54 0 66 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 93 BUILDING
+    DEFINITION
+      POS 65 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 65 54 1 6 F
+      UNITMODE F 65 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1064 972 0
+      FROM_TO_POS 65 54 0 65 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 94 BUILDING
+    DEFINITION
+      POS 64 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 64 54 1 6 F
+      UNITMODE F 64 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1036 972 0
+      FROM_TO_POS 64 54 0 64 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 95 BUILDING
+    DEFINITION
+      POS 63 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 63 54 1 6 F
+      UNITMODE F 63 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1008 972 0
+      FROM_TO_POS 63 54 0 63 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 96 BUILDING
+    DEFINITION
+      POS 62 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 62 54 1 6 F
+      UNITMODE F 62 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 980 972 0
+      FROM_TO_POS 62 54 0 62 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 97 BUILDING
+    DEFINITION
+      POS 61 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 61 54 1 6 F
+      UNITMODE F 61 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 952 972 0
+      FROM_TO_POS 61 54 0 61 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 98 BUILDING
+    DEFINITION
+      POS 60 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 60 54 1 6 F
+      UNITMODE F 60 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 924 972 0
+      FROM_TO_POS 60 54 0 60 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 99 BUILDING
+    DEFINITION
+      POS 59 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 59 54 1 6 F
+      UNITMODE F 59 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 896 972 0
+      FROM_TO_POS 59 54 0 59 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 100 BUILDING
+    DEFINITION
+      POS 58 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 58 54 1 6 F
+      UNITMODE F 58 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 868 972 0
+      FROM_TO_POS 58 54 0 58 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 101 BUILDING
+    DEFINITION
+      POS 57 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 57 54 1 6 F
+      UNITMODE F 57 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 840 972 0
+      FROM_TO_POS 57 54 0 57 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 102 BUILDING
+    DEFINITION
+      POS 56 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 56 54 1 6 F
+      UNITMODE F 56 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 812 972 0
+      FROM_TO_POS 56 54 0 56 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 103 BUILDING
+    DEFINITION
+      POS 55 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 55 54 1 6 F
+      UNITMODE F 55 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 784 972 0
+      FROM_TO_POS 55 54 0 55 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 104 BUILDING
+    DEFINITION
+      POS 54 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 54 54 1 6 F
+      UNITMODE F 54 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 756 972 0
+      FROM_TO_POS 54 54 0 54 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 105 BUILDING
+    DEFINITION
+      POS 53 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 53 54 1 6 F
+      UNITMODE F 53 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 728 972 0
+      FROM_TO_POS 53 54 0 53 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 106 BUILDING
+    DEFINITION
+      POS 52 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 52 54 1 6 F
+      UNITMODE F 52 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 700 972 0
+      FROM_TO_POS 52 54 0 52 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 107 BUILDING
+    DEFINITION
+      POS 51 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 51 54 1 6 F
+      UNITMODE F 51 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 672 972 0
+      FROM_TO_POS 51 54 0 51 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 108 BUILDING
+    DEFINITION
+      POS 50 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 50 54 1 6 F
+      UNITMODE F 50 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 644 972 0
+      FROM_TO_POS 50 54 0 50 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 109 BUILDING
+    DEFINITION
+      POS 49 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 49 54 1 6 F
+      UNITMODE F 49 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 616 972 0
+      FROM_TO_POS 49 54 0 49 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 110 BUILDING
+    DEFINITION
+      POS 48 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 48 54 1 6 F
+      UNITMODE F 48 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 588 972 0
+      FROM_TO_POS 48 54 0 48 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 111 BUILDING
+    DEFINITION
+      POS 47 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 47 54 1 6 F
+      UNITMODE F 47 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 560 972 0
+      FROM_TO_POS 47 54 0 47 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 112 BUILDING
+    DEFINITION
+      POS 46 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 46 54 1 6 F
+      UNITMODE F 46 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 532 972 0
+      FROM_TO_POS 46 54 0 46 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 113 BUILDING
+    DEFINITION
+      POS 45 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 45 54 1 6 F
+      UNITMODE F 45 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 504 972 0
+      FROM_TO_POS 45 54 0 45 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 114 BUILDING
+    DEFINITION
+      POS 44 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 44 54 1 6 F
+      UNITMODE F 44 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 476 972 0
+      FROM_TO_POS 44 54 0 44 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 115 BUILDING
+    DEFINITION
+      POS 43 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 43 54 1 6 F
+      UNITMODE F 43 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 448 972 0
+      FROM_TO_POS 43 54 0 43 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 116 BUILDING
+    DEFINITION
+      POS 42 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 42 54 1 6 F
+      UNITMODE F 42 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 420 972 0
+      FROM_TO_POS 42 54 0 42 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 117 BUILDING
+    DEFINITION
+      POS 41 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 41 54 1 6 F
+      UNITMODE F 41 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 392 972 0
+      FROM_TO_POS 41 54 0 41 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 118 BUILDING
+    DEFINITION
+      POS 40 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 40 54 1 6 F
+      UNITMODE F 40 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 364 972 0
+      FROM_TO_POS 40 54 0 40 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 119 BUILDING
+    DEFINITION
+      POS 39 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 39 54 1 6 F
+      UNITMODE F 39 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 336 972 0
+      FROM_TO_POS 39 54 0 39 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 120 BUILDING
+    DEFINITION
+      POS 38 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 38 54 1 6 F
+      UNITMODE F 38 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 308 972 0
+      FROM_TO_POS 38 54 0 38 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 121 BUILDING
+    DEFINITION
+      POS 37 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 37 54 1 6 F
+      UNITMODE F 37 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 280 972 0
+      FROM_TO_POS 37 54 0 37 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 123 BUILDING
+    DEFINITION
+      POS 36 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 36 54 1 6 F
+      UNITMODE F 36 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 252 972 0
+      FROM_TO_POS 36 54 0 36 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 128 BUILDING
+    DEFINITION
+      POS 33 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 33 54 1 6 F
+      UNITMODE F 33 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 168 972 0
+      FROM_TO_POS 33 54 0 33 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 129 BUILDING
+    DEFINITION
+      POS 32 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 32 54 1 6 F
+      UNITMODE F 32 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 140 972 0
+      FROM_TO_POS 32 54 0 32 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 130 BUILDING
+    DEFINITION
+      POS 31 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 31 54 1 6 F
+      UNITMODE F 31 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 112 972 0
+      FROM_TO_POS 31 54 0 31 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 131 BUILDING
+    DEFINITION
+      POS 30 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 30 54 1 6 F
+      UNITMODE F 30 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 84 972 0
+      FROM_TO_POS 30 54 0 30 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 132 BUILDING
+    DEFINITION
+      POS 29 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 29 54 1 6 F
+      UNITMODE F 29 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 56 972 0
+      FROM_TO_POS 29 54 0 29 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 133 BUILDING
+    DEFINITION
+      POS 28 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 28 54 1 6 F
+      UNITMODE F 28 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 28 972 0
+      FROM_TO_POS 28 54 0 28 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 136 BUILDING
+    DEFINITION
+      POS 34 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 34 54 1 6 F
+      UNITMODE F 34 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 196 972 0
+      FROM_TO_POS 34 54 0 34 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 137 BUILDING
+    DEFINITION
+      POS 35 54 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 35 54 1 6 F
+      UNITMODE F 35 54
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 224 972 0
+      FROM_TO_POS 35 54 0 35 54 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 139 BUILDING
+    DEFINITION
+      POS 29 17 5
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 27 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 125 1
+      MOVE 29 17 5 6 F
+      UNITMODE F 29 17
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 574 306 0
+      FROM_TO_POS 29 17 0 29 17 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 140 BUILDING
+    DEFINITION
+      POS 30 15 5
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 27 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 125 1
+      MOVE 30 15 5 6 F
+      UNITMODE F 30 15
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 630 270 0
+      FROM_TO_POS 30 15 0 30 15 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 141 BUILDING
+    DEFINITION
+      POS 21 23 5
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 27 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 125 1
+      MOVE 21 23 5 6 F
+      UNITMODE F 21 23
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 266 414 0
+      FROM_TO_POS 21 23 0 21 23 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 142 BUILDING
+    DEFINITION
+      POS 30 41 5
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 27 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 125 1
+      MOVE 30 41 5 6 F
+      UNITMODE F 30 41
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 266 738 0
+      FROM_TO_POS 30 41 0 30 41 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 143 BUILDING
+    DEFINITION
+      POS 54 45 5
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 16 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 54 45 5 6 F
+      UNITMODE F 54 45
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 882 810 0
+      FROM_TO_POS 54 45 0 54 45 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 144 BUILDING
+    DEFINITION
+      POS 60 40 5
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 16 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 60 40 5 6 F
+      UNITMODE F 60 40
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1120 720 0
+      FROM_TO_POS 60 40 0 60 40 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 145 BUILDING
+    DEFINITION
+      POS 59 36 4
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 15 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 59 36 4 6 F
+      UNITMODE F 59 36
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1148 648 0
+      FROM_TO_POS 59 36 0 59 36 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 146 BUILDING
+    DEFINITION
+      POS 50 44 0
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 15 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 50 44 0 6 F
+      UNITMODE F 50 44
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 784 792 0
+      FROM_TO_POS 50 44 0 50 44 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 147 BUILDING
+    DEFINITION
+      POS 56 39 0
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 12 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 56 39 0 6 F
+      UNITMODE F 56 39
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1022 702 0
+      FROM_TO_POS 56 39 0 56 39 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 148 BUILDING
+    DEFINITION
+      POS 53 41 4
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 12 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 53 41 4 6 F
+      UNITMODE F 53 41
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 910 738 0
+      FROM_TO_POS 53 41 0 53 41 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 149 BUILDING
+    DEFINITION
+      POS 56 32 3
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 11 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 56 32 3 6 F
+      UNITMODE F 56 32
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1120 576 0
+      FROM_TO_POS 56 32 0 56 32 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 150 BUILDING
+    DEFINITION
+      POS 46 41 1
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 11 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 46 41 1 6 F
+      UNITMODE F 46 41
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 714 738 0
+      FROM_TO_POS 46 41 0 46 41 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 151 BUILDING
+    DEFINITION
+      POS 50 37 3
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 7 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 50 37 3 6 F
+      UNITMODE F 50 37
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 882 666 0
+      FROM_TO_POS 50 37 0 50 37 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 152 BUILDING
+    DEFINITION
+      POS 52 36 1
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 7 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 52 36 1 6 F
+      UNITMODE F 52 36
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 952 648 0
+      FROM_TO_POS 52 36 0 52 36 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 155 BUILDING
+    DEFINITION
+      POS 33 8 5
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 33 8 5 6 F
+      UNITMODE F 33 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 812 144 0
+      FROM_TO_POS 33 8 0 33 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 156 BUILDING
+    DEFINITION
+      POS 34 8 5
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 34 8 5 6 F
+      UNITMODE F 34 8
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 840 144 0
+      FROM_TO_POS 34 8 0 34 8 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 157 BUILDING
+    DEFINITION
+      POS 35 9 5
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 35 9 5 6 F
+      UNITMODE F 35 9
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 854 162 0
+      FROM_TO_POS 35 9 0 35 9 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 158 BUILDING
+    DEFINITION
+      POS 36 10 5
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 36 10 5 6 F
+      UNITMODE F 36 10
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 868 180 0
+      FROM_TO_POS 36 10 0 36 10 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 159 BUILDING
+    DEFINITION
+      POS 37 11 5
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 37 11 5 6 F
+      UNITMODE F 37 11
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 882 198 0
+      FROM_TO_POS 37 11 0 37 11 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 160 BUILDING
+    DEFINITION
+      POS 38 12 5
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 38 12 5 6 F
+      UNITMODE F 38 12
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 896 216 0
+      FROM_TO_POS 38 12 0 38 12 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 161 BUILDING
+    DEFINITION
+      POS 39 13 5
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 120 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 39 13 5 6 F
+      UNITMODE F 39 13
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 910 234 0
+      FROM_TO_POS 39 13 0 39 13 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 164 BUILDING
+    DEFINITION
+      POS 38 10 4
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 32 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 38 10 4 6 F
+      UNITMODE F 38 10
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 924 180 0
+      FROM_TO_POS 38 10 0 38 10 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 5
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 165 BUILDING
+    DEFINITION
+      POS 57 26 3
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 32 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 57 26 3 6 F
+      UNITMODE F 57 26
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1232 468 0
+      FROM_TO_POS 57 26 0 57 26 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 5
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 167 BUILDING
+    DEFINITION
+      POS 63 37 4
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 32 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 63 37 4 6 F
+      UNITMODE F 63 37
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1246 666 0
+      FROM_TO_POS 63 37 0 63 37 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 7
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 168 BUILDING
+    DEFINITION
+      POS 34 10 3
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 32 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 34 10 3 6 F
+      UNITMODE F 34 10
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 812 180 0
+      FROM_TO_POS 34 10 0 34 10 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 7
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 170 BUILDING
+    DEFINITION
+      POS 40 5 4
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 32 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 40 5 4 6 F
+      UNITMODE F 40 5
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1050 82 0
+      FROM_TO_POS 40 5 0 40 5 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 6
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 171 BUILDING
+    DEFINITION
+      POS 64 27 3
+      SIDE 1
+      NATION 1
+      HP 200
+      BUILDING
+        TYPE 32 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 64 27 3 6 F
+      UNITMODE F 64 27
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1414 478 0
+      FROM_TO_POS 64 27 0 64 27 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 6
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+END_OF_NEW_UNITS
+
+COLDMEAT
+END_OF_COLDMEAT
+
+FOGOBJ
+END_OF_FOGOBJ
+
+MISSILES
+END_OF_MISSILES
+
+EXPLOSIONS
+END_OF_EXPLOSIONS
+
+CRATERS_NEW
+END_OF_CRATERS_NEW
+
+LAPSER_EFECTS
+END_OF_LAPSER_EFECTS
+
+LASER_EFECTS
+END_OF_LASER_EFECTS
+
+USER_INTERFACE
+  VIEW -56 44 1542 856 1
+  MASHA_FLAG 2 F F
+END_OF_USER_INTERFACE
+
+MC_COMMANDS
+END_OF_MC_COMMANDS
+
+DEBRIEFING
+SIDE 0 10
+  LINES
+SIDE 1 10
+  LINES
+SIDE 2 10
+  LINES
+SIDE 3 10
+  LINES
+SIDE 4 10
+  LINES
+SIDE 5 10
+  LINES
+SIDE 6 10
+  LINES
+SIDE 7 10
+  LINES
+SIDE 8 10
+  LINES
+END_OF_DEBRIEFING
+
+AREAS
+  ACTIVE 2
+  LAST 2
+  AREA 1
+    NAME #SND#ThetaFire.wav
+    COLOR FF8C3C
+    SHORTCUT 1
+    LINES 21 5 44 37
+    -------------------+------------------------
+    --------------------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    -------------+------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    --------------------+-----------------------
+    --------+-----------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    ------------+-------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    +-------------------------------------------
+    -------------------------------+------------
+    --------------------------------------------
+    --------------------------------------------
+    --+----------------------------------------+
+    --------------------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    ------+----------------------------+--------
+    --------------------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    --------------------------------------------
+    ---------+-------------------+--------------
+  AREA 2
+    NAME #SND#ThetaAlarm.wav
+    COLOR FF59D9
+    SHORTCUT 2
+    LINES 25 20 9 12
+    --------+
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    ---------
+    +--------
+END_OF_AREAS
+

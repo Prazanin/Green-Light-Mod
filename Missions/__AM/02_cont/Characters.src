@@ -88,8 +88,8 @@ begin
     hc_skills=[6,4,3,3];
     hc_attr=[10,10];
     hc_name:='Smithy';
-    hc_gallery := 'ZieloneLaserki_AddtFaces';
-    hc_face_number := 2;
+    hc_gallery := 'us_old';
+    hc_face_number := 20;
 
     Smithy:=CreateHuman;
 

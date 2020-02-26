@@ -1,0 +1,11 @@
+SOURCE_CODES
+  ENABLED Main
+  ENABLED Characters
+  ENABLED Functions
+  ENABLED Events
+  ENABLED AI
+  ENABLED Attacks
+  ENABLED Difficulty
+  ENABLED Ending
+  ENABLED Crates
+END_OF_SOURCE_CODES

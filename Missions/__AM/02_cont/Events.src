@@ -42,14 +42,6 @@ on UnitDestroyed(un) do
         YouLost('FriendlyBase');
         ExclusiveOff;
         exit;
-      end
-    else if GetSide(un)=5 and GetClass(un)=class_mechanic then
-      begin
-        RU3_BaterieMechs = RU3_BaterieMechs - 1;
-      end
-    else if GetSide(un)=5 and GetWeapon(un)=ru_rocket then
-      begin
-        RU3_BaterieVehs = RU3_BaterieVehs - 1;
       end;
 
 MCE_UnitDestroyed(un);
@@ -220,16 +212,5 @@ begin
    Say(Smithy,'D5-Smithy-1');
    DvaliContactMade = true;
    end;
-
-  if (side1 = 7 and side2 = 1) or (side2 = 1 and side1 = 7) then
-  begin
-   ExclusiveOn;
-   DialogueOn;
-   SayRadio(Barnes, 'DFriendlyFire-Barnes-1');
-   DialogueOff;
-   YouLost('FriendlyFire');
-   ExclusiveOff;
-   exit;
-  end;
 
 end;

@@ -1,0 +1,131 @@
+export Simone, Kathryn, Barnes, Bradford, Lazarfeld;
+
+starting
+begin
+
+ingame_video=true;
+interface_hidden=true;
+
+CreatePersonnel;
+
+music_class:=5;
+
+SetBName(theta,'theta');
+PlaceUnitXYR(Bradford, 29, 28, 1, false);
+PlaceUnitXYR(RandSol, 35, 37, 0, false);
+
+PlaceUnitXY(Simone, 54, 10, false);
+PlaceUnitXY(Kathryn, 57, 13, false);
+
+CenterNowOnXY(41, 29);
+
+ComMoveXY(Simone, 44, 23);
+ComMoveXY(Kathryn, 48, 26);
+DWait(0$5);
+
+Say(Simone, 'D1-Simone-1');
+ComMoveXY(Simone, 39, 24);
+ComMoveXY(Kathryn, 40, 26);
+ComMoveXY(RandSol, 38, 27);
+AddComTurnXY(Simone, 36, 23);
+AddComTurnXY(Kathryn, 36, 23);
+AddComTurnUnit(RandSol, Simone);
+DWait(0$5);
+
+Say(Simone, 'D1-Simone-2');
+Say(Kathryn, 'D1-Kathryn-1');
+AddComTurnUnit(Simone, RandSol);
+Say(RandSol, 'D1-Sol-1');
+DWait(0$1);
+Say(Simone, 'D1-Simone-3');
+DWait(0$3);
+{
+Say(Kathryn, 'DX1-Kathryn-2');
+ComMoveXY(Simone,43,38);
+AddComTurnUnit(Simone,Kathryn);
+Say(Simone, 'DX1-Simone-2');
+AddComTurnUnit(Kathryn,Simone);
+Say(Kathryn, 'DX1-Kathryn-3');
+Say(Simone, 'DX1-Simone-3');
+
+Wait(0$3);
+
+Say(Kathryn, 'DX1-Kathryn-4');
+Say(Simone, 'DX1-Simone-4');
+Say(Kathryn, 'DX1-Kathryn-5');
+Say(Simone, 'DX1-Simone-5');
+DWait(0$1);
+Say(Simone, 'DX1-Simone-6');
+Say(Kathryn, 'DX1-Kathryn-6');
+ComMoveXY(Kathryn,42,33);
+DWait(0$2);
+Say(Simone, 'DX1-Simone-7');
+
+DWait(0$2);
+
+ComMoveXY(Barnes, 35, 26);
+ComMoveXY(Bradford, 35, 27);
+
+AddComTurnUnit(Barnes, Bradford);
+AddComTurnUnit(Bradford, Barnes);
+
+DWait(0$1);
+
+Say(Bradford, 'DX1-Off-1');
+Say(Barnes, 'DX1-Bar-1');
+Say(Bradford, 'DX1-Off-2');
+Say(Barnes, 'DX1-Bar-2');
+Say(Bradford, 'DX1-Off-2a');
+Say(Barnes, 'DX1-Bar-2a');
+Say(Bradford, 'DX1-Off-3');
+Say(Barnes, 'DX1-Bar-2b');
+Say(Bradford, 'DX1-Off-4');
+Say(Barnes, 'DX1-Bar-3');
+ComEnterUnit(Bradford,theta);
+DWait(0$1);
+ComTurnXY(Barnes, 47, 33);
+Say(Barnes, 'DX1-Bar-4');
+
+ComMoveXY(Barnes,39,26);
+
+ComMoveXY(Lazarfeld,40,33);
+ComMoveXY(Simone,41,32);
+ComMoveXY(Kathryn,42,31);
+ComMoveXY(Mech1,43,30);
+ComMoveXY(Mech2,44,29);
+ComMoveXY(Mech3,45,28);
+
+AddComTurnUnit(Barnes,Kathryn);
+
+AddComTurnUnit([Lazarfeld,Simone,Kathryn,Mech1,Mech2,Mech3],Barnes);
+
+DWait(0$5);
+Say(Barnes, 'DX1-Bar-5');
+ComMoveXY(scout,38,20);
+AddComExitVehicle(scout);
+AddComMoveXY(scout,39,25);
+AddComTurnUnit(scout,Barnes);
+Say(Barnes, 'DX1-Bar-6');
+Say(Scout, 'DX1-Sol-1');
+Say(Barnes, 'DX1-Bar-7');
+
+ComEnterUnit(Simone,t1);
+ComEnterUnit(Kathryn,t2);
+ComEnterUnit(Mech1,t3);
+ComEnterUnit(Mech2,t4);
+ComEnterUnit(Mech3,t5);
+ComEnterUnit(Lazarfeld,tlz);
+ComEnterUnit(Barnes,theta);
+ComEnterUnit(scout,theta);
+
+DWait(0$7);
+
+AddComMoveXY([Simone,Kathryn,Mech1,Mech2,Mech3,Lazarfeld],59,1);
+
+DWait(0$10);
+
+IngameOff;
+
+changemap('01','%_cont');}
+YouDidSomethingExtraordinary;
+end;

@@ -36,12 +36,10 @@ begin
   SayRadio(Barnes,'D7-Barnes-3');
   Say(Simone,'D7-Simone-3');
   SayRadio(Barnes,'D7-Barnes-4');
-  Say(Simone,'D7-Simone-3a');
-  SayRadio(Barnes,'D7-Barnes-5');
   Say(Simone,'D7-Simone-4');
+  SayRadio(Barnes,'D7-Barnes-5');
   SayRadio(Barnes,'D7-Barnes-6');
-  SayRadio(Barnes,'D7-Barnes-7');
-  if OffensiveTimeOut then SayRadio(Barnes,'D7-Barnes-7a');
+  if OffensiveTimeOut then SayRadio(Barnes,'D7-Barnes-6a');
   Say(Simone,'D7-Simone-5');
 
   if not IsDead(Edmonds) then ChangeMissionObjectives('M4')
@@ -55,7 +53,7 @@ Every 0$01 trigger PrepareToEnd and IsDead(Edmonds) do
 var filter, i, Vehicles, Units;
 begin
 enable;
-       If FilterUnitsInArea(End_Area,[[f_side, 7], [f_type, unit_vehicle], [f_control, Control_manual], [f_not, [f_empty]]]) >= 8 and IsInArea(Simone, End_Area) and IsInArea(Kathryn, End_Area) and IsInArea(Miller, End_Area) then
+       If FilterUnitsInArea(End_Area,[[f_side, 7], [f_type, unit_vehicle], [f_control, Control_manual], [f_not, [f_empty]]]) = 8 and IsInArea(Simone, End_Area) and IsInArea(Kathryn, End_Area) and IsInArea(Miller, End_Area) then
        begin
            wait(0$1);
            Units = [];
@@ -94,7 +92,7 @@ Every 0$01 trigger PrepareToEnd and not IsDead(Edmonds) do
 var filter, i, Vehicles, Units;
 begin
 enable;
-       If FilterUnitsInArea(End_Area,[[f_side, 7], [f_type, unit_vehicle], [f_control, Control_manual], [f_not, [f_empty]]]) >= 8 and IsInArea(Simone, End_Area) and IsInArea(Kathryn, End_Area) and IsInArea(Miller, End_Area) and IsInArea(Edmonds, End_Area) then
+       If FilterUnitsInArea(End_Area,[[f_side, 7], [f_type, unit_vehicle], [f_control, Control_manual], [f_not, [f_empty]]]) = 8 and IsInArea(Simone, End_Area) and IsInArea(Kathryn, End_Area) and IsInArea(Miller, End_Area) and IsInArea(Edmonds, End_Area) then
        begin
            wait(0$1);
            Units = [];

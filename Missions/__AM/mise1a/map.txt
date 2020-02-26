@@ -1,0 +1,2509 @@
+MAIN_DEFINITIONS
+  SIZE 120 140
+  TICK 0
+  PLAYER_NUMBER 4
+  FOG_TYPE 0
+  FOGSIDES 4 2 3 4 5 6 7 8
+  MUCHY_RECT 0 0 0 0
+  EAGLES 0 50
+  WAVES 0
+  WATER_COLORS 0000 3 0000 3 0000
+END_OF_MAIN_DEFINITIONS
+
+HEXES
+  LINE 0 0 119
+    t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4sX t4v4sn t4vA t4vA t4vA t4vA t4vA t4vA t4v4sp t4v4sp t4sZ t4sZ t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4f8 t4f8 t4f8 t4f8 t4f8 t4f8 t4f8 t4f8 t4f8 t4f8 t4f8 t4f8 t4f8 t4f8 t4f8 t4f8 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4
+  LINE 1 1 120
+    t4 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2sX t2v4sn t2vA t2vA t2vA t2vA t2vA t2vA t2vA t2vA t2v4sp t2v4sp t2sZ t2sZ t2 t2 t2 t2 t2 t2 t2 t2 t2 t2f8 t2f8 t2f8 t2f8 t2f8 t2f8 t2f8 t2f8 t2f8 t2f8 t2f8 t2f8 t2f8 t2f8 t2f8 t2f8 t2f8 t2f8 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t4
+  LINE 2 1 120
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA v4sp v4sp sZ "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 "" "" "" "" "" "" t2 t4
+  LINE 3 2 121
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA v4sp sZ sZ "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" f8 "" "" "" f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 4 2 121
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA v4sp v4sp sZ "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 5 3 122
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA v4sp sZ "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 6 3 122
+    t4 t2 "" "" "" "" "" "" "" sI sI sJ sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA v4sp sZ sZ "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 7 4 123
+    t4 t2 "" "" "" "" "" "" sI v2sg v2sg v2sh sJ sJ sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA v4sp v4sp sZ "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" f8 "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 8 4 123
+    t4 t2 "" "" "" "" sI sI sI v2sg v7 v7 v2sh v2sh v2sh sJ sJ sJ sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA v4sp sZ "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 9 5 124
+    t4 t2 "" "" "" sI v2sg v2sg v2sg v7 v7 v7 v7 v7 v2sh v2sh v2sh v2sh sJ sJ sJ sJ sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA v4sp sZ "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" f8 "" "" "" t2 t4
+  LINE 10 5 124
+    t4 t2 "" "" sI sI v2sg v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v2sh v2sh v2sh v2sh v2sh sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA v4sp sZ "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 11 6 125
+    t4 t2 "" sI v2sg v2sg v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v2sh sJ sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA v4sp sZ "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 12 6 125
+    t4 t2 "" sI v2sg v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v2sh v2sh sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA v4sq sa f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 13 7 126
+    t4 t2 sH v2sf v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v2sh sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA v4sq sa "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 14 7 126
+    t4 t2 sH v2sf v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v2sh sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA v4sq sa f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 15 8 127
+    t4 t2 sH v2sf v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v2sh sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA v4sq sa "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" f8 "" f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 16 8 127
+    t4 t2 sH v2sf v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v2si sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA v4sq sa f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" f8 "" "" t2 t4
+  LINE 17 9 128
+    t4 t2 sH v2sf v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v2si sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA v4sq sa "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 18 9 128
+    t4 t2 "" sH v2sf v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v2si sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW v4sm v4sm vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA v4sq sa "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" t2 t4
+  LINE 19 10 129
+    t4 t2 "" sG v2se v2se v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v2si sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW v4sm vA vA vA vA vA vA vA vA vA vA vA vA vA vA v4sq sa "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" t2 t4
+  LINE 20 10 129
+    t4 t2 "" "" sG sG v2se v2se v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v2si sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW v4sm v4sm vA vA vA vA vA vA vA vA vA vA vA vA v4sq sa "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" t2 t4
+  LINE 21 11 130
+    t4 t2 "" "" "" sG sG v2se v2se v2se v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v2sj v2sj sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW v4sm vA vA vA vA vA vA vA vA vA vA vA v4sq sa "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" t2 t4
+  LINE 22 11 130
+    t4 t2 "" "" "" "" "" sG sG sG v2se v2se v2se v2se v2se v2se v7 v7 v7 v7 v7 v7 v2sj v2sj v2sj sL sL "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW v4sm v4sm vA vA vA vA vA vA vA vA vA v4sq sa "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" t2 t4
+  LINE 23 12 131
+    t4 t2 "" "" "" "" "" "" "" sG sG sG sG sG sG v2se v2se v2se v2se v2se v2se v2sj sL sL sL "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW v4sm v4sm vA vA vA vA vA vA v4sr v4sr sa "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 24 12 131
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" sG sG sG sG sG sG sG sL "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW v4sm v4sm vA vA vA vA v4sr sb sb "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" f8 "" "" "" "" "" t2 t4
+  LINE 25 13 132
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW v4sm v4sm v4sm v4sm v4sr sb "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" "" t2 t4
+  LINE 26 13 132
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW sW sW sW sb "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" f8 f8 f8 f8 f8 f8 f8 "" "" "" "" "" "" "" t2 t4
+  LINE 27 14 133
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" f8 f8 f8 f8 f8 f8 f8 f8 "" f8 f8 f8 f8 "" t2 t4
+  LINE 28 14 133
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" f8 "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" t2 t4
+  LINE 29 15 134
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" t2 t4
+  LINE 30 15 134
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sAf8 sBf8 f8 "" t2 t4
+  LINE 31 16 135
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sAf8 sAf8 sAf8 v1f8 sBf8 sBf8 "" t2 t4
+  LINE 32 16 135
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 s9f8 v1f8 v1f8 v1sQf8 v1sQf8 v1sRf8 sZf8 t2sZ t4sZ
+  LINE 33 17 136
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sYf8 v1sQf8 v1sQf8 v4sQf8 v4sof8 v4sp v4sp t2v4sp t4v4sp
+  LINE 34 17 136
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sYf8 sYf8 v4sQf8 v4sQf8 v4sQf8 v7sQf8 vA vA t2vA t4vA
+  LINE 35 18 137
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sYf8 v4sof8 v4sof8 v7sQf8 v7sQf8 v7sQf8 vA vA vA t2vA t4vA
+  LINE 36 18 137
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sYf8 sYf8 v4sof8 vAf8 vAf8 vAf8 vAf8 vAf8 vA vA t2vA t4vA
+  LINE 37 19 138
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sYf8 sYf8 v4sof8 v4sof8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vA vA t2vA t4vA
+  LINE 38 19 138
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sYf8 sYf8 v4sof8 v4sof8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vA t2vA t4vA
+  LINE 39 20 139
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sYf8 v4sof8 v4sof8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vA t2vA t4vA
+  LINE 40 20 139
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sXf8 v4snf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 t2vA t4vA
+  LINE 41 21 140
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sXf8 v4snf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vA t2vA t4vA
+  LINE 42 21 140
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sXf8 v4snf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 t2vA t4vA
+  LINE 43 22 141
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sXf8 v4snf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vA t2vA t4vA
+  LINE 44 22 141
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sXf8 v4snf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 t2vA t4vA
+  LINE 45 23 142
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sI sI sI sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sXf8 v4snf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vA t2vA t4vA
+  LINE 46 23 142
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sI sI v2 v2 v2 sJ sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sXf8 v4snf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vA t2vA t4vA
+  LINE 47 24 143
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sI sI v2 v2 v2 v2 v2 v2 sJ sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sXf8 v4snf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vA t2vA t4vA
+  LINE 48 24 143
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2 v2 v2 v2 v2 v2 v2 v2 v2 sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sWf8 v4smf8 v4smf8 v4smf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vAf8 vA t2vA t4vA
+  LINE 49 25 144
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2 v2 v2 v2 v2 v2 v2 v2 v2 sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sWf8 sWf8 sWf8 v4smf8 v4smf8 v4smf8 v4smf8 v4smf8 v4smf8 v4smf8 v4smf8 v4smf8 t2v4sm t4v4sr
+  LINE 50 25 144
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2 v2 v2 v2 v2 v2fG v2 v2 v2 sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 sWf8 sWf8 sWf8 sWf8 sWf8 sWf8 sWf8 sWf8 sWf8 t2sWf8 t4sWf8
+  LINE 51 26 145
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2 v2 v2 v2 v2 v2 v2 v2 v2 sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 t2f8 t4f8
+  LINE 52 26 145
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2 v2 v2 v2 v2 v2 v2 v2 sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 t2f8 t4f8
+  LINE 53 27 146
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2 v2 v2 v2 v2 v2 v2 v2 sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 t2f8 t4f8
+  LINE 54 27 146
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG v2 v2 v2 v2 v2 v2 v2 sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 t2f8 t4f8
+  LINE 55 28 147
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG sG v2 v2 v2 v2 v2 sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 t2f8 t4f8
+  LINE 56 28 147
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG sGfG sGfG v2fG v2 sL sL "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 t2f8 t4
+  LINE 57 29 148
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG sGfG sGfG sLfG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 t2 t4
+  LINE 58 29 148
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" t2 t4
+  LINE 59 30 149
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" t2 t4
+  LINE 60 30 149
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 f8 f8 f8 f8 f8 f8 f8 "" "" "" "" t2 t4
+  LINE 61 31 150
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f8 f8 "" "" "" "" "" "" "" "" t2 t4
+  LINE 62 31 150
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 63 32 151
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 64 32 151
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 65 33 152
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 66 33 152
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 67 34 153
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 68 34 153
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 69 35 154
+    t4sQ t2sQ sQ sQ sQ sQ sQ sQ sQ sQ sQ sR sR "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 70 35 154
+    t4v3so t2v3so v3so v3so v3so v3so v3so v3so v3so v3so v3so v3so v3sp sR sR sR sR sR sR "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 71 36 155
+    t4v9 t2v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v3sp v3sp v3sp v3sp v3sp v3sp sR sR "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 72 36 155
+    t4v9 t2v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v3sp v3sp sR sR "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 73 37 156
+    t4v9 t2v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v3sp v3sp sR "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 74 37 156
+    t4v9 t2v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9fG v9 v9 v9 v9 v9 v9 v3sp sR sR "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG sgfG sgfG shfG shfG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 75 38 157
+    t4v9 t2v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v3sp v3sp sR "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG sgfG v5sofG v5sofG v5spfG shfG shfG shfG shfG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 76 38 157
+    t4v9 t2v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v3sp sR "" fG fG fG fG "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG sgfG v5sofG vBfG vBfG v5spfG v5spfG v5spfG v5spfG shfG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 77 39 158
+    t4v9 t2v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v3sp sR "" "" fG fG fG "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG sgfG v5sofG vBfG vBfG vBfG vBfG vBfG vBfG v5spfG shfG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 78 39 158
+    t4v9 t2v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v3sp sR "" "" "" "" fG "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG sgfG sgfG v5sofG vBfG vBfG vBfG vBfG vBfG vBfG vBfG v5spfG shfG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 79 40 159
+    t4v9 t2v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v3sp sR "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG sgfG sgfG v5sofG v5sofG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG v5spfG shfG shfG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 80 40 159
+    t4v9 t2v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v3sq sS "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG sgfG v5sofG v5sofG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG v5spfG v5spfG shfG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 81 41 160
+    t4v9 t2v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v3sq sS "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG sgfG v5sofG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG v5spfG shfG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 82 41 160
+    t4v9 t2v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v6sT v6sT v6sT v6sO v6sO v7sG v7sG v9 v9 v9 v3sr v3sr sS "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG sgfG v5sofG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG v5sqfG sifG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 83 42 161
+    t4v9 t2v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v6sT v6 v6 v6 v6 v6s8 v7 v7sG v3sr v3sr v3sr sT sT "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG sgfG v5sofG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG v5sqfG sifG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 84 42 161
+    t4v9 t2v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v9 v3sr v3sT v3sT v3sT v3sT v3sO v3sW v3sW v3sb sT sT sT "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG sgfG v5sofG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG v5sqfG sifG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 85 43 162
+    t4v9 t2v9 v9 v9 v9 v9 v9 v9 v3sr v3sr v3sr v3sr sT sT sT sT sT sO sO sO sT "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG sffG v5snfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG v5sqfG sifG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 86 43 162
+    t4v9 t2v9 v9 v9 v9 v9 v3sr v3sr v3sr sT sT sT sT "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG sffG v5snfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG v5sqfG sifG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 87 44 163
+    t4v3sm t2v3sm v3sm v3sm v3sm v3sr sT sT sT "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG "" sf v5snfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG v5sqfG sifG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" fG "" fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 88 44 163
+    t4sO t2sO sO sO sO sO sT "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG sf v5snfG vB vB vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG v5sqfG sifG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" "" "" "" sY sY sY sY sY sZ sZ "" "" "" t2 t4
+  LINE 89 45 164
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sf v5sn vB vB vB vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG v5sqfG sifG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" "" sY sY sY sY v4so v4so v4so v4so v4so v4sp sZ "" "" "" t2 t4
+  LINE 90 45 164
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sf v5sn vB vB vB vB vB vB vB vBfG vBfG vBfG vBfG vBfG vBfG vBfG vBfG v5sqfG si fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" sY sY v4so v4so v4so v4so vA vA vA vA vA v4sq sa "" "" t2 t4
+  LINE 91 46 165
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG "" se v5sm v5sm vB vB vB vB vB vB vB vB vB vB vB vB vB v5sqfG si fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" sY sY v4so v4so vA vA vA vA vA vA vA vA v4sq sa "" "" "" t2 t4
+  LINE 92 46 165
+    t4 t2 "" "" "" rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" se se v5sm v5sm vB vB vB vB vB vB vB vB vB vB vB v5sqfG si fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" sY sY v4so v4so vA vA vA vA vA vA vA vA vA vA v4sq sZ sY sZ t2sZ t4
+  LINE 93 47 166
+    t4rA t2rA rA rA rA rAfG rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" se se v5sm v5sm vB vB vB vB vB vB vB vB vB v5sq si "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" sY sY v4so v4so vA vA vA vA vA vA vA vA vA vA vA v4sq v4 v4so v4so v4sp t2sZ t4
+  LINE 94 47 166
+    t4rA t2rA rA rA rA rA rA rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG "" "" fG "" "" "" se se v5sm v5sm vB vB vB vB vB vB v5sr v5sr si "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" sY v4so v4so vA vA vA vA vA vA vA vA vA vA vA vA vA v4sp v4so vA vA t2v4sp t4sZ
+  LINE 95 48 167
+    t4rA t2rA rAfG rA rA rA rA rA rA rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" se se v5sm v5sm vB vB v5sr v5sr v5sr sj sj "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" sY v4so vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2v4sp t4sZ
+  LINE 96 48 167
+    t4rA t2rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" se se v5sm v5sm v5sr sj sj sj "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4v4sp
+  LINE 97 49 168
+    t4rA t2rA rA "" "" fG "" rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" se se se sj "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4v4sp
+  LINE 98 49 168
+    t4 t2 "" "" "" "" "" "" "" "" rA rA rA rA rA rA rA rA rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 99 50 169
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG fG "" fG "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 100 50 169
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG fG fG "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 101 51 170
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG "" "" "" "" fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG fG fG fG fG fG fG fG "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 102 51 170
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 103 52 171
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG "" "" fG "" "" "" fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 104 52 171
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 105 53 172
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 106 53 172
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 107 54 173
+    t4sI t2sI sI sI sI sI sI sI sJ sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 108 54 173
+    t4v2sY t2v2sY v2sY v2sY v2sY v2sY v2sY v2sY v2sY v2sZ sJ sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 109 55 174
+    t4v6 t2v6 v6 v6 v6 v6 v6 v6 v6 v2sZ v2sZ sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 110 55 174
+    t4v6 t2v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v2sZ sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 111 56 175
+    t4v6 t2v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v2sZ sJ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 112 56 175
+    t4v6 t2v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v2sa sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sY sY sZ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW v4sm v4sm vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 113 57 176
+    t4v6 t2v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v2sa sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sY v4sg v4sh sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW v4sm vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 114 57 176
+    t4v6sQ t2v6sQ v6sR v6 v6 v6 v6 v6 v6 v6 v6 v6 v2sa sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sY v4sg v9 v5sZ sh "" "" fG "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW v4sm vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 115 58 177
+    t4v9 t2v9 v6sR v6sR v6 v6 v6 v6 v6 v6 v6 v2sa sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sY v4so v9sA v9sB v5sZ sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW v4sm v4sm vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 116 58 177
+    t4v9 t2v9 v9 v9 v6sS v6 v6 v6 v6 v6 v6 v6 v2sa sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA v9sB v5sZ si "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW v4sm vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 117 59 178
+    t4v9 t2v9 v9 v6sS v6 v6 v6 v6 v6 v6 v6 v2sa sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA v9sB v4si sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW v4sm v4sm vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 118 59 178
+    t4v9 t2v9 v9 v9 v6sS v6 v6 v6 v6 v6 v6 v2sa sK "" "" "" "" "" "" "" "" "" "" "" sY sY sY sY sY sZ sZ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sX v8sH vA vA vA v9sB v4si sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW v4sm v4sm vA vA vA vA vA vA vA vA t2vA t4vA
+  LINE 119 60 179
+    t4v9 t2v9 v9 v9 v6sS v6 v6 v6 v6 v6 v2sa sK "" "" "" "" "" "" "" "" "" sY sY sY v4sY v4sY v4sY v4sY v4sY v4sZ sZ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA v9sB v4si sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW v4sm v4sm vA vA vA vA vA vA vA t2vA t4vA
+  LINE 120 60 179
+    t4v9 t2v9 v9 v9 v6sS v6 v6 v6 v6 v6 v2sa sK "" "" "" "" "" "" "" sY sY sY v4sY v4sY v4sY v8 v8 v8 v8 v8 v4sZ sZ sZ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sX v8sH vA vA vA vA v9sB v4si sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW v4sm v4sm vA vA vA vA vA t2vA t4vA
+  LINE 121 61 180
+    t4v9 t2v9 v9 v6sS v6 v6 v6 v6 v2sb v2sb sK "" "" "" "" "" "" "" sY v4sY v4sY v4sY v8 v8 v8 v8 v8 v8 v8 v8 v4sZ v4sZ sZ sZ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA v9sC v4si sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW v4sm v4sm v4sm vA vA vA t2vA t4vA
+  LINE 122 61 180
+    t4v9 t2v9 v6sT v6sT v6 v6 v6 v6 v2sb sL sL "" "" "" "" "" "" sY sY v4sY v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sZ v4sZ sZ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA v8sK v4sa sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW sW v4sm v4sm v4sm t2v4sm t4v4sm
+  LINE 123 62 181
+    t4v6sT t2v6sT v6 v6 v6 v6 v2sb v2sb sL "" "" "" "" "" "" "" sY v4sY v4sY v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sZ sZ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sn v6sX vA vA vA vA vA v4sq sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sW sW sW sW t2sW t4sb
+  LINE 124 62 181
+    t4v6 t2v6 v6 v6 v6 v6 v2sb sL sL "" "" "" "" "" "" sY sY v4sY v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sZ sZ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sn v6sX vA vA vA vA vA v4sq sZ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 125 63 182
+    t4v6 t2v6 v6 v6 v2sb v2sb sL "" "" "" "" "" "" "" sY v4sY v4sY v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sZ sZ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA v4sp sp "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 126 63 182
+    t4v6 t2v6 v6 v6 v2sb sL sL "" "" "" "" "" "" "" sY v4sY v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sZ sZ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA v6sa sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 127 64 183
+    t4v6 t2v6 v6 v2sb sL "" "" "" "" "" "" "" sY sY v4sY v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sZ sZ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sn v6sX vA vA vA vA vA v6sa sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 128 64 183
+    t4v6 t2v6 v2sb v2sb sL "" "" "" "" "" "" "" sY v4sY v4sY v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sZ sZ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA v6sa sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 129 65 184
+    t4v6 t2v2sb sL sL "" "" "" "" "" "" sY sY v4sY v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sZ sZ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA v4sq sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 130 65 184
+    t4v2sW t2v2sb sL "" "" "" "" "" "" "" sY v4sY v4sY v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sZ sZ "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sn v6sX vA vA vA vA vA v6sa sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 131 66 185
+    t4sL t2sL "" "" "" "" "" "" "" sY v4sY v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sa sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rAfG rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA v4sq sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 132 66 185
+    t4 t2 "" "" "" "" "" "" "" sY v4sY v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sa sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sn v6sX vA vA vA vA vA vA v4sq sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 133 67 186
+    t4 t2 "" "" "" "" "" "" sY v4sY v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sa sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA v4sq sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 134 67 186
+    t4 t2 "" "" "" "" "" "" sX v4sX v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sa sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA v4sq sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 135 68 187
+    t4 t2 "" "" "" "" "" sX v4sX v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sa sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" fG rA rA rAfG rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA v4sq sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 136 68 187
+    t4 t2 "" "" "" "" "" "" sX v4sX v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sa sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sn vA vA vA vA vA vA vA v4sq sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 137 69 188
+    t4 t2 "" "" "" "" "" sX v4sX v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v4sa sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" rA rA rA rA "" "" "" "" "" "" "" "" "" "" "" "" "" "" sX v4sX v8sH vA vA vA vA vA vA v4sq sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 138 69 188
+    t4 t2 t2 t2 t2 t2 t2 t2sX t2v4sX t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v8 t2v4sa t2sa t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2rA t2rA t2rA t2rA t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2sX t2v4sn t2vA t2vA t2vA t2vA t2vA t2vA t2vA t2v4sq t2sa t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t4
+  LINE 139 70 189
+    t4 t4 t4 t4 t4 t4 t4 t4sX t4v4sX t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v8 t4v4sa t4sa t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4rA t4rA t4rA t4rA t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4sX t4v4sX t4v8sH t4vA t4vA t4vA t4vA t4vA t4vA t4vA t4v4sq t4sa t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4
+END_OF_HEXES
+
+EXTERNAL_NODES nodes.bin
+ENVIROMENT
+  SET 1 dummy
+  SET 2 list-akatojerab
+  SET 3 list-jerab-spal
+  SET 4 list-platan
+  SET 5 list-platan-spal
+  SET 6 list-mocal-koreny
+  SET 7 list-vrba
+  SET 8 list-vrba-zluta
+  SET 9 jehl-borovice
+  SET 10 jehl-borov-vysoka
+  SET 11 jehl-borovice-mala
+  SET 12 stone_set_01
+  SET 13 stone_set_02
+  SET 14 stone_set_03
+  SET 15 stone_set_04
+  SET 16 stone_set_05
+  SET 17 stone_set_06
+  SET 18 stone_set_07
+  SET 19 houby
+  SET 20 mrcha
+  SET 21 jehl-smrk-silny
+  SET 22 jehl-smrk-stredni
+  SET 23 jehl-smrk-uzky-spal
+  SET 24 jehl-smrk-stredni
+  SET 25 jehl-smrk-stredni-spal
+  SET 26 jehl-smrk-stredni-suchy
+  SET 27 list-dvoupatr
+  SET 28 list-briza
+  SET 29 list-paskvil
+  SET 30 ker
+  SET 31 jehl-borov-vysoka-spal
+  SET 32 list-akat-vysoky-spal
+  SET 33 plavun
+  SET 34 cykas
+  SET 35 list-kastan
+  SET 36 mech
+  SET 37 jehl-smrk-maly
+  SET 38 ker-husty
+  SET 39 ker-rosti
+  SET 40 list-akat-rosti
+  SET 41 list-briza-vyssi
+  SET 42 list-sahara
+  SET 43 list-akat-maly
+  SET 44 list-dvoupatr-maly
+  SET 45 parez
+  SET 46 polosuche
+  SET 47 list-dub
+  SET 48 list-kastan-vanek
+  SET 49 parezoid
+  SET 50 branka
+  SET 51 leknin
+  SET 52 monolit
+  SET 53 snowman
+  SET 54 snowman_small
+END_OF_ENVIROMENT
+
+EXTERNAL_SECTORS sectors.bin
+ATTITUDES
+  PARAMS 8
+  1 0 0 0 0 0 0 0 0
+  0 1 2 2 1 2 2 2 2
+  0 2 1 2 2 2 2 2 2
+  0 2 2 1 2 2 2 2 2
+  0 1 2 2 1 2 2 2 2
+  0 2 2 2 2 1 2 2 2
+  0 2 2 2 2 2 1 2 2
+  0 2 2 2 2 2 2 1 2
+  0 2 2 2 2 2 2 2 1
+  FLAG 8
+  T T T T T T T T T
+END_OF_ATTITUDES
+
+TECHS
+  PARAMS 72 8
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F F T T T T F T T F F T T T T F T T F T T F T T F
+  F T F F T T T T F T T F F T T T T F T T F T T F T T F
+  F T F F T T T T F T T F T T F T T F T T F T T F T T F
+  F T F F T T T T F T T F F T T T T F T T F T T F T T F
+  F T F F T T T T F T T F F T T T T F T T F T T F T T F
+  F T F F T T T T F T T F T T F T T F T T F T T F T T F
+  F T F F T T T T F T T F F T T T T F T T F T T F T T F
+  F T F F T T T T F T T F F T T T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F F T T T T F T T F F T T T T F T T F T T F T T F
+  F T F F T T T T F T T F F T T T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F F T T T T F T T F F T T T T F T T F T T F T T F
+  F T F F T T T T F T T F F T T T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F
+END_OF_TECHS
+
+RESTRICTS
+  PARAMS 0 40 8
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+  T T T T T T T T T
+END_OF_RESTRICTS
+
+MISSION_OBJECTIVES_FULL 0
+
+SPECS
+  PARAMS 1 8
+    51 74 1
+    T F F F T F F F F
+  FLAG 0 0
+END_OF_SPECS
+
+BASES
+  PARAMS T T
+
+  POOL 1
+    CANS 100
+  POOL 2
+    CANS 100
+  POOL 3
+    CANS 100
+  POOL 4
+    CANS 750
+    SIBERIUM 150
+
+  BASE 1
+    POOL_NUM 1
+    SIDE 1
+    UNIT 3
+  BASE 2
+    POOL_NUM 2
+    SIDE 1
+    UNIT 1
+  BASE 3
+    POOL_NUM 3
+    SIDE 3
+    UNIT 50
+  BASE 4
+    POOL_NUM 4
+    SIDE 3
+    UNIT 37
+END_OF_BASES
+
+
+
+RANDOMS
+  MICROLOGIC 2 0 1
+  RANDOM_SEED 1 -596324826
+  RANDOM_SEED 2 -596324826
+  RANDOM_SEED 3 119707412
+  RANDOM_SEED 4 543463811
+  RANDOM_SEED 5 1765461393
+  RANDOM_SEED 6 1555385305
+  RANDOM_SEED 7 2105222468
+  RANDOM_SEED 8 1153912408
+  RANDOM_SEED 9 1528212927
+  RANDOM_SEED 10 -1797471671
+  RANDOM_SEED 11 18954690
+  RANDOM_SEED 12 226929871
+  RANDOM_SEED 13 389570061
+  RANDOM_SEED 14 1695092293
+  RANDOM_SEED 15 1253941600
+  RANDOM_SEED 16 1341270756
+  RANDOM_SEED 17 1896164475
+  RANDOM_SEED 18 602525292
+  RANDOM_SEED 19 426048030
+  RANDOM_SEED 20 1491656346
+  RANDOM_SEED 21 -1103593494
+  RANDOM_SEED 22 786680626
+  WIND_TIME -1 -1 0
+  WIND_STRENGTH 36.7606167791381 52.0 53.3803083895691
+  WIND_SCATTER 24.1066377870272
+END_OF_RANDOMS
+
+NEW_UNITS
+  UNIT 1 BUILDING
+    DEFINITION
+      IDENT base2
+      POS 84 85 5
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 2 LEVEL 5 BASE 2
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 84 85 5 6 F
+      UNITMODE F 84 85
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1162 1530 0
+      FROM_TO_POS 84 85 0 84 85 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 2 BUILDING
+    DEFINITION
+      POS 62 50 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 4 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 62 50 3 6 F
+      UNITMODE F 62 50
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1036 896 0
+      FROM_TO_POS 62 50 0 62 50 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3 BUILDING
+    DEFINITION
+      IDENT base1
+      POS 144 107 4
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 2 LEVEL 5 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 144 107 4 6 F
+      UNITMODE F 144 107
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2534 1926 0
+      FROM_TO_POS 144 107 0 144 107 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 4 BUILDING
+    DEFINITION
+      POS 126 87 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 4 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 126 87 3 6 F
+      UNITMODE F 126 87
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2310 1566 0
+      FROM_TO_POS 126 87 0 126 87 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 5 BUILDING
+    DEFINITION
+      IDENT factor
+      POS 119 103 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 6 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 119 103 2 6 F
+      UNITMODE F 119 103
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1890 1854 0
+      FROM_TO_POS 119 103 0 119 103 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 6 BUILDING
+    DEFINITION
+      POS 115 99 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 7 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 115 99 2 6 F
+      UNITMODE F 115 99
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1834 1782 0
+      FROM_TO_POS 115 99 0 115 99 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 7 BUILDING
+    DEFINITION
+      POS 119 100 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 8 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 119 100 3 6 F
+      UNITMODE F 119 100
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1932 1800 0
+      FROM_TO_POS 119 100 0 119 100 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 8 BUILDING
+    DEFINITION
+      POS 116 103 1
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 12 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 116 103 1 6 F
+      UNITMODE F 116 103
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1806 1854 0
+      FROM_TO_POS 116 103 0 116 103 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 9 BUILDING
+    DEFINITION
+      POS 123 103 4
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 15 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 123 103 4 6 F
+      UNITMODE F 123 103
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2002 1854 0
+      FROM_TO_POS 123 103 0 123 103 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 10 BUILDING
+    DEFINITION
+      POS 69 78 1
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 5 LEVEL 1 BASE 2
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 69 78 1 6 F
+      UNITMODE F 69 78
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 840 1404 0
+      FROM_TO_POS 69 78 0 69 78 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 11 BUILDING
+    DEFINITION
+      POS 68 89 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 18 LEVEL 1 BASE 2 PARAMS 21 20
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 68 89 2 6 F
+      UNITMODE F 68 89
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 658 1602 0
+      FROM_TO_POS 68 89 0 68 89 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+  UNIT 12 BUILDING
+    DEFINITION
+      POS 141 99 4
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 19 LEVEL 1 BASE 1 PARAMS 21 22
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 141 99 4 6 F
+      UNITMODE F 141 99
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2562 1782 0
+      FROM_TO_POS 141 99 0 141 99 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+  UNIT 13 BUILDING
+    DEFINITION
+      POS 108 101 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 94 LEVEL 1 BASE 2
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 108 101 3 6 F
+      UNITMODE F 108 101
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1610 1818 0
+      FROM_TO_POS 108 101 0 108 101 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 15 BUILDING
+    DEFINITION
+      POS 100 79 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 32 LEVEL 1 BASE 2
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 100 79 3 6 F
+      UNITMODE F 100 79
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1694 1400 0
+      FROM_TO_POS 100 79 0 100 79 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 5
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 16 BUILDING
+    DEFINITION
+      POS 95 78 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 32 LEVEL 1 BASE 2
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 95 78 2 6 F
+      UNITMODE F 95 78
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1568 1382 0
+      FROM_TO_POS 95 78 0 95 78 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 5
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 17 BUILDING
+    DEFINITION
+      POS 80 72 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 32 LEVEL 1 BASE 2
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 80 72 3 6 F
+      UNITMODE F 80 72
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1232 1296 0
+      FROM_TO_POS 80 72 0 80 72 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 5
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 18 BUILDING
+    DEFINITION
+      POS 69 68 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 32 LEVEL 1 BASE 2
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 69 68 3 6 F
+      UNITMODE F 69 68
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 980 1224 0
+      FROM_TO_POS 69 68 0 69 68 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 5
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 20 BUILDING
+    DEFINITION
+      POS 83 74 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 32 LEVEL 1 BASE 2
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 83 74 3 6 F
+      UNITMODE F 83 74
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1288 1332 0
+      FROM_TO_POS 83 74 0 83 74 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 4
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 21 BUILDING
+    DEFINITION
+      POS 66 67 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 32 LEVEL 1 BASE 2
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 66 67 3 6 F
+      UNITMODE F 66 67
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 910 1206 0
+      FROM_TO_POS 66 67 0 66 67 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 4
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 22 BUILDING
+    DEFINITION
+      POS 131 90 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 32 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 131 90 3 6 F
+      UNITMODE F 131 90
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2408 1620 0
+      FROM_TO_POS 131 90 0 131 90 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 4
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 24 BUILDING
+    DEFINITION
+      POS 122 87 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 32 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 122 87 3 6 F
+      UNITMODE F 122 87
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2198 1566 0
+      FROM_TO_POS 122 87 0 122 87 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 6
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 26 BUILDING
+    DEFINITION
+      POS 118 85 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 32 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 118 85 3 6 F
+      UNITMODE F 118 85
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2114 1530 0
+      FROM_TO_POS 118 85 0 118 85 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 4
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 29 BUILDING
+    DEFINITION
+      POS 92 91 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 27 LEVEL 1 BASE 2
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 28 T 143 1
+      MOVE 92 91 3 6 F
+      UNITMODE F 92 91
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1302 1638 0
+      FROM_TO_POS 92 91 0 92 91 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 30 BUILDING
+    DEFINITION
+      POS 95 94 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 27 LEVEL 1 BASE 2
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 28 T 143 1
+      MOVE 95 94 3 6 F
+      UNITMODE F 95 94
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1344 1692 0
+      FROM_TO_POS 95 94 0 95 94 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 31 BUILDING
+    DEFINITION
+      POS 92 94 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 27 LEVEL 1 BASE 2
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 28 T 143 1
+      MOVE 92 94 3 6 F
+      UNITMODE F 92 94
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1260 1692 0
+      FROM_TO_POS 92 94 0 92 94 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 32 BUILDING
+    DEFINITION
+      POS 149 108 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 27 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 28 T 143 1
+      MOVE 149 108 3 6 F
+      UNITMODE F 149 108
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2660 1944 0
+      FROM_TO_POS 149 108 0 149 108 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 33 BUILDING
+    DEFINITION
+      POS 141 114 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 27 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 28 T 143 1
+      MOVE 141 114 3 6 F
+      UNITMODE F 141 114
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2352 2052 0
+      FROM_TO_POS 141 114 0 141 114 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 34 BUILDING
+    DEFINITION
+      POS 113 101 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 27 LEVEL 1 BASE 2
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 28 T 143 1
+      MOVE 113 101 3 6 F
+      UNITMODE F 113 101
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1750 1818 0
+      FROM_TO_POS 113 101 0 113 101 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 35 BUILDING
+    DEFINITION
+      POS 51 74 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 28 LEVEL 1 BASE 2
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 83 1
+      MOVE 51 74 3 6 F
+      UNITMODE F 51 74
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 392 1314 0
+      FROM_TO_POS 51 74 0 51 74 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 37 BUILDING
+    DEFINITION
+      IDENT RuBase
+      POS 112 7 3
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 65 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 112 7 3 6 F
+      UNITMODE F 112 7
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 3038 126 0
+      FROM_TO_POS 112 7 0 112 7 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 38 BUILDING
+    DEFINITION
+      POS 99 15 1
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 67 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 99 15 1 6 F
+      UNITMODE F 99 15
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2562 270 0
+      FROM_TO_POS 99 15 0 99 15 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 39 BUILDING
+    DEFINITION
+      POS 117 28 0
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 67 LEVEL 10 BASE 3
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 117 28 0 6 F
+      UNITMODE F 117 28
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2884 504 0
+      FROM_TO_POS 117 28 0 117 28 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 40 BUILDING
+    DEFINITION
+      POS 123 16 4
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 79 LEVEL 10 BASE 4 PARAMS 81 82
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 123 16 4 6 F
+      UNITMODE F 123 16
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 3220 288 0
+      FROM_TO_POS 123 16 0 123 16 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+  UNIT 41 BUILDING
+    DEFINITION
+      POS 124 24 5
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 79 LEVEL 10 BASE 3 PARAMS 83 84
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 124 24 5 6 F
+      UNITMODE F 124 24
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 3136 432 0
+      FROM_TO_POS 124 24 0 124 24 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+  UNIT 42 BUILDING
+    DEFINITION
+      POS 100 6 2
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 69 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 100 6 2 6 F
+      UNITMODE F 100 6
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2716 108 0
+      FROM_TO_POS 100 6 0 100 6 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 43 BUILDING
+    DEFINITION
+      POS 96 2 2
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 71 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 96 2 2 6 F
+      UNITMODE F 96 2
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2660 36 0
+      FROM_TO_POS 96 2 0 96 2 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 44 BUILDING
+    DEFINITION
+      POS 100 3 3
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 72 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 100 3 3 6 F
+      UNITMODE F 100 3
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2758 54 0
+      FROM_TO_POS 100 3 0 100 3 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 45 BUILDING
+    DEFINITION
+      POS 104 6 4
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 70 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 104 6 4 6 F
+      UNITMODE F 104 6
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2828 108 0
+      FROM_TO_POS 104 6 0 104 6 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 46 BUILDING
+    DEFINITION
+      POS 100 10 0
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 76 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 100 10 0 6 F
+      UNITMODE F 100 10
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2660 180 0
+      FROM_TO_POS 100 10 0 100 10 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 47 BUILDING
+    DEFINITION
+      POS 97 6 1
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 75 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 97 6 1 6 F
+      UNITMODE F 97 6
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2632 108 0
+      FROM_TO_POS 97 6 0 97 6 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 50 BUILDING
+    DEFINITION
+      POS 138 43 5
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 64 LEVEL 10 BASE 3
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 138 43 5 6 F
+      UNITMODE F 138 43
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 3262 754 0
+      FROM_TO_POS 138 43 0 138 43 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 52 BUILDING
+    DEFINITION
+      POS 140 47 5
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 86 LEVEL 10 BASE 3
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 28 T 100 1
+      MOVE 140 47 5 6 F
+      UNITMODE F 140 47
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 3262 826 0
+      FROM_TO_POS 140 47 0 140 47 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 54 BUILDING
+    DEFINITION
+      POS 129 44 1
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 91 LEVEL 10 BASE 3
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 129 44 1 6 F
+      UNITMODE F 129 44
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2996 772 0
+      FROM_TO_POS 129 44 0 129 44 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 46
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 56 BUILDING
+    DEFINITION
+      POS 132 46 0
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 91 LEVEL 10 BASE 3
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 132 46 0 6 F
+      UNITMODE F 132 46
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 3052 808 0
+      FROM_TO_POS 132 46 0 132 46 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 45
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 57 BUILDING
+    DEFINITION
+      POS 127 41 2
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 91 LEVEL 10 BASE 3
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 127 41 2 6 F
+      UNITMODE F 127 41
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2982 718 0
+      FROM_TO_POS 127 41 0 127 41 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 45
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 60 BUILDING
+    DEFINITION
+      POS 102 19 0
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 91 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 102 19 0 6 F
+      UNITMODE F 102 19
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2590 342 0
+      FROM_TO_POS 102 19 0 102 19 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 46
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 61 BUILDING
+    DEFINITION
+      POS 94 14 0
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 91 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 94 14 0 6 F
+      UNITMODE F 94 14
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2436 252 0
+      FROM_TO_POS 94 14 0 94 14 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 46
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 62 BUILDING
+    DEFINITION
+      POS 120 33 0
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 91 LEVEL 10 BASE 3
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 120 33 0 6 F
+      UNITMODE F 120 33
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2898 594 0
+      FROM_TO_POS 120 33 0 120 33 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 46
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 64 BUILDING
+    DEFINITION
+      POS 113 27 1
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 91 LEVEL 10 BASE 3
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 113 27 1 6 F
+      UNITMODE F 113 27
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2786 486 0
+      FROM_TO_POS 113 27 0 113 27 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 43
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 66 BUILDING
+    DEFINITION
+      POS 96 11 0
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 91 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 96 11 0 6 F
+      UNITMODE F 96 11
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2534 198 0
+      FROM_TO_POS 96 11 0 96 11 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 47
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 67 BUILDING
+    DEFINITION
+      POS 121 29 0
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 91 LEVEL 10 BASE 3
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 121 29 0 6 F
+      UNITMODE F 121 29
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2982 522 0
+      FROM_TO_POS 121 29 0 121 29 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 47
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 68 BUILDING
+    DEFINITION
+      POS 112 2 0
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 86 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 28 T 100 1
+      MOVE 112 2 0 6 F
+      UNITMODE F 112 2
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 3108 36 0
+      FROM_TO_POS 112 2 0 112 2 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 69 BUILDING
+    DEFINITION
+      POS 119 9 0
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 86 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 28 T 100 1
+      MOVE 119 9 0 6 F
+      UNITMODE F 119 9
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 3206 162 0
+      FROM_TO_POS 119 9 0 119 9 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 70 BUILDING
+    DEFINITION
+      POS 104 3 0
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 86 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 28 T 100 1
+      MOVE 104 3 0 6 F
+      UNITMODE F 104 3
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2870 54 0
+      FROM_TO_POS 104 3 0 104 3 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 71 BUILDING
+    DEFINITION
+      POS 94 5 0
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 86 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 28 T 100 1
+      MOVE 94 5 0 6 F
+      UNITMODE F 94 5
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2562 90 0
+      FROM_TO_POS 94 5 0 94 5 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 74 BUILDING
+    DEFINITION
+      POS 90 7 1
+      SIDE 3
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 91 LEVEL 10 BASE 4
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 90 7 1 6 F
+      UNITMODE F 90 7
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2422 126 0
+      FROM_TO_POS 90 7 0 90 7 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        TURRET_WEAPON 46
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 78 VEHICLE
+    DEFINITION
+      IDENT ts
+      POS 125 135 5
+      SIDE 4
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 5 COMBINATION 3 1 10
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 125 135 5 6 F
+      UNITMODE T 125 135
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1610 2430 30
+      FROM_TO_POS 125 135 5 125 135 5
+      FROM_TO_XY 1610 2430 1610 2430
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 30
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 79 VEHICLE
+    DEFINITION
+      IDENT tk
+      POS 128 135 5
+      SIDE 4
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 5 COMBINATION 3 1 10
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 128 135 5 6 F
+      UNITMODE T 128 135
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1694 2430 30
+      FROM_TO_POS 128 135 5 128 135 5
+      FROM_TO_XY 1694 2430 1694 2430
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 30
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 80 VEHICLE
+    DEFINITION
+      IDENT t1
+      POS 124 131 5
+      SIDE 4
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 5 COMBINATION 3 1 10
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 124 131 5 6 F
+      UNITMODE T 124 131
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1638 2358 30
+      FROM_TO_POS 124 131 5 124 131 5
+      FROM_TO_XY 1638 2358 1638 2358
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 30
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 81 VEHICLE
+    DEFINITION
+      IDENT tlz
+      POS 50 95 1
+      SIDE 1
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 5 COMBINATION 3 1 10
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 50 95 1 6 F
+      UNITMODE T 50 95
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 70 1710 6
+      FROM_TO_POS 50 95 1 50 95 1
+      FROM_TO_XY 70 1710 70 1710
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 6
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 82 VEHICLE
+    DEFINITION
+      IDENT t2
+      POS 52 93 1
+      SIDE 1
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 5 COMBINATION 3 1 10
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 52 93 1 6 F
+      UNITMODE T 52 93
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 154 1674 6
+      FROM_TO_POS 52 93 1 52 93 1
+      FROM_TO_XY 154 1674 154 1674
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 6
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 83 VEHICLE
+    DEFINITION
+      IDENT t3
+      POS 54 97 1
+      SIDE 1
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 5 COMBINATION 3 1 10
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 54 97 1 6 F
+      UNITMODE T 54 97
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 154 1746 6
+      FROM_TO_POS 54 97 1 54 97 1
+      FROM_TO_XY 154 1746 154 1746
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 6
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+END_OF_NEW_UNITS
+
+COLDMEAT
+END_OF_COLDMEAT
+
+FOGOBJ
+END_OF_FOGOBJ
+
+MISSILES
+END_OF_MISSILES
+
+EXPLOSIONS
+END_OF_EXPLOSIONS
+
+CRATERS_NEW
+END_OF_CRATERS_NEW
+
+LAPSER_EFECTS
+END_OF_LAPSER_EFECTS
+
+LASER_EFECTS
+END_OF_LASER_EFECTS
+
+USER_INTERFACE
+  VIEW 1792 1250 1062 676 1
+  MASHA_FLAG 2 F F
+END_OF_USER_INTERFACE
+
+MC_COMMANDS
+END_OF_MC_COMMANDS
+
+DEBRIEFING
+SIDE 0 10
+  LINES
+SIDE 1 10
+  LINES
+SIDE 2 10
+  LINES
+SIDE 3 10
+  LINES
+SIDE 4 10
+  LINES
+SIDE 5 10
+  LINES
+SIDE 6 10
+  LINES
+SIDE 7 10
+  LINES
+SIDE 8 10
+  LINES
+END_OF_DEBRIEFING
+
+AREAS
+  ACTIVE 7
+  LAST 9
+  AREA 1
+    NAME AM_SpawnZone_S
+    COLOR 409FFF
+    VISIBLE
+    SHORTCUT 1
+    LINES 119 129 20 11
+    -----+++------------
+    ++++++++++++--------
+    +++++++++++++-------
+    +++++++++++++++-----
+    +++++++++++++++-----
+    ++++++++++++++++----
+    +++++++++++++++++---
+    -+++++++++++++++++--
+    -++++++++++++++++++-
+    -+++++++++++++++++++
+    --++++++++++++++++++
+  AREA 2
+    NAME AM_SpawnZone_W
+    COLOR FF59D2
+    VISIBLE
+    SHORTCUT 2
+    LINES 46 91 14 15
+    +++-----------
+    ++++++--------
+    -+++++++------
+    -+++++++++----
+    --++++++++++--
+    --++++++++++--
+    ---++++++++++-
+    ---++++++++++-
+    ----+++++++++-
+    ----++++++++++
+    -----+++++++++
+    -----+++++++++
+    ------++++++++
+    ------++++++--
+    -------+++----
+  AREA 3
+    NAME RU_SpawnZone_N
+    COLOR 5959FF
+    VISIBLE
+    SHORTCUT 3
+    LINES 32 0 23 13
+    ++++++++++++++++++++---
+    -+++++++++++++++++++---
+    --+++++++++++++++++++--
+    --++++++++++++++++++++-
+    ---+++++++++++++++++++-
+    ----++++++++++++++++++-
+    -----++++++++++++++++++
+    ------+++++++++++++++++
+    -------++++++++++++++++
+    --------+++++++++++++++
+    ----------+++++++++++++
+    -------------++++++++++
+    ------------------+++++
+  AREA 4
+    NAME RU_SpawnZone_E
+    COLOR 40FFDF
+    VISIBLE
+    SHORTCUT 4
+    LINES 141 52 16 23
+    -++++-----------
+    ++++++----------
+    ++++++----------
+    +++++++---------
+    +++++++---------
+    ++++++++--------
+    ++++++++--------
+    +++++++++-------
+    -++++++++-------
+    -+++++++++------
+    -+++++++++------
+    -++++++++++-----
+    --+++++++++-----
+    --++++++++++----
+    --++++++++++----
+    ---++++++++++---
+    ----+++++++++---
+    ----++++++++++--
+    -----+++++++++--
+    ------+++++++++-
+    --------+++++++-
+    ---------+++++++
+    ------------++++
+  AREA 5
+    NAME RU_SpawnZone_SE
+    COLOR FFE63C
+    VISIBLE
+    SHORTCUT 5
+    LINES 177 129 13 11
+    ----++++-----
+    --++++++-----
+    -++++++++----
+    -++++++++----
+    ++++++++++---
+    ++++++++++---
+    +++++++++++--
+    +++++++++++--
+    ++++++++++++-
+    ++++++++++++-
+    +++++++++++++
+  AREA 6
+    NAME RU_SpawnZone_N2
+    COLOR FF590D
+    VISIBLE
+    SHORTCUT 6
+    LINES 72 0 15 10
+    ++++++++++++++-
+    -+++++++++++++-
+    --+++++++++++++
+    ---++++++++++++
+    ----+++++++++++
+    ------+++++++++
+    --------+++++++
+    ---------++++++
+    ----------+++++
+    -----------+++-
+  AREA 7
+    NAME RussianHealArea2
+    COLOR 401AFF
+    VISIBLE
+    SHORTCUT 7
+    LINES 80 33 19 21
+    --+----------------
+    ---+++-------------
+    --++++++-----------
+    -++++++++----------
+    -+++++++++---------
+    ++++++++++++-------
+    +++++++++++++------
+    ++++++++++++++-----
+    -++++++++++++++----
+    -+++++++++++++++---
+    -++++++++++++++++--
+    --++++++++++++++++-
+    ---++++++++++++++++
+    ----+++++++++++++++
+    ----+++++++++++++++
+    ------+++++++++++++
+    -------++++++++++++
+    ---------++++++++++
+    ----------+++++++++
+    ------------++++++-
+    --------------+++--
+  AREA 8
+    NAME RussianHealArea1
+    COLOR F259FF
+    VISIBLE
+    SHORTCUT 8
+    LINES 105 10 13 12
+    -+++---------
+    +++++++------
+    +++++++++----
+    +++++++++++--
+    ++++++++++++-
+    ++++++++++++-
+    -++++++++++++
+    -++++++++++++
+    ---++++++++++
+    ----+++++++++
+    -----++++++++
+    -------+++++-
+  AREA 9
+    NAME MainRUBase
+    COLOR FF59CC
+    VISIBLE
+    SHORTCUT 9
+    LINES 85 0 48 35
+    --+++++++++++++++++++++++++++++++---------------
+    -++++++++++++++++++++++++++++++++++-------------
+    -+++++++++++++++++++++++++++++++++++------------
+    +++++++++++++++++++++++++++++++++++++-----------
+    -++++++++++++++++++++++++++++++++++++-----------
+    -+++++++++++++++++++++++++++++++++++++----------
+    -+++++++++++++++++++++++++++++++++++++----------
+    --+++++++++++++++++++++++++++++++++++++---------
+    --+++++++++++++++++++++++++++++++++++++---------
+    ---+++++++++++++++++++++++++++++++++++++--------
+    ---+++++++++++++++++++++++++++++++++++++--------
+    ----+++++++++++++++++++++++++++++++++++++-------
+    -----++++++++++++++++++++++++++++++++++++-------
+    ------++++++++++++++++++++++++++++++++++++------
+    ------++++++++++++++++++++++++++++++++++++------
+    -------++++++++++++++++++++++++++++++++++++-----
+    --------+++++++++++++++++++++++++++++++++++-----
+    ---------+++++++++++++++++++++++++++++++++++----
+    ----------++++++++++++++++++++++++++++++++++----
+    -----------++++++++++++++++++++++++++++++++++---
+    ------------+++++++++++++++++++++++++++++++++---
+    -------------+++++++++++++++++++++++++++++++++--
+    --------------++++++++++++++++++++++++++++++++--
+    ---------------++++++++++++++++++++++++++++++++-
+    ----------------+++++++++++++++++++++++++++++++-
+    -----------------+++++++++++++++++++++++++++++++
+    ------------------++++++++++++++++++++++++++++++
+    --------------------+++++++++++++++++++++++++++-
+    ---------------------++++++++++++++++++++++++++-
+    ----------------------+++++++++++++++++++++++++-
+    ------------------------++++++++++++++++++++++--
+    ---------------------------++++++++++++++++++---
+    -----------------------------+++++++++++++++----
+    --------------------------------++++++++++------
+    ------------------------------------++----------
+END_OF_AREAS
+

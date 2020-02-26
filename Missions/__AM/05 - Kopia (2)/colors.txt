@@ -1,0 +1,31 @@
+begin
+? type grass
+ ! sat 115
+ ! all 124
+ ! hue -16
+ ! rgb 74 74 80
+new
+? ident "STree: ker-husty"
+ ! sat 94
+ ! hue -34
+ ! contr 106
+new
+? ident "STree: list-akat-maly"
+ ! sat 100
+ ! hue -50
+ ! all 91
+ ! contr 112
+ ! add 20 408080
+new
+? ident "STree: list-akat-rosti"
+ ! hue -45
+ ! add 10 408080
+ ! contr 115
+ ! all 90
+new
+? ident "STree: list-dvoupatr-maly"
+ ! hue -44
+ ! contr 112
+ ! all 90
+ ! add 7 008080
+end

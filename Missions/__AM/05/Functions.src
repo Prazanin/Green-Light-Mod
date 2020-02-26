@@ -161,11 +161,11 @@ begin
   AddCargo(RVeh4, mat_cans, 100);
   AddCargo(RVeh5, mat_cans, 100);
 
-  PlaceUnitXYR(RVeh1, 53, 100, 1, false);
-  PlaceUnitXYR(RVeh2, 52, 97, 1, false);
-  PlaceUnitXYR(RVeh3, 46, 87, 1, false);
-  PlaceUnitXYR(RVeh4, 54, 95, 1, false);
-  PlaceUnitXYR(RVeh5, 56, 98, 1, false);
+  PlaceUnitXYR(RVeh1, 53, 100, 4, false);
+  PlaceUnitXYR(RVeh2, 52, 97, 4, false);
+  PlaceUnitXYR(RVeh3, 46, 87, 4, false);
+  PlaceUnitXYR(RVeh4, 54, 95, 4, false);
+  PlaceUnitXYR(RVeh5, 56, 98, 4, false);
 
 end;
 
@@ -176,7 +176,7 @@ end;
 Export Function Garrison_Buildings(side, nation, min_pers, max_pers, min_sols, max_sols, max_spec_class, lvl);
 var i,j,buildings,un_count,sol_count,spec_count,un,filter;
 begin
-buildings := FilterAllUnits([[f_side,side],[f_type,unit_building]]);
+buildings := FilterAllUnits([[f_side,side],[f_type,unit_building]]) diff FilterAllUnits([[f_side,side],[f_btype,b_bunker]]);
 
 Case nation of
 1:uc_nation= nation_american;
@@ -371,7 +371,7 @@ begin
   Say(Miller, 'D10-Miller-2');
   Say(Simone, 'D10-Simone-2');
   Say(Miller, 'D10-Miller-3');
-  ChangeMissionObjectives('M2');
+  ChangeMissionObjectives('M3');
 end;
 
 Export Function SaySex(unit, dialogM, dialogF);

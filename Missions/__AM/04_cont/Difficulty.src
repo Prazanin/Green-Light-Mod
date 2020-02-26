@@ -24,11 +24,11 @@ begin
 
         GeorgianAttacks := 3 + ConvoysEscaped;
 
-        BradfordFirstThresholdTimer := 60$00;
-        BradfordSecondThresholdTimer := 100$00;
-        BradfordTerminatesMissionTimer := 120$00;
+        BradfordFirstThresholdTimer := 50$00;
+        BradfordSecondThresholdTimer := 70$00;
+        BradfordTerminatesMissionTimer := 80$00;
 
-        KathrynMoodIdleDropCoeficent := 1;
+        KathrynMoodIdleDropCoeficent := 3;
     end;
 
     if difficulty = 2 then
@@ -59,11 +59,11 @@ begin
 
         GeorgianAttacks := 4 + ConvoysEscaped;
 
-        BradfordFirstThresholdTimer := 50$00;
-        BradfordSecondThresholdTimer := 90$00;
-        BradfordTerminatesMissionTimer := 110$00;
+        BradfordFirstThresholdTimer := 40$00;
+        BradfordSecondThresholdTimer := 60$00;
+        BradfordTerminatesMissionTimer := 70$00;
 
-        KathrynMoodIdleDropCoeficent := 2;
+        KathrynMoodIdleDropCoeficent := 5;
     end;
 
     if difficulty = 3 then
@@ -101,10 +101,10 @@ begin
 
         GeorgianAttacks := 5 + ConvoysEscaped;
 
-        BradfordFirstThresholdTimer := 40$00;
-        BradfordSecondThresholdTimer := 80$00;
-        BradfordTerminatesMissionTimer := 100$00;
+        BradfordFirstThresholdTimer := 25$00;
+        BradfordSecondThresholdTimer := 50$00;
+        BradfordTerminatesMissionTimer := 60$00;
 
-        KathrynMoodIdleDropCoeficent := 3;
+        KathrynMoodIdleDropCoeficent := 10;
     end;
 end;

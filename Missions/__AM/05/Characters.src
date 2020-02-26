@@ -509,3 +509,23 @@ begin
            MC_attack_group2 = MC_attack_group2 ^ un;
         end;
 END;
+
+export function PrepareDvalishvili;
+var DvaliVeh;
+begin
+
+  uc_side = 8;
+  uc_nation = 2;
+
+  vc_chassis := ar_heavy_tracked;
+  vc_engine  := engine_siberite;
+  vc_control := control_manual;
+  vc_weapon  := ar_heavy_gun;
+  DvaliVeh := CreateVehicle;
+
+  PlaceHumanInUnit(Dvalishvili, DvaliVeh);
+  PlaceUnitInArea(DvaliVeh, DvaliSpawn_S, false);
+
+  MC_attack_group2 := MC_attack_group2 ^ Dvalishvili ^ DvaliVeh;
+
+end;

@@ -17,6 +17,7 @@ begin
 
         un = CreateHuman;
         PlaceUnitArea(un, RU_SpawnZone_N, false);
+        ComAgressiveMove(un, 45, 28);
     end;
 
     for i = 1 to 6 do

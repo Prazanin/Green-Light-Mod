@@ -1,0 +1,84 @@
+export RuSolMinLevel, RuSolMaxLevel;
+export RusEngReserve, RusRearAttacks, RusMainAttacks;
+
+Export function PrepareDifficulty;
+begin
+    if difficulty = 1 then
+    begin
+        RuSolMinLevel = 4;
+        RuSolMaxLevel = 5;
+        SetTech(tech_Tech1, 3, state_researched);
+        SetTech(tech_Weap1, 3, state_researched);
+        SetTech(tech_Comp1, 3, state_researched);
+
+        SetTech(tech_Tech1, 6, state_researched);
+        SetTech(tech_Weap1, 6, state_researched);
+        SetTech(tech_Comp1, 6, state_researched);
+
+        SetTech(tech_Tech1, 8, state_researched);
+        SetTech(tech_Weap1, 8, state_researched);
+        RusMainAttacks = 8;
+    end;
+
+    if difficulty = 2 then
+    begin
+        RuSolMinLevel = 4;
+        RuSolMaxLevel = 6;
+        SetTech(tech_Tech1, 3, state_researched);
+        SetTech(tech_Tech2, 3, state_researched);
+        SetTech(tech_Weap1, 3, state_researched);
+        SetTech(tech_Weap2, 3, state_researched);
+        SetTech(tech_Comp1, 3, state_researched);
+        SetTech(tech_Comp2, 3, state_researched);
+        SetTech(tech_ST1, 3, state_researched);
+
+        SetTech(tech_Tech1, 6, state_researched);
+        SetTech(tech_Tech2, 6, state_researched);
+        SetTech(tech_Weap1, 6, state_researched);
+        SetTech(tech_Weap2, 6, state_researched);
+        SetTech(tech_Comp1, 6, state_researched);
+        SetTech(tech_Comp2, 6, state_researched);
+        SetTech(tech_ST1, 6, state_researched);
+
+        SetTech(tech_Tech1, 8, state_researched);
+        SetTech(tech_Tech2, 8, state_researched);
+        SetTech(tech_Weap1, 8, state_researched);
+        SetTech(tech_Weap2, 8, state_researched);
+        RusMainAttacks = 12;
+    end;
+
+    if difficulty = 3 then
+    begin
+        RuSolMinLevel = 5;
+        RuSolMaxLevel = 7;
+        SetTech(tech_Tech1, 3, state_researched);
+        SetTech(tech_Weap1, 3, state_researched);
+        SetTech(tech_Comp1, 3, state_researched);
+        SetTech(tech_Tech2, 3, state_researched);
+        SetTech(tech_Weap2, 3, state_researched);
+        SetTech(tech_Comp2, 3, state_researched);
+        SetTech(tech_Tech3, 3, state_researched);
+        SetTech(tech_Comp3, 3, state_researched);
+        SetTech(tech_ST1, 3, state_researched);
+        SetTech(tech_ST2, 3, state_researched);
+
+        SetTech(tech_Tech1, 6, state_researched);
+        SetTech(tech_Weap1, 6, state_researched);
+        SetTech(tech_Comp1, 6, state_researched);
+        SetTech(tech_Tech2, 6, state_researched);
+        SetTech(tech_Weap2, 6, state_researched);
+        SetTech(tech_Comp2, 6, state_researched);
+        SetTech(tech_ST1, 6, state_researched);
+        SetTech(tech_ST2, 6, state_researched);
+
+        SetTech(tech_Tech1, 8, state_researched);
+        SetTech(tech_Tech2, 8, state_researched);
+        SetTech(tech_Tech3, 8, state_researched);
+        SetTech(tech_Weap1, 8, state_researched);
+        SetTech(tech_Weap2, 8, state_researched);
+        SetTech(tech_Weap3, 8, state_researched);
+        SetTech(tech_StimDrugs, 8, state_researched);
+
+        RusMainAttacks = 24;
+    end;
+end;

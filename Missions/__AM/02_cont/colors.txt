@@ -1,11 +1,54 @@
 begin
-? type grass
- ! rgb 52 70 52
- ! sat 77
- ! all 85
+? ident "sand: JenPisek2 (4)"
+ ! all 63
+ ! sat 28
 new
-? type single_tree
- ! rgb 73 100 77
- ! sat 87
- ! all 80
+? ident "sand: JenPisek1 (4)"
+ ! sat 63
+new
+? ident "sand, trampled: JenPisek2 (4)"
+ ! all 63
+ ! sat 28
+new
+? ident "sand, trampled: JenPisek1 (4)"
+ ! sat 63
+new
+? ident "STree: list-sahara"
+ ! sat 55
+ ! contr 115
+new
+? ident "STree: list-dvoupatr-maly"
+ ! sat 42
+ ! contr 129
+ ! add 11 0080FF
+new
+? ident "Boulder: stone_06"
+ ! contr 140
+ ! add 12 EBEBEB
+new
+? ident "STree: jehl-smrk-stredni"
+ ! contr 143
+new
+? ident "STree: jehl-smrk-maly"
+ ! contr 138
+new
+? ident "STree: jehl-smrk-silny"
+ ! contr 126
+new
+? ident "flowers: JenKvitko1 (4)"
+ ! contr 300
+new
+? type grass
+ ! contr 105
+ ! all 87
+new
+? ident "smrcky: Jen007 (4)"
+ ! add 50 4080FF
+new
+? ident "smrcky, trampled: Jen007s (4)"
+ ! add 50 0080FF
+new
+? ident "STree: ker-rosti"
+ ! add 21 004080
+ ! contr 122
 end

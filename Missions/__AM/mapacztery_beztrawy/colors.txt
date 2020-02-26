@@ -1,0 +1,7 @@
+begin
+? type grass
+ ! rgb 128 112 94
+ ! sat 73
+ ! all 80
+ ! hue 4
+end

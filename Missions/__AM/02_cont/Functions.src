@@ -592,9 +592,9 @@ begin
 
     PlaceUnitXYR(RU3_BaterieVehs[1],275,234,0,false);
     PlaceUnitXYR(RU3_BaterieVehs[2],280,237,0,false);
-    PlaceUnitXYR(RU3_BaterieVehs[3],283,235,0,false);
-    PlaceUnitXYR(RU3_BaterieVehs[4],282,231,0,false);
-    PlaceUnitXYR(RU3_BaterieVehs[5],279,229,0,false);
+    PlaceUnitXYR(RU3_BaterieVehs[3],283,235,5,false);
+    PlaceUnitXYR(RU3_BaterieVehs[4],282,231,4,false);
+    PlaceUnitXYR(RU3_BaterieVehs[5],279,229,3,false);
 
     for i = 1 to 9 do
     begin

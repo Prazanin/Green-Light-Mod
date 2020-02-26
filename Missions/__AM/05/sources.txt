@@ -10,4 +10,5 @@ SOURCE_CODES
   ENABLED MacroEvents
   ENABLED Ending
   ENABLED Constants
+  ENABLED Crates
 END_OF_SOURCE_CODES

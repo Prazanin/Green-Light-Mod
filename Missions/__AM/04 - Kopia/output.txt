@@ -1,0 +1,360 @@
+// export Simone , Kathryn , Barnes , Bradford , Lazarfeld ; starting begin ingame_video = true ;
+   0: LD_ADDR_OWVAR 52
+   4: PUSH
+   5: LD_INT 1
+   7: ST_TO_ADDR
+// interface_hidden = true ;
+   8: LD_ADDR_OWVAR 54
+  12: PUSH
+  13: LD_INT 1
+  15: ST_TO_ADDR
+// CreatePersonnel ;
+  16: CALL 352 0 0
+// music_class := 5 ;
+  20: LD_ADDR_OWVAR 72
+  24: PUSH
+  25: LD_INT 5
+  27: ST_TO_ADDR
+// SetBName ( theta , theta ) ;
+  28: LD_INT 1
+  30: PPUSH
+  31: LD_STRING theta
+  33: PPUSH
+  34: CALL_OW 500
+// PlaceUnitXYR ( Bradford , 29 , 28 , 1 , false ) ;
+  38: LD_EXP 4
+  42: PPUSH
+  43: LD_INT 29
+  45: PPUSH
+  46: LD_INT 28
+  48: PPUSH
+  49: LD_INT 1
+  51: PPUSH
+  52: LD_INT 0
+  54: PPUSH
+  55: CALL_OW 50
+// PlaceUnitXYR ( RandSol , 35 , 37 , 0 , false ) ;
+  59: LD_EXP 6
+  63: PPUSH
+  64: LD_INT 35
+  66: PPUSH
+  67: LD_INT 37
+  69: PPUSH
+  70: LD_INT 0
+  72: PPUSH
+  73: LD_INT 0
+  75: PPUSH
+  76: CALL_OW 50
+// PlaceUnitXY ( Simone , 54 , 10 , false ) ;
+  80: LD_EXP 1
+  84: PPUSH
+  85: LD_INT 54
+  87: PPUSH
+  88: LD_INT 10
+  90: PPUSH
+  91: LD_INT 0
+  93: PPUSH
+  94: CALL_OW 48
+// PlaceUnitXY ( Kathryn , 57 , 13 , false ) ;
+  98: LD_EXP 2
+ 102: PPUSH
+ 103: LD_INT 57
+ 105: PPUSH
+ 106: LD_INT 13
+ 108: PPUSH
+ 109: LD_INT 0
+ 111: PPUSH
+ 112: CALL_OW 48
+// CenterNowOnXY ( 41 , 29 ) ;
+ 116: LD_INT 41
+ 118: PPUSH
+ 119: LD_INT 29
+ 121: PPUSH
+ 122: CALL_OW 86
+// ComMoveXY ( Simone , 44 , 23 ) ;
+ 126: LD_EXP 1
+ 130: PPUSH
+ 131: LD_INT 44
+ 133: PPUSH
+ 134: LD_INT 23
+ 136: PPUSH
+ 137: CALL_OW 111
+// ComMoveXY ( Kathryn , 48 , 26 ) ;
+ 141: LD_EXP 2
+ 145: PPUSH
+ 146: LD_INT 48
+ 148: PPUSH
+ 149: LD_INT 26
+ 151: PPUSH
+ 152: CALL_OW 111
+// DWait ( 0 0$5 ) ;
+ 156: LD_INT 175
+ 158: PPUSH
+ 159: CALL_OW 68
+// Say ( Simone , D1-Simone-1 ) ;
+ 163: LD_EXP 1
+ 167: PPUSH
+ 168: LD_STRING D1-Simone-1
+ 170: PPUSH
+ 171: CALL_OW 88
+// ComMoveXY ( Simone , 39 , 24 ) ;
+ 175: LD_EXP 1
+ 179: PPUSH
+ 180: LD_INT 39
+ 182: PPUSH
+ 183: LD_INT 24
+ 185: PPUSH
+ 186: CALL_OW 111
+// ComMoveXY ( Kathryn , 40 , 26 ) ;
+ 190: LD_EXP 2
+ 194: PPUSH
+ 195: LD_INT 40
+ 197: PPUSH
+ 198: LD_INT 26
+ 200: PPUSH
+ 201: CALL_OW 111
+// ComMoveXY ( RandSol , 38 , 27 ) ;
+ 205: LD_EXP 6
+ 209: PPUSH
+ 210: LD_INT 38
+ 212: PPUSH
+ 213: LD_INT 27
+ 215: PPUSH
+ 216: CALL_OW 111
+// AddComTurnXY ( Simone , 36 , 23 ) ;
+ 220: LD_EXP 1
+ 224: PPUSH
+ 225: LD_INT 36
+ 227: PPUSH
+ 228: LD_INT 23
+ 230: PPUSH
+ 231: CALL_OW 178
+// AddComTurnXY ( Kathryn , 36 , 23 ) ;
+ 235: LD_EXP 2
+ 239: PPUSH
+ 240: LD_INT 36
+ 242: PPUSH
+ 243: LD_INT 23
+ 245: PPUSH
+ 246: CALL_OW 178
+// AddComTurnUnit ( RandSol , Simone ) ;
+ 250: LD_EXP 6
+ 254: PPUSH
+ 255: LD_EXP 1
+ 259: PPUSH
+ 260: CALL_OW 179
+// DWait ( 0 0$5 ) ;
+ 264: LD_INT 175
+ 266: PPUSH
+ 267: CALL_OW 68
+// Say ( Simone , D1-Simone-2 ) ;
+ 271: LD_EXP 1
+ 275: PPUSH
+ 276: LD_STRING D1-Simone-2
+ 278: PPUSH
+ 279: CALL_OW 88
+// Say ( Kathryn , D1-Kathryn-1 ) ;
+ 283: LD_EXP 2
+ 287: PPUSH
+ 288: LD_STRING D1-Kathryn-1
+ 290: PPUSH
+ 291: CALL_OW 88
+// AddComTurnUnit ( Simone , RandSol ) ;
+ 295: LD_EXP 1
+ 299: PPUSH
+ 300: LD_EXP 6
+ 304: PPUSH
+ 305: CALL_OW 179
+// Say ( RandSol , D1-Sol-1 ) ;
+ 309: LD_EXP 6
+ 313: PPUSH
+ 314: LD_STRING D1-Sol-1
+ 316: PPUSH
+ 317: CALL_OW 88
+// DWait ( 0 0$1 ) ;
+ 321: LD_INT 35
+ 323: PPUSH
+ 324: CALL_OW 68
+// Say ( Simone , D1-Simone-3 ) ;
+ 328: LD_EXP 1
+ 332: PPUSH
+ 333: LD_STRING D1-Simone-3
+ 335: PPUSH
+ 336: CALL_OW 88
+// DWait ( 0 0$3 ) ;
+ 340: LD_INT 105
+ 342: PPUSH
+ 343: CALL_OW 68
+// YouDidSomethingExtraordinary ;
+ 347: CALL_OW 105
+// end ; end_of_file
+ 351: END
+// export RandSol ; export function CreatePersonnel ; begin
+ 352: LD_INT 0
+ 354: PPUSH
+// uc_side := 7 ;
+ 355: LD_ADDR_OWVAR 20
+ 359: PUSH
+ 360: LD_INT 7
+ 362: ST_TO_ADDR
+// Simone := CreateCharacter ( Simone ) ;
+ 363: LD_ADDR_EXP 1
+ 367: PUSH
+ 368: LD_STRING Simone
+ 370: PPUSH
+ 371: CALL_OW 34
+ 375: ST_TO_ADDR
+// Kathryn := CreateCharacter ( Kathryn ) ;
+ 376: LD_ADDR_EXP 2
+ 380: PUSH
+ 381: LD_STRING Kathryn
+ 383: PPUSH
+ 384: CALL_OW 34
+ 388: ST_TO_ADDR
+// uc_side := 1 ;
+ 389: LD_ADDR_OWVAR 20
+ 393: PUSH
+ 394: LD_INT 1
+ 396: ST_TO_ADDR
+// hc_sex = sex_male ;
+ 397: LD_ADDR_OWVAR 27
+ 401: PUSH
+ 402: LD_INT 1
+ 404: ST_TO_ADDR
+// hc_class = class_soldier ;
+ 405: LD_ADDR_OWVAR 28
+ 409: PUSH
+ 410: LD_INT 1
+ 412: ST_TO_ADDR
+// uc_nation := nation_american ;
+ 413: LD_ADDR_OWVAR 21
+ 417: PUSH
+ 418: LD_INT 1
+ 420: ST_TO_ADDR
+// hc_importance = 80 ;
+ 421: LD_ADDR_OWVAR 32
+ 425: PUSH
+ 426: LD_INT 80
+ 428: ST_TO_ADDR
+// PrepareSoldier ( 1 , 9 ) ;
+ 429: LD_INT 1
+ 431: PPUSH
+ 432: LD_INT 9
+ 434: PPUSH
+ 435: CALL_OW 381
+// hc_attr = [ 10 , 10 ] ;
+ 439: LD_ADDR_OWVAR 29
+ 443: PUSH
+ 444: LD_INT 10
+ 446: PUSH
+ 447: LD_INT 10
+ 449: PUSH
+ 450: EMPTY
+ 451: LIST
+ 452: LIST
+ 453: ST_TO_ADDR
+// hc_name := Bradford ;
+ 454: LD_ADDR_OWVAR 26
+ 458: PUSH
+ 459: LD_STRING Bradford
+ 461: ST_TO_ADDR
+// hc_gallery := ZieloneLaserki_Commanders ;
+ 462: LD_ADDR_OWVAR 33
+ 466: PUSH
+ 467: LD_STRING ZieloneLaserki_Commanders
+ 469: ST_TO_ADDR
+// hc_face_number := 1 ;
+ 470: LD_ADDR_OWVAR 34
+ 474: PUSH
+ 475: LD_INT 1
+ 477: ST_TO_ADDR
+// Bradford := CreateHuman ;
+ 478: LD_ADDR_EXP 4
+ 482: PUSH
+ 483: CALL_OW 44
+ 487: ST_TO_ADDR
+// uc_nation := nation_american ;
+ 488: LD_ADDR_OWVAR 21
+ 492: PUSH
+ 493: LD_INT 1
+ 495: ST_TO_ADDR
+// hc_importance = 70 ;
+ 496: LD_ADDR_OWVAR 32
+ 500: PUSH
+ 501: LD_INT 70
+ 503: ST_TO_ADDR
+// PrepareSoldier ( 1 , 8 ) ;
+ 504: LD_INT 1
+ 506: PPUSH
+ 507: LD_INT 8
+ 509: PPUSH
+ 510: CALL_OW 381
+// hc_attr = [ 10 , 10 ] ;
+ 514: LD_ADDR_OWVAR 29
+ 518: PUSH
+ 519: LD_INT 10
+ 521: PUSH
+ 522: LD_INT 10
+ 524: PUSH
+ 525: EMPTY
+ 526: LIST
+ 527: LIST
+ 528: ST_TO_ADDR
+// hc_name := Barnes ;
+ 529: LD_ADDR_OWVAR 26
+ 533: PUSH
+ 534: LD_STRING Barnes
+ 536: ST_TO_ADDR
+// hc_gallery := ZieloneLaserki_Commanders ;
+ 537: LD_ADDR_OWVAR 33
+ 541: PUSH
+ 542: LD_STRING ZieloneLaserki_Commanders
+ 544: ST_TO_ADDR
+// hc_face_number := 2 ;
+ 545: LD_ADDR_OWVAR 34
+ 549: PUSH
+ 550: LD_INT 2
+ 552: ST_TO_ADDR
+// Barnes := CreateHuman ;
+ 553: LD_ADDR_EXP 3
+ 557: PUSH
+ 558: CALL_OW 44
+ 562: ST_TO_ADDR
+// uc_nation := nation_american ;
+ 563: LD_ADDR_OWVAR 21
+ 567: PUSH
+ 568: LD_INT 1
+ 570: ST_TO_ADDR
+// hc_importance = Rand ( 10 , 50 ) ;
+ 571: LD_ADDR_OWVAR 32
+ 575: PUSH
+ 576: LD_INT 10
+ 578: PPUSH
+ 579: LD_INT 50
+ 581: PPUSH
+ 582: CALL_OW 12
+ 586: ST_TO_ADDR
+// PrepareSoldier ( 1 , 4 ) ;
+ 587: LD_INT 1
+ 589: PPUSH
+ 590: LD_INT 4
+ 592: PPUSH
+ 593: CALL_OW 381
+// hc_name :=  ;
+ 597: LD_ADDR_OWVAR 26
+ 601: PUSH
+ 602: LD_STRING 
+ 604: ST_TO_ADDR
+// hc_gallery :=  ;
+ 605: LD_ADDR_OWVAR 33
+ 609: PUSH
+ 610: LD_STRING 
+ 612: ST_TO_ADDR
+// RandSol := CreateHuman ;
+ 613: LD_ADDR_EXP 6
+ 617: PUSH
+ 618: CALL_OW 44
+ 622: ST_TO_ADDR
+// end ;
+ 623: LD_VAR 0 1
+ 627: RET

@@ -1,0 +1,38 @@
+export function AIEngageEnemy;
+var enemy,attacker;
+begin
+enemy = Filterallunits([f_side, 1]) ^ Filterallunits([f_side, 7]);
+  for attacker in attack_group do
+    ComAttackUnit(attacker,NearestUnitToUnit(enemy,attacker));
+end;
+
+every 0$1 do
+begin
+enable;
+AIEngageEnemy;
+end;
+
+every 0$1 trigger MissionStart do
+begin
+  ComUpgrade(AM_Fab);
+  ComRepairBuilding(AM_Mechs,AM_Fab);
+  ComBuild(AM_Engineers, b_lab, 118, 159, 2);
+  ComEnterUnit(AM_Sols, AM_Armor);
+
+  AddComBuild(AM_Engineers, b_ext_gun, 136, 175, 5);
+  AddComBuild(AM_Engineers, b_ext_laser, 132, 174, 0);
+  AddComBuild(AM_Engineers, b_ext_rocket, 135, 171, 4);
+
+  AddComBuild(AM_Engineers, b_oil_power, 123, 172, 0);
+  AddComBuild(AM_Engineers, b_oil_power, 120, 169, 0);
+  AddComBuild(AM_Engineers, b_oil_power, 122, 168, 0);
+
+  AddComBuild(AM_Engineers, b_turret, 141, 155, 3);
+  AddComBuild(AM_Engineers, b_turret, 144, 158, 3);
+  AddComBuild(AM_Engineers, b_turret, 148, 166, 4);
+  AddComBuild(AM_Engineers, b_turret, 131, 149, 3);
+  AddComBuild(AM_Engineers, b_turret, 127, 147, 3);
+  AddComBuild(AM_Engineers, b_turret, 122, 142, 3);
+  AddComBuild(AM_Engineers, b_turret, 150, 172, 4);
+
+end;

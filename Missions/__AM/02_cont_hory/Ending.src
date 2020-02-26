@@ -1,0 +1,37 @@
+export personnel;
+
+every 0$1 trigger FilterAllUnits([[f_side,3],[f_type, unit_human],[f_ok]])<4 do
+begin
+Say(Simone,'D7-Simone-1');
+SayRadio(Barnes,'D7-Barnes-1');
+Say(Simone,'D7-Simone-2');
+SayRadio(Barnes,'D7-Barnes-2');
+Say(Simone,'D7-Simone-3');
+SayRadio(Barnes,'D7-Barnes-3');
+SayRadio(Barnes,'D7-Barnes-4');
+Say(Simone,'D7-Simone-4');
+SayRadio(Barnes,'D7-Barnes-5');
+SayRadio(Barnes,'D7-Barnes-6');
+Say(Simone,'D7-Simone-5');
+
+    wait(0$1);
+    if FilterAllUnits([[f_side,7],[f_type, unit_human],[f_ok]])<10 then AddMedal('Deaths',-1)
+    else AddMedal('Deaths',1);
+    if FilterAllUnits([[f_side,7],[f_type, unit_vehicle],[f_weapon,us_double_laser]])>=10 then AddMedal('Tanks',1)
+    else AddMedal('Tanks',-1);
+    AddMedal('Cans',1);
+
+    GiveMedals('Main');
+
+    personnel=FilterAllUnits([[f_side,7],[f_type, unit_human],[f_ok]]);
+
+    RewardPeople(personnel);
+
+    SaveCharacters(Kathryn,'Kathryn');
+    SaveCharacters(Simone,'Simone');
+    SaveCharacters(Smithy,'Smithy');
+    SaveCharacters(Miller,'Miller');
+    SaveCharacters(personnel diff [Kathryn,Simone,Smithy,Miller,0],'AM02_Survivors');
+
+    YouWin;
+end;

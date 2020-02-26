@@ -1488,7 +1488,7 @@ GAMEINIT
         ATTACK
           MINMAX_RANGE  1  7 
           FREQUENCY  1  45 
-          DAMAGE 353 115 115
+          DAMAGE 553 215 215
           EFF 75 25 25
           ANIM  1  8  0 
         END_OF_ATTACK

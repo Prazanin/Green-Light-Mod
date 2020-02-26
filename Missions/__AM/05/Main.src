@@ -25,6 +25,8 @@ begin
   ComTurnUnit(Bradford, Richford);
   ComTurnUnit(Richford, Bradford);
 
+  PlaceHumanInUnit(Sidorovich, ustinov2);
+
   ingame_video=true;
   interface_hidden=true;
 
@@ -393,6 +395,8 @@ begin
   Say(Simone, 'D11-Simone-2');
   DialogueOff;
 
+  ChangeMissionObjectives('M3a');
+
   DvaliAttack := true;
 end;
 
@@ -407,6 +411,7 @@ every 0$1 trigger DvaliAttack do
 begin
   RespawnAttackVehicle(DvaliSpawn_S, 8, Rand(6,9), GeoSolMaxLevel, 2, engine_siberite, control_manual, [], [25, 26, 27, 28, 71, 72, 73], [], 2);
   RespawnAttackInfantry(8, 2, Rand(7,10), 0, 0, 2, 2, GeoSolMaxLevel, DvaliSpawn_S, 1);
+  PrepareDvalishvili;
   Attack([0, MC_attack_group2, [ [211, 145], [242, 126], [254, 104] ], [0, 1, 0, 1, 1, 0, 0, 0, 1, 1] ]);
 end;
 

@@ -1,8 +1,8 @@
-Every 6$0+2$20 trigger russianAssault = true and RusMainAttacks > 0 do
+Every 5$0+2$20 trigger russianAssault = true and RusMainAttacks > 0 do
 begin
     enable;
 
-    if Difficulty = 3 then
+    if Difficulty <> 1 then
     begin
 
     Case Rand(1,3) of
