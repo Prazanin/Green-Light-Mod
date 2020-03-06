@@ -22,6 +22,7 @@ begin
   PlaceUnitXY(Esther, 82, 84, false);
   PlaceUnitXY(Edmonds, 84, 91, false);
   PlaceUnitXY(Barnes, 88, 83, false);
+  PlaceUnitXY(Mortimer, 97, 81, false);
   ComTurnUnit(Bradford, Richford);
   ComTurnUnit(Richford, Bradford);
 
@@ -40,12 +41,13 @@ begin
   ComMoveXY(IsInUnit(Simone), 88, 94);
   wait(0$5);
   CenterOnUnits(IsInUnit(Simone));
-  wait(0$2);
+  wait(0$5);
   ComExitVehicle(IsInUnit(Simone));
   CenterOnUnits(Simone);
   wait(0$0.5);
   AddComMoveXY(Simone, 90, 81);
   wait(0$5);
+  CenterOnUnits(Simone);
   Say(Simone, 'D1-Simone-1');
   Say(Bradford, 'D1-Bradford-2');
   Say(Bradford, 'D1-Bradford-2a');
@@ -94,7 +96,7 @@ export Base_WholeBuilt, Base_TooLate;
 every 0$1 trigger Base_DepotBuilt and Base_WorkshopBuilt and Base_LabBuilt and not Base_TooLate do
 begin
   Say(Simone, 'D2-Simone-1');
-  Say(Bradford, 'D2-Bradford-1');
+  SayRadio(Bradford, 'D2-Bradford-1');
   Say(Simone, 'D2-Simone-2');
   Base_WholeBuilt := true;
 end;
@@ -105,11 +107,11 @@ begin
   if not Base_WholeBuilt then
   begin
    Base_TooLate := true;
-   Say(Bradford, 'D2a-Bradford-1');
+   SayRadio(Bradford, 'D2a-Bradford-1');
    Say(Simone, 'D2a-Simone-1');
-   Say(Bradford, 'D2a-Bradford-2');
+   SayRadio(Bradford, 'D2a-Bradford-2');
    Say(Simone, 'D2a-Simone-2');
-   Say(Bradford, 'D2a-Bradford-3');
+   SayRadio(Bradford, 'D2a-Bradford-3');
    Base_WholeBuilt := true;
   end;
 end;
@@ -207,6 +209,7 @@ begin
   Wait(0$45);
   SayRadio(Barnes, 'D5a-Barnes-1');
   ComMoveXY(AM_SquadOne, 95, 83);
+  ComMoveXY(AM_SquadTwo, 95, 83);
   ComMoveXY(AM_SquadThree, 95, 83);
   ComMoveXY(Mortimer, 95, 83);
   SayRadio(Barnes, 'D5a-Barnes-2');
@@ -214,10 +217,12 @@ begin
   Wait(0$40);
   InGameOn;
   DialogueOn;
+  CenterOnUnits(Barnes);
   Say(Barnes, 'D5b-Barnes-1');
   Say(Simone, 'D5b-Simone-1');
   Say(Barnes, 'D5b-Barnes-2');
   SetSide(AM_SquadOne, 7);
+  SetSide(AM_SquadTwo, 7);
   SetSide(AM_SquadThree, 7);
   SetSide(Mortimer, 7);
   DialogueOff;
@@ -347,15 +352,15 @@ export Endgame;
 export RU1Evacuation, BotnicovSpared, BotnicovAntagonized;
 every 0$1 trigger
           IsDead(Sidorovich) AND
-          ( GetSide(ustinov1) = 7 OR IsDead(ustinov1) ) OR
+          ( GetSide(ustinov1) = 7 OR IsDead(ustinov1) ) AND
           ( GetSide(ustinov2) = 7 OR IsDead(ustinov2) )
           do
             begin
             KolvichEnRoute := true;
-            wait(0$10);
             RU1Evacuation := true;
+            wait(0$25);
             Prepare_Escapees;
-            wait(0$4);
+            wait(0$5);
             CenterOnUnits(Botnicov);
             DialogueOn;
             Say(Miller, 'D9a-Miller-2');
@@ -365,8 +370,8 @@ every 0$1 trigger
                  Say(Simone, 'D9a-Simone-2');
                  Say(Botnicov, 'D9a-Botnicov-1');
                  BotnicovSpared := true;
-                 ComMoveToArea(Botnicov_Sols, RUEvacZone);
-                 ComMoveToArea(Botnicov, RUEvacZone);
+                 ComMoveXY(Botnicov_Sols, 218, 3);
+                 ComMoveXY(Botnicov, 218, 3);
                end;
              2:begin
                  Say(Simone, 'D9a-Simone-2a');
@@ -382,6 +387,45 @@ every 0$1 trigger
             Dialogue_Barnes_General;
             Endgame := true;
             end;
+
+every 0$1 trigger RU1Evacuation and FilterAllUnits([[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle] ] ]) > 0 do
+var RU1Escapees;
+begin
+ enable;
+ RU1Escapees := FilterAllUnits([[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle] ] ]) diff Sidorovich;
+ ComAgressiveMove(RU1Escapees, 218, 3);
+end;
+
+every 0$1 trigger BotnicovSpared and Botnicov_Sols > 0 do
+begin
+ enable;
+ ComMoveXY(Botnicov_Sols, 218, 3);
+ ComMoveXY(Botnicov, 218, 3);
+end;
+
+every 0$0.8 do // Units destroying in ExitArea
+var qqq,i,un,my_filter;
+begin
+  if RU1Evacuation then
+    my_filter:=FilterUnitsInArea(RUEvacZone,[[f_or,[f_side,3],[f_side,5]]]);
+
+  for un in my_filter do
+  begin
+    if GetType(un)=unit_vehicle then
+    begin
+    Wait(0$2);
+      RemoveUnit(IsDrivenBy(un));
+      RemoveUnit(un);
+    end
+    else
+    begin
+    Wait(0$2);
+      RemoveUnit(un);
+    end;
+  end;
+
+  enable;
+end;
 
 export DvaliAttack;
 every 0$1 trigger Endgame do
@@ -410,7 +454,7 @@ end;
 every 0$1 trigger DvaliAttack do
 begin
   RespawnAttackVehicle(DvaliSpawn_S, 8, Rand(6,9), GeoSolMaxLevel, 2, engine_siberite, control_manual, [], [25, 26, 27, 28, 71, 72, 73], [], 2);
-  RespawnAttackInfantry(8, 2, Rand(7,10), 0, 0, 2, 2, GeoSolMaxLevel, DvaliSpawn_S, 1);
+  RespawnAttackInfantry(8, 2, Rand(7,10), 0, 0, 2, 2, GeoSolMaxLevel, DvaliSpawn_S, 2);
   PrepareDvalishvili;
   Attack([0, MC_attack_group2, [ [211, 145], [242, 126], [254, 104] ], [0, 1, 0, 1, 1, 0, 0, 0, 1, 1] ]);
 end;
@@ -438,6 +482,16 @@ begin
   SetSide(AMBase, 6);
   SetSide(FilterAllUnits([ [f_side, 1], [f_btype, b_armoury] ]), 6);
   SetSide(FilterAllUnits([ [f_side, 1], [f_btype, b_breastwork] ]), 6);
+
+  RespawnAttackVehicle(RU2_Kolvich_ArmySpawn, 6, Rand(5,8), RuSolMaxLevel, 3, engine_siberite, [1, 3], [46, 43, 44, 47, 45, 74, 75, 76], [], [], 1);
+  RespawnAttackInfantry(6, 3, Rand(6,8), 0, Rand(1,3), 0, 2, RuSolMaxLevel, RU2_Kolvich_ArmySpawn, 1);
+  Attack([0, MC_attack_group, [ [94, 115], [112, 137], [242, 127], [277, 139] ], [0, 1, 0, 1, 1, 0, 0, 0, 1, 1] ]);
+
+  RespawnAttackVehicle(RU2_Kolvich_ArmySpawn, 6, Rand(5,8), RuSolMaxLevel, 3, engine_siberite, [1, 3], [46, 43, 44, 47, 45, 74, 75, 76], [], [], 1);
+  RespawnAttackInfantry(6, 3, Rand(6,8), 0, Rand(1,3), 0, 2, RuSolMaxLevel, RU2_Kolvich_ArmySpawn, 1);
+  Attack([0, MC_attack_group, [ [91, 81], [163, 79], [227, 73], [246, 85] ], [0, 1, 0, 1, 1, 0, 0, 0, 1, 1] ]);
+
+  Wait(1$0);
   Prepare_RU2;
   PriorityAttack(6, AMLab);
   PriorityAttack(6, AM_Factory);

@@ -9,44 +9,10 @@ begin
 
 uc_side:=7;
 
-if debug then
-   begin
-   uc_nation:=nation_american;
-   hc_sex=sex_female;
-   hc_importance=100;
-   hc_skills=[4,3,5,2];
-   hc_attr=[12,10];
-   hc_name:='Simone Gray';
-   hc_gallery := 'ZieloneLaserki_Heroines';
-   hc_face_number := 1;
-
-   Simone:=CreateHuman;
-
-   InitHc;
-   hc_importance := 0;
-   hc_gallery := '';
-   hc_name := '';
-
-   PrepareHuman(sex_male, 1, 10);
-   
-   Miller := CreateHuman;
-   Pravar := CreateHuman;
-   AMSurvivors := [];
-
-   for i = 1 to 6 do
-       begin
-       InitHc;
-       PrepareHuman(false, rand(1,4), 10);
-       AMSurvivors := Insert(AmSurvivors, 1, CreateHuman);
-       end;
-   end
-else
-   begin
-   Simone=CreateCharacter('Simone');
-   Miller=CreateCharacter('Miller');
-   Pravar=CreateCharacter('Pravar');
-   AMSurvivors=CreateCharacterSet('AM03_Survivors');
-   end;
+Simone=CreateCharacter('Simone');
+Miller=CreateCharacter('Miller');
+Pravar=CreateCharacter('Pravar');
+AMSurvivors=CreateCharacterSet('AM03_Survivors');
 
 AvengerSquad := Simone ^ Miller ^ Pravar ^ AMSurvivors;
 
@@ -107,26 +73,7 @@ AvengerReserve := 16 - AvengerSquad;
  end;
 
 uc_side:=4;
-
-if debug then
-   begin
-   uc_nation:=nation_american;
-   hc_importance=110;
-   hc_sex=sex_female;
-   hc_skills=[2,2,4,3];
-   hc_attr=[11,10];
-   hc_name:='Kathryn Gray';
-   hc_gallery := 'ZieloneLaserki_Heroines';
-   hc_face_number := 2;
-
-   Kathryn:=CreateHuman;
-
-   hc_importance := 0;
-   InitHc;
-   end
-else
-   Kathryn=CreateCharacter('Kathryn');
-
+Kathryn=CreateCharacter('Kathryn');
 SetClass(Kathryn, class_mechanic);
 KathrynSquad := Kathryn;
 KathrynMechs := Kathryn;

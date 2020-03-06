@@ -226,7 +226,7 @@ begin
 end;
 
 every 0$1 trigger OutpostCaptured do
-var LabSpeaker, Squad;
+var LabSpeaker, Squad, nul;
 begin
   Wait(11$15);
 
@@ -264,6 +264,7 @@ begin
   end;
 
   ChangeMissionObjectives('MTesla');
+  nul:=Query('QTesla');
   TeslaQuestStart = true;
 
   DialogueOff;
@@ -272,6 +273,7 @@ end;
 every 0$1 trigger OutpostCaptured do
 begin
   Wait(27$00);
+  DialogueOn;
   Say(Simone, 'D3a-Simone-1');
   Say(Kathryn, 'D3a-Kathryn-1');
   Say(Simone, 'D3a-Simone-2');
@@ -292,6 +294,7 @@ begin
   Say(Kathryn, 'D3a-Kathryn-8');
   Say(Simone, 'D3a-Simone-11');
   Say(Kathryn, 'D3a-Kathryn-9');
+  DialogueOff;
 end;
 
 every 0$1 trigger OutpostCaptured do

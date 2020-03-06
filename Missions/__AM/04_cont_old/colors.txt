@@ -1,0 +1,11 @@
+begin
+? type grass
+ ! rgb 128 112 94
+ ! sat 53
+ ! all 84
+new
+? type single_tree
+ ! sat 56
+ ! all 97
+ ! rgb 136 114 90
+end

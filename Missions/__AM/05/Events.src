@@ -59,11 +59,13 @@ begin
    begin
      DoNotAttack(3, Bradford);
      ForceSay(Bradford, 'D5a-Bradford-3');
+     SetLives(Bradford, 0);
    end;
   if un = Richford then
    begin
      DoNotAttack(3, Richford);
      ForceSay(Richford, 'D5a-Richford-2');
+     SetLives(Richford, 0);
    end;
   if un = CourierVeh then
    begin
@@ -196,14 +198,17 @@ begin
     Case AMVehiclesBuilt mod 3 of
     0:begin
       AM_SquadOne := AM_SquadOne ^ vehicle;
+      AM_SquadOne := AM_SquadOne ^ IsDrivenBy(vehicle);
       ComMoveXY(vehicle, 94, 68);
       end;
     1:begin
       AM_SquadTwo := AM_SquadTwo ^ vehicle;
+      AM_SquadTwo := AM_SquadTwo ^ IsDrivenBy(vehicle);
       ComMoveXY(vehicle, 110, 79);
       end;
     2:begin
       AM_SquadThree := AM_SquadThree ^ vehicle;
+      AM_SquadThree := AM_SquadThree ^ IsDrivenBy(vehicle);
       ComMoveXY(vehicle, 120, 101);
       end;
     end;

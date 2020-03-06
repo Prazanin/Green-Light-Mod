@@ -42,6 +42,14 @@ on UnitDestroyed(un) do
         YouLost('FriendlyBase');
         ExclusiveOff;
         exit;
+      end
+    else if GetSide(un)=5 and GetClass(un)=class_mechanic then
+      begin
+        RU3_BaterieMechs = RU3_BaterieMechs - 1;
+      end
+    else if GetSide(un)=5 and GetWeapon(un)=ru_rocket then
+      begin
+        RU3_BaterieVehs = RU3_BaterieVehs - 1;
       end;
 
 MCE_UnitDestroyed(un);

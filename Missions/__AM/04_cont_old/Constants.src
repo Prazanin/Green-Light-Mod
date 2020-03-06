@@ -1,0 +1,25 @@
+// Additional constants used in Green Light Mod \\
+Export ar_heavy_tracked,
+       us_tesla_coil,
+       ar_liquid_siberite,
+       ar_heavy_gun,
+       ar_mobile_mortar,
+       ru_laser,
+       ru_rocket_battery,
+       ru_flame_thrower,
+       Tech_Tesla;
+
+Export Function InitiateConstants;
+begin
+
+  ar_heavy_tracked := 16;      // Arabian Heavy Tracked
+  us_tesla_coil := 70;         // American Tesla Coil
+  ar_liquid_siberite := 71;    // Arabian Liquid Siberite Thrower
+  ar_heavy_gun := 72;          // Arabian Heavy Gun
+  ar_mobile_mortar := 73;      // Arabian Mobile Mortar
+  ru_laser := 74;              // Russian Laser
+  ru_rocket_battery := 75;     // Russian Rocket Battery
+  ru_flame_thrower := 76;      // Russian Flame Thrower
+  Tech_Tesla := 73;            // Tesla Technology (Tesla Coil)
+
+end;

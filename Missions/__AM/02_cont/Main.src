@@ -210,6 +210,22 @@ begin
   RespawnAttackVehicle(GU_Spawn_S, 8, 2, 5, 2, [1,2,3], 1, [], [25,26,27,28], []);
 end;
 
+every 0$1 trigger
+(Difficulty = 1 AND RusMainAttacks < 3) OR
+(Difficulty = 2 AND RusMainAttacks < 5) OR
+(Difficulty = 3 AND RusMainAttacks < 7) do
+begin
+  Wait(1$20);
+  Say(Miller,'D4d-Miller-1');
+  Say(Kathryn,'D4d-Kathryn-1');
+  Say(Simone,'D4d-Simone-1');
+  Say(Kathryn,'D4d-Kathryn-2');
+  Say(Simone,'D4d-Simone-2');
+  Say(Kathryn,'D4d-Kathryn-3');
+  Say(Simone,'D4d-Simone-3');
+  Say(Kathryn,'D4d-Kathryn-4');
+end;
+
 every 0$1 trigger RusMainAttacks = 0 do
 begin
   Wait(5$0);

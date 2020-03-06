@@ -161,11 +161,11 @@ begin
   AddCargo(RVeh4, mat_cans, 100);
   AddCargo(RVeh5, mat_cans, 100);
 
-  PlaceUnitXYR(RVeh1, 53, 100, 4, false);
-  PlaceUnitXYR(RVeh2, 52, 97, 4, false);
-  PlaceUnitXYR(RVeh3, 46, 87, 4, false);
-  PlaceUnitXYR(RVeh4, 54, 95, 4, false);
-  PlaceUnitXYR(RVeh5, 56, 98, 4, false);
+  PlaceUnitXYR(RVeh1, 67, 129, 4, false);
+  PlaceUnitXYR(RVeh2, 70, 134, 4, false);
+  PlaceUnitXYR(RVeh3, 73, 141, 4, false);
+  PlaceUnitXYR(RVeh4, 76, 146, 4, false);
+  PlaceUnitXYR(RVeh5, 76, 131, 4, false);
 
 end;
 

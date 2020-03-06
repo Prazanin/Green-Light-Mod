@@ -1,0 +1,11 @@
+SOURCE_CODES
+  ENABLED Main
+  ENABLED Characters
+  ENABLED Functions
+  ENABLED Constants
+  ENABLED Difficulty
+  ENABLED AI
+  ENABLED Georgian_Attacks
+  ENABLED Events
+  ENABLED KathrynEmotions
+END_OF_SOURCE_CODES

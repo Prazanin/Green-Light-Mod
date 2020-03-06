@@ -1,10 +1,8 @@
 export MissionStart;
-export debug;
 
 starting
 var nul;
 begin
-debug := false; // false for production mode
 
 RandomizeAll;
 
@@ -14,14 +12,11 @@ LoadVariables;
 InitiateConstants;
 PrepareDifficulty;
 
-KathrynOrderAttack := false; // order to attack
-KathrynAttackStance := 2; // tactic: 1 - agressive, 2 - normal, 3 - carefull
-KathrynLostControl := false; // if true then orderToAttack and tactic = 0
+KathrynOrderAttack := false;
+KathrynAttackStance := 2;
+KathrynLostControl := false;
 
 KathrynMood := 100;
-KathrynStatus := 0; // current attack status: 0 - init, 1 - attack first base, 2 - attack second base, 3 - attack third base
-
-ReachedBase := false;
 
 CreatePersonas;
 
@@ -69,8 +64,8 @@ Say(Miller, 'D2-Miller-1');
 Say(Simone, 'D2-Simone-1');
 CenterOnXY(237, 281);
 DWait(0$1);
-Say(Simone, 'D2-Simone-2');
-SayRadio(Kathryn, 'D2-Kathryn-1');
+SayRadio(Simone, 'D2-Simone-2');
+Say(Kathryn, 'D2-Kathryn-1');
 CenterOnXY(179, 286);
 DWait(0$1);
 Say(Simone, 'D2-Simone-3');
@@ -85,9 +80,6 @@ MissionStart := true;
 SaveForQuickRestart;
 HintSpec('Kathryn', 3);
 
-KathrynStatus := 1;
-
-KathrynScript;
 end;
 
 export ReachedBase;
@@ -156,8 +148,6 @@ SayRadio(Kathryn, 'D8-Kathryn-2');
 Say(Simone, 'D8-Simone-3');
 SayRadio(Kathryn, 'D8-Kathryn-3');
 ComAgressiveMove(KathrynSquad, 101, 20);
-ComAgressiveMove(Kathryn, 101, 20);
-ComAgressiveMove(IsInUnit(Kathryn), 101, 20);
 Say(Simone, 'D8-Simone-4');
 CenterOnUnits(Kathryn);
 CenterOnUnits(IsInUnit(Kathryn));
@@ -172,15 +162,12 @@ Wait(0$10);
 Say(Kathryn, 'D8a-Kathryn-1');
 Wait(0$15);
 Say(Heisenberg, 'D8a-Heisenberg-1');
-
-ComMoveToArea(FilterAllUnits([f_side, 4]) diff Kathryn, KatParking3);
 NormalAttack(3, Kathryn);
 Say(Kathryn, 'D8a-Kathryn-1a');
 
 repeat
- wait(3);
- ComAttackUnit(Kathryn, NearestUnitToUnit(FilterAllUnits([f_side, 3]), Kathryn));
-until IsDying(Kathryn) OR IsDead(Kathryn);
+Wait(0$1);
+until IsDying(Kathryn);
 
 ForceSay(Kathryn, 'D8a-Kathryn-2');
 Say(Simone, 'D8a-Simone-1');

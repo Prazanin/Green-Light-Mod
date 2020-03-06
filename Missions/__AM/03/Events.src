@@ -50,7 +50,7 @@ begin
    begin
         ExclusiveOn;
         Wait(0$2);
-        YouLost('Base');
+        YouLost('BaseDestroyed');
         ExclusiveOff;
         exit;
    end

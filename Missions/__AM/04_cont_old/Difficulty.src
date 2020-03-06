@@ -1,96 +1,74 @@
-export RuSolMinLevel, RuSolMaxLevel, GeoSolMaxLevel;
-export RU2KolvichArrival, GEODvaliArrival, DefenseTime;
+export RuSolMaxLevel;
+export GeorgianAttacks;
+export BradfordFirstThresholdTimer,
+       BradfordSecondThresholdTimer,
+       BradfordTerminatesMissionTimer;
+export KathrynMoodIdleDropCoeficent;
 
 Export function PrepareDifficulty;
 begin
     if difficulty = 1 then
     begin
-        RuSolMinLevel = 6;
-        RuSolMaxLevel = 8;
-
-        GeoSolMaxLevel = 9;
+        RuSolMaxLevel := 7;
 
         SetTech(tech_Tech1, 3, state_researched);
-        SetTech(tech_Tech2, 3, state_researched);
         SetTech(tech_Weap1, 3, state_researched);
-        SetTech(tech_Weap2, 3, state_researched);
         SetTech(tech_Comp1, 3, state_researched);
-        SetTech(tech_Comp2, 3, state_researched);
-        SetTech(tech_TauField, 3, state_researched);
 
         SetTech(tech_Tech1, 6, state_researched);
-        SetTech(tech_Tech2, 6, state_researched);
         SetTech(tech_Weap1, 6, state_researched);
-        SetTech(tech_Weap2, 6, state_researched);
         SetTech(tech_Comp1, 6, state_researched);
-        SetTech(tech_Comp2, 6, state_researched);
-        SetTech(tech_TauField, 6, state_researched);
-        SetTech(tech_TauRad, 6, state_researched);
 
         SetTech(tech_Tech1, 8, state_researched);
-        SetTech(tech_Tech2, 8, state_researched);
         SetTech(tech_Weap1, 8, state_researched);
-        SetTech(tech_Weap2, 8, state_researched);
-        SetTech(tech_Bio1, 8, state_researched);
-        SetTech(tech_Bio2, 8, state_researched);
 
-        RU2KolvichArrival = 60$00;
-        GEODvaliArrival = 8$00;
+        GeorgianAttacks := 3 + ConvoysEscaped;
 
-        DefenseTime = 20$00;
+        BradfordFirstThresholdTimer := 50$00;
+        BradfordSecondThresholdTimer := 70$00;
+        BradfordTerminatesMissionTimer := 80$00;
+
+        KathrynMoodIdleDropCoeficent := 3;
     end;
 
     if difficulty = 2 then
     begin
-        RuSolMinLevel = 7;
-        RuSolMaxLevel = 9;
-
-        GeoSolMaxLevel = 10;
+        RuSolMaxLevel := 8;
 
         SetTech(tech_Tech1, 3, state_researched);
-        SetTech(tech_Tech2, 3, state_researched);
         SetTech(tech_Tech2, 3, state_researched);
         SetTech(tech_Weap1, 3, state_researched);
         SetTech(tech_Weap2, 3, state_researched);
         SetTech(tech_Comp1, 3, state_researched);
         SetTech(tech_Comp2, 3, state_researched);
         SetTech(tech_ST1, 3, state_researched);
-        SetTech(tech_TauField, 3, state_researched);
 
         SetTech(tech_Tech1, 6, state_researched);
         SetTech(tech_Tech2, 6, state_researched);
-        SetTech(tech_Tech3, 6, state_researched);
         SetTech(tech_Weap1, 6, state_researched);
         SetTech(tech_Weap2, 6, state_researched);
-        SetTech(tech_Weap3, 6, state_researched);
         SetTech(tech_Comp1, 6, state_researched);
         SetTech(tech_Comp2, 6, state_researched);
-        SetTech(tech_Comp3, 6, state_researched);
         SetTech(tech_ST1, 6, state_researched);
-        SetTech(tech_ST2, 6, state_researched);
-        SetTech(tech_TauField, 6, state_researched);
-        SetTech(tech_TauRad, 6, state_researched);
 
         SetTech(tech_Tech1, 8, state_researched);
         SetTech(tech_Tech2, 8, state_researched);
-        SetTech(tech_Tech3, 8, state_researched);
         SetTech(tech_Weap1, 8, state_researched);
         SetTech(tech_Weap2, 8, state_researched);
-        SetTech(tech_Bio1, 8, state_researched);
-        SetTech(tech_Bio2, 8, state_researched);
         SetTech(tech_StimDrugs, 8, state_researched);
 
-        RU2KolvichArrival = 50$00;
-        GEODvaliArrival = 6$00;
-        DefenseTime = 25$00;
+        GeorgianAttacks := 4 + ConvoysEscaped;
+
+        BradfordFirstThresholdTimer := 40$00;
+        BradfordSecondThresholdTimer := 60$00;
+        BradfordTerminatesMissionTimer := 70$00;
+
+        KathrynMoodIdleDropCoeficent := 5;
     end;
 
     if difficulty = 3 then
     begin
-        RuSolMinLevel = 9;
-        RuSolMaxLevel = 10;
-
-        GeoSolMaxLevel = 10;
+        RuSolMaxLevel := 9;
 
         SetTech(tech_Tech1, 3, state_researched);
         SetTech(tech_Weap1, 3, state_researched);
@@ -103,8 +81,6 @@ begin
         SetTech(tech_Weap3, 3, state_researched);
         SetTech(tech_ST1, 3, state_researched);
         SetTech(tech_ST2, 3, state_researched);
-        SetTech(tech_TauField, 3, state_researched);
-        SetTech(tech_TauRad, 3, state_researched);
 
         SetTech(tech_Tech1, 6, state_researched);
         SetTech(tech_Weap1, 6, state_researched);
@@ -112,14 +88,8 @@ begin
         SetTech(tech_Tech2, 6, state_researched);
         SetTech(tech_Weap2, 6, state_researched);
         SetTech(tech_Comp2, 6, state_researched);
-        SetTech(tech_Tech3, 6, state_researched);
-        SetTech(tech_Weap3, 6, state_researched);
-        SetTech(tech_Comp3, 6, state_researched);
         SetTech(tech_ST1, 6, state_researched);
         SetTech(tech_ST2, 6, state_researched);
-        SetTech(tech_ST3, 6, state_researched);
-        SetTech(tech_TauField, 6, state_researched);
-        SetTech(tech_TauRad, 6, state_researched);
 
         SetTech(tech_Tech1, 8, state_researched);
         SetTech(tech_Tech2, 8, state_researched);
@@ -127,13 +97,14 @@ begin
         SetTech(tech_Weap1, 8, state_researched);
         SetTech(tech_Weap2, 8, state_researched);
         SetTech(tech_Weap3, 8, state_researched);
-        SetTech(tech_Bio1, 8, state_researched);
-        SetTech(tech_Bio2, 8, state_researched);
-        SetTech(tech_Bio3, 8, state_researched);
         SetTech(tech_StimDrugs, 8, state_researched);
 
-        RU2KolvichArrival = 45$00;
-        GEODvaliArrival = 4$00;
-        DefenseTime = 30$00;
+        GeorgianAttacks := 5 + ConvoysEscaped;
+
+        BradfordFirstThresholdTimer := 25$00;
+        BradfordSecondThresholdTimer := 50$00;
+        BradfordTerminatesMissionTimer := 60$00;
+
+        KathrynMoodIdleDropCoeficent := 10;
     end;
 end;

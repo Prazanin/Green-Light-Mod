@@ -1,0 +1,36 @@
+export GeorgiansEncountered, GeorgiansSecondEncounter;
+export GeoAttacksAppeared;
+
+every 7$0 + 5$0 trigger GeorgianAttacks > 0 do
+var GeoAttackAreas, GeoAttacksAppeared;
+begin
+  enable;
+  GeoAttackAreas := GeoAttackArea1^GeoAttackArea2;
+  RespawnAttackVehicle(GeoAttackAreas[Rand(1,GeoAttackAreas)], 8, Rand(3,6), Rand(7,9), 2, engine_siberite, control_manual, [], [25, 27, 28, 72, 73, 71], []);
+  GeorgianAttacks := GeorgianAttacks - 1;
+  GeoAttacksAppeared := GeoAttacksAppeared + 1;
+
+  if not GeorgiansEncountered and GeoAttacksAppeared > 0 then
+  begin
+    GeorgiansEncountered := true;
+    DialogueOn;
+    Say(Simone, 'D2a-Simone-1');
+    Say(Miller, 'D2a-Miller-2');
+    SayRadio(Dvalishvili, 'D2a-Dvali-1');
+    Say(Simone, 'D2a-Simone-2');
+    SayRadio(Dvalishvili, 'D2a-Dvali-2');
+    Say(Simone, 'D2a-Simone-3');
+    DialogueOff;
+  end;
+
+  if GeorgiansEncountered and not GeorgiansSecondEncounter and GeoAttacksAppeared > 1 then
+  begin
+    GeorgiansSecondEncounter := true;
+    DialogueOn;
+    Say(Simone, 'D3-Simone-1');
+    Say(Miller, 'D3-Miller-1');
+    if ConvoysEscaped > 0 then
+    Say(Simone, 'D3a-Simone-1');
+    DialogueOff;
+  end;
+end;

@@ -411,11 +411,11 @@ end;
 export function KathrynCommandAcknowledge;
 begin
   case Rand(1,5) of
-  1: SayRadio(Kathryn, 'DCommandAcknowledge-Kathryn-1');
-  2: SayRadio(Kathryn, 'DCommandAcknowledge-Kathryn-2');
-  3: SayRadio(Kathryn, 'DCommandAcknowledge-Kathryn-3');
-  4: SayRadio(Kathryn, 'DCommandAcknowledge-Kathryn-4');
-  5: SayRadio(Kathryn, 'DCommandAcknowledge-Kathryn-5');
+  1: Say(Kathryn, 'DCommandAcknowledge-Kathryn-1');
+  2: Say(Kathryn, 'DCommandAcknowledge-Kathryn-2');
+  3: Say(Kathryn, 'DCommandAcknowledge-Kathryn-3');
+  4: Say(Kathryn, 'DCommandAcknowledge-Kathryn-4');
+  5: Say(Kathryn, 'DCommandAcknowledge-Kathryn-5');
   end;
 end;
 

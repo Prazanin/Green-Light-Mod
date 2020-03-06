@@ -514,9 +514,9 @@ begin
     AddComBuild(RU2_Engs, b_armoury, 37, 45, 0);
     AddComBuild(RU2_Engs, b_breastwork, 33, 46, 0);
     AddComBuild(RU2_Engs, b_breastwork, 44, 46, 5);
-    AddComBuild(RU2_Engs, b_armoury, 39, 14, 4);
-    AddComBuild(RU2_Engs, b_breastwork, 34, 7, 4);
-    AddComBuild(RU2_Engs, b_breastwork, 39, 18, 4);
+    AddComBuild(RU2_Engs, b_armoury, 38, 11, 4);
+    AddComBuild(RU2_Engs, b_breastwork, 34, 6, 4);
+    AddComBuild(RU2_Engs, b_breastwork, 40, 17, 4);
     AddComMoveXY(RU2_Engs, 35, 39);
 end;
 

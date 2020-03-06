@@ -1,20 +1,6 @@
 every 0$1 do
 begin
 enable;
-
-if debug then
-   begin
-   display_strings := [
-      ['mood', KathrynMood],
-      ['status', KathrynStatus],
-      ['stance', KathrynAttackStance],
-      ['attack', KathrynOrderAttack],
-      ['lost', KathrynLostControl]
-   ];
-   exit;
-   end;
-
-
 if ReachedBase then
 begin
 
@@ -23,35 +9,35 @@ end;
 
 if KathrynMood >= 70 and NOT ReachedBase then
 begin
-Display_Strings := ['#Am04-KathrynMoodGood'];
+Display_Strings := ['#Am04-KathrynMoodGood', 0];
 end;
 
 if KathrynMood >= 40 and KathrynMood < 70 and NOT ReachedBase then
 begin
-Display_Strings := ['#Am04-KathrynMoodAverage'];
+Display_Strings := ['#Am04-KathrynMoodAverage', 0];
 end;
 
 if KathrynMood >= 15 and KathrynMood < 40 and NOT ReachedBase then
 begin
-Display_Strings := ['#Am04-KathrynMoodBad'];
+Display_Strings := ['#Am04-KathrynMoodBad', 0];
 end;
 
 if KathrynMood > 0 and KathrynMood < 15 and NOT ReachedBase then
 begin
-Display_Strings := ['#Am04-KathrynMoodVeryBad'];
+Display_Strings := ['#Am04-KathrynMoodVeryBad', 0];
 end;
 
 if KathrynMood = 0 and NOT ReachedBase then
 begin
-Display_Strings := ['#Am04-KathrynMoodLostControl'];
+Display_Strings := ['#Am04-KathrynMoodLostControl', 0];
 end;
 
 end;
 
-every 0$1 trigger (not ReachedBase or not KathrynStatus = 4) and not KathrynLostControl do
+every 0$1 trigger not ReachedBase and not KathrynLostControl do
 begin
   wait(1$0);
-    if not KathrynOrderAttack or not KathrynStatus = 4 then
+    if not KathrynOrderAttack then
      KathrynMood := KathrynMood - KathrynMoodIdleDropCoeficent;
   enable;
 end;
@@ -93,18 +79,3 @@ every 0$1 trigger KathrynMood = 0 and not ReachedBase do
 
  DialogueOff;
 end;
-
-every 0$1 trigger KathrynStatus = 2 do
- begin
- SayRadio(Kathryn, 'DCommandAccomplished-Kathryn-1');
- end;
-
-every 0$1 trigger KathrynStatus = 3 do
- begin
- SayRadio(Kathryn, 'DCommandAccomplished-Kathryn-2');
- end;
-
-every 0$1 trigger KathrynStatus = 4 do
- begin
- SayRadio(Kathryn, 'DCommandAccomplished-Kathryn-3');
- end;

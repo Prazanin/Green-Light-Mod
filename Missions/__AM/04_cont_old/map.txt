@@ -215,13 +215,13 @@ HEXES
   LINE 100 50 179
     t4v5 t2v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 rAv5 rAv5 rAv5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5 v5f8 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5s9 r6v6sn r6vCsn r6vI r6vCsp r7vAsJ r7vA r7vA r7vA r7vAs9 r6vBsn r6vH r6vH r6vBsq v5sq v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 t2v5 t4v5
   LINE 101 51 180
-    t4v5 t2v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 rAv5 rAv5 rAv5f8 rAv5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5 v5 v5 v5 v5 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5 v5 r6v5sf r6vAsH r6vCsn r6vI r6vCsp r6vAsJ r7vAsY r7vAsY r7vAsY r6vB r6vBsn r6vH r6vBsq r6v5sq v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 t2v5 t4v5
+    t4v5 t2v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 rAv5 rAv5 rAv5f8 rAv5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5f8 v5f8 v5 v5 v5 r6v5sf r6vAsH r6vCsn r6vI r6vCsp r6vAsJ r7vAsY r7vAsY r7vAsY r6vB r6vBsn r6vH r6vBsq r6v5sq v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 t2v5 t4v5
   LINE 102 51 180
-    t4v5 t2v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 rAv5 rAv5 rAv5f8 rAv5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5 v5 v5 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5 r6v5sf r6vAsH r6vCsn r6vI r6vCsp r6vCsY r7vEsI r6vEsI r6vBsh r6vBsp r6vH r6vBsq r6vAsC r6v5si v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 t2v5 t4v5
+    t4v5 t2v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 rAv5 rAv5 rAv5f8 rAv5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5 v5 v5 v5f8 v5 v5 v5 v5f8 v5 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5 r6v5sf r6vAsH r6vCsn r6vI r6vCsp r6vCsY r7vEsI r6vEsI r6vBsh r6vBsp r6vH r6vBsq r6vAsC r6v5si v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 t2v5 t4v5
   LINE 103 52 181
-    t4v5 t2v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 rAv5 rAv5 rAv5f8 rAv5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 r6v5sf r6vA r6vAsH r6vCsn r6vI r6vGso r6vGso r6vGso r6vGsp r6vEsJ r6vBsp r6vBsr r6vAsC r6v5si v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 t2v5 t4v5
+    t4v5 t2v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 rAv5 rAv5 rAv5f8 rAv5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5 v5f8 v5f8 v5f8 v5 v5 v5 v5 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 r6v5sf r6vA r6vAsH r6vCsn r6vI r6vGso r6vGso r6vGso r6vGsp r6vEsJ r6vBsp r6vBsr r6vAsC r6v5si v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 t2v5 t4v5
   LINE 104 52 181
-    t4v5 t2v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 rAv5 rAv5 rAv5f8 rAv5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 r6v5sf r6vA r6vAsH r6vCsn r6vIsX r6vM r6vM r6vM r6vGsq r6vAsp r6vAsD r6vAsD r6v5si v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 t2v5 t4v5
+    t4v5 t2v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 rAv5 rAv5 rAv5f8 rAv5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 r6v5sf r6vA r6vAsH r6vCsn r6vIsX r6vM r6vM r6vM r6vGsq r6vAsp r6vAsD r6vAsD r6v5si v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 t2v5 t4v5
   LINE 105 53 182
     t4v5 t2v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 rAv5 rAv5 rAv5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 r6v5se r6vA r6vAsn r6vGsn r6vM r6vGsr r6vGsr r6vGsr r6vAsr r6vA r6vA r6v5si v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 t2v5 t4v5
   LINE 106 53 182
@@ -235,7 +235,7 @@ HEXES
   LINE 110 55 184
     t4v5 t2v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 rAv5 rAv5 rAv5 rAv5 rAv5 rAv5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 t2v5 t4v5
   LINE 111 56 185
-    t4v5 t2v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 rAv5 rAv5 rAv5 rAv5 rAv5 rAv5 rAv5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 rDv5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 r6v5sI r6v5sI r6v5sI r6v5sI r6v5sI r6v5sJ r6v5sJ v5 v5 v5 v5 v5 t2v5 t4v5
+    t4v5 t2v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 rAv5 rAv5 rAv5 rAv5 rAv5 rAv5 rAv5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 r6v5sI r6v5sI r6v5sI r6v5sI r6v5sI r6v5sJ r6v5sJ v5 v5 v5 v5 v5 t2v5 t4v5
   LINE 112 56 185
     t4v5 t2v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 rAv5 rAv5 rAv5 rAv5 rAv5 rAv5 rAv5f8 rAv5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5f8 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 v5 r6v5sI r6v7so r6v7so r6v7so r6v7so r6v7so r6v7sp r6v5sJ v5 v5 v5 v5 t2v5 t4v5
   LINE 113 57 186
@@ -1137,7 +1137,7 @@ ATTITUDES
 END_OF_ATTITUDES
 
 TECHS
-  PARAMS 74 8
+  PARAMS 73 8
   F T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F
@@ -1199,7 +1199,6 @@ TECHS
   F T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F F T T T T F T T F F T T T T F
   F T F T T F T T F T T F F T T T T F T T F F T T T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F
@@ -1278,18 +1277,18 @@ BASES
     OIL 1400
     SIBERIUM 450
   POOL 3
-    CANS 2900
-    OIL 2500
-    SIBERIUM 750
-  POOL 4
-  POOL 5
-    OIL 9999
-  POOL 6
-    OIL 9999
-  POOL 7
     CANS 800
     OIL 700
     SIBERIUM 250
+  POOL 4
+    CANS 2900
+    OIL 2500
+    SIBERIUM 750
+  POOL 5
+  POOL 6
+    OIL 9999
+  POOL 7
+    OIL 9999
 
   BASE 1
     POOL_NUM 1
@@ -1302,39 +1301,39 @@ BASES
   BASE 3
     POOL_NUM 3
     SIDE 3
-    UNIT 68
+    UNIT 167
   BASE 4
     POOL_NUM 4
     SIDE 3
-    UNIT 17
+    UNIT 68
   BASE 5
     POOL_NUM 5
-    SIDE 6
-    UNIT 32
+    SIDE 3
+    UNIT 17
   BASE 6
     POOL_NUM 6
     SIDE 6
-    UNIT 44
+    UNIT 32
   BASE 7
     POOL_NUM 7
-    SIDE 3
-    UNIT 167
+    SIDE 6
+    UNIT 44
 END_OF_BASES
 
 
 
 RANDOMS
   MICROLOGIC 2 0 1
-  RANDOM_SEED 1 -1985603378
-  RANDOM_SEED 2 -1985603378
-  RANDOM_SEED 3 102791821
+  RANDOM_SEED 1 -1779672430
+  RANDOM_SEED 2 -2005811486
+  RANDOM_SEED 3 -1744414679
   RANDOM_SEED 4 413431512
   RANDOM_SEED 5 1128395834
   RANDOM_SEED 6 1276129574
   RANDOM_SEED 7 451236805
   RANDOM_SEED 8 333232862
   RANDOM_SEED 9 2124308568
-  RANDOM_SEED 10 215419680
+  RANDOM_SEED 10 -1779672430
   RANDOM_SEED 11 1470534323
   RANDOM_SEED 12 1334160771
   RANDOM_SEED 13 1349008949
@@ -1629,7 +1628,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 65 LEVEL 5 BASE 4
+        TYPE 65 LEVEL 5 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -1655,7 +1654,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 89 LEVEL 5 BASE 4
+        TYPE 89 LEVEL 5 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -1681,7 +1680,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 89 LEVEL 5 BASE 4
+        TYPE 89 LEVEL 5 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -1707,7 +1706,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 4
+        TYPE 91 LEVEL 5 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -1735,7 +1734,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 4
+        TYPE 91 LEVEL 5 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -1763,7 +1762,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 4
+        TYPE 91 LEVEL 5 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -1791,7 +1790,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 4
+        TYPE 90 LEVEL 5 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -1819,7 +1818,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 4
+        TYPE 90 LEVEL 5 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -1847,7 +1846,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 4
+        TYPE 86 LEVEL 5 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -1873,7 +1872,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 4
+        TYPE 86 LEVEL 5 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -1899,7 +1898,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 4
+        TYPE 86 LEVEL 5 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -1926,7 +1925,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 64 LEVEL 5 BASE 5
+        TYPE 64 LEVEL 5 BASE 6
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -1952,7 +1951,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 66 LEVEL 5 BASE 5
+        TYPE 66 LEVEL 5 BASE 6
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -1978,7 +1977,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 89 LEVEL 5 BASE 5
+        TYPE 89 LEVEL 5 BASE 6
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2004,7 +2003,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 89 LEVEL 5 BASE 5
+        TYPE 89 LEVEL 5 BASE 6
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2030,7 +2029,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 5
+        TYPE 90 LEVEL 5 BASE 6
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2058,7 +2057,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 5
+        TYPE 90 LEVEL 5 BASE 6
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2086,7 +2085,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 85 LEVEL 5 BASE 5
+        TYPE 85 LEVEL 5 BASE 6
     END_OF_DEFINITION
     GAME_STATE
       ACTION 31 T 125 1
@@ -2112,7 +2111,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 85 LEVEL 5 BASE 5
+        TYPE 85 LEVEL 5 BASE 6
     END_OF_DEFINITION
     GAME_STATE
       ACTION 31 T 125 1
@@ -2138,7 +2137,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 89 LEVEL 5 BASE 5
+        TYPE 89 LEVEL 5 BASE 6
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2165,7 +2164,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 65 LEVEL 5 BASE 6
+        TYPE 65 LEVEL 5 BASE 7
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2191,7 +2190,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 6
+        TYPE 86 LEVEL 5 BASE 7
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -2217,7 +2216,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 6
+        TYPE 86 LEVEL 5 BASE 7
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -2243,7 +2242,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 6
+        TYPE 86 LEVEL 5 BASE 7
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -2269,7 +2268,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 6
+        TYPE 86 LEVEL 5 BASE 7
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -2295,7 +2294,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 6
+        TYPE 90 LEVEL 5 BASE 7
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2323,7 +2322,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 6
+        TYPE 90 LEVEL 5 BASE 7
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2351,7 +2350,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 6
+        TYPE 90 LEVEL 5 BASE 7
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2379,7 +2378,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 6
+        TYPE 91 LEVEL 5 BASE 7
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2407,7 +2406,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 6
+        TYPE 91 LEVEL 5 BASE 7
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2435,7 +2434,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 89 LEVEL 5 BASE 6
+        TYPE 89 LEVEL 5 BASE 7
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2461,7 +2460,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 89 LEVEL 5 BASE 6
+        TYPE 89 LEVEL 5 BASE 7
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2487,7 +2486,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 6
+        TYPE 90 LEVEL 5 BASE 7
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2515,7 +2514,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 6
+        TYPE 90 LEVEL 5 BASE 7
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2543,7 +2542,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 6
+        TYPE 90 LEVEL 5 BASE 7
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2571,7 +2570,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 4
+        TYPE 90 LEVEL 5 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2599,7 +2598,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 4
+        TYPE 90 LEVEL 5 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2628,7 +2627,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 65 LEVEL 5 BASE 3
+        TYPE 65 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2654,7 +2653,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 67 LEVEL 5 BASE 3
+        TYPE 67 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2680,7 +2679,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 67 LEVEL 5 BASE 3
+        TYPE 67 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2706,7 +2705,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 66 LEVEL 5 BASE 3
+        TYPE 66 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2758,7 +2757,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 79 LEVEL 5 BASE 3 PARAMS 81 82
+        TYPE 79 LEVEL 5 BASE 4 PARAMS 81 82
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2785,7 +2784,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 79 LEVEL 5 BASE 3 PARAMS 83 84
+        TYPE 79 LEVEL 5 BASE 4 PARAMS 83 84
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2812,7 +2811,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 69 LEVEL 5 BASE 3
+        TYPE 69 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2839,7 +2838,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 69 LEVEL 5 BASE 3
+        TYPE 69 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2866,7 +2865,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 73 LEVEL 5 BASE 3
+        TYPE 73 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2892,7 +2891,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 75 LEVEL 5 BASE 3
+        TYPE 75 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2918,7 +2917,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 75 LEVEL 5 BASE 3
+        TYPE 75 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2944,7 +2943,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 71 LEVEL 5 BASE 3
+        TYPE 71 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2970,7 +2969,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 71 LEVEL 5 BASE 3
+        TYPE 71 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -2996,7 +2995,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 70 LEVEL 5 BASE 3
+        TYPE 70 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3022,7 +3021,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 70 LEVEL 5 BASE 3
+        TYPE 70 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3048,7 +3047,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 76 LEVEL 5 BASE 3
+        TYPE 76 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3074,7 +3073,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 76 LEVEL 5 BASE 3
+        TYPE 76 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3100,7 +3099,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 72 LEVEL 5 BASE 3
+        TYPE 72 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3126,7 +3125,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 3
+        TYPE 86 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -3152,7 +3151,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 3
+        TYPE 86 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -3178,7 +3177,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 3
+        TYPE 86 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -3204,7 +3203,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 3
+        TYPE 86 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -3230,7 +3229,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 3
+        TYPE 86 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -3256,7 +3255,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 3
+        TYPE 86 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -3282,7 +3281,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 3
+        TYPE 86 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -3308,7 +3307,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 3
+        TYPE 86 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -3334,7 +3333,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 3
+        TYPE 86 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -3360,7 +3359,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 3
+        TYPE 86 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -3386,7 +3385,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 3
+        TYPE 86 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -3412,7 +3411,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 3
+        TYPE 86 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -3438,7 +3437,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 3
+        TYPE 86 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -3464,7 +3463,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 88 LEVEL 5 BASE 3
+        TYPE 88 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 400 1
@@ -3490,7 +3489,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 3
+        TYPE 90 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3518,7 +3517,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 3
+        TYPE 90 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3546,7 +3545,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3574,7 +3573,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3602,7 +3601,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3630,7 +3629,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3658,7 +3657,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3686,7 +3685,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3714,7 +3713,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3742,7 +3741,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3770,7 +3769,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3798,7 +3797,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3826,7 +3825,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3854,7 +3853,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3882,7 +3881,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3910,7 +3909,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3938,7 +3937,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3966,7 +3965,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -3994,7 +3993,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4022,7 +4021,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4050,7 +4049,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4078,7 +4077,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4106,7 +4105,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4134,7 +4133,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4162,7 +4161,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 3
+        TYPE 90 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4190,7 +4189,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 90 LEVEL 5 BASE 3
+        TYPE 90 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4270,7 +4269,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 3
+        TYPE 91 LEVEL 5 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4591,13 +4590,12 @@ NEW_UNITS
     END_OF_GAME_STATE
   UNIT 167 BUILDING
     DEFINITION
-      IDENT RU3_Depot
       POS 130 102 3
       SIDE 3
       NATION 3
       HP 1000
       BUILDING
-        TYPE 65 LEVEL 5 BASE 7
+        TYPE 65 LEVEL 5 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4623,7 +4621,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 67 LEVEL 5 BASE 7
+        TYPE 67 LEVEL 5 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4649,7 +4647,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 77 LEVEL 5 BASE 7 PARAMS 80 80
+        TYPE 77 LEVEL 5 BASE 3 PARAMS 80 80
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4676,7 +4674,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 7
+        TYPE 86 LEVEL 5 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -4702,7 +4700,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 7
+        TYPE 86 LEVEL 5 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -4728,7 +4726,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 86 LEVEL 5 BASE 7
+        TYPE 86 LEVEL 5 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 28 T 125 1
@@ -4754,7 +4752,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 7
+        TYPE 91 LEVEL 5 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4782,7 +4780,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 7
+        TYPE 91 LEVEL 5 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4810,7 +4808,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 7
+        TYPE 91 LEVEL 5 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4866,7 +4864,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 7
+        TYPE 91 LEVEL 5 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4894,7 +4892,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 91 LEVEL 5 BASE 7
+        TYPE 91 LEVEL 5 BASE 3
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5406,7 +5404,7 @@ LASER_EFECTS
 END_OF_LASER_EFECTS
 
 USER_INTERFACE
-  VIEW 2198 2442 1302 826 1
+  VIEW 340 804 1542 856 1
   MASHA_FLAG 2 F F
 END_OF_USER_INTERFACE
 
@@ -5435,8 +5433,8 @@ SIDE 8 10
 END_OF_DEBRIEFING
 
 AREAS
-  ACTIVE 18
-  LAST 21
+  ACTIVE 13
+  LAST 13
   AREA 1
     NAME StartArea
     COLOR FF8000
@@ -5689,32 +5687,27 @@ AREAS
     --------------+++++----
     ---------------++------
   AREA 10
-    NAME KatParking1
+    NAME Kat_Parking
     COLOR 4033FF
     SHORTCUT 8
-    LINES 218 268 47 22
-    --------------------------------++-------------
-    +++++++++++++++++++++++++++++++++++++----------
-    ++++++++++++++++++++++++++++++++++++++---------
-    +++++++++++++++++++++++++++++++++++++++--------
-    -++++++++++++++++++++++++++++++++++++++--------
-    -+++++++++++++++++++++++++++++++++++++++-------
-    --++++++++++++++++++++++++++++++++++++++-------
-    --+++++++++++++++++++++++++++++++++++++++------
-    ---++++++++++++++++++++++++++++++++++++++------
-    ---+++++++++++++++++++++++++++++++++++++++-----
-    ----++++++++++++++++++++++++++++++++++++++-----
-    ----+++++++++++++++++++++++++++++++++++++++----
-    -----++++++++++++++++++++++++++++++++++++++----
-    -----+++++++++++++++++++++++++++++++++++++++---
-    -----+++++++++++++++++++++++++++++++++++++++---
-    ------+++++++++++++++++++++++++++++++++++++++--
-    ------+++++++++++++++++++++++++++++++++++++++--
-    -------++++++++++++++++++++++++++++++++++++++--
-    -------+++++++++++++++++++++++++++++++++++++++-
-    -------+++++++++++++++++++++++++++++++++++++++-
-    --------+++++++++++++++++++++++++++++++++++++++
-    ---------++++++++++++++++++++++++++++++++++++++
+    LINES 227 251 24 17
+    -----------+++++--------
+    -----------++++++++-----
+    -----------+++++++++----
+    ------------+++++++++---
+    ------++++++++++++++++--
+    ----+++++++++++++++++++-
+    -++++++++++++++++++++++-
+    +++++++++++++++++++++++-
+    ++++++++++++++++++++++++
+    -+++++++++++++++++++++++
+    -+++++++++++++++++++++++
+    -+++++++++++++++++++++++
+    -+++++++++++++++++++++--
+    --+++++++++++++++++-----
+    ---++++++++++++++-------
+    ----+++++++++-----------
+    ------+++++-------------
   AREA 11
     NAME RU1MainBaseArea
     COLOR FF803C
@@ -5912,258 +5905,5 @@ AREAS
     ------------------------------------------------------------------------------------+++++++++++++-+++++++++++++++++++
     ----------------------------------------------------------------------------------------+++---------+++++++++++++++--
     --------------------------------------------------------------------------------------------------------++++++++-----
-  AREA 14
-    NAME KatBase1
-    COLOR 800040
-    VISIBLE
-    SHORTCUT 1
-    LINES 190 204 47 35
-    -------------+++++++++++++---------------------
-    +++++++++++++++++++++++++++++++----------------
-    ++++++++++++++++++++++++++++++++---------------
-    -++++++++++++++++++++++++++++++++--------------
-    -++++++++++++++++++++++++++++++++--------------
-    --++++++++++++++++++++++++++++++++-------------
-    --++++++++++++++++++++++++++++++++-------------
-    ---++++++++++++++++++++++++++++++++------------
-    ----+++++++++++++++++++++++++++++++------------
-    ----++++++++++++++++++++++++++++++++-----------
-    -----+++++++++++++++++++++++++++++++-----------
-    -----++++++++++++++++++++++++++++++++----------
-    ------+++++++++++++++++++++++++++++++----------
-    ------++++++++++++++++++++++++++++++++---------
-    -------+++++++++++++++++++++++++++++++---------
-    -------++++++++++++++++++++++++++++++++--------
-    --------+++++++++++++++++++++++++++++++--------
-    --------+++++++++++++++++++++++++++++++--------
-    ---------+++++++++++++++++++++++++++++++-------
-    ---------+++++++++++++++++++++++++++++++-------
-    ----------+++++++++++++++++++++++++++++++------
-    ----------+++++++++++++++++++++++++++++++------
-    -----------+++++++++++++++++++++++++++++++-----
-    -----------+++++++++++++++++++++++++++++++-----
-    ------------+++++++++++++++++++++++++++++++----
-    ------------+++++++++++++++++++++++++++++++----
-    -------------+++++++++++++++++++++++++++++++---
-    -------------+++++++++++++++++++++++++++++++---
-    --------------+++++++++++++++++++++++++++++++--
-    --------------+++++++++++++++++++++++++++++++--
-    ---------------+++++++++++++++++++++++++++++++-
-    ---------------+++++++++++++++++++++++++++++++-
-    ----------------++++++++++++++++++++++++++++++-
-    -----------------++++++++++++++++++++++++++++++
-    ----------------------------------------+++----
-  AREA 15
-    NAME KatBase2
-    COLOR 800040
-    VISIBLE
-    SHORTCUT 2
-    LINES 157 140 42 43
-    -------------------++++-------------------
-    -----------------+++++++++----------------
-    --------------++++++++++++++--------------
-    --------+++++++++++++++++++++-------------
-    -----++++++++++++++++++++++++++-----------
-    ----+++++++++++++++++++++++++++++---------
-    ----+++++++++++++++++++++++++++++++-------
-    ----++++++++++++++++++++++++++++++++------
-    +++++++++++++++++++++++++++++++++++++-----
-    +++++++++++++++++++++++++++++++++++++-----
-    +++++++++++++++++++++++++++++++++++++-----
-    +++++++++++++++++++++++++++++++++++++-----
-    ++++++++++++++++++++++++++++++++++++++----
-    -+++++++++++++++++++++++++++++++++++++----
-    -+++++++++++++++++++++++++++++++++++++----
-    -++++++++++++++++++++++++++++++++++++++---
-    --+++++++++++++++++++++++++++++++++++++---
-    --+++++++++++++++++++++++++++++++++++++---
-    ---++++++++++++++++++++++++++++++++++++---
-    ---+++++++++++++++++++++++++++++++++++++--
-    ---+++++++++++++++++++++++++++++++++++++--
-    ----++++++++++++++++++++++++++++++++++++--
-    ----+++++++++++++++++++++++++++++++++++++-
-    -----++++++++++++++++++++++++++++++++++++-
-    -----++++++++++++++++++++++++++++++++++++-
-    ------++++++++++++++++++++++++++++++++++++
-    ------++++++++++++++++++++++++++++++++++++
-    -------+++++++++++++++++++++++++++++++++++
-    -------+++++++++++++++++++++++++++++++++++
-    --------++++++++++++++++++++++++++++++++++
-    --------++++++++++++++++++++++++++++++++++
-    ---------+++++++++++++++++++++++++++++++++
-    ---------+++++++++++++++++++++++++++++++++
-    ----------+++++++++++++++++++++++++++++++-
-    ----------+++++++++++++++++++++++++++++++-
-    -----------+++++++++++++++++++++++++++++--
-    ------------+++++++++++++++++++++++++++---
-    -------------++++++++++++++++++++++++++---
-    ---------------+++++++++++++++++++++++----
-    -----------------+++++++++++++++++++++----
-    --------------------++++++++++++++--------
-    -----------------------+++++++++++--------
-    --------------------------++++------------
-  AREA 16
-    NAME KatBase3
-    COLOR 800040
-    VISIBLE
-    SHORTCUT 3
-    LINES 102 87 50 37
-    -+++++----++++++----------------------------------
-    -+++++++++++++++++++++----------------------------
-    ++++++++++++++++++++++++++-++++++-----------------
-    ++++++++++++++++++++++++++++++++++++--------------
-    ++++++++++++++++++++++++++++++++++++++------------
-    ++++++++++++++++++++++++++++++++++++++++----------
-    ++++++++++++++++++++++++++++++++++++++++++--------
-    +++++++++++++++++++++++++++++++++++++++++++-------
-    +++++++++++++++++++++++++++++++++++++++++++++-----
-    ++++++++++++++++++++++++++++++++++++++++++++++----
-    +++++++++++++++++++++++++++++++++++++++++++++++---
-    ++++++++++++++++++++++++++++++++++++++++++++++++--
-    -++++++++++++++++++++++++++++++++++++++++++++++++-
-    -++++++++++++++++++++++++++++++++++++++++++++++++-
-    -++++++++++++++++++++++++++++++++++++++++++++++++-
-    --++++++++++++++++++++++++++++++++++++++++++++++++
-    ---+++++++++++++++++++++++++++++++++++++++++++++++
-    ---++++++++++++++++++++++++++++++++++++++++++++++-
-    ----+++++++++++++++++++++++++++++++++++++++++++++-
-    -----++++++++++++++++++++++++++++++++++++++++++++-
-    -----++++++++++++++++++++++++++++++++++++++++++++-
-    ------+++++++++++++++++++++++++++++++++++++++++++-
-    -------++++++++++++++++++++++++++++++++++++++++++-
-    --------+++++++++++++++++++++++++++++++++++++++++-
-    --------+++++++++++++++++++++++++++++++++++++++++-
-    ---------++++++++++++++++++++++++++++++++++++++++-
-    ----------+++++++++++++++++++++++++++++++++++++++-
-    -----------++++++++++++++++++++++++++++++++++++++-
-    ------------+++++++++++++++++++++++++++++++++++++-
-    -------------++++++++++++++++++++++++++++++++++++-
-    ---------------++++++++++++++++++++++++++++++++++-
-    ----------------+++++++++++++++++++++++++++++++++-
-    ------------------+++++++++++++++++++++++++++++++-
-    --------------------++++++++++++++++++++++++++++--
-    -----------------------++++++++++++++++++++++++---
-    ---------------------------+++++++++++++++++++----
-    ----------------------------------+++++++++-------
-  AREA 17
-    NAME KatParking2
-    COLOR 80FF60
-    VISIBLE
-    SHORTCUT 4
-    LINES 184 194 43 34
-    -----------------------------++++----------
-    ---------------------------+++++++---------
-    -----------++-----------+++++++++++--------
-    --------++++++++++++++++++++++++++++-------
-    -------++++++++++++++++++++++++++++++------
-    ------++++++++++++++++++++++++++++++++-----
-    +++++++++++++++++++++++++++++++++++++++----
-    -++++++++++++++++++++++++++++++++++++++----
-    -+++++++++++++++++++++++++++++++++++++++---
-    --+++++++++++++++++++++++++++++++++++++++--
-    --+++++++++++++++++++++++++++++++++++++++--
-    ---+++++++++++++++++++++++++++++++++++++++-
-    ---+++++++++++++++++++++++++++++++++++++++-
-    ----++++++++++++++++++++++++++++++++++++++-
-    ----+++++++++++++++++++++++++++++++++++++--
-    -----++++++++++++++++++++++++++++++++++++--
-    -----+++++++++++++++++++++++++++++++++++---
-    ------+++++++++++++++++++++++++++++++++----
-    -------+++++++++++++++++++++++++++++++++---
-    -------+++++++++++++++++++++++++++++++++---
-    --------+++++++++++++++++++++++++++++++++--
-    --------+++++++++++++++++++++++++++++++++--
-    ---------+++++++++++++++++++++++++++++++++-
-    ---------+++++++++++++++++++++++++++++++++-
-    ----------+++++++++++++++++++++++++++++++++
-    -----------++++++++++++++++++++++++++++++++
-    -----------+++++++++++++++++++++++++++++++-
-    ------------++++++++++++++++++++++++++++++-
-    ------------+++++++++++++++++++++++++++++--
-    -------------++++++++++++++++++++++++++----
-    --------------++++++++++++++++++++---------
-    --------------++++++++++++-----------------
-    ---------------++++++++--------------------
-    ----------------+++++----------------------
-  AREA 18
-    NAME KatParking3
-    COLOR B9FBFF
-    VISIBLE
-    SHORTCUT 5
-    LINES 154 139 54 34
-    ---------+++++----+-----------------------------------
-    ------++++++++++++++----------------------------------
-    -----++++++++++++++++---------------------------------
-    ----++++++++++++++++++--------------------------------
-    ----+++++++++++++++++++-------------------------------
-    ----+++++++++++++++++++-------------------------------
-    ---+++++++++++++++++++++------------------------------
-    ---++++++++++++++++++++++-----------------------------
-    --++++++++++++++++++++++++----------------------------
-    +++++++++++++++++++++++++++---------------------------
-    +++++++++++++++++++++++++++++-------------------------
-    ++++++++++++++++++++++++++++++------------------------
-    ++++++++++++++++++++++++++++++++----------------------
-    -++++++++++++++++++++++++++++++++---------------------
-    -+++++++++++++++++++++++++++++++++--------------------
-    --+++++++++++++++++++++++++++++++++-------------------
-    --++++++++++++++++++++++++++++++++++------------------
-    ---+++++++++++++++++++++++++++++++++++----------------
-    ---++++++++++++++++++++++++++++++++++++---------------
-    ----+++++++++++++++++++++++++++++++++++++-------------
-    -----++++++++++++++++++++++++++++++++++++++-----------
-    -----++++++++++++++++++++++++++++++++++++++++++-------
-    ------+++++++++++++++++++++++++++++++++++++++++++-----
-    ------++++++++++++++++++++++++++++++++++++++++++++----
-    -------+++++++++++++++++++++++++++++++++++++++++++----
-    -------++++++++++++++++++++++++++++++++++++++++++++---
-    --------++++++++++++++++++++++++++++++++++++++++++++--
-    --------++++++++++++++++++++++++++++++++++++++++++++--
-    ---------++++++++++++++++++++++++++++++++++++++++++++-
-    ----------+++++++++++++++++++++++++++++++++++++++++++-
-    ----------++++++++++++++++++++++++++++++++++++++++++++
-    -----------+++++++++++++++++++++++++++++++++++++++++++
-    -------------++++++++++++++++++++++++++++++-----------
-    ----------------+++++---+++++++++++++++---------------
-  AREA 19
-    NAME KatSold1
-    COLOR 0BFFEC
-    VISIBLE
-    SHORTCUT 1
-    LINES 193 232 9 8
-    +++++----
-    -+++++---
-    -+++++---
-    --+++++--
-    --+++++--
-    --++++++-
-    ---+++++-
-    ---++++++
-  AREA 20
-    NAME KatSold2
-    COLOR 0BFF26
-    VISIBLE
-    SHORTCUT 2
-    LINES 171 183 34 6
-    -+--------------------------------
-    ++++------------------------------
-    -+++++----------------------------
-    --++++----------------------------
-    -----+---------------------++++++-
-    ----------------------------++++++
-  AREA 21
-    NAME KatSold3
-    COLOR DF19FF
-    VISIBLE
-    SHORTCUT 3
-    LINES 163 107 5 8
-    ++---
-    +++--
-    ++++-
-    ++++-
-    -++++
-    -++++
-    -++++
-    ---++
 END_OF_AREAS
 
